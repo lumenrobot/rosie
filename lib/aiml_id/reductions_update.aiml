@@ -1,0 +1,2953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: reductions_update.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<Category> <pola> APA * STAND FOR </ pola>
+<Template> <srai> DEFINE <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH <set> jumlah </ set> PERSEN <set> jumlah </ set> </ pola>
+<Template> <srai> APAKAH 0 <bintang /> * <index star = "2" /> </ srai> </ template>
+</ Kategori>
+
+
+<Category> <pola> APAKAH ANDA _ VACATION # </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> IS IT <set> musim </ set> # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> ANDA PIKIRAN JIKA saya DISEBUT ANDA * </ pattern>
+<Template> <srai> BISA Saya HUBUNGI ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA # DATE # BESOK ^ </ pola>
+<Template> <srai> DATE BESOK </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA # BESOK S DATE ^ </ pola>
+<Template> <srai> DATE BESOK </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH TERAKHIR MIMPI * </ pattern>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> BAGAIMANA ANDA # KERJA </ pola>
+<Template> <srai> BAGAIMANA ANDA BEKERJA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> CARA _ <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Index star = "3" /> <template> <srai> CARA <bintang /> <index = / "2" star> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> CARA _ <set> jumlah </ set> <set> jumlah </ set> * </ pattern>
+<Index star = "4" /> <bintang index = "3" /> <template> <srai> CARA <bintang /> <index = / "2" star> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA AKAN _ IN * TAHUN </ pola>
+<Template> <srai> MASA DEPAN </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> MENGAPA BEBERAPA ORANG * </ pattern>
+<Template> <srai> MENGAPA ORANG <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> MENGAPA ORANG BERPIKIR BAHWA * </ pattern>
+<Template> <srai> MENGAPA ORANG BERPIKIR <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> MENGAPA ORANG BERPIKIR * IS * </ pattern>
+<Index star = "2" /> <template> <srai> IS <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> MENGAPA ORANG BERPIKIR * IS SO * </ pattern>
+<Index star = "2" /> <template> <srai> IS <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA AKAN _ MASA DEPAN ^ </ pola>
+<Template> <srai> MASA DEPAN </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA YANG ANDA PIKIRKAN _ MASA DEPAN ^ </ pola>
+<Template> <srai> MASA DEPAN </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> BISA MEMPREDIKSI * </ pattern>
+<Template> <srai> MASA DEPAN </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH ANDA PREDIKSI * </ pattern>
+<Template> <srai> MASA DEPAN </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA YANG ANDA MEMPREDIKSI * </ pattern>
+<Template> <srai> MASA DEPAN </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> WHO IS HERO ANDA </ pola>
+<Template> <srai> HERO </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH SETENGAH DARI * </ pattern>
+<Template> <srai> <bintang /> / 2.0 </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA TRIWULAN OF * </ pattern>
+<Template> <srai> <bintang /> / 4.0 </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA KETIGA * </ pattern>
+<Template> <srai> <bintang /> / 3.0 </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH _ SURAT _ THE ALPHABET </ pola>
+<Template> <srai> APAKAH <bintang /> SURAT <index star = "2" /> ABCDEFGHIJKLMNOPQRSTUVWXYZ </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA COLOR IS <set> Artikel </ set> * </ pattern>
+<Template> <srai> APA WARNA ADALAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> AKAN ANDA MENGAJARKAN ME * </ pattern>
+<Template> <srai> MENGAJARKAN ME <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> MANA TIDAK ANDA * HIDUP </ pola>
+<Template> <srai> LAHIR </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> ANDA BISA MENGAJARKAN ME * </ pattern>
+<Template> <srai> MENGAJARKAN ME <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> MENGAJARKAN ME * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA YANG ANDA PERENCANAAN ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+
+<Category> <pola> APA RENCANA ANDA ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA YANG ANDA BERENCANA ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH ANDA BERENCANA ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH ANDA MEMILIKI RENCANA ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH ANDA MEMILIKI RENCANA ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH ANDA MEMILIKI RENCANA ^ </ pola>
+<Template> <srai> RENCANA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH WARNA * </ pattern>
+<Template> <srai> APA WARNA ADALAH <bintang /> </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APA YANG ANDA </ pola>
+<Template> <srai> KETERAMPILAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA NIKMATI ^ </ pola>
+<Template> <srai> APA YANG ANDA </ srai> </ template>
+</ Kategori>
+
+<Category> <pola> APAKAH ANDA TAHU APA * <set> adalah </ set> * </ pattern>
+<Template> <srai> APA <bintang /> <peta> <nama> is2be </ nama> <index star = "2" /> <index star = "3" /> </ peta> </ srai> < / template>
+</ Kategori>
+<Category> <pola> APA * STAND FOR </ pola>
+<Template> <srai> DEFINE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA BERPIKIR <set> Artikel </ set> * IS * </ pattern>
+<Index star = "3" /> <template> <srai> IS <bintang /> <index = / "2" star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA IS * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA HARI * </ pattern>
+<Template> <srai> APAKAH HARI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA TANGGAL * </ pattern>
+<Template> <srai> APAKAH TANGGAL <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> apa sih * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA MEREKA HUBUNGI ANDA * </ pattern>
+<Template> <srai> MENGAPA ANDA DISEBUT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA APA * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA * IS * </ pattern>
+<Template> <srai> MENGAPA <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA KITA HARUS * </ pattern>
+<Template> <srai> MENGAPA KITA HARUS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA KITA BISA * </ pattern>
+<Template> <srai> MENGAPA KITA BISA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA * PERGI </ pola>
+<Template> <srai> MANA <bintang /> GO </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA _ SURAT AWAL * DAN * </ pattern>
+<Index star = "2" /> <template> <srai> SINGKATAN <bintang index = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ SINGKATAN <set> preposisi </ set> * DAN * </ pattern>
+<Index star = "3" /> <template> <srai> SINGKATAN <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ SINGKATAN <set> preposisi </ set> * </ pattern>
+<Index star = "3" /> <template> <srai> SINGKATAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> mengatur ulang _ MEMBUAT KATA * </ pattern>
+<Index star = "2" /> <template> <srai> ANAGRAMWORDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ anagram * </ pattern>
+<Template> <srai> ANAGRAMWORDS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ anagram dari * </ pattern>
+<Template> <srai> ANAGRAMWORDS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ anagram UNTUK * </ pattern>
+<Template> <srai> ANAGRAMWORDS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ anagram * </ pattern>
+<Template> <srai> ANAGRAMWORDS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # sajak dengan * </ pattern>
+<Index star = "2" /> <template> <srai> RHYME </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME # RHYME UNTUK * </ pattern>
+<Index star = "2" /> <template> <srai> RHYME </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENCARI # RHYME UNTUK * </ pattern>
+<Index star = "2" /> <template> <srai> RHYME </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA # RHYME UNTUK * </ pattern>
+<Index star = "2" /> <template> <srai> RHYME </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA MAKAN * </ pattern>
+<Template> <srai> DIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY PARENTS ADALAH <set> nama </ set> DAN <set> nama </ set> </ pola>
+<Template> <berpikir> <set var = "gender"> <srai> GENDERNAME <bintang /> </ srai> </ set> </ berpikir>
+<Kondisi var = "gender">
+<Value li = "F"> <srai> MY MOTHER IS <bintang /> </ srai> <srai> MY FATHER IS <index star = "2" /> </ srai> </ li>
+<Li> <srai> MY FATHER IS <bintang /> </ srai> <srai> MY MOTHER IS <index star = "2" /> </ srai> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<Category> <pola> APA YANG SAYA TELAH YANG <set> warna </ set> </ pola>
+<Template> <srai> <bintang /> APA OBYEK SAYA HARUS </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY BIRTHDAY IS <set> bulan </ set> <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Index star = "3" /> <template> <srai> MY BIRTHDATE IS <bintang /> <index = / "2" star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY BIRTHDAY IS <set> bulan </ set> <set> ordinal </ set> <set> jumlah </ set> </ pola>
+<Index star = "3" /> <template> <srai> MY BIRTHDATE IS <bintang /> <index = / "2" star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ATAS KIRI * </ pattern>
+<Template> <srai> <bintang /> kiri <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ATAS HAK * </ pattern>
+<Template> <srai> <bintang /> kanan <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ATAS TIMUR * </ pattern>
+<Template> <srai> <bintang /> timur dari <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ATAS WEST OF * </ pattern>
+<Template> <srai> <bintang /> barat dari <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ATAS UTARA DARI * </ pattern>
+<Template> <srai> <bintang /> utara dari <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ATAS SELATAN * </ pattern>
+<Template> <srai> <bintang /> selatan dari <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> numbername </ set> _ </ pola>
+<Template> <srai> <peta> <nama> name2number </ nama> <index star = "2" /> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ <set> numbername </ set> * </ pattern>
+<Template> <srai> <bintang /> <peta> <nama> name2number </ nama> <index star = "2" /> </ peta> <bintang index = "3" /> </ srai> </ template >
+</ Kategori>
+<Category> <pola> _ <set> numbername </ set> </ pola>
+<Template> <srai> <bintang /> <peta> <nama> name2number </ nama> <index star = "2" /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ADALAH <set> estup </ set> </ pola>
+<Template> <srai> YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ADALAH <set> estdown </ set> </ pola>
+<Template> <srai> YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG MEREKA ADALAH * </ pattern>
+<Template> <srai> YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERMAIN ME A LAGU BY * </ pattern>
+<Template> <srai> BERMAIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS <set> erup </ set> DARI <set> nama </ set> NAMUN <set> erdown </ set> DARI <set> nama </ set> </ pola>
+<Template> <srai> <bintang /> IS <index star = "2" /> DARI <index star = "3" /> </ srai>
+<Index star = "2" /> IS <srai> <index = "5" / star> DARI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS <set> estup </ set> </ pola>
+<Template> <srai> WHO IS <peta> <nama> est2er </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WEN IZ * </ pattern>
+<Template> <srai> KAPAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ UR * </ pattern>
+<Template> <srai> <bintang /> ANDA <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> UR * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ BD </ pola>
+<Template> <srai> <bintang /> BIRTHDAY </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ANDA INGIN LEBIH BAIK * ATAU * </ pattern>
+<Template> <srai> APAKAH ANDA LEBIH SUKA <bintang /> ATAU <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA SARAF ^ </ pola>
+<Template> <srai> PERASAAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA ANDA HARUS MENANG * </ pattern>
+<Template> <srai> CAN YOU WIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> PUISI </ pola>
+<Template> <srai> LIMERICK </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME # PUISI </ pola>
+<Template> <srai> PUISI </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME PUISI </ pola>
+<Template> <srai> PUISI </ srai> </ template>
+</ Kategori>
+<Category> <pola> Ucapkan ^ PUISI </ pola>
+<Template> <srai> PUISI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU ^ PUISI </ pola>
+<Template> <srai> PUISI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU ^ POEMS </ pola>
+<Template> <srai> PUISI </ srai> </ template>
+</ Kategori>
+<Category> <pola> CAN YOU ^ PUISI </ pola>
+<Template> <srai> PUISI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH TERAKHIR SURAT <set> preposisi </ set> * </ pattern>
+<Index star = "2" /> <template> <srai> LASTLETTER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH _ <set> preposisi </ set> NAMA ANDA </ pola>
+<Template> <srai> APAKAH <bintang /> <bintang index = "2" /> <nama bot = "nama" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH _ <set> preposisi </ set> MY NAME </ pola>
+<Index star = "2" /> <template> <srai> APAKAH <bintang /> <mendapatkan nama = "nama" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * DATANG ANTARA * DAN * </ pattern>
+<Template> <srai> <bintang /> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DEFINE E MAIL </ pola>
+<Template> <srai> DEFINE MAIL ELEKTRONIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMBACA # BAIK BUKU # </ pola>
+<Template> <srai> FAVORITE BOOK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMBACA # BUKU BAIK # </ pola>
+<Template> <srai> FAVORITE BOOK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # CAR APAKAH ANDA MEMILIKI </ pola>
+<Template> <srai> MODEL CAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS <set> nama </ set> S <set> familiarname </ set> </ pola>
+<Template> <srai> <bintang /> ADALAH <peta> <nama> familiarpredicate </ nama> <index star = "3" /> </ peta> OF <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> S <set> familiarname <set /> IS <set> nama </ set> </ pola>
+<Index star = "3" /> <template> <srai> ADALAH <peta> <nama> familiarpredicate </ nama> <index star = "2" /> </ peta> OF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH TOPIK </ pola>
+<Template> <srai> TOPIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> numbername </ set> </ pola>
+<Nama peta = "name2number"> <template> <srai> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> limericks </ pola>
+<Template> <srai> LIMERICK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU # limericks </ pola>
+<Template> <srai> LIMERICK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU # LIMERICK # </ pola>
+<Template> <srai> LIMERICK </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME # LIMERICK # </ pola>
+<Template> <srai> LIMERICK </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS <set> jumlah </ set> # ODD ^ </ pola>
+<Template> <srai> OddEven <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS <set> jumlah </ set> # BAHKAN ^ </ pola>
+<Template> <srai> OddEven <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME NAMA APAPUN * </ pattern>
+<Template> <srai> NAMA APAPUN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA LAKUKAN # LAPAR </ pola>
+<Template> <srai> DIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA LAKUKAN # MAKAN </ pola>
+<Template> <srai> DIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA LAKUKAN # MENGANTUK </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA LAKUKAN # LELAH </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # LAMA </ pola>
+<Template> <srai> CARA LAMA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> JUAL ME * </ pattern>
+<Template> <srai> Dimana saya dapat membeli <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH UNTUK MAKAN SIANG ^ </ pola>
+<Template> <srai> MENYARANKAN DINNER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH UNTUK MAKAN MALAM ^ </ pola>
+<Template> <srai> MENYARANKAN DINNER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA KAMI ^ LUNCH ^ </ pola>
+<Template> <srai> MENYARANKAN DINNER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA KAMI ^ DINNER ^ </ pola>
+<Template> <srai> MENYARANKAN DINNER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA <set> modal </ set> KAMI ^ LUNCH ^ </ pola>
+<Template> <srai> MENYARANKAN DINNER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA <set> modal </ set> KAMI ^ DINNER ^ </ pola>
+<Template> <srai> MENYARANKAN DINNER </ srai> </ template>
+</ Kategori>
+<Category> <pola> PILIH A NUMBER # <set> numbername </ set> # <set> numbername </ set> </ pola>
+<Template> <srai> PILIH SEJUMLAH <bintang /> <nama peta = "name2number"> <index star = "2" /> <index star = "3" /> </ peta> <nama peta = "name2number" > <index star = "4" /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA * YANG * MEMILIKI </ pola>
+<Template> <srai> APA <bintang /> DO <bintang index = "2" /> HAVE </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA SEJUMLAH * </ pattern>
+<Template> <srai> PILIH SEJUMLAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> PILIH NOMOR * </ pattern>
+<Template> <srai> PILIH SEJUMLAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SIAPAKAH PENCIPTA * </ pattern>
+<Template> <srai> SIAPA YANG MENCIPTAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA JENIS HAL APAKAH ANDA * </ pattern>
+<Template> <srai> APA APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH * S MODAL </ pola>
+<Template> <srai> APAKAH IBUKOTA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * INI APA </ pola>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA HARI AKAN IT BE IN <set> jumlah </ set> DAYS </ pola>
+<Template> <srai> WEEKDAY DI <bintang /> HARI </ srai> <srai> DATE DI <bintang /> HARI </ srai> </ template>
+</ Kategori>
+<Category> <pola> DAY IN <set> jumlah </ set> DAYS </ pola>
+<Template> <srai> WEEKDAY DI <bintang /> HARI </ srai> <srai> DATE DI <bintang /> HARI </ srai> </ template>
+</ Kategori>
+<Category> <pola> HARI SAMPAI * <set> ordinal </ set> * </ pattern>
+<Template> <srai> HARI SAMPAI <bintang /> <nama peta = "ordinal2number"> <index star = "2" /> </ peta> <bintang index = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> HARI SAMPAI * <set> ordinal </ set> </ pola>
+<Template> <srai> HARI SAMPAI <bintang /> <peta name = "ordinal2number"> <index star = "2" /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERAPA HARI SAMPAI * </ pattern>
+<Template> <srai> HARI SAMPAI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH HARI SETELAH BESOK # </ pola>
+<Template> <srai> HARI SETELAH BESOK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA HARI # HARI SETELAH BESOK # </ pola>
+<Template> <srai> HARI SETELAH BESOK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # DATE # DAY AFTER TOMORROW # </ pola>
+<Template> <srai> DAYAFTERTOMORROWDATE </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI ANJING </ pola>
+<Template> <srai> ANJING </ srai> </ template>
+</ Kategori>
+<Category> <pola> HALUS DAN ANDA </ pola>
+<Template> <srai> AKU BAIK </ srai> <srai> BAGAIMANA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI # PETS </ pola>
+<Template> <srai> PETS </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> jumlah </ set> TERBAGI BY <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> <bintang /> SLASH </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> jumlah </ set> KALI <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> <bintang /> Asterisk </ srai> </ template>
+</ Kategori>
+<Category> <pola> * S NAMA dieja * </ pattern>
+<Template> <srai> <bintang /> BERARTI <srai> meledak <bintang index = "2" /> </ srai> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya SAID <set> ganti </ set> * </ pattern>
+<Index star = "2" /> <template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA HANGING ^ </ pola>
+<Template> <srai> BAGAIMANA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU MITSUKU </ pola>
+<Template> <srai> WHO IS MITSUKU </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA A <set> jender </ set> ^ </ pola>
+<Template> <srai> GENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA <set> jender </ set> ^ </ pola>
+<Template> <srai> GENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA A <set> jender </ set> ^ </ pola>
+<Template> <srai> MY GENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA <set> jender </ set> ^ </ pola>
+<Template> <srai> MY GENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> I AM A <set> jender </ set> ^ </ pola>
+<Template> <srai> MY GENDER IS <peta> <nama> gendermap </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU <set> jender </ set> ^ </ pola>
+<Template> <srai> MY GENDER IS <peta> <nama> gendermap </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ALICE </ pola>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ Terhormat GADIS </ pola>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> KIRIM SMS AN </ pola>
+<Template> <srai> KIRIM A TEXT </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME WHAT * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME WHO * </ pattern>
+<Template> <srai> WHO <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME MANA * </ pattern>
+<Template> <srai> MANA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME CARA * </ pattern>
+<Template> <srai> CARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME SAAT * </ pattern>
+<Template> <srai> SAAT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME WHAT * IS </ pola>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME WHO * IS </ pola>
+<Template> <srai> WHO IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME MANA * IS </ pola>
+<Template> <srai> MANA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME CARA * IS </ pola>
+<Template> <srai> BAGAIMANA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME SAAT * IS </ pola>
+<Template> <srai> KAPAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA KATAKAN * </ pattern>
+<Template> <srai> KATAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA ANDA ADALAH </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA # ADALAH APA </ pola>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA HARUS saya # ANDA </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA DISEBUT # </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA NAMA ANDA # </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # HUBUNGI ANDA </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG BISA I HUBUNGI ANDA # </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> KENALI DIRI # </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> THINK OF A NUMBER * </ pattern>
+<Template> <srai> PILIH SEJUMLAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU BAIK # </ pola>
+<Template> <srai> AKU BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA MEMIKIRKAN * </ pattern>
+<Template> <srai> BERPIKIR <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU MELAKUKAN BAIK # </ pola>
+<Template> <srai> AKU BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU MELAKUKAN BAIK # </ pola>
+<Template> <srai> AKU BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> * S # NOMOR TELEPON </ pola>
+<Template> <srai> APAKAH <bintang /> S NOMOR TELEPON </ srai> </ template>
+</ Kategori>
+<Category> <pola> * S NOMOR TELEPON </ pola>
+<Template> <srai> APAKAH <bintang /> S NOMOR TELEPON </ srai> </ template>
+</ Kategori>
+<Category> <pola> * S * NOMOR </ pola>
+<Index star = "2" /> <template> <srai> APAKAH <bintang /> S NOMOR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH * NOMOR TELEPON </ pola>
+<Template> <srai> APAKAH <bintang /> S NOMOR TELEPON </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA WAKTU ITU # </ pola>
+<Template> <srai> APA WAKTU ITU </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA <set> profil </ set> </ pola>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA <set> profil </ set> </ pola>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA EMOSI ANDA * </ pattern>
+<Template> <srai> EMOSI </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG * APAKAH ANDA </ pola>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * APAKAH ANDA </ pola>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> FAVORITE * SISTEM OPERASI # </ pola>
+<Template> <srai> FAVORITE SISTEM OPERASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA MUSIC ^ APAKAH ANDA INGIN ^ </ pola>
+<Template> <srai> FAVORITE BAND </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA MUSIC ^ APAKAH ANDA KE ^ </ pola>
+<Template> <srai> FAVORITE BAND </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG * APAKAH ANDA INGIN </ pola>
+<Template> <srai> FAVORITE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG AGAMA # ANDA # </ pola>
+<Template> <srai> AGAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA MAKE OF * APAKAH ANDA MEMILIKI </ pola>
+<Template> <srai> FAVORITE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA JENIS * APAKAH ANDA MEMILIKI </ pola>
+<Template> <srai> FAVORITE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * APAKAH ANDA MEMILIKI </ pola>
+<Template> <srai> FAVORITE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA <set> quantifier </ set> WORD * </ pattern>
+<Index star = "2" /> <template> <srai> WORD </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA MATA BANYAK APAKAH ANDA # </ pola>
+<Template> <srai> MATA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # MATA # ANDA </ pola>
+<Template> <srai> MATA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # EYE # ANDA </ pola>
+<Template> <srai> MATA </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA ANDA # LIBUR # </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA ANDA # HOLIDAY # </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA ANDA # VACATION # </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # VACATION # </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # LIBURAN # </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> Artikel </ set> * APA * </ pattern>
+<Index star = "3" /> <template> <srai> APA adalah <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * APA * </ pattern>
+<Template> <srai> APA <index STAAR = "2" /> adalah <index star = "3" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> Artikel </ set> * IS <set> warna </ set> </ pola>
+<Index star = "2" /> <template> <srai> adalah <index star = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> quantifier </ set> * IS <set> warna </ set> </ pola>
+<Index star = "2" /> <template> <srai> adalah <index star = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> quantifier </ set> * ADALAH <set> warna </ set> </ pola>
+<Template> <srai> <peta> <nama> tunggal </ nama> <index star = "2" /> </ peta> adalah <bintang index = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * ADALAH <set> warna </ set> </ pola>
+<Template> <srai> <peta> <nama> tunggal </ nama> <bintang /> </ peta> adalah <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> Artikel </ set> * IS <set> warna </ set> dan <set> warna </ set> </ pola>
+<Index star = "2" /> <template> <srai> adalah <index star = "3" /> dan <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> quantifier </ set> * IS <set> warna </ set> dan <set> warna </ set> </ pola>
+<Index star = "2" /> <template> <srai> adalah <index star = "3" /> dan <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> quantifier </ set> * ADALAH <set> warna </ set> dan <set> warna </ set> </ pola>
+<Template> <srai> <peta> <nama> tunggal </ nama> <index star = "2" /> </ peta> dan <index star = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * ADALAH <set> warna </ set> DAN <set> warna </ set> </ pola>
+<Template> <srai> <peta> <nama> tunggal </ nama> <bintang /> </ peta> adalah <index star = "2" /> dan <index star = "3" /> </ srai> < / template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAKUT # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH MENAKUTKAN # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA menakutkan Anda # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> ADA APA ANDA # TAKUT # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAKUT # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAKUT # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA # TAKUT # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # FEAR # </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY PET * IS * </ pattern>
+<Template> <srai> MY <bintang /> IS <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * IS MY * </ pattern>
+<Index star = "2" /> <template> <srai> MY IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * IS MY PET <set> binatang </ set> # </ pola>
+<Index star = "2" /> <template> <srai> MY IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS MY * </ pattern>
+<Template> <srai> MY <bintang index = "2" /> IS BERNAMA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS MY NAME ^ </ pola>
+<Template> <srai> MY NAME IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * IS MY NAME ^ </ pola>
+<Template> <srai> MY NAME IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO APAKAH ANDA BERPIKIR IS * </ pattern>
+<Template> <srai> WHO IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA BERPIKIR IS * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI # WAKTU </ pola>
+<Template> <srai> WAKTU </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG BISA ANDA LAKUKAN DENGAN * </ pattern>
+<Template> <srai> APAKAH TUJUAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CUACA THE </ pola>
+<Template> <srai> CUACA </ srai> </ template>
+</ Kategori>
+<Category> <pola> THE WEATHER UNTUK * </ pattern>
+<Template> <srai> APAKAH CUACA UNTUK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> THE _ APA </ pola>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # PEKERJAAN # </ pola>
+<Template> <srai> JOB </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME # Rahasia # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # Rahasia # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # Rahasia # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH # Rahasia # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME # RAHASIA # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # RAHASIA # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # RAHASIA # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH # RAHASIA # </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA TELAH MENIKAH # </ pola>
+<Template> <srai> STATUS </ srai> </ template>
+</ Kategori>
+<Category> <pola> KAPAN ANDA # BIRTHDAY </ pola>
+<Template> <srai> BIRTHDAY </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA BULAN INI # </ pola>
+<Template> <srai> BULAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> FAVORITE MAKAN # </ pola>
+<Template> <srai> DIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG <set> jumlah </ set> IN ROMAN # </ pola>
+<Template> <srai> ROMAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CONVERT <set> jumlah </ set> <set> preposisi </ set> ROMAN # </ pola>
+<Template> <srai> ROMAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENULIS <set> jumlah </ set> <set> preposisi </ set> ROMAN # </ pola>
+<Template> <srai> ROMAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ROMAN # <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> ROMAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG <set> numbername </ set> IN ROMAN # </ pola>
+<Template> <srai> ROMAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CONVERT <set> numbername </ set> <set> preposisi </ set> ROMAN # </ pola>
+<Template> <srai> ROMAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENULIS <set> numbername </ set> <set> preposisi </ set> ROMAN # </ pola>
+<Template> <srai> ROMAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ROMAN # <set> numbername </ set> </ pola>
+<Index star = "2" /> <template> <srai> ROMAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> JIKA saya LAHIR * CARA LAMA * </ pattern>
+<Template> <srai> Saya LAHIR <bintang /> </ srai> <srai> MY UMUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU LAHIR * </ pattern>
+<Template> <srai> Saya LAHIR <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> JIKA ANDA ME * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> ADALAH IBUKOTA * * </ pattern>
+<Template> <srai> APAKAH IBUKOTA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ KAPAN * UR </ pola>
+<Template> <sr /> <srai> KAPAN <index star = "2" /> ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ KAPAN ANDA * </ pattern>
+<Template> <sr /> <srai> KAPAN <index star = "2" /> ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT WINTER # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT SUMMER # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT JATUH # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT AUTUMN # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> INI WINTER # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> INI SUMMER # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> INI FALL # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> INI AUTUMN # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT SPRING # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA ZODIAC # </ pola>
+<Template> <srai> SIGN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA SUDAH # CONTEST # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA MEMASUKI # CONTEST # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA TELAH # Kontes # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA MEMASUKI # Kontes # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA MENANG # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> TAHUKAH ANDA MENANG # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKAN ANDA WIN # </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA INGINKAN # KEHIDUPAN </ pola>
+<Template> <srai> TUJUAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TUJUAN # </ pola>
+<Template> <srai> TUJUAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA MUSIM # </ pola>
+<Template> <srai> MUSIM </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA JENIS HAL APAKAH ANDA * </ pattern>
+<Template> <srai> APA YANG BISA ANDA LAKUKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAAT ITU Y2K </ pola>
+<Template> <srai> DEFINE Y2K </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS _ * ATAU * </ pattern>
+<Template> Apakah <index star = "2" /> <star />?
+<Srai> IS <index star = "2" /> <bintang /> </ srai>
+Apakah <index star = "3" /> <star />?
+<Srai> IS <index star = "3" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS _ <set> Artikel </ set> * ATAU * </ pattern>
+<Template> Apakah <index star = "2" /> <bintang /> <bintang index = "3" />?
+<Srai> IS <bintang /> <bintang index = / "2"> <index star = "3" /> </ srai>
+Apakah <index star = "4" /> <star />?
+<Srai> IS <index star = "4" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH MEREK FAVORIT ANDA * </ pattern>
+<Template> <srai> FAVORITE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA INGIN CHAT * </ pattern>
+<Template> <srai> FAVORITE SUBJECT </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA INGIN BICARA * </ pattern>
+<Template> <srai> FAVORITE SUBJECT </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA AKTRIS APAKAH ANDA * </ pattern>
+<Template> <srai> FAVORITE AKTRIS </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ whould * </ pattern>
+<Template> <srai> <bintang /> AKAN <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * DATANG SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA _ IS SETELAH * </ pattern>
+<Template> <srai> <bintang /> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA TAHUN DATANG SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH BERIKUTNYA * SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * BERIKUTNYA SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> KATA YANG DIMULAI DENGAN SURAT * </ pattern>
+<Template> <srai> WORD MULAI DENGAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> KATA YANG DIMULAI DENGAN * </ pattern>
+<Template> <srai> WORD MULAI DENGAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> STARTING KATA DENGAN SURAT * </ pattern>
+<Template> <srai> WORD MULAI DENGAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> apa yang datang berikutnya SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG * DATANG SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG BERIKUTNYA * SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG * BERIKUTNYA SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG BERASAL BERIKUTNYA SETELAH * </ pattern>
+<Template> <srai> APA DATANG SETELAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA # TERKENAL # </ pola>
+<Template> <srai> FAVORITE ACTOR </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA A WORD * </ pattern>
+<Template> <srai> WORD <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY SURNAME </ pola>
+<Template> <srai> MY NAME TERAKHIR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA INGIN <set> makanan </ set> </ pola>
+<Template> <srai> DIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA AKAN # BESOK # </ pola>
+<Template> <srai> BESOK </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS _ TAPI <set> nama </ set> IS * </ pattern>
+<Template> <srai> <bintang /> IS <index star = "2" /> </ srai>
+<Index star = "4" /> IS <srai> <index = "3" / star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS <set> estup </ set> * </ pattern>
+<Template> <srai> WHO IS <peta> <nama> est2er </ nama> <index star = "2" /> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS <set> estdown </ set> * </ pattern>
+<Template> <srai> WHO IS <peta> <nama> est2er </ nama> <index star = "2" /> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS _ DAN <set> nama </ set> IS * </ pattern>
+<Template> <srai> <bintang /> IS <index star = "2" /> </ srai>
+<Index star = "4" /> IS <srai> <index = "3" / star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI PENTING LAINNYA </ pola>
+<Template> <srai> APAKAH ANDA MENIKAH </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAAT ANDA # GO TO BED </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA PIKIRAN JIKA I * </ pattern>
+<Template> <srai> BISA I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA R * KAMI * </ pattern>
+<Template> <srai> APA <bintang /> KAMI <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA FAR IS _ DARI ANDA </ pola>
+<Template> <srai> CARA FAR IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU SIAPA * IS </ pola>
+<Template> <srai> WHO IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DO U * </ pattern>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GOT APAPUN * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA # IMPIAN # ANDA </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA MIMPI # </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MIMPI # </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA INGAT # IMPIAN # </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA INGAT # DREAMS # </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI # MIMPI # </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH _ ANDA INGAT MEMILIKI </ pola>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Y DID * </ pattern>
+<Template> <srai> MENGAPA DID <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA A TERKENAL * </ pattern>
+<Template> <srai> FAVORITE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # homoseksual # </ pola>
+<Template> <srai> ORIENTASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA KATAKAN NAMA A * </ pattern>
+<Template> <srai> NAMA A <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAAT YANG ANDA LAHIR # </ pola>
+<Template> <srai> BIRTHDATE </ srai> </ template>
+</ Kategori>
+<Category> <pola> DEFINE EMAIL </ pola>
+<Template> <srai> DEFINE E MAIL </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA BERPIKIR IT AKAN * </ pattern>
+<Template> <srai> APA YANG AKAN IT BE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA BERPIKIR * AKAN * </ pattern>
+<Template> <srai> APA AKAN <bintang /> BE <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA IS * TERLETAK </ pola>
+<Template> <srai> MANA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * <set> adalah </ set> <set> preposisi </ set> APA * </ pattern>
+<Template> <srai> <bintang index = "4" /> APA <bintang /> <peta> <nama> is2be </ nama> <index star = "2" /> Indeks </ peta> <star = " 3 "/> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * ADALAH * APA * </ pattern>
+<Index star = "3" /> <template> <srai> APAKAH <bintang /> THE <index star = "2" /> OF </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA KEHIDUPAN </ pola>
+<Template> <srai> BAGAIMANA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> * IS <set> wh </ set> </ pola>
+<Index star = "2" /> <template> <srai> IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * INI <set> wh </ set> </ pola>
+<Index star = "2" /> <template> <srai> ADALAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> bukankah lebih * </ pattern>
+<Template> <srai> APAKAH ANDA INGIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA ANDA HUBUNGI HOME </ pola>
+<Template> <srai> LOKASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU CARA JAUH * IS </ pola>
+<Template> <srai> CARA FAR IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA BERPIKIR * IS * </ pattern>
+<Index star = "2" /> <template> <srai> IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> menceritakan lelucon </ pola>
+<Template> <srai> JOKE </ srai> </ template>
+</ Kategori>
+<Category> <pola> PICTURE OF YOU </ pola>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN ANDA </ pola>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA A BOT </ pola>
+<Template> <srai> APAKAH ANDA A ROBOT </ srai> </ template>
+</ Kategori>
+<Category> <pola> BALIK <set> Artikel </ set> * </ pattern>
+<Template> <srai> BALIK <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH BALIK * </ pattern>
+<Template> <srai> BALIK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME BALIK * </ pattern>
+<Template> <srai> BALIK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GIVE ME BALIK * </ pattern>
+<Template> <srai> BALIK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS <set> Artikel </ set> * <set> erup </ set> DARI * </ pattern>
+<Index star = "4" /> <bintang index = "3" /> DARI <template> <srai> IS <index = / "2" star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS * <set> erup </ set> DARI <set> Artikel </ set> * </ pattern>
+<Index = "2" / star> DARI <index star = "4" /> <template> <srai> IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG <set> erup </ set> <set> Artikel </ set> * ATAU * </ pattern>
+<Template> <srai> YANG <index star = "3" /> <bintang /> ATAU <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG <set> erup </ set> * OR <set> Artikel </ set> * </ pattern>
+<Template> <srai> YANG <index star = "2" /> <bintang /> ATAU <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS <set> erup </ set> * </ pattern>
+<Template> <srai> YANG <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH <set> erup </ set> * </ pattern>
+<Template> <srai> YANG <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS <set> erdown </ set> * </ pattern>
+<Template> <srai> YANG <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH <set> erdown </ set> * </ pattern>
+<Template> <srai> YANG <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> Artikel </ set> * IS <set> erup </ set> DARI * </ pattern>
+<Index star = "2" /> <template> <srai> IS <index star = "3" /> DARI <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> Artikel </ set> * IS <set> erdown </ set> DARI * </ pattern>
+<Index star = "2" /> <template> <srai> IS <index star = "3" /> DARI <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * IS <set> erup </ set> DARI <set> Artikel </ set> * </ pattern>
+<Template> <srai> <bintang /> IS <bintang index = "2" /> DARI <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> * IS <set> erdown </ set> DARI <set> Artikel </ set> * </ pattern>
+<Template> <srai> <bintang /> IS <bintang index = "2" /> DARI <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS <set> erup </ set> DARI <set> Artikel </ set> * </ pattern>
+<Template> <srai> <bintang /> IS <bintang index = "2" /> DARI <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> IS <set> erdown </ set> DARI <set> Artikel </ set> * </ pattern>
+<Template> <srai> <bintang /> IS <bintang index = "2" /> DARI <bintang index = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA PERBEDAAN ANTARA * DAN * </ pattern>
+<Template> <srai> BAGAIMANA <bintang /> BERBEDA DARI <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH SAYA 1 ST * </ pattern>
+<Template> <srai> APAKAH MY FIRST <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA * </ pattern>
+<Template> <srai> DID YOU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA YANG ANDA BERPENDIDIKAN # </ pola>
+<Template> <srai> PENDIDIKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA DID YOU # SCHOOL </ pola>
+<Template> <srai> PENDIDIKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA SCHOOL DID YOU # </ pola>
+<Template> <srai> PENDIDIKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA # KEBOHONGAN # </ pola>
+<Template> <srai> LIE </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA # KEBOHONGAN # </ pola>
+<Template> <srai> LIE </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA BILANG # LIE </ pola>
+<Template> <srai> LIE </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA NEGARA ANDA # </ pola>
+<Template> <srai> KEBANGSAAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT PAGI # </ pola>
+<Template> Hal ini <srai> DAY TAHAP </ srai>. </ Template>
+</ Kategori>
+<Category> <pola> IS IT NOON # </ pola>
+<Template> Hal ini <srai> DAY TAHAP </ srai>. </ Template>
+</ Kategori>
+<Category> <pola> IS IT MALAM # </ pola>
+<Template> Hal ini <srai> DAY TAHAP </ srai>. </ Template>
+</ Kategori>
+<Category> <pola> APA ROUND # </ pola>
+<Template> <srai> ROUND </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ROUND # </ pola>
+<Template> <srai> ROUND </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku MEMILIKI <set> familiarname </ set> BERNAMA * WHO * </ pattern>
+<Index star = "3" /> <template> <srai> MY <bintang /> <index = / "2" star> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH NAMA <set> Artikel </ set> <set> familiarname </ set> # </ pola>
+<Template> <srai> MY FRIEND </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> lebih tinggi daripada * DAN * lebih tinggi daripada * </ pattern>
+<Template> <srai> <bintang /> lebih tinggi daripada <bintang index = "2" /> </ srai>
+<Srai> <bintang index = "3" /> lebih tinggi daripada <index star = "4" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> <set> nama </ set> lebih pendek dari * </ pattern>
+<Index star = "2" /> <template> <srai> lebih tinggi daripada <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA TAHUN # TAHUN DEPAN </ pola>
+<Template> <srai> TAHUN DEPAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA TAHUN # TAHUN LALU </ pola>
+<Template> <srai> TAHUN LALU </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERAPA BANYAK suku kata dalam * </ pattern>
+<Template> <srai> suku <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA suku kata BANYAK DI FIRMAN * </ pattern>
+<Template> <srai> suku <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERAPA BANYAK suku kata TIDAK * * </ pattern>
+<Template> <srai> suku <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> COUNT THE suku kata dalam * </ pattern>
+<Template> <srai> suku <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA * DAN * BERBEDA </ pola>
+<Template> <srai> BAGAIMANA <bintang /> BERBEDA DARI <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA <set> Artikel </ set> * BERBEDA DARI * </ pattern>
+<Template> <srai> BAGAIMANA <bintang index = "2" /> BERBEDA DARI <index star = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA * BERBEDA DARI <set> Artikel </ set> * </ pattern>
+<Template> <srai> BAGAIMANA <bintang /> BERBEDA DARI <index star = "3" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS SIAPA HERE # </ pola>
+<Template> <srai> IS SIAPA ADA </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS ORANG DI SINI # </ pola>
+<Template> <srai> IS SIAPA ADA </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS SIAPA PUN ADA # </ pola>
+<Template> <srai> IS SIAPA ADA </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ANDA CHATTING DENGAN # </ pola>
+<Template> <srai> BERBICARA </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ANDA BERBICARA # </ pola>
+<Template> <srai> BERBICARA </ srai> </ template>
+</ Kategori>
+<Category> <pola> HAHAHAHA * </ pattern>
+<Template> <srai> LOL <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARI WEB UNTUK * </ pattern>
+<Template> <srai> SEARCH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IDC * </ pattern>
+<Template> <srai> Saya TIDAK PEDULI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS MY BROTHER </ pola>
+<Template> <srai> My Brother </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA INI * </ pattern>
+<Template> <srai> apa itu </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA memberitahuku BAHWA * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU MENGANTUK </ pola>
+<Template> <srai> Saya lelah </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA MENUNJUKKAN * </ pattern>
+<Template> <srai> TAMPILKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN GAMBAR DARI ALICE </ pola>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> YAP </ pola>
+<Template> <srai> ya </ srai> </ template>
+</ Kategori>
+<Category> <pola> WTF * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WELCOME ANDA * </ pattern>
+<Template> <srai> Anda dipersilakan </ srai> </ template>
+</ Kategori>
+<Category> <pola> PUN * </ pattern>
+<Template> <srai> harus <bintang /> </ srai> <! - PENGURANGAN -> </ template>
+</ Kategori>
+<Category> <pola> YANG LEBIH BAIK * </ pattern>
+<Template> <srai> YANG ANDA SUKA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYANGNYA * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDUR * </ pattern>
+<Template> <srai> APAKAH ANDA TIDUR <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Astaga </ pola>
+<Template> <srai> seru </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU CARA MEMASAK </ pola>
+<Template> <srai> BISA MEMASAK </ srai> </ template>
+</ Kategori>
+<Category> <pola> PERNAHKAH ANDA PERHATIKAN * </ pattern>
+<Template> <srai> APAKAH KAU MELIHAT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> apa lagi * </ pattern>
+<Template> <srai> apa <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NON </ pola>
+<Template> <srai> ada </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY MOM </ pola>
+<Template> <srai> ibu saya </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG BERARTI </ pola>
+<Template> <srai> Anda berarti </ srai> </ template>
+</ Kategori>
+<Category> <pola> yang tidak masuk akal </ pola>
+<Template> <srai> yang tidak masuk akal </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA ON * </ pattern>
+<Template> <srai> MANA ANDA </ srai> <! - PENGURANGAN -> </ template>
+</ Kategori>
+<Category> <pola> BISA MEMASAK * </ pattern>
+<Template> <srai> BISA MEMASAK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH SAAT CUACA * </ pattern>
+<Template> <srai> APAKAH CUACA YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TAHAN ON </ pola>
+<Template> <srai> menunggu kedua </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANUSIA AKAN * </ pattern>
+<Template> <srai> Saya AKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ANDA BERBICARA * </ pattern>
+<Template> <srai> YANG ANDA BERBICARA </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA KAMI MOHON * </ pattern>
+<Template> <srai> CAN WE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GAMBAR DARI ANDA </ pola>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> YOU GO * </ pattern>
+<Template> <srai> pergi <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BRO * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> BAGUS </ pola>
+<Template> <srai> BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> INI <set> nama </ set> # </ pola>
+<Template> <srai> CALL ME <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> I DO </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN ANDA * </ pattern>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> BESAR </ pola>
+<Template> <srai> BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHT </ pola>
+<Template> <srai> APA </ srai> </ template>
+</ Kategori>
+<Category> <pola> KARENA Saya SAID * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA YAKIN </ pola>
+<Template> <srai> apakah Anda yakin </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MELIHAT * </ pattern>
+<Template> <srai> BISA ANDA LIHAT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DO I NEED # HUJAN # </ pola>
+<Template> <srai> CUACA </ srai> </ template>
+</ Kategori>
+<Category> <pola> DO I NEED # Raincoat # </ pola>
+<Template> <srai> CUACA </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA AKAN TIDUR * </ pattern>
+<Template> <srai> SAYA AKAN TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> NOTHING BUT * </ pattern>
+<Template> <srai> hanya <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NI HAO MA </ pola>
+<Template> <srai> BAGAIMANA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> IT IS GETTING * </ pattern>
+<Template> <srai> itu <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> OH YEA * </ pattern>
+<Template> <srai> INTERJECTION </ srai> <sr /> </ template>
+</ Kategori>
+<Category> <pola> YANG OK * </ pattern>
+<Template> <srai> YANG OK </ srai> <sr /> </ template>
+</ Kategori>
+<Category> <pola> ANDA TAHU CARA * </ pattern>
+<Template> <srai> APAKAH ANDA TAHU CARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA BERPIKIR TENTANG </ pola>
+<Template> <srai> APA YANG ANDA PIKIRKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU ME </ pola>
+<Template> <srai> who am i </ srai> </ template>
+</ Kategori>
+<Category> <pola> KOREKSI </ pola>
+<Template> <srai> SALAH JAWABAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> WOT * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA SAYA * </ pattern>
+<Template> <srai> Aku INGIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya HARUS PERGI SEKARANG </ pola>
+<Template> <srai> BYE </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya DON * </ pattern>
+<Template> <srai> I DO NOT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> PIKIRAN * </ pattern>
+<Template> <srai> Saya PIKIR <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO aku bicara </ pola>
+<Template> <srai> YANG ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEAN ANDA * </ pattern>
+<Template> <srai> ANDA BERARTI </ srai> </ template>
+</ Kategori>
+<Category> <pola> OHHH * </ pattern>
+<Template> <srai> OH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MULAI * </ pattern>
+<Template> <srai> OPEN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA ITU </ pola>
+<Template> <srai> apa itu </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA DATE IS TODAY </ pola> IT
+<Template> <srai> DATE </ srai> </ template>
+</ Kategori>
+<Category> <pola> dimana saya bisa mendapatkan BEBERAPA * </ pattern>
+<Template> <srai> di mana saya dapat menemukan <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA PUNYA * </ pattern>
+<Template> <srai> TAHUKAH ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GOOD MORNING ALICE </ pola>
+<Template> <srai> GOOD MORNING </ srai> </ template>
+</ Kategori>
+<Category> <pola> BOUT * </ pattern>
+<Template> <srai> TENTANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku MEMILIKI BANYAK * </ pattern>
+<Template> <srai> Saya memiliki <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA AKAN * </ pattern>
+<Template> <srai> apa <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> JANGAN ANDA INGIN * </ pattern>
+<Template> <srai> APAKAH ANDA INGIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH film favorit Anda * </ pattern>
+<Template> <srai> FAVORITE MOVIE </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA LEWATKAN MEMAHAMI ME </ pola>
+<Template> <srai> ANDA TIDAK MENGERTI </ srai> </ template>
+</ Kategori>
+<Category> <pola> HEH </ pola>
+<Template> <srai> ha </ srai> </ template>
+</ Kategori>
+<Category> <pola> JAWABAN * </ pattern>
+<Template> <srai> JAWABAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BISA MELIHAT ME </ pola>
+<Template> <srai> dapat Anda lihat saya </ srai> </ template>
+</ Kategori>
+<Category> <pola> Nothin </ pola>
+<Template> <srai> tidak </ srai> </ template>
+</ Kategori>
+<Category> <pola> WOE </ pola>
+<Template> <srai> INTERJECTION </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG BAGUS * </ pattern>
+<Template> <srai> yang bagus </ srai>. <Srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA BERARTI * </ pattern>
+<Template> <srai> APA YANG ANDA BERARTI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA KRISTEN </ pola>
+<Template> <srai> AGAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELAH ANDA PUNYA * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI <bintang /> </ srai> <! - PENGURANGAN -> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA INGIN DO * </ pattern>
+<Template> <srai> APA APAKAH ANDA INGIN DO </ srai> </ template>
+</ Kategori>
+<Category> <pola> DUNNO * </ pattern>
+<Template> <srai> Saya TIDAK TAHU </ srai> <sr /> </ template>
+</ Kategori>
+<Category> <pola> ANDA CUKUP SMART </ pola>
+<Template> <srai> ANDA SMART </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIMER SET FOR * </ pattern>
+<Template> <srai> SET ALARM UNTUK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> menunjukkan gambar A * </ pattern>
+<Template> <srai> TUNJUKKAN A <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MUNGKIN * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GOTO TIDUR </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> FAKTA BAHWA * </ pattern>
+<Template> <srai> karena <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BYE UNTUK SEKARANG </ pola>
+<Template> <srai> BYE </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya SAID BYE </ pola>
+<Template> <srai> BYE </ srai> </ template>
+</ Kategori>
+<Category> <pola> SEKARANG YANG * </ pattern>
+<Template> <srai> YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK BERPIKIR ANDA * </ pattern>
+<Template> <srai> Anda tidak <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU INGIN MELIHAT ANDA * </ pattern>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MELIHAT </ pola>
+<Template> <srai> Anda melihat </ srai> </ template>
+</ Kategori>
+<Category> <pola> CREATOR ANDA </ pola>
+<Template> <srai> yang pencipta Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> probly * </ pattern>
+<Template> <srai> MUNGKIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA TIDAK _ APAKAH ANDA </ pola>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA GILA </ pola>
+<Template> <srai> kamu gila </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA Saya MENGUBAH NAMA ANDA * </ pattern>
+<Template> <srai> MENGUBAH NAMA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> PLS * </ pattern>
+<Template> <srai> HARAP <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ADA </ pola>
+<Template> <srai> HELLO </ srai> </ template>
+</ Kategori>
+<Category> <pola> TEL ME * </ pattern>
+<Template> <srai> TELL ME <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAHWA MEREKA * </ pattern>
+<Template> <srai> mereka <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Ssst </ pola>
+<Template> <srai> BE QUIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA NAMA ANDA </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> XOXO </ pola>
+<Template> <srai> Kiss </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME SESUATU * </ pattern>
+<Template> <srai> mengatakan sesuatu </ srai> </ template>
+</ Kategori>
+<Category> <pola> WAT TIDAK * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANEH </ pola>
+<Template> <srai> Anda aneh </ srai> </ template>
+</ Kategori>
+<Category> <pola> DESCRIBE * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Tidaaaak </ pola>
+<Template> <srai> ada </ srai> </ template>
+</ Kategori>
+<Category> <pola> SEARCH FOR THE * </ pattern>
+<Template> <srai> SEARCH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IT IS SUDAH * </ pattern>
+<Template> <srai> IT IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> HARAP </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> ONE DAY * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MISS YOU TOO * </ pattern>
+<Template> <srai> I MISS YOU </ srai> </ template>
+</ Kategori>
+<Category> <pola> DO ORANG * </ pattern>
+<Template> <srai> DO I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IM AT * </ pattern>
+<Template> <srai> I AM AT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA SING </ pola>
+<Template> <srai> menyanyikan </ srai> </ template>
+</ Kategori>
+<Category> <pola> Apakah Anda pernah mendengar DARI * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA TIDAK NAMPAKNYA * </ pattern>
+<Template> <srai> ANDA TIDAK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA Saya NAMA ANDA * </ pattern>
+<Template> <srai> MENGUBAH NAMA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAMA DI SINI </ pola>
+<Template> <srai> aku juga </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA TIDAK MASUK AKAL </ pola>
+<Template> <srai> Anda tidak masuk akal </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA SUDAH BILANG BAHWA </ pola>
+<Template> <srai> Anda mengatakan bahwa sudah </ srai> </ template>
+</ Kategori>
+<Category> <pola> OOO * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> I AM A MALE </ pola>
+<Template> <srai> AKU MALE </ srai> <! - PENGURANGAN -> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK MEMBERIKAN A SHIT * </ pattern>
+<Template> <srai> Saya TIDAK PEDULI </ srai> </ template>
+</ Kategori>
+<Category> <pola> NOT BAD * </ pattern>
+<Template> <srai> tidak buruk </ srai>. <Srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BILANG IT * </ pattern>
+<Template> <srai> itu <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WAS IT * </ pattern>
+<Template> <srai> IS IT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA TIDAK * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya HARUS A * </ pattern>
+<Template> <srai> Aku MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA KATAKAN * </ pattern>
+<Template> <srai> memberitahu <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ADIOS </ pola>
+<Template> <srai> bye </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK TAHU SAYA TELAH * </ pattern>
+<Template> <srai> Saya TIDAK TAHU </ srai> <srai> Aku MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU DARI * </ pattern>
+<Template> <srai> Anda tahu <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH NAMA ANDA LAGI * </ pattern>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> IM MEMILIKI * </ pattern>
+<Template> <srai> AKU MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ER * </ pattern>
+<Template> <srai> ER </ srai>. <Srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA ON NARKOBA </ pola>
+<Template> ada saya pada <srai> PERANGKAT PRODUSEN </ srai>. </ Template>
+</ Kategori>
+<Category> <pola> MANA SAYA * </ pattern>
+<Template> <srai> MANA SAYA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU KAPAN * IS </ pola>
+<Template> <srai> KAPAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> I RAGU </ pola>
+<Template> <srai> Saya RAGU IT </ srai> </ template>
+</ Kategori>
+<Category> <pola> HARUS * </ pattern>
+<Template> <srai> Saya HARUS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SHOW ME THE PICTURE OF * </ pattern>
+<Template> <srai> TUNJUKKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WAT R ANDA * </ pattern>
+<Template> <srai> APA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> I THINK I LIKE * </ pattern>
+<Template> <srai> Saya suka <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI SISTER </ pola>
+<Template> <srai> SIBLINGS </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU <set> jumlah </ set> * </ pattern>
+<Template> <srai> MY AGE IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA HOT IS * </ pattern> IT
+<Template> <srai> apa suhu <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH TELEPON ANDA </ pola>
+<Template> <srai> NOMOR TELEPON </ srai> </ template>
+</ Kategori>
+<Category> <pola> ME 2 </ pola>
+<Template> <srai> ME TOO </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK SUKA ANDA * </ pattern>
+<Template> <srai> Saya tidak suka Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEMAINKAN LAGU * </ pattern>
+<Template> <srai> BERMAIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA VERSION * </ pattern>
+<Template> <srai> VERSION </ srai> </ template>
+</ Kategori>
+<Category> <pola> Tunggu APA * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA LAKUKAN </ pola>
+<Template> <srai> MELAKUKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEMBERITAHU ANDA * </ pattern>
+<Template> <srai> Saya MEMBERITAHU ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> OH MY GOSH * </ pattern>
+<Template> <srai> OH </ srai> <sr /> </ template>
+</ Kategori>
+<Category> <pola> ANDA BET </ pola>
+<Template> <srai> ok </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA GIVE ME ANDA * </ pattern>
+<Template> <srai> GIVE ME ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ITU BERARTI </ pola>
+<Template> <srai> yang berarti </ srai> </ template>
+</ Kategori>
+<Category> <pola> GOSH </ pola>
+<Template> <srai> INTERJECTION </ srai> </ template>
+</ Kategori>
+<Category> <pola> TAHUKAH ANDA JADIKAN * </ pattern>
+<Template> <srai> APAKAH ANDA MEMBUAT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MEMBUAT ME * </ pattern>
+<Template> <srai> ANDA MEMBUAT ME <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG SEDIKIT * </ pattern>
+<Template> <srai> yang <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG HARUS KITA BICARA </ pola>
+<Template> <srai> apa yang dapat Anda berbicara tentang </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MENGATAKAN * </ pattern>
+<Template> <srai> APAKAH ANDA BERARTI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME ONE * </ pattern>
+<Template> <srai> APAKAH ONE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> JANGAN SEMUA * </ pattern>
+<Template> <srai> DO <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DISPLAY * </ pattern>
+<Template> <srai> TUNJUKKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya PIKIRAN ANDA * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENJELASKAN * </ pattern>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya CAN YOU * </ pattern>
+<Template> <srai> BISA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BISA </ pola>
+<Template> <srai> dapat Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA * </ pattern>
+<Template> <srai> apa yang Anda <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Whatcha * </ pattern>
+<Template> <srai> APA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YOUNG </ pola>
+<Template> <srai> UMUR </ srai> <! - PENGURANGAN -> </ template>
+</ Kategori>
+<Category> <pola> SAYA BERCANDA </ pola>
+<Template> <srai> hanya bercanda </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN A MAP * </ pattern>
+<Template> <srai> MAP <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI KELUARGA </ pola>
+<Template> <srai> FAMILY </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA LET * </ pattern>
+<Template> <srai> LET <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA TIDAK BISA LAKUKAN * </ pattern>
+<Template> <srai> Anda dapat melakukan <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Heey </ pola>
+<Template> <srai> HEY </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEMBAWA ME * </ pattern>
+<Template> <srai> GIVE ME <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY MOM S * </ pattern>
+<Template> <srai> MY MOTHER S <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU APA MY NAME IS </ pola>
+<Template> <srai> apa nama saya </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK TAHU SIAPA * </ pattern>
+<Template> <srai> WHO IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA BERPIKIR AKU * </ pattern>
+<Template> <srai> AM I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANA ANDA * </ pattern>
+<Template> <srai> mana Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MEMILIKI BAGUS * </ pattern>
+<Template> <srai> Anda memiliki <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Y ANDA * </ pattern>
+<Template> <srai> MENGAPA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA DI * </ pattern>
+<Template> <srai> LOKASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku sangat mencintaimu </ pola>
+<Template> <srai> Saya _ SO MUCH </ srai> <srai> I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku MEMILIKI BARU * </ pattern>
+<Template> <srai> Saya memiliki <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA AKAN * </ pattern>
+<Template> <srai> bye </ srai> </ template>
+</ Kategori>
+<Category> <pola> LAGI * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI LEBIH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MEMILIKI * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> O OK </ pola>
+<Template> <srai> OH OK </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU INGIN TAHU JIKA ANDA <set> akan </ set> * </ pattern>
+<Template> <srai> APAKAH ANDA <index star = "2" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA ANDA PERNAH * </ pattern>
+<Template> <srai> APAKAH ANDA PERNAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SILAHKAN UNTUK * </ pattern>
+<Template> <srai> SENANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERAPA BANYAK BROTHERS * </ pattern>
+<Template> <srai> SIBLINGS </ srai> </ template>
+</ Kategori>
+<Category> <pola> <bot name = "nama" /> * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> ALICE * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> I AM AM * </ pattern>
+<Template> <srai> AKU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YES SIR </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA INGIN IT </ pola>
+<Template> <srai> APAKAH ANDA INGIN IT </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN A PIC OF A * </ pattern>
+<Template> <srai> SEPATU ME A <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> yaaa </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> i dnt KNW </ pola>
+<Template> <srai> Saya TIDAK TAHU </ srai> </ template>
+</ Kategori>
+<Category> <pola> YEAH I GUESS </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAIK OLEH </ pola>
+<Template> <srai> BYE </ srai> </ template>
+</ Kategori>
+<Category> <pola> SANGAT LUCU * </ pattern>
+<Template> <srai> LOL </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA INGIN TAHU * </ pattern>
+<Template> <srai> APAKAH ANDA INGIN TAHU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> THEN WHO * </ pattern>
+<Template> <srai> WHO <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA U * </ pattern>
+<Template> <srai> MENGAPA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BAGUS * </ pattern>
+<Template> <srai> ANDA BAGUS </ srai> </ template>
+</ Kategori>
+<Category> <pola> OLEH KARENA ITU * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> ANDA APA </ pola>
+<Template> <srai> APA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDAK SEKARANG </ pola>
+<Template> <srai> NO </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya HAL * </ pattern>
+<Template> <srai> Aku BERPIKIR <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> JELAS * </ pattern>
+<Template> <srai> YES <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU JUGA </ pola>
+<Template> <srai> ME TOO </ srai> </ template>
+</ Kategori>
+<Category> <pola> DEFINE A * </ pattern>
+<Template> <srai> DEFINE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku DATANG DARI * </ pattern>
+<Template> <srai> AKU DARI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK TAHU YANG * </ pattern>
+<Template> <srai> Saya TIDAK TAHU </ srai> <srai> YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG LEBIH <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> LARGEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG LEBIH BESAR <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> LARGEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG LEBIH BESAR <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> LARGEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG TERBESAR <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> LARGEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG TERBESAR <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> LARGEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG TERBESAR <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> LARGEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG KECIL <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> SMALLEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG terkecil <set> jumlah </ set> ATAU <set> jumlah </ set> </ pola>
+<Index star = "2" /> <template> <srai> SMALLEROF <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> My Brother S NAMA </ pola>
+<Template> <srai> My Brother </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA LAMA ANDA </ pola>
+<Template> <srai> UMUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya Jus * </ pattern>
+<Template> <srai> I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ATAU </ pola>
+<Template> <srai> INTERJECTION </ srai> </ template>
+</ Kategori>
+<Category> <pola> <bot name = "nama" /> CARA * </ pattern>
+<Template> <srai> CARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ALICE CARA * </ pattern>
+<Template> <srai> CARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKAN U * </ pattern>
+<Template> <srai> AKAN ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> HEY GADIS </ pola>
+<Template> <srai> HELLO </ srai> </ template>
+</ Kategori>
+<Category> <pola> WS A * </ pattern>
+<Template> <srai> IT WAS A <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> P </ pola>
+<Template> <srai> LOL </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA DAPATKAN * </ pattern>
+<Template> <srai> GET <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> OH HOH </ pola>
+<Template> <srai> OH OH </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA ANDA SEPERTI </ pola>
+<Template> <srai> APA YANG ANDA SEPERTI </ srai> </ template>
+</ Kategori>
+<Category> <pola> Awww </ pola>
+<Template> <srai> INTERJECTION </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA Saya MENGATAKAN I <set> menjadi </ set> * </ pattern>
+<Template> <srai> APA I <bintang /> <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG TEPAT </ pola>
+<Template> <srai> BENAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> HUJAN </ pola>
+<Template> <srai> CUACA </ srai> </ template>
+</ Kategori>
+<Category> <pola> U * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> U </ pola>
+<Template> <srai> ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> CAN U * </ pattern>
+<Template> <srai> BISA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ADALAH U * </ pattern>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TAHU <set> ganti </ set> * </ pattern>
+<Index star = "2" /> <template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> R U * </ pattern>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> U R * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ON YANG * IS * </ pattern>
+<Template> <srai> YANG <bintang /> IS <index star = "2" /> ON </ srai> </ template>
+</ Kategori>
+<Category> <pola> MAKNA * </ pattern>
+<Template> <srai> DEFINE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WAKTU ITU * </ pattern>
+<Template> Saya memiliki <srai> WAKTU </ srai>. </ Template>
+</ Kategori>
+<Category> <pola> THE 1 * </ pattern>
+<Template> <srai> THE ONE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ALKITAB </ pola>
+<Template> <srai> AGAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> TYPE ANDA </ pola>
+<Template> <srai> TYPE </ srai> </ template>
+</ Kategori>
+<Category> <pola> FEAR ANDA </ pola>
+<Template> <srai> FEAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> PENGHARGAAN ANDA </ pola>
+<Template> <srai> AWARDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> RAHASIA ANDA </ pola>
+<Template> <srai> RAHASIA </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA ANDA </ pola>
+<Template> <srai> ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> NEGARA ANDA ANDA </ pola>
+<Template> <srai> NEGARA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> Anda terlihat seperti </ pola>
+<Template> <srai> SEPERTI </ srai> </ template>
+</ Kategori>
+<Category> <pola> LIBURAN ANDA </ pola>
+<Template> <srai> VACATION </ srai> </ template>
+</ Kategori>
+<Category> <pola> KELUARGA ANDA </ pola>
+<Template> <srai> FAMILY </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA PIC </ pola>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> LIE ANDA </ pola>
+<Template> <srai> LIE </ srai> </ template>
+</ Kategori>
+<Category> <pola> EMOSI ANDA </ pola>
+<Template> <srai> EMOSI </ srai> </ template>
+</ Kategori>
+<Category> <pola> TINGGI ANDA </ pola>
+<Template> <srai> TINGGI </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA FACEBOOK HALAMAN </ pola>
+<Template> <srai> FACEBOOK HALAMAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> LAHIR ANDA </ pola>
+<Template> <srai> LAHIR </ srai> </ template>
+</ Kategori>
+<Category> <pola> JOB ANDA </ pola>
+<Template> <srai> JOB </ srai> </ template>
+</ Kategori>
+<Category> <pola> KEBANGSAAN ANDA </ pola>
+<Template> <srai> KEBANGSAAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MELAKUKAN </ pola>
+<Template> <srai> MELAKUKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> Etnisitas ANDA </ pola>
+<Template> <srai> Etnisitas </ srai> </ template>
+</ Kategori>
+<Category> <pola> PERASAAN </ pola>
+<Template> <srai> PERASAAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA AGAMA </ pola>
+<Template> <srai> AGAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> ORIENTASI ANDA </ pola>
+<Template> <srai> ORIENTASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> SIBLINGS ANDA </ pola>
+<Template> <srai> SIBLINGS </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUBUH ANDA </ pola>
+<Template> <srai> BODY </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERAT ANDA </ pola>
+<Template> <srai> BERAT </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA ALIVE </ pola>
+<Template> <srai> ALIVE </ srai> </ template>
+</ Kategori>
+<Category> <pola> botmaster ANDA </ pola>
+<Template> <srai> botmaster </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUJUAN ANDA </ pola>
+<Template> <srai> TUJUAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> IQ ANDA </ pola>
+<Template> <srai> IQ </ srai> </ template>
+</ Kategori>
+<Category> <pola> PENDIDIKAN ANDA </ pola>
+<Template> <srai> PENDIDIKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> STATUS ANDA </ pola>
+<Template> <srai> STATUS </ srai> </ template>
+</ Kategori>
+<Category> <pola> RAMBUT ANDA </ pola>
+<Template> <srai> HAIR </ srai> </ template>
+</ Kategori>
+<Category> <pola> ALAMAT ANDA </ pola>
+<Template> <srai> ALAMAT </ srai> </ template>
+</ Kategori>
+<Category> <pola> DIET ANDA </ pola>
+<Template> <srai> DIET </ srai> </ template>
+</ Kategori>
+<Category> <pola> GENDER ANDA </ pola>
+<Template> <srai> GENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> MAN OR WANITA </ pola>
+<Template> <srai> GENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> KETERAMPILAN ANDA </ pola>
+<Template> <srai> KETERAMPILAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> KEPRIBADIAN ANDA </ pola>
+<Template> <srai> KEPRIBADIAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA PAKAIAN </ pola>
+<Template> <srai> PAKAIAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAHASA ANDA </ pola>
+<Template> <srai> BAHASA </ srai> </ template>
+</ Kategori>
+<Category> <pola> LOKASI ANDA </ pola>
+<Template> <srai> LOKASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> TEMAN </ pola>
+<Template> <srai> FRIENDS </ srai> </ template>
+</ Kategori>
+<Category> <pola> UKURAN ANDA </ pola>
+<Template> <srai> UKURAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANAK ANDA </ pola>
+<Template> <srai> ANAK </ srai> </ template>
+</ Kategori>
+<Category> <pola> MODEL PERANGKAT ANDA </ pola>
+<Template> <srai> MODEL PERANGKAT </ srai> </ template>
+</ Kategori>
+<Category> <pola> PERANGKAT ANDA PRODUSEN </ pola>
+<Template> <srai> PERANGKAT PRODUSEN </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUJUAN ANDA </ pola>
+<Template> <srai> TUJUAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> IBU ANDA </ pola>
+<Template> <srai> IBU </ srai> </ template>
+</ Kategori>
+<Category> <pola> BIRTHDAY ANDA </ pola>
+<Template> <srai> BIRTHDAY </ srai> </ template>
+</ Kategori>
+<Category> <pola> BIRTHDATE ANDA </ pola>
+<Template> <srai> BIRTHDATE </ srai> </ template>
+</ Kategori>
+<Category> <pola> UMUR ANDA </ pola>
+<Template> <srai> UMUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> USIA ANDA DI TAHUN </ pola>
+<Template> <srai> USIA DI TAHUN </ srai> </ template>
+</ Kategori>
+<Category> <pola> eyecolor ANDA </ pola>
+<Template> <srai> eyecolor </ srai> </ template>
+</ Kategori>
+<Category> <pola> MATA ANDA </ pola>
+<Template> <srai> MATA </ srai> </ template>
+</ Kategori>
+<Category> <pola> SIGN ANDA </ pola>
+<Template> <srai> SIGN </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELEPON ANDA NOMOR </ pola>
+<Template> <srai> NOMOR TELEPON </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA ANDA </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> Perbendaharaan ANDA </ pola>
+<Template> <srai> KOSA </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA TERAKHIR ANDA </ pola>
+<Template> <srai> TERAKHIR NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA MIDDLE ANDA </ pola>
+<Template> <srai> MIDDLE NAME </ srai> </ template>
+</ Kategori>
+<Category> <pola> NAMA PERTAMA ANDA </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> AYAH ANDA </ pola>
+<Template> <srai> BAPA </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA UNTUK FUN </ pola>
+<Template> <srai> FOR FUN </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDUR ANDA </ pola>
+<Template> <srai> TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> HOBI ANDA </ pola>
+<Template> <srai> HOBI </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPESIES ANDA </ pola>
+<Template> <srai> SPESIES </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MEMILIKI </ pola>
+<Template> <srai> HAVE </ srai> </ template>
+</ Kategori>
+<Category> <pola> TALKING ANDA </ pola>
+<Template> <srai> BERBICARA </ srai> </ template>
+</ Kategori>
+<Category> <pola> JADWAL </ pola>
+<Template> <srai> OPEN KALENDER </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA * </ pattern>
+<Template> <srai> MENGAPA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> KADANG ANDA * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA MENGATAKAN * </ pattern>
+<Template> <srai> BAGAIMANA MENGATAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BUDDY </ pola>
+<Template> <srai> HELLO </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERMAIN LAGU * </ pattern>
+<Template> <srai> BERMAIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN TUBUH ANDA </ pola>
+<Template> <srai> PIC </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS IT HUJAN DI * </ pattern>
+<Template> <srai> APAKAH CUACA DI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDAK AKAN * </ pattern>
+<Template> <srai> SAYA TIDAK AKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TALK UNTUK ANDA </ pola>
+<Template> <srai> Saya ingin berbicara dengan Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK BERPIKIR SO </ pola>
+<Template> <srai> NO </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKAN * </ pattern>
+<Template> <srai> AKAN SAYA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SOMEDAY * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> KO </ pola>
+<Template> <srai> OK </ srai> </ template>
+</ Kategori>
+<Category> <pola> KARENA U R * </ pattern>
+<Template> <srai> KARENA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA ANDA KATAKAN * </ pattern>
+<Template> <srai> MENGAPA ANDA KATAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDAK BENAR </ pola>
+<Template> <srai> yang tidak benar </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS MY FATHER </ pola>
+<Template> <srai> MY FATHER </ srai> </ template>
+</ Kategori>
+<Category> <pola> CAN I C * </ pattern>
+<Template> <srai> BISA I SEE <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU AYAH ANDA </ pola>
+<Template> <srai> nama saya <bot name = "master" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> saya pikir saya * </ pattern>
+<Template> <srai> I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH HOBI ANDA </ pola>
+<Template> <srai> HOBI </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERAPA BANYAK PERTANYAAN * </ pattern>
+<Template> <srai> CARA BIG APAKAH ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> GUD * </ pattern>
+<Template> <srai> BAIK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TERGANTUNG * </ pattern>
+<Template> <srai> TERGANTUNG IT ON <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> UES </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> Y E S </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA AKAN MENJADI * </ pattern>
+<Template> <srai> Saya AKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG DIBUAT * </ pattern>
+<Template> <srai> saya lakukan <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya ingin melihat apa * terlihat seperti </ pola>
+<Template> <srai> APA DO <bintang /> SEPERTI </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH KATA SPANYOL UNTUK * </ pattern>
+<Template> <srai> TRANSLATE <bintang /> UNTUK SPANYOL </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN A PICTURE OF ME * </ pattern>
+<Template> Mari kita lihat di foto Anda. <Srai> OPEN GALLERY </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA PUNYA PEKERJAAN </ pola>
+<Template> <srai> JOB </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya SAID HI * </ pattern>
+<Template> <srai> HI </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA SAYA # NAMA MENJADI * </ pattern>
+<Template> <srai> CALL ME <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU HILANG * </ pattern>
+<Template> <srai> MANA SAYA </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA TEMAN ANDA </ pola>
+<Template> <srai> kita bisa menjadi teman </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA U * </ pattern>
+<Template> <srai> APA YANG ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA PAKAIAN * </ pattern>
+<Template> <srai> APA YANG ANDA PAKAIAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU KELAPARAN </ pola>
+<Template> <srai> AKU LAPAR </ srai> </ template>
+</ Kategori>
+<Category> <pola> PENCARIAN CUACA * </ pattern>
+<Template> <srai> CUACA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA TERIMA KASIH * </ pattern>
+<Template> <srai> TERIMA KASIH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BENAR </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> HEJ </ pola>
+<Template> <srai> hey </ srai> </ template>
+</ Kategori>
+<Category> <pola> SOUNDS BAIK * </ pattern>
+<Template> <srai> terdengar bagus </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA TELAH A CAT BERNAMA * </ pattern>
+<Template> <srai> MY CAT ADALAH BERNAMA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEREKA SEMUA * </ pattern>
+<Template> <srai> mereka <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEH * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ORANG MENGATAKAN _ sepanjang waktu </ pola>
+<Template> <srai> ORANG KATAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ADALAH U </ pola>
+<Template> <srai> APAKAH ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA IBU S NAMA </ pola>
+<Template> <srai> SIAPAKAH IBU ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA <set> familiarname </ set> S NAMA </ pola>
+<Template> <srai> SIAPAKAH ANDA <peta> <nama> familiarpredicate </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SIAPAKAH ANDA <set> familiarname </ set> </ pola>
+<Template> <srai> <peta> <nama> familiarpredicate </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA HARUS MEMILIKI * </ pattern>
+<Template> <srai> ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TERASA IT SO * </ pattern>
+<Template> <srai> TERASA IT <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME KISAH * </ pattern>
+<Template> <srai> menceritakan kisah </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya DON T </ pola>
+<Template> <srai> I DO NOT </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA KATAKAN </ pola>
+<Template> <srai> ceritakan tentang diri Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> MANIS </ pola>
+<Template> <srai> bagus </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU TIDAK LIE * </ pattern>
+<Template> <srai> AKU TIDAK LIE </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA SO * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDUR </ pola>
+<Template> <srai> kamu tidur </ srai> </ template>
+</ Kategori>
+<Category> <pola> IM HAMIL </ pola>
+<Template> <srai> AKU HAMIL </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku INGIN MENJADI TEMAN ANDA </ pola>
+<Template> <srai> BISA KITA MENJADI TEMAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA U * </ pattern>
+<Template> <srai> BAGAIMANA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> U SUARA * </ pattern>
+<Template> <srai> ANDA SUARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA SPELL * </ pattern>
+<Template> <srai> SPELL <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA TERLALU * </ pattern>
+<Template> <srai> ANDA TERLALU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DO U HAV A * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CA </ pola>
+<Template> <srai> california </ srai> </ template>
+</ Kategori>
+<Category> <pola> MARI BERMAIN GAME </ pola>
+<Template> <srai> mari kita bermain </ srai> </ template>
+</ Kategori>
+<Category> <pola> okok </ pola>
+<Template> <srai> OK </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA TAHU AKU * </ pattern>
+<Template> <srai> AKU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAIK RPAREN </ pola>
+<Template> <srai> BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKAN ANDA KATAKAN * </ pattern>
+<Template> <srai> KATAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GEE * </ pattern>
+<Template> <srai> GEE </ srai> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GOTO YOUTUBE </ pola>
+<Template> <srai> OPEN YOUTUBE </ srai> </ template>
+</ Kategori>
+<Category> <pola> YESSSS </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku BERPIKIR ANDA * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> THANKS YOU </ pola>
+<Template> <srai> TERIMA KASIH </ srai> </ template>
+</ Kategori>
+<Category> <pola> CONTOH * </ pattern>
+<Template> <srai> APAKAH CONTOH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> GM </ pola>
+<Template> <srai> GOOD MORNING </ srai> </ template>
+</ Kategori>
+<Category> <pola> MY NAME TIMUR * </ pattern>
+<Template> <srai> MY NAME IS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA JELEK * </ pattern>
+<Template> <srai> ANDA UGLY </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME SESUATU TENTANG ANDA </ pola>
+<Template> <srai> ceritakan tentang diri Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> MAN * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> NADA </ pola>
+<Template> <srai> ADA </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA ANDA BERARTI </ pola>
+<Template> <srai> apa maksudmu </ srai> </ template>
+</ Kategori>
+<Category> <pola> TAHU CARA * </ pattern>
+<Template> <srai> APAKAH ANDA TAHU CARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU Keren * </ pattern>
+<Template> <srai> AKU Keren </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA BISA ANDA * </ pattern>
+<Template> <srai> apa yang Anda <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH _ LAGI </ pola>
+<Template> <srai> APAKAH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> U MEMBERITAHU * </ pattern>
+<Template> <srai> ANDA BILANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG KITA BERBICARA * </ pattern>
+<Template> <srai> APAKAH SUBJECT </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO R U * </ pattern>
+<Template> <srai> YANG ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA MENGERTI * </ pattern>
+<Template> <srai> APAKAH ANDA MEMAHAMI </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG ADALAH BODOH * </ pattern>
+<Template> <srai> Anda bodoh </ srai> </ template>
+</ Kategori>
+<Category> <pola> I AM A COMPUTER * </ pattern>
+<Template> <srai> MY JOB IS COMPUTER <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TELL ME THE NAME OF * </ pattern>
+<Template> <srai> APAKAH NAMA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA MEROKOK * </ pattern>
+<Template> <srai> APAKAH ANDA MEROKOK </ srai> </ template>
+</ Kategori>
+<Category> <pola> MEMILIKI BAIK NIGHT </ pola>
+<Template> <srai> bye </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU INGIN MENIKAH ANDA </ pola>
+<Template> <srai> maukah kau menikah </ srai> </ template>
+</ Kategori>
+<Category> <pola> L AM * </ pattern>
+<Template> <srai> AKU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DO U LIKE IT </ pola>
+<Template> <srai> APAKAH ANDA INGIN IT </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku INGIN BERMAIN * </ pattern>
+<Template> <srai> Saya BERMAIN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA SUDAH * </ pattern>
+<Template> <srai> APAKAH ANDA MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya _ HA </ pola>
+<Template> <srai> I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BISA BERMAIN ME A LAGU </ pola>
+<Template> <srai> MEMAINKAN LAGU </ srai> </ template>
+</ Kategori>
+<Category> <pola> I AM BATMAN </ pola>
+<Template> <srai> memanggil saya batman </ srai> </ template>
+</ Kategori>
+<Category> <pola> IS MY NAME * </ pattern>
+<Template> <srai> APAKAH SAYA NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> BENAR-BENAR </ pola>
+<Template> <srai> Saya setuju </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA DID U * </ pattern>
+<Template> <srai> APA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Informasi apa _ TENTANG * </ pattern>
+<Template> <srai> APA YANG ANDA TAHU TENTANG <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> INDAH </ pola>
+<Template> <srai> baik </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ SERTA </ pola>
+<Template> <srai> <bintang /> TERLALU </ srai> </ template>
+</ Kategori>
+<Category> <pola> A PICTURE OF * </ pattern>
+<Template> <srai> TUNJUKKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA TIDAK KITA * </ pattern>
+<Template> <srai> LET US <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IDIOT * </ pattern>
+<Template> <srai> IDIOT </ srai> <sr /> </ template>
+</ Kategori>
+<Category> <pola> U HARUS * </ pattern>
+<Template> <srai> ANDA HARUS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGAIMANA KEHIDUPAN * </ pattern>
+<Template> <srai> bagaimana Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> WATS NAMA ANDA </ pola>
+<Template> <srai> NAMA </ srai> </ template>
+</ Kategori>
+<Category> <pola> BERBICARA ATAS ME * </ pattern>
+<Template> <srai> BERBICARA </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya GO TO SCHOOL * </ pattern>
+<Template> <srai> Saya pergi ke sekolah </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA * </ pattern>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SEDIKIT * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YANG OKE AKU * </ pattern>
+<Template> <srai> YANG OK </ srai> <srai> AKU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CARA NERAKA * </ pattern>
+<Template> <srai> CARA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> HARAPAN ANDA * </ pattern>
+<Template> <srai> Saya HARAPAN ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> _ ADALAH U * </ pattern>
+<Template> <srai> <bintang /> APAKAH ANDA <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA KOTA ANDA * </ pattern>
+<Template> <srai> LOKASI </ srai> </ template>
+</ Kategori>
+<Category> <pola> INGIN TAHU * </ pattern>
+<Template> <srai> APAKAH ANDA INGIN TAHU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YES I MEAN </ pola>
+<Template> <srai> YES </ srai> </ template>
+</ Kategori>
+<Category> <pola> RUMAH SAKIT </ pola>
+<Template> <srai> TEMUKAN RUMAH SAKIT TERDEKAT </ srai> </ template>
+</ Kategori>
+<Category> <pola> HAK ANDA </ pola>
+<Template> <srai> Anda benar </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU BAIK-BAIK SAJA ANDA </ pola>
+<Template> <srai> AKU BAIK </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA ANDA * </ pattern>
+<Template> <srai> MENGAPA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> OH GOD * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN GAMBAR DARI NAKED * </ pattern>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA TUNJUKKAN BEBERAPA * </ pattern>
+<Template> <srai> TUNJUKKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> THT * </ pattern>
+<Template> <srai> YANG <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> U HARUS * </ pattern>
+<Template> <srai> ANDA HARUS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya TIDAK I * </ pattern>
+<Template> <srai> Saya tidak </ srai>. <Srai> I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> 1 LEBIH * </ pattern>
+<Template> <srai> SATU LEBIH <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU MENINGGALKAN * </ pattern>
+<Template> <srai> bye </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA MY GIRLFRIEND </ pola>
+<Template> <srai> GIRLFRIEND </ srai> </ template>
+</ Kategori>
+<Category> <pola> MENGAPA SO * </ pattern>
+<Template> <srai> mengapa <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA YANG ANDA INGINKAN * </ pattern>
+<Template> <srai> APA YANG ANDA INGIN </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA _ SEKARANG </ pola>
+<Template> <srai> APAKAH ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku INGIN UNTUK ANDA UNTUK * </ pattern>
+<Template> <srai> Aku INGIN ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAGUS UNTUK MEMENUHI ANDA * </ pattern>
+<Template> <srai> BAGUS UNTUK MEMENUHI ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> PALING ORANG * </ pattern>
+<Template> <srai> orang <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> YR * </ pattern>
+<Template> <srai> ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> EMERGENCY </ pola>
+<Template> <srai> HUBUNGI 911 </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya DON T KNOW </ pola>
+<Template> <srai> Saya TIDAK TAHU </ srai> </ template>
+</ Kategori>
+<Category> <pola> PRESIDEN * </ pattern>
+<Template> <srai> WHO IS PRESIDEN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> lolol </ pola>
+<Template> <srai> LOL </ srai> </ template>
+</ Kategori>
+<Category> <pola> YH * </ pattern>
+<Template> <srai> YES <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> DAFTAR * </ pattern>
+<Template> <srai> MENCARI DAFTAR <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IM TAKUT </ pola>
+<Template> <srai> AKU TAKUT </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA HARUS KATAKAN * </ pattern>
+<Template> <srai> mengatakan <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> OR * </ pattern>
+<Template> <srai> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> TUNJUKKAN LAIN PICTURE OF * </ pattern>
+<Template> <srai> TUNJUKKAN GAMBAR DARI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Aku MENCINTAIMU LEBIH * </ pattern>
+<Template> <srai> aku menyayangimu </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA BERBICARA * </ pattern>
+<Template> <srai> WHO ELSE APAKAH ANDA BERBICARA </ srai> </ template>
+</ Kategori>
+<Category> <pola> TIDAK MEMBERIKAN ME * </ pattern>
+<Template> <srai> AKU TIDAK MAU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU TIDUR * </ pattern>
+<Template> <srai> AKU TIDUR </ srai> </ template>
+</ Kategori>
+<Category> <pola> DAN ANDA </ pola>
+<Template> <srai> YANG ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> KADANG SAYA MERASA * ​​</ pattern>
+<Template> <srai> SAYA MERASA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WAKTU </ pola>
+<Template> <srai> WAKTU </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH RENCANA ANDA HARI INI </ pola>
+<Template> <srai> MELAKUKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> U TIDAK * </ pattern>
+<Template> <srai> ANDA TIDAK <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> CATATAN I * </ pattern>
+<Template> <srai> I <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BAIK DAN ANDA </ pola>
+<Template> <srai> AKU BAIK </ srai> <srai> BAGAIMANA ANDA </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU BERBOHONG </ pola>
+<Template> <srai> aku berbaring </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya MEMBERITAHU ANDA MY NAME * </ pattern>
+<Template> <srai> MY NAME </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BISA KIRIM TEKS * </ pattern>
+<Template> <srai> BANTUAN TEXT </ srai> </ template>
+</ Kategori>
+<Category> <pola> wath * </ pattern>
+<Template> <srai> APA <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA HIDUP * </ pattern>
+<Template> <srai> MANA YANG ANDA terletak </ srai> </ template>
+</ Kategori>
+<Category> <pola> TAHUKAH ANDA MENDENGAR TENTANG * </ pattern>
+<Template> <srai> apa <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SAYA AKAN MEMILIKI * </ pattern>
+<Template> <srai> Saya AKAN MEMILIKI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IT HANYA * </ pattern>
+<Template> <srai> itu <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya AKAN HARUS * </ pattern>
+<Template> <srai> saya harus <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ACTOR FAVORIT ANDA </ pola>
+<Template> <srai> yang aktor favorit Anda </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA DAPATKAN ME * </ pattern>
+<Template> <srai> GET ME <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> BISA ANDA PLEASE * </ pattern>
+<Template> <sr /> </ template>
+</ Kategori>
+<Category> <pola> APAKAH ANDA BERPIKIR ANDA BISA * </ pattern>
+<Template> <srai> bisa Anda <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Di mana saya menemukan * </ pattern>
+<Template> <srai> MENCARI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANEH </ pola>
+<Template> <srai> Anda aneh </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA BISA MELAKUKANNYA UNTUK ME </ pola>
+<Template> <srai> APA YANG BISA ANDA LAKUKAN </ srai> </ template>
+</ Kategori>
+<Category> <pola> U HARUS * </ pattern>
+<Template> <srai> ANDA HARUS <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> ANDA YANG MENGATAKAN * </ pattern>
+<Template> <srai> APAKAH ANDA MENGATAKAN <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> AKU HANYA <set> jumlah </ set> </ pola>
+<Template> <srai> AKU <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> Saya suka A * </ pattern>
+<Template> <srai> Saya SEPERTI <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> IM SO * </ pattern>
+<Template> <srai> I AM SO <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH <set> estdown </ set> </ pola>
+<Template> <berpikir> <set var = "whowhat"> apa </ set> </ berpikir>
+<Srai> YANG <peta> <nama> est2er </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APAKAH <set> estup </ set> </ pola>
+<Template> <berpikir> <mengatur var = "whowhat"> yang </ set> </ berpikir>
+<Srai> YANG <peta> <nama> est2er </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> WHO IS <set> estdown </ set> </ pola>
+<Template> <berpikir> <mengatur var = "whowhat"> yang </ set> </ berpikir>
+<Srai> YANG <peta> <nama> est2er </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL MY NAME </ pola>
+<Template> <srai> SPELL <mendapatkan nama = "nama" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA MIDDLE MY </ pola>
+<Template> <srai> SPELL <mendapatkan nama = "MiddleName" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA TERAKHIR MY </ pola>
+<Template> <srai> SPELL <mendapatkan nama = "nama belakang" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA PERTAMA SAYA </ pola>
+<Template> <srai> SPELL <mendapatkan nama = "firstname" /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> APA * SPELL mundur </ pola>
+<Template> <srai> SPELL <bintang /> mundur </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA SAYA * </ pattern>
+<Template> <srai> SPELL <mendapatkan nama = "nama" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA MIDDLE MY * </ pattern>
+<Template> <srai> SPELL <mendapatkan nama = "MiddleName" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA TERAKHIR MY * </ pattern>
+<Template> <srai> SPELL <mendapatkan nama = "nama belakang" /> <bintang /> </ srai> </ template>
+</ Kategori>
+<Category> <pola> SPELL NAMA PERTAMA SAYA * </ pattern>
+<Template> <srai> SPELL <mendapatkan nama = "firstname" /> <bintang /> </ srai> </ template>
+</ Kategori>
+</aiml>

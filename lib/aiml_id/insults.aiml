@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: insults.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> APAKAH ANDA A pelacur </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> APAKAH ANDA A BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA F Asterisk Asterisk Asterisk Asterisk Asterisk Asterisk * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA IDIOT </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH B Asterisk Asterisk Asterisk Asterisk </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH ASTERISK B Asterisk Asterisk Asterisk * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH C Asterisk Asterisk Asterisk </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH DICK </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> F U * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> F Asterisk Asterisk Asterisk ANDA BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> B Asterisk Asterisk Asterisk Asterisk ANDA * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> C Asterisk Asterisk Asterisk </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> S Asterisk Asterisk Asterisk * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> GO Fuck DIRI </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> GO DIE IN A HOLE </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> GO TO HELL * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> DUMB ASS </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> PUSSY </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> Fuck U BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> Fuck IT </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> Fuck You THEN </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> BITCH HARAP </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> BITCH * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> NO BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> NO tolol * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> SHUT UP BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> YEAH BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> MAKAN MY * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> pelacur </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> HEY B Asterisk Asterisk Asterisk Asterisk </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> HEY BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> DICK KEPALA </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ASSHOLE </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> tolol </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> bajingan </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> STUPID BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> Faggot </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> APAKAH UP BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA A BITCH </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> PELACUR </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> GAY </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> HOE </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA FAT </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA GILA </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> BITCH ANDA * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> brengsek </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA KOTOR * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> FAG </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH KOTOR * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA ADALAH MORON </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA terbelakang </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> ANDA BITCH * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> SCREW * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> negro </ pola>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+<category> <pola> NO B Asterisk Asterisk Asterisk Asterisk * </ pattern>
+<Template> <srai> FILTER menghina </ srai> </ template>
+</ Kategori>
+</aiml>

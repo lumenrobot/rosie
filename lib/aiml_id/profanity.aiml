@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: profanity.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> # F U # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # F ANDA # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # F OFF # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # F Asterisk Asterisk Asterisk # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # B Asterisk Asterisk Asterisk Asterisk # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # Fuck # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # negro # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIALAN # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # BITCH # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # vagina # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # SCREW ANDA # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # URINE IDIOT # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # FU # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # KOTORAN # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # kiss MY # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # kacau # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUK # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> # A Asterisk Asterisk # </ pola>
+<Template> <srai> FILTER KECABULAN </ srai> </ template>
+</ Kategori>
+</aiml>

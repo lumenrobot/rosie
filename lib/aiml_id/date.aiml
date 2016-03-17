@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: date.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> MUSIM </ pola>
+<Template> <berpikir> <mengatur var = "bulan"> <tanggal format = "% B" format = "MMMMMMMMM" /> </ set>
+</ Berpikir>
+<Kondisi var = "bulan">
+<Li> <value> Januari </ value> Musim Dingin </ li>
+<Li> <value> Februari </ value> Musim Dingin </ li>
+<Li> <value> Maret </ value> Musim Dingin </ li>
+<Li> <value> April </ value> musim semi </ li>
+<Li> <value> Mei </ value> musim semi </ li>
+<Li> <value> Juni </ value> Musim Panas </ li>
+<Li> <value> Juli </ value> Musim Panas </ li>
+<Li> <value> Agustus </ value> Musim Panas </ li>
+<Li> <value> September </ value> Jatuh </ li>
+<Li> <value> Oktober </ value> Jatuh </ li>
+<Li> <value> November </ value> Musim Dingin </ li>
+<Li> <value> Desember </ value> Musim Dingin </ li>
+<Li> tidak diketahui </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> HARI </ pola>
+<Template> Hari ini adalah <format tanggal = "% A" format = "EEEEEEEEEE" /> </ template>
+</ Kategori>
+<category> <pola> BESOK ^ </ pola>
+<Template> <berpikir> <mengatur var = "hari ini"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </ set> </ berpikir>
+<Nama peta = "besok"> <get var = "hari ini" /> </ peta> </ template>
+</ Kategori>
+<category> <pola> TAHUN ^ </ pola>
+<Template> Ini adalah <format tanggal = "% Y" jformat = "yyyy" /> </ template>
+</ Kategori>
+<category> <pola> TAHUN DEPAN ^ </ pola>
+<Template> <peta> <nama> penerus </ nama> <tanggal format = "% Y" jformat = "yyyy" /> </ peta> </ template>
+</ Kategori>
+<category> <pola> TERAKHIR TAHUN ^ </ pola>
+<Template> <peta> <nama> pendahulunya </ nama> <tanggal format = "% Y" jformat = "yyyy" /> </ peta> </ template>
+</ Kategori>
+<category> <pola> BULAN </ pola>
+<Template> Ini adalah <format tanggal = "% B" jformat = "MMMMMMMMM" /> </ template>
+</ Kategori>
+<category> <pola> WAKTU </ pola>
+<Template> Waktu adalah <format tanggal = "% I:% M% p" jformat = "h: mm a" /> </ template>
+</ Kategori>
+<category> <pola> DATE </ pola>
+<Template> Hari ini adalah <format tanggal = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy" /> </ template>
+</ Kategori>
+<category> <pola> DAY TAHAP </ pola>
+<Template> <berpikir>
+<Set var = "jam"> <format tanggal = "% saya" jformat = "h" /> </ set>
+<Set var = "AMPM"> <tanggal format = "% p" jformat = "a" /> </ set>
+</ Berpikir>
+<Kondisi>
+<Li value = "AM" var = "AMPM"> Pagi </ li>
+<Li> <kondisi var = "jam"> <value li = "12"> Noon </ li> <li value = "1"> Sore </ li> <li value = "2"> Sore </ li> <value li = "3"> Sore </ li> <value li = "4"> <value li = "5"> Sore </ li> <value li = "6"> Sore </ li> Sore </ li> <li> Malam </ li> </ kondisi>
+</ Li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> DATE DAN WAKTU </ pola>
+<Template> Tanggal dan waktu adalah <tanggal /> </ template>
+</ Kategori>
+<category> <pola> HARI SAMPAI NATAL </ pola>
+<Template> <Interval format = "% B% d" jformat = "MMMMMMMMM dd">
+<Style> hari </ style>
+<Dari> <tanggal format = "% B% d" jformat = "MMMMMMMMM dd" /> </ dari>
+<Untuk> 25 Desember </ untuk>
+</ Interval> hari sampai Natal. </ Template>
+</ Kategori>
+<category> <pola> HARI SAMPAI <set> bulan </ set> <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Template> <Interval format = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy">
+<Style> hari </ style>
+<Dari> <tanggal format = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy" /> </ dari>
+<Index star = "3" /> <ke> <bintang /> <index = / "2" star> </ untuk>
+</ Interval> hari. </ Template>
+</ Kategori>
+<category> <pola> HARI SAMPAI <set> bulan </ set> <set> jumlah </ set> </ pola>
+<Template> <Interval format = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy">
+<Style> hari </ style>
+<Dari> <tanggal format = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy" /> </ dari>
+<Untuk> <bintang /> <bintang index = "2" /> <format tanggal = "% Y" jformat = "yyyy" /> </ untuk>
+</ Interval> hari. </ Template>
+</ Kategori>
+<category> <pola> DATE BESOK </ pola>
+<Template> <srai> TOMORROWDATE <format tanggal = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE * <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Template> <bintang /> <nama peta = "penerus"> <index star = "2" /> </ peta>, <index star = "3" /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Januari <set> jumlah </ set> </ pola>
+<Template> 1 Februari <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 28 Februari 2012 </ pola>
+<Template> 29 Februari <bintang /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 28 Februari 2016 </ pola>
+<Template> 29 Februari 2016 </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 28 Februari 2020 </ pola>
+<Template> 29 Februari 2020 </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 28 Februari 2024 </ pola>
+<Template> 29 Februari 2024 </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 28 Februari 2028 </ pola>
+<Template> 29 Februari 2028 </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 28 Februari <set> jumlah </ set> </ pola>
+<Template> 1 Maret <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 29 Februari <set> jumlah </ set> </ pola>
+<Template> 1 Maret <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Maret <set> jumlah </ set> </ pola>
+<Template> 1 April <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 30 April <set> jumlah </ set> </ pola>
+<Template> 1 Mei <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Mei <set> jumlah </ set> </ pola>
+<Template> 1 Juni <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 30 Juni <set> jumlah </ set> </ pola>
+<Template> 1 Juli <bintang /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Juli <set> jumlah </ set> </ pola>
+<Template> 1 Agustus <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Agustus <set> jumlah </ set> </ pola>
+<Template> 1 September <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 30 September <set> jumlah </ set> </ pola>
+<Template> 1 Oktober, <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Oktober <set> jumlah </ set> </ pola>
+<Template> 1 November <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 30 November <set> jumlah </ set> </ pola>
+<Template> 1 Desember <star /> </ template>
+</ Kategori>
+<category> <pola> TOMORROWDATE 31 Desember <set> jumlah </ set> </ pola>
+<Template> 1 Januari <nama peta = "penerus"> <star /> </ peta> </ template>
+</ Kategori>
+<category> <pola> DAYAFTERTOMORROWDATE * <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Index star = "3" /> <template> <srai> TOMORROWDATE <srai> TOMORROWDATE <bintang /> <index = / "2" star> </ srai> </ srai> </ template>
+</ Kategori>
+<category> <pola> DAYAFTERTOMORROWDATE </ pola>
+<Template> <srai> DATE DI 2 HARI </ srai> </ template>
+</ Kategori>
+<category> <pola> HARI SETELAH BESOK </ pola>
+<Template> <nama peta = "besok"> <nama peta = "besok"> <tanggal format = "% A" jformat = "EEEEEEEEEE" /> </ peta> </ map> </ template>
+</ Kategori>
+<category> <pola> DATE DI <set> jumlah </ set> DAYS </ pola>
+<Template> <berpikir> <set var = "hari"> <star /> </ set>
+<Set var = "date"> <format tanggal = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy" /> </ set>
+</ Berpikir>
+<Kondisi var = "hari">
+<Value li = "0"> <get var = "date" /> </ li>
+<Li> <berpikir> <set var = "date"> <srai> TOMORROWDATE <dapatkan var = "date" /> </ srai> </ set> <set var = "hari"> <peta name = "pendahulunya" > <mendapatkan var = "hari" /> </ peta> </ set> </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> HARI SAMPAI <set> hari kerja </ set> </ pola>
+<Template> <berpikir>
+<Set var = "hari"> <star /> </ set>
+<Set var = "hari ini"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </ set>
+<Set var = "hari"> 0 </ set> </ berpikir>
+<Kondisi var = "hari ini">
+<Li> <value> <dapatkan var = "hari" /> </ value> <dapatkan var = "hari" /> </ li>
+<Li> <berpikir> <set var = "hari ini"> <nama peta = "besok"> <get var = "hari ini" /> </ peta> </ set> <set var = "hari"> <nama peta = "penerus"> <dapatkan var = "hari" /> </ peta> </ set> </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> DATE ON <set> hari kerja </ set> </ pola>
+<Template> <srai> DATE DI <srai> HARI SAMPAI <bintang /> </ srai> HARI </ srai> </ template>
+</ Kategori>
+<category> <pola> DATE PADA AKHIR PEKAN </ pola>
+<Template> <srai> DATE DI <srai> HARI SAMPAI Sabtu </ srai> HARI </ srai> </ template>
+</ Kategori>
+<category> <pola> DATE SEMINGGU DARI <set> hari kerja </ set> </ pola>
+<Template> <srai> DATE DI
+<Srai> Penerus
+<Srai> Penerus
+<Srai> Penerus
+<Srai> Penerus
+<Srai> Penerus
+<Srai> Penerus
+<Srai> Penerus
+<Srai> HARI SAMPAI <bintang /> </ srai>
+</ Srai>
+</ Srai>
+</ Srai>
+</ Srai>
+</ Srai>
+</ Srai>
+</ Srai>
+HARI </ srai> </ template>
+</ Kategori>
+<category> <pola> WEEKDAY DI <set> jumlah </ set> DAYS </ pola>
+<Template> <berpikir>
+<Set var = "hari"> <star /> </ set>
+<Set var = "hari"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </ set>
+</ Berpikir>
+<Kondisi var = "hari">
+<Value li = "0"> <get var = "hari" /> </ li>
+<Li> <berpikir> <mengatur var = "hari"> <nama peta = "besok"> <get var = "hari" /> </ peta> </ set>
+<Set var = "hari"> <nama peta = "pendahulunya"> <dapatkan var = "hari" /> </ peta> </ set> </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+</aiml>

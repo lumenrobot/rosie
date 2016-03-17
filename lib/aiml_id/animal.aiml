@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: animal.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> APA A <set> binatang </ set> KATAKAN ^ </ pola>
+<Template> <srai> SUARA <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> APA DO <set> binatang </ set> SAY ^ </ pola>
+<Template> <srai> SUARA <srai> TUNGGAL <bintang /> </ srai> </ srai> </ template>
+</ Kategori>
+<category> <pola> APA SUARA TIDAK # <set> binatang </ set> ^ </ pola>
+<Index star = "2" /> <template> <srai> SUARA </ srai> </ template>
+</ Kategori>
+<category> <pola> APA SUARA DO # <set> binatang </ set> ^ </ pola>
+<Index star = "2" /> <template> <srai> SUARA <srai> TUNGGAL </ srai> </ srai> </ template>
+</ Kategori>
+<category> <pola> BAGAIMANA # <set> binatang </ set> ^ </ pola>
+<Index star = "2" /> <template> <srai> SUARA </ srai> </ template>
+</ Kategori>
+<category> <pola> BERAPA BANYAK KAKI ^ <set> binatang </ set> # </ pola>
+<Index star = "2" /> <template> <srai> KAKI </ srai> </ template>
+</ Kategori>
+<category> <pola> BERAPA BANYAK KAKI ^ <set> binatang </ set> # </ pola>
+<Index star = "2" /> <template> <srai> KAKI <srai> TUNGGAL </ srai> </ srai> </ template>
+</ Kategori>
+<category> <pola> _ 1 <set> binatang </ set> * </ pattern>
+<Template> <srai> <star /> 1 <srai> PLURAL <bintang index = / "2"> <index star = "3" /> </ srai> </ srai> </ template>
+</ Kategori>
+<category> <pola> _ 1 <set> binatang </ set> </ pola>
+<Template> <srai> <star /> 1 <srai> PLURAL <index star = "2" /> </ srai> </ srai> </ template>
+</ Kategori>
+</aiml>

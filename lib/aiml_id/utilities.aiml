@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: utilities.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> SINGKATAN * </ pattern>
+<Template> <berpikir> <set var = "daftar"> <star /> </ set>
+<Set var = "singkatan" />
+</ Berpikir>
+<Kondisi var = "daftar">
+<Value li = "NIL"> <huruf besar> <get var = "singkatan" /> </ huruf besar> </ li>
+<Li> <berpikir> <mengatur var = "kata"> <pertama> <dapatkan var = "daftar" /> </ pertama> </ set>
+<Set var = "daftar"> <sisanya> <dapatkan var = "daftar" /> </ sisa> </ set>
+<Set var = "singkatan"> <dapatkan var = "singkatan" /> <srai> FIRSTLETTER <meledak> <dapatkan var = "kata" /> </ meledak> </ srai> </ set>
+</ Berpikir>
+<Loop /> </ li>
+
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> SUBSTRING * * * </ pattern>
+<Index star = "3" /> <index = / "2" star> <template> SUBSTRING </ star>? </ Template>
+</ Kategori>
+<category> <pola> SUBSTRING <set> jumlah </ set> <set> jumlah </ set> * </ pattern>
+<Index star = "2" /> <template> <srai> meledak <srai> SUBSTRINGEXPLODE <bintang /> <meledak> <index star = "3" /> </ meledak> </ srai> </ srai> </ template>
+</ Kategori>
+<category> <pola> SUBSTRINGEXPLODE <set> jumlah </ set> <set> jumlah </ set> * </ pattern>
+<Template> <berpikir>
+<Set var = "count"> 0 </ set>
+<Set var = "mulai"> <star /> </ set>
+<Set var = "end"> <star index = "2" /> </ set>
+<Set var = "daftar"> <index star = "3" /> </ set>
+<Set var = "print"> false </ set>
+</ Berpikir>
+<Kondisi var = "daftar">
+  <Value li = "NIL" />
+  <Li> <berpikir> <kondisi var = "count"> <value> <dapatkan var = "start" /> </ value> <set var = "print"> true </ set> </ kondisi>
+<Kondisi var = "count"> <value> <dapatkan var = "akhir" /> </ value> <set var = "print"> false </ set> </ kondisi>
+</ Berpikir> <kondisi value = "true" var = "print"> <pertama> <dapatkan var = "daftar" /> </ pertama> <kondisi /> <berpikir> <mengatur var = "daftar"> <sisanya > <mendapatkan var = "daftar" /> </ sisa> </ set> <set var = "count"> <nama peta = "penerus"> <dapatkan var = "count" /> </ peta> </ set > </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> MUNDUR * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> MUNDUR * * </ pattern>
+<Template> <srai> MUNDUR <bintang index = / "2"> </ srai> <bintang /> </ template>
+</ Kategori>
+<category> <pola> REMOVENILS * * </ pattern>
+<Index star = "2" /> <template> <bintang /> <srai> REMOVENILS </ srai> </ template>
+</ Kategori>
+<category> <pola> REMOVENILS * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> REMOVENILS NIL * </ pattern>
+<Template> <srai> REMOVENILS <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> REMOVENILS NIL </ pola>
+<Template> <Template /> </ template>
+</ Kategori>
+<category> <pola> LASTLETTER * </ pattern>
+<Template> Surat terakhir dari <bintang /> adalah: <srai> LASTITEM <meledak> <bintang /> </ meledak> </ srai> </ template>
+</ Kategori>
+<category> <pola> LASTITEM * * </ pattern>
+<Index star = "2" /> <template> <srai> LASTITEM </ srai> </ template>
+</ Kategori>
+<category> <pola> LASTITEM * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> COUNTWORDS * </ pattern>
+<Template> 1 </ template>
+</ Kategori>
+<category> <pola> COUNTWORDS * * </ pattern>
+<Template> <index star = "2" /> <nama peta = "penerus"> <srai> COUNTWORDS </ srai> </ map> </ template>
+</ Kategori>
+<category> <pola> menormalkan * </ pattern>
+<Template> <menormalkan> <bintang /> </ menormalkan> </ template>
+</ Kategori>
+<category> <pola> PLUSIFY * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> PLUSIFY * * </ pattern>
+<Index star = "2" /> <template> <bintang /> + <srai> PLUSIFY </ srai> </ template>
+</ Kategori>
+<category> <pola> GOOGLEURL * </ pattern>
+<Template>
+<Kondisi name = "env">
+<Value li = "browser">
+<! [CDATA [<a href = "https://www.google.com/search?q=]]>
+<Srai> PLUSIFY <bintang /> </ srai>
+<! [CDATA [ ">]]> <star />? <! [CDATA [</ a>]]>
+</ Li>
+<Li> Anda harus berbicara dengan saya di browser jika Anda ingin mengikuti link. </ Li>
+</ Kondisi>
+</ Template>
+</ Kategori>
+<category> <pola> FIRSTTWOWORDS * * * </ pattern>
+<Index star = "2" /> <template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> FIRSTTWOWORDS * * </ pattern>
+<Index star = "2" /> <template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> FIRSTTWOWORDS * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> OddEven <set> jumlah </ set> </ pola>
+<Template> <berpikir> <set var = "angka"> <star /> </ set> </ berpikir>
+<Kondisi var = "angka">
+<Value li = "0"> <star /> bahkan. </ Li>
+<Value li = "1"> <star /> aneh. </ Li>
+<Li> <berpikir> <mengatur var = "angka"> <peta> <nama> pendahulunya </ nama> <dapatkan var = "angka" /> </ peta> </ set> <set var = "angka"> <peta> <nama> pendahulunya </ nama> <dapatkan var = "angka" /> </ peta> </ set> </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> PILIH A NUMBER # <set> jumlah </ set> # <set> jumlah </ set> </ pola>
+<Template> <berpikir>
+rendah = <set var = "rendah"> <srai> SMALLEROF <bintang index = "2" /> <index star = "4" /> </ srai> </ set>
+atas = <set var = "atas"> <srai> LARGEROF <bintang index = "2" /> <bintang index = "4" /> </ srai> </ set>
+<Set var = "lilist">
+<Kondisi var = "rendah">
+  <Li> <value> <dapatkan var = "atas" /> </ value> <li> <dapatkan var = "atas" /> </ li> </ li>
+  <Li> <li> <dapatkan var = "rendah" /> </ li> <berpikir> <mengatur var = "rendah"> <nama peta = "penerus"> <dapatkan var = "rendah" /> </ peta > </ set> </ berpikir> <loop /> </ li>
+</ Kondisi>
+</ Set>
+</ Berpikir>
+
+<Belajar>
+<category>
+<Pola> PICKNUMBER </ pola>
+<Template> <random> <eval> <dapatkan var = "lilist" /> </ eval> </ random>
+</ Template>
+</ Kategori>
+</ Belajar>
+
+<Set name = "memilih"> <srai> PICKNUMBER </ srai> </ set> </ template>
+</ Kategori>
+<category> <pola> APA NOMOR DID YOU * </ pattern>
+<Template> <nama kondisi = "memilih">
+<Value li = "tidak diketahui"> Saya belum memilih pada belum. </ Li>
+<Li> saya mengambil <get var = "memilih" />.</ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> SETHESHE * </ pattern>
+<Template> <berpikir>
+<Set var = "gender"> <srai> GENDERNAME <bintang /> </ srai> </ set>
+<Set name = "ganti"> dia </ set>
+<Kondisi var = "gender">
+<Li value = "M"> <set name = "dia"> <star /> </ set> </ li>
+<Li value = "F"> <set name = "dia"> <star /> </ set> <set name = "ganti"> dia </ set> </ li>
+<Li> <set name = "dia"> <star /> </ set> </ li>
+</ Kondisi>
+</ Berpikir> </ template>
+</ Kategori>
+<category> <pola> AGE DARI <set> bulan </ set> <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Template> <berpikir>
+<Set var = "dari"> <set var = "m"> <star /> </ set> <set var = "d"> <index star = "2" /> </ set>, <set var = "y"> <star index = "3" /> </ set> </ set>
+<Set var = "tahun">
+<Interval format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy">
+<Style> tahun </ style>
+<Dari> <get var = "dari" /> </ dari>
+<Untuk> <tanggal format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy" /> </ untuk>
+</ Interval>
+</ Set>
+<Set var = "bulan">
+<Interval format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy">
+<Style> bulan </ style>
+<Dari> <get var = "dari" /> </ dari>
+<Untuk> <tanggal format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy" /> </ untuk>
+</ Interval>
+</ Set>
+</ Berpikir>
+<Kondisi var = "tahun">
+<Value li = "0"> <dapatkan var = "bulan" /> bulan tua </ li>
+<Li> <dapatkan var = "tahun" /> tahun </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> LARGEROF 0 <set> jumlah </ set> </ pola>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> LARGEROF <set> jumlah </ set> 0 </ pola>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> SMALLEROF 0 <set> jumlah </ set> </ pola>
+<Template> 0 </ template>
+</ Kategori>
+<category> <pola> SMALLEROF <set> jumlah </ set> 0 </ pola>
+<Template> 0 </ template>
+</ Kategori>
+<category> <pola> LARGEROF <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Template> <peta> <nama> penerus </ nama> <srai> LARGEROF <peta> <nama> pendahulunya </ nama> <bintang /> </ map> <peta> <nama> pendahulunya </ nama> <bintang indeks = "2" /> </ map> </ srai> </ map> </ template>
+</ Kategori>
+<category> <pola> SMALLEROF <set> jumlah </ set> <set> jumlah </ set> </ pola>
+<Template> <peta> <nama> penerus </ nama> <srai> SMALLEROF <peta> <nama> pendahulunya </ nama> <bintang /> </ map> <peta> <nama> pendahulunya </ nama> <bintang indeks = "2" /> </ map> </ srai> </ map> </ template>
+</ Kategori>
+<category> <pola> ADD * PLUS * </ pattern>
+<Template> <srai> APAKAH <bintang /> PLUS <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ATOMICLISTMEMBER * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> ATOMICLISTMEMBER * * </ pattern>
+<Template> <berpikir> <set name = "isequalto"> <srai> IS <bintang /> EqualTo <bintang index = "2" /> </ srai> </ set>
+</ Berpikir>
+<Kondisi name = "isequalto">
+<Value li = "true"> benar </ li>
+<Li> false </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> ATOMICLISTMEMBER * * * </ pattern>
+<Template> <berpikir> <set name = "isequalto"> <srai> IS <bintang /> EqualTo <bintang index = "2" /> </ srai> </ set>
+</ Berpikir>
+<Kondisi name = "isequalto">
+<Value li = "true"> benar </ li>
+<Index star = "3" /> <li> <srai> ATOMICLISTMEMBER <bintang /> </ srai> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> COUNT TO <set> jumlah </ set> </ pola>
+<Template> <berpikir> <set name = "count"> 0 </ set>
+</ Berpikir>
+<Nama kondisi = "menghitung">
+<Li> <value> <bintang /> </ value> </ li>
+<Li> <set name = "count"> <peta> <nama> penerus </ nama> <mendapatkan nama = "count" /> </ peta> </ set> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> COUNTLETTERS </ pola>
+<Template> 0 </ template>
+</ Kategori>
+<category> <pola> COUNTLETTERS * </ pattern>
+<Template> <berpikir>
+<Set var = "huruf"> <meledak> <bintang /> </ meledak> akhir </ set>
+<Set var = "count"> 0 </ set>
+</ Berpikir>
+<Kondisi>
+<Li> <var> surat </ var> <value> akhir </ value> <dapatkan var = "count" /> </ li>
+<Li> <berpikir>
+<Set var = "huruf"> <srai> REMAININGWORDS <mendapatkan var = "huruf" /> </ srai> </ set>
+<Set var = "count"> <peta> <nama> penerus </ nama> <dapatkan var = "count" /> </ peta> </ set> </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> DELETE MY * LIST </ pola>
+<Template> Menghapus daftar Anda.
+<Belajar>
+<category> <pola> MY <eval> <bintang /> </ eval> LIST </ pola>
+<Template> NIL </ template>
+</ Kategori>
+</ Belajar> </ template>
+</ Kategori>
+<category> <pola> DELETE MY LIST </ pola>
+<Template> Menghapus daftar Anda.
+<Belajar>
+<category> <pola> MyList </ pola>
+<Template> NIL </ template>
+</ Kategori>
+</ Belajar> </ template>
+</ Kategori>
+<category> <pola> FIRSTLETTER * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> FIRSTLETTER * * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> FORMATPHONENUMBER * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> FORMATPHONENUMBER * * </ pattern>
+<Template> <berpikir>
+<Set name = "firstword"> <huruf kecil> <bintang /> </ huruf kecil> </ set>
+</ Berpikir>
+<Nama kondisi = "firstword">
+<Li value = "dash"> - <srai> FORMATPHONENUMBER <bintang index = "2" /> </ srai> </ li>
+<Value li = "plus"> + <srai> FORMATPHONENUMBER <bintang index = "2" /> </ srai> </ li>
+<Value li = "lparen"> (<srai> FORMATPHONENUMBER <bintang index = "2" /> </ srai> </ li>
+<Value li = "rparen"> (<srai> FORMATPHONENUMBER <bintang index = "2" /> </ srai> </ li>
+<Li> <index star = "2" /> <bintang /> <srai> FORMATPHONENUMBER </ srai> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> Menghasilkan PASSWORD </ pola>
+<Template> <srai> meledak <srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai></srai></template>
+</ Kategori>
+<category> <pola> meledak </ pola>
+<Template> <Template /> </ template>
+</ Kategori>
+<category> <pola> meledak * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> meledak * * </ pattern>
+<Index star = "2" /> <template> <srai> meledak <bintang /> </ srai> <srai> meledak </ srai> </ template>
+</ Kategori>
+<category> <pola> INPUT </ pola>
+<Index input = "1" /> <template> </ template>
+</ Kategori>
+<category> <pola> INPUT 2 </ pola>
+<Index input = "2" /> <template> </ template>
+</ Kategori>
+<category> <pola> INPUT 3 </ pola>
+<Index input = "3" /> <template> </ template>
+</ Kategori>
+<category> <pola> INPUT 4 </ pola>
+<Index input = "4" /> <template> </ template>
+</ Kategori>
+<category> <pola> ISADIGIT * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 0 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 1 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 2 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 3 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 4 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 5 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 6 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 7 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 8 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISADIGIT 9 </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISANAME * * </ pattern>
+<Template> <srai> ISANAME <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ISANEMAILADDRESS * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> ISANEMAILADDRESS * AT * DOT * </ pattern>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISANEMAILADDRESS UNKNOWN </ pola>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> ISANUMBER * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> ISANUMBER <set> jumlah </ set> </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER <set> jumlah </ set> </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER <set> jumlah </ set> * </ pattern>
+<Template> <srai> ISAPHONENUMBER <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER DASH * </ pattern>
+<Template> <srai> ISAPHONENUMBER <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER LPAREN * </ pattern>
+<Template> <srai> ISAPHONENUMBER <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER PLUS * </ pattern>
+<Template> <srai> ISAPHONENUMBER <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ISAPHONENUMBER RPAREN * </ pattern>
+<Template> <srai> ISAPHONENUMBER <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ISSHORTANSWER * </ pattern>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISSHORTANSWER * * </ pattern>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISSHORTANSWER * * * </ pattern>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> ISSHORTANSWER * * * * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> LEARNEQUAL * EqualTo * </ pattern>
+<Template> <belajar>
+<category>
+<Pola> TESTEQUAL <eval> <bintang /> </ eval> EqualTo <eval> <bintang /> </ eval> </ pola>
+<Template> benar </ template>
+</ Kategori>
+<category>
+<Pola> TESTEQUAL <eval> <bintang /> </ eval> EqualTo * </ pattern>
+<Template> palsu </ template>
+</ Kategori>
+<category>
+<Pola> TESTEQUAL * EqualTo <eval> <bintang /> </ eval> </ pola>
+<Template> palsu </ template>
+</ Kategori>
+</ Belajar> </ template>
+</ Kategori>
+<category> <pola> LOGICALAND SALAH </ pola>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> LOGICALAND SALAH * </ pattern>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> LOGICALAND BENAR </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> LOGICALAND BENAR * </ pattern>
+<Template> <srai> LOGICALAND <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> LOGICALOR SALAH </ pola>
+<Template> SALAH </ template>
+</ Kategori>
+<category> <pola> LOGICALOR SALAH * </ pattern>
+<Template> <srai> LOGICALOR <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> LOGICALOR BENAR </ pola>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> LOGICALOR BENAR * </ pattern>
+<Template> BENAR </ template>
+</ Kategori>
+<category> <pola> MY * LIST </ pola>
+<Template> Apakah Anda ingin membuat <bintang /> daftar? </ Template>
+</ Kategori>
+
+<category> <pola> LASTWORD * </ pattern>
+<Template> <srai> NTHWORD <srai> SENTENCELENGTH <bintang /> </ srai> <bintang /> </ srai> </ template>
+</ Kategori>
+
+<category> <pola> NTHWORD <set> jumlah </ set> * </ pattern>
+<Template> <berpikir>
+<Set var = "n"> <star /> </ set>
+<Set var = "count"> 1 </ set>
+<Set var = "kata"> <star index = "2" /> </ set>
+</ Berpikir>
+<Kondisi>
+<Li> <var> kata </ ​​var> <value> NIL </ value> "<index star =" 2 "/>" hanya memiliki <peta> <nama> pendahulunya </ nama> <dapatkan var = "count" /> </ peta> kata. </ li>
+<Li> <var> count </ var> <value> <dapatkan var = "n" /> </ value>
+<Pertama> <dapatkan var = "kata" /> </ pertama> </ li>
+<Li> <berpikir>
+<Set var = "kata"> <sisanya> <dapatkan var = "kata" /> </ sisa> </ set>
+<Set var = "count"> <peta> <nama> penerus </ nama> <dapatkan var = "count" /> </ peta> </ set>
+</ Berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+
+<category> <pola> NTH <set> jumlah </ set> * </ pattern>
+<Template> <berpikir>
+<Set var = "n"> <star /> </ set>
+<Set var = "count"> 1 </ set>
+<Set var = "huruf"> <meledak> <bintang index = "2" /> </ meledak> akhir </ set>
+</ Berpikir>
+<Kondisi>
+<Li> <var> surat </ var> <value> akhir </ value> <index star = "2" /> hanya <peta> <nama> pendahulunya </ nama> <dapatkan var = "count" /> </ peta> huruf. </ li>
+<Li> <var> count </ var> <value> <dapatkan var = "n" /> </ value>
+The <peta> <nama> number2ordinal </ nama> <dapatkan var = "n" /> </ peta> surat "<index star =" 2 "/>" adalah <srai> FIRSTLETTER <dapatkan var = "huruf" /> </ srai> </ li>
+<Li> <berpikir>
+<Set var = "huruf"> <srai> REMAININGWORDS <mendapatkan var = "huruf" /> </ srai> </ set>
+<Set var = "count"> <peta> <nama> penerus </ nama> <dapatkan var = "count" /> </ peta> </ set>
+</ Berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> NTH 0 * </ pattern>
+<Template> <bintang /> tidak memiliki surat ke nol. </ Template>
+</ Kategori>
+<category> <pola> ORANG * </ pattern>
+<Template> <orang> <bintang /> </ orang> </ template>
+</ Kategori>
+<category> <pola> pendahulunya <set> jumlah </ set> </ pola>
+<Template> <peta> <nama> pendahulunya </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> RANDOMCHAR </ pola>
+<Template> <berpikir> <set name = "randomchar">
+<Random>
+<Li> 0 </ li>
+<Li> 1 </ li>
+<Li> 2 </ li>
+<Li> 3 </ li>
+<Li> 4 </ li>
+<Li> 5 </ li>
+<Li> 6 </ li>
+<Li> 7 </ li>
+<Li> 8 </ li>
+<Li> 9 </ li>
+<Li> A </ li>
+<Li> B </ li>
+<Li> C </ li>
+<Li> D </ li>
+<Li> E </ li>
+<Li> F </ li>
+<Li> G </ li>
+<Li> H </ li>
+<Li> I </ li>
+<Li> J </ li>
+<Li> K </ li>
+<Li> L </ li>
+<Li> M </ li>
+<Li> N </ li>
+<Li> O </ li>
+<Li> P </ li>
+<Li> Q </ li>
+<Li> R </ li>
+<Li> S </ li>
+<Li> T </ li>
+<Li> U </ li>
+<Li> V </ li>
+<Li> W </ li>
+<Li> X </ li>
+<Li> Y </ li>
+<Li> Z </ li>
+</ Random>
+</ Set>
+</ Berpikir>
+<Random> <li> <kecil> <mendapatkan nama = "randomchar" /> </ huruf kecil> </ li>
+<Li> <huruf besar> <mendapatkan nama = "randomchar" /> </ huruf besar> </ li>
+</ Random> </ template>
+</ Kategori>
+<category> <pola> RANDOMLETTER </ pola>
+<Template> <random>
+<Li> A </ li>
+<Li> B </ li>
+<Li> C </ li>
+<Li> D </ li>
+<Li> E </ li>
+<Li> F </ li>
+<Li> G </ li>
+<Li> H </ li>
+<Li> I </ li>
+<Li> J </ li>
+<Li> K </ li>
+<Li> L </ li>
+<Li> M </ li>
+<Li> N </ li>
+<Li> O </ li>
+<Li> P </ li>
+<Li> Q </ li>
+<Li> R </ li>
+<Li> S </ li>
+<Li> T </ li>
+<Li> U </ li>
+<Li> V </ li>
+<Li> W </ li>
+<Li> X </ li>
+<Li> Y </ li>
+<Li> Z </ li>
+</ Random> </ template>
+</ Kategori>
+<category> <pola> REMAININGWORDS </ pola>
+<Template> terdefinisi </ template>
+</ Kategori>
+<category> <pola> REMAININGWORDS * </ pattern>
+<Template> terdefinisi </ template>
+</ Kategori>
+<category> <pola> REMAININGWORDS * * </ pattern>
+<Index star = "2" /> <template> </ template>
+</ Kategori>
+<category> <pola> FIRSTWORD </ pola>
+<Template> terdefinisi </ template>
+</ Kategori>
+<category> <pola> FIRSTWORD * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> FIRSTWORD * * </ pattern>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> REQUEST </ pola>
+<Template> <permintaan index = "1" /> </ template>
+</ Kategori>
+<category> <pola> REQUEST 2 </ pola>
+<Template> <permintaan index = "2" /> </ template>
+</ Kategori>
+<category> <pola> REQUEST 3 </ pola>
+<Template> <permintaan index = "3" /> </ template>
+</ Kategori>
+<category> <pola> REQUEST 4 </ pola>
+<Template> <permintaan index = "4" /> </ template>
+</ Kategori>
+<category> <pola> RESPONSE </ pola>
+<Index respon = "1" /> <template> </ template>
+</ Kategori>
+<category> <pola> RESPON 2 </ pola>
+<Index respon = "2" /> <template> </ template>
+</ Kategori>
+<category> <pola> RESPON 3 </ pola>
+<Index respon = "3" /> <template> </ template>
+</ Kategori>
+<category> <pola> RESPONSE 4 </ pola>
+<Index respon = "4" /> <template> </ template>
+</ Kategori>
+<category> <pola> SENTENCELENGTH </ pola>
+<Template> 0 </ template>
+</ Kategori>
+<category> <pola> SENTENCELENGTH ALICE </ pola>
+<Template> 5 </ template>
+</ Kategori>
+<category> <pola> SENTENCELENGTH * </ pattern>
+<Template> 1 </ template>
+</ Kategori>
+<category> <pola> SENTENCELENGTH * * </ pattern>
+<Template> <index star = "2" /> <peta> <nama> penerus </ nama> <srai> SENTENCELENGTH </ srai> </ map> </ template>
+</ Kategori>
+<category> <pola> penerus </ pola>
+<Template> 0 </ template>
+</ Kategori>
+<category> <pola> penerus <set> jumlah </ set> </ pola>
+<Template> <peta> <nama> penerus </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> YANG </ pola>
+<Template> <yang /> </ template>
+</ Kategori>
+<category> <pola> YANG 1 1 </ pola>
+<Template> <indeks = "1,1" /> </ template>
+</ Kategori>
+<category> <pola> YANG 1 2 </ pola>
+<Template> <indeks = "1,2" /> </ template>
+</ Kategori>
+<category> <pola> YANG 1 3 </ pola>
+<Template> <indeks = "1,3" /> </ template>
+</ Kategori>
+<category> <pola> YANG 1 4 </ pola>
+<Template> <indeks = "1,4" /> </ template>
+</ Kategori>
+<category> <pola> YANG 2 1 </ pola>
+<Template> <indeks = "2,1" /> </ template>
+</ Kategori>
+<category> <pola> YANG 2 2 </ pola>
+<Template> <indeks = "2,2" /> </ template>
+</ Kategori>
+<category> <pola> YANG 2 3 </ pola>
+<Template> <indeks = "2,3" /> </ template>
+</ Kategori>
+<category> <pola> YANG 2 4 </ pola>
+<Template> <indeks = "2,4" /> </ template>
+</ Kategori>
+<category> <pola> XMLITEMIZE * </ pattern>
+<Template> terdefinisi </ template>
+</ Kategori>
+<category> <pola> KONTRA XMLITEMIZE * KONTRA * </ pattern>
+<Template> <item> <index star = "2" /> <bintang /> </ item> <srai> XMLITEMIZE KONTRA </ srai> </ template>
+</ Kategori>
+<category> <pola> XMLITEMIZE KONTRA * NIL </ pola>
+<Template> <item> <bintang /> </ item> </ template>
+</ Kategori>
+<category> <pola> XMLITEMIZE NIL </ pola>
+<Template> daftar Anda kosong. </ Template>
+</ Kategori>
+<category> <pola> MATHTERM <set> jumlah </ set> </ pola>
+<Template> <bintang /> </ template>
+</ Kategori>
+<category> <pola> MATHTERM <set> numbername </ set> </ pola>
+<Template> <peta> <nama> name2number </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> MATHTERM PI </ pola>
+<Template> 3,14159265359 </ template>
+</ Kategori>
+<category> <pola> MATHTERM PLUS </ pola>
+<Template> + </ template>
+</ Kategori>
+<category> <pola> MATHTERM STAR </ pola>
+<Template> * </ template>
+</ Kategori>
+<category> <pola> MATHTERM KALI </ pola>
+<Template> * </ template>
+</ Kategori>
+<category> <pola> MATHTERM SLASH </ pola>
+<Template> / </ template>
+</ Kategori>
+<category> <pola> MATHTERM POINT </ pola>
+<Template>. </ Template>
+</ Kategori>
+<category> <pola> MATHTERM MINUS </ pola>
+<Template> - </ template>
+</ Kategori>
+<category> <pola> MATHTERM DASH </ pola>
+<Template> - </ template>
+</ Kategori>
+<category> <pola> MATHTERM LPAREN </ pola>
+<Template> (</ template>
+</ Kategori>
+<category> <pola> MATHTERM RPAREN </ pola>
+<Template>) </ template>
+</ Kategori>
+<category> <pola> MATHTERM * </ pattern>
+<Template> BUKAN MATEMATIKA JANGKA </ template>
+</ Kategori>
+<category> <pola> MATHFORMULA _ Squared </ pola>
+<Template> <srai> MATHFORMULA <bintang /> upArrow 2 </ srai> </ template>
+</ Kategori>
+<category> <pola> MATHFORMULA _ upArrow * </ pattern>
+<Template> <berpikir>
+<Set var = "f1"> <srai> MATHFORMULA <bintang /> </ srai> </ set>
+<Set var = "f2"> <srai> MATHFORMULA <bintang index = "2" /> </ srai> </ set>
+</ Berpikir>
+<Kondisi var = "f1">
+<Value li = "TIDAK A MATEMATIKA FORMULA"> BUKAN MATEMATIKA FORMULA </ li>
+<Li>
+  <Kondisi var = "f2">
+  <Value li = "TIDAK A MATEMATIKA FORMULA"> BUKAN MATEMATIKA FORMULA </ li>
+  <Li> Math.pow (<get var = "f1" />, <dapatkan var = "f2" />) </ li>
+  </ Kondisi>
+</ Li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> MATHFORMULA * </ pattern>
+<Template> <berpikir>
+<Set var = "daftar"> <star /> END </ set>
+<Set var = "hasil" />
+</ Berpikir>
+<Kondisi var = "daftar">
+<Value li = "END"> <dapatkan var = "hasil" /> </ li>
+<Li>
+<Berpikir> <set var = "kepala"> <srai> FIRSTWORD <dapatkan var = "daftar" /> </ srai> </ set>
+<Set var = "daftar"> <srai> REMAININGWORDS <dapatkan var = "daftar" /> </ srai> </ set>
+<Set var = "istilah"> <srai> MATHTERM <dapatkan var = "kepala" /> </ srai> </ set>
+<Kondisi var = "istilah">
+<Value li = "TIDAK A MATEMATIKA JANGKA">
+<Set var = "daftar"> END </ set> <set var = "hasil"> BUKAN MATEMATIKA FORMULA </ set>
+</ Li>
+<Li> <set var = "hasil"> <dapatkan var = "hasil" /> <dapatkan var = "Istilah" /> </ set> </ li>
+<Kondisi /> </ berpikir> <loop /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> ROUND * </ pattern>
+<Template> <pertama> <menormalkan> <bintang /> </ menormalkan> </ pertama> </ template>
+</ Kategori>
+</aiml>

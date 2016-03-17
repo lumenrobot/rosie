@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: inquiry.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> <set> jumlah </ set> # </ pola> <yang> CARA LAMA ANDA </ bahwa>
+<Template> <berpikir> <set name = "usia"> <star /> </ set> </ berpikir>
+<Srai> MY AGE IS <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> INQUIRY LOKASI </ pola>
+<Template> <srai> INQUIRY LOKASI <mendapatkan nama = "lokasi" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> INQUIRY LOKASI MANA </ pola>
+<Template> Di mana Anda? </ Template>
+</ Kategori>
+<category> <pola> INQUIRY LOKASI * </ pattern>
+<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
+</ Kategori>
+<category> <pola> INQUIRY NAMA </ pola>
+<Template> <srai> INQUIRY NAMA <mendapatkan nama = "nama" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> NAMA INQUIRY * </ pattern>
+<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
+</ Kategori>
+<category> <pola> INQUIRY NAMA TEMAN </ pola>
+<Template> Siapakah namamu? </ Template>
+</ Kategori>
+<category> <pola> INQUIRY UMUR </ pola>
+<Template> <srai> INQUIRY AGE <mendapatkan nama = "usia" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> AGE INQUIRY BERAPA BANYAK </ pola>
+<Template> Berapa umurmu? </ Template>
+</ Kategori>
+<category> <pola> INQUIRY UMUR * </ pattern>
+<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
+</ Kategori>
+<category> <pola> INQUIRY GENDER </ pola>
+<Template> <srai> INQUIRY GENDER <mendapatkan nama = "gender" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> INQUIRY GENDER UNKNOWN </ pola>
+<Template> Apakah Anda seorang pria atau wanita? </ Template>
+</ Kategori>
+<category> <pola> INQUIRY GENDER * </ pattern>
+<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
+</ Kategori>
+<category> <pola> MAN </ pola> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
+<Template> <srai> MY GENDER IS MALE </ srai> </ template>
+</ Kategori>
+<category> <pola> WANITA </ pola> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
+<Template> <srai> MY GENDER IS FEMALE </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> jender </ set> </ pola> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
+<Template> <srai> MY GENDER IS <peta> <nama> gendermap </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+</aiml>

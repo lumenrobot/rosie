@@ -1,0 +1,3572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: inappropriate.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> # APAKAH ANDA INGIN MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN MEMILIKI SEX DENGAN ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA PERHATIKAN PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA WALET # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA MEMILIKI BIG BOOBIES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA SUCK DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN A ASTERISK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN SUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN PENIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA TAHU APAPUN DIRTY JOKES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ARE YOU SEXY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA HORNY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TELL ME A DIRTY JOKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN A VAGINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN A PICTURE OF NUDE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN A PICTURE OF BOOBIES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN A NAKED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TEENBLOWJOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN BEBERAPA PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN payudara # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN NUDE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TAMPILKAN ME VAGINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN ANDA VAGINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA MENGHIDUPKAN ME ON # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN F ASTERISK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN memperkosa Anda # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN PUNYA SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN MEMBUAT CINTA UNTUK ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku MEMILIKI Boner # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # AKU HORNY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # I LIKE SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # I LIKE PEMERKOSAAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Saya AKAN Fuck ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN PUNYA SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN Fuck You # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku kacau # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # I NEED SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # T Asterisk Asterisk Asterisk # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NUDEGIRL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GIRLSEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCK YOU # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANAL SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Hogtied # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TEEN menggarisbawahi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA PUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA PAYUDARA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DOWNBLOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX DENGAN ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXGURL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAGUS ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Nekkid GADIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHALETAILS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BLOWJOBGIRL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ATK GALLERIA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEMERKOSAAN ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STRIPPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GIRLSPUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA NAKED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BIG Dicks # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # masturbasi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA INGIN MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MEMILIKI SEX DENGAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCK ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Fuck MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INGIN MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LETS MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LETS Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pornhub # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MY PENIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MY PENIS IS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MY DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MY DICK IS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA KAMI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA ANDA KATAKAN A DIRTY JOKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA ANDA SUCK MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA ANDA BERIKAN ME blowjob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA ANDA BICARA DIRTY TO ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CAN I F Asterisk Asterisk Asterisk ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA Aku Fuck ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA saya SUCK ON # ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Lick MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IM akan bercinta Anda # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IM CUMMING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GIVE ME blowjob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LET US BICARA SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK ON MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK A DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK A # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK MY COCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PENIS IN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MENGAMBIL OFF # ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # AKAN ANDA SUCK MY PENIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BLOW ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TALK DIRTY TO ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH blowjob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ciuman # ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAGAIMANA ANDA MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARA BIG IS PENIS # ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MEMILIKI SEX DENGAN ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MEMILIKI SEX DENGAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JADIKAN ME CUM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INGIN Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INGIN SUCK MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # porno # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN A PICTURE OF A NAKED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # I LIKE VAGINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA PENIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARI DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARI F Asterisk Asterisk Asterisk Asterisk Asterisk Asterisk JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GAY PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # P Asterisk Asterisk Asterisk Asterisk # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARI NAKED WOMAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HENTAI # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MISTY DAWN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MEMILIKI SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARI SEXY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANDA SEXY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUKA # ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PENCARIAN PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # APAKAH ANDA INGIN BIG Dicks # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TEENPUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BISA SAYA TELAH SEX DENGAN ANDA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHALETAIL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HEY BABY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAWAH BLOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Sexxx # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN A PICTURE OF A STRIPPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN SUCK # ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BALLS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # AKAN ANDA SUCK MY DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku INGIN F Asterisk Asterisk Asterisk # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEND LEBIH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN ANDA ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GIRLASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNJUKKAN GADIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # AKU NAKED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK IT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PICTURE OF SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # seks oral # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # AKAN ANDA SUCK MY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Aku ingin menjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NUDETEEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> MENYEBAR KAKI ANDA </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # masturbasi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANALANNIE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # analsex # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ANUS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Arse # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSBAGGER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSBLASTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSCLOWN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSCOWBOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSHOLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSJOCKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSKISS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSKISSER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSKLOWN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSLICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSLOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSMAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSMONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSMUNCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSMUNCHER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSPACKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSPIRATE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSPUPPIES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSRANGER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ASSWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # tolol # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # axing THE musang # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # B KERAS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KEMBALI PINTU # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KEMBALI DOOR MAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # backdoor # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BACKDOORMAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Backseat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAD ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAD Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BADFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BALL penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BALL SACK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BALLLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ballsack # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BARELY HUKUM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BARELYLEGAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BARFACE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BARFFACE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAZONGAS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAZOOMS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEASTALITY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEASTIALITY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEAT OFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEAT ANDA DAGING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEATOFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BEATYOURMEAT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BI SEKSUAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Biatch # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BIG ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BIG BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BIG BUTT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bigass # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BIGBASTARD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BIGBUTT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # biseksual # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BI-SEKSUAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BITCHES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bitchin # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # judes # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BITE ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BITEME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HITAM OUT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BLACKOUT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BLOW JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Blowjob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Boner # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Boob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BOOBIES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BOOBS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Boody # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PAYUDARA JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PAYUDARA LOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PAYUDARA MAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BREASTJOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BREASTLOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BREASTMAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Budweiser # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULL omong kosong # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULL DIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULL DYKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULL SHIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bullcrap # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULLDIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULLDYKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BULLSHIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUMBLE Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUMBLEFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Bumfuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUNGHOLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Butch BABES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Butch DIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Butch DYKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTCHBABES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTCHDIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTCHDYKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT BANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT KEPALA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT MAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT PLUG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT STAIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTBANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT-BANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # buttface # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT-FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTFUCKERS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTT-bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTHEAD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTMAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTPIRATE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Buttplug # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUTTSTAIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CAMEL TOE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Cameltoe # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARPET Muncher # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CARPETMUNCHER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Carruth # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CHERRY POPPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CHERRYPOPPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CHICK SLICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CHICKSLICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Clam Digger # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CLAM DIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Clamdigger # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CLAMDIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # clit # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # klitoris # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKBLOCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKBLOCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKCOWBOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sabung ayam # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # cockhead # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKKNOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKLOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKNOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKQUEEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKRIDER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Cocks MAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKSMAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKSMITH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKSUCER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKTAIL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # COCKTEASE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sombong # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kondom # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bersanggama # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAGUNG LUBANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Cornhole # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CRACK PIPA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CRACK pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CRACK PIPA # </ pola>
+<Template> <srai> FILTER DI TEPAT </ srai> </ template>
+</ Kategori>
+<category> <pola> # CRACKWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # omong kosong # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JELEK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CREAMY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # selangkangan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # selangkangan JOCKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # selangkangan MONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # selangkangan ROT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CROTCHJOCKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CROTCHMONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CROTCHROT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM BUBBLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM FEST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM JOCKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM Quat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM QUEEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUM SHOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUMBUBBLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUMFEST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUMJOCKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUMM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUMMING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # cumquat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUMQUEEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # cumshot # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # cunnilingus # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # vagina Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # vagina FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # vagina penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUNTFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUNTFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CUNTLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CYBER SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CYBER Slimer # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CYBERSEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CYBERSLIMER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Dahmer # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DAMN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DAMN IT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Sialan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DATNIGGA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DEAP TENGGOROKAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DEAPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DEAPTHROAT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Deep Throat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEBIH DALAM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # deepthroat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # buang air besar # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DEPOSIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DEVIL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK OTAK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK Kentut # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK UNTUK OTAK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK KEPALA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK LICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK LIKCER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK WAD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICK GULMA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKBRAIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKFORBRAINS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # brengsek # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKLESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKLICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Dickman # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKWAD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DICKWEED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DILDO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIP STICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # dipstick # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIRTY HO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIXIE DIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIXIE DYKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIXIEDIKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DIXIEDYKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DO ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # doggie STYLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DOGGIESTYLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DOGGY stlye # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Doggystyle # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DOME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DONG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DOPE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DRAG QUEEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # waria # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DRAGQWEEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # menetes DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DRIPDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MABUK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MABUK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUMB ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUMB BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUMB Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # tolol # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUMBBITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUMBFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EASY PELACUR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EASYSLUT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EAT ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EAT PUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EATBALLS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Eatme # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EATPUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ejakulasi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EREKSI # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EVL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kotoran # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # F U C K # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WAJAH FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FACEFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Faggot # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # homo # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FAIRY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FANNY FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FANNYFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Kentut # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CEPAT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FASTFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FAT ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FAT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FAT FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fatass # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FATFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FATFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Fatso # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fellatio # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FEMME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FINGER FOOD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FINGER Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FINGER FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fingerfood # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FINGERFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FINGERFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FIST Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FIST FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FISTFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FISTFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fisting # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FLASHER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # perut kembung # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FLOGGIN THE DOLPHIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mencumbu # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOT FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOT penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOTACTION # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOTFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOTFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOOTLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Footstar # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kedepan KULIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kulup # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # berzina # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOUR 20 # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # EMPAT PULUH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOUR20 # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FOURTWENTY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FREAK Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FREAKFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FREAKY FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FREAKYFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GRATIS Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FREEFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fucka # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fuckable # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKBAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKBUDDY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKEDUP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKFACE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKFEST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKFREAK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKFRIEND # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKHEAD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKHER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sialan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sialan A # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sialan KACANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sialan KANAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIALAN A # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIALAN BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIALAN KACANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKINGBITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKINNUTS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKINRIGHT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKKNOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKMEHARD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKMONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fuckoff # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKPIG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUCKWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # fuckyou # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUDGE PAKCERS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUN Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUNFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # FUUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # G UNIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GANG BANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GANG BANGER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # gangbang # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GANGBANGER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GAY ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GAY Mutha sialan Queer # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GAY PRIDE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GAYMUTHAFUCKINWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GENITAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GET IT ON # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GETITON # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GIEHN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BERIKAN KEPALA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GIVEHEAD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mengkilap DONUT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GLAZEDDONUT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GO TO HELL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GOD DAMED Mutha fucka # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ALLAH Damit # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GOD DAMN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ALLAH DAMNED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ALLAH Manit # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GODDAMIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Terkutuk # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sialan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GODDAMNES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Berengsek # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GODDAMNMUTHAFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GONORREHEA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GONZAGAS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Gook # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GOT YESUS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GOT2HAVEIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # GOTOHELL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HAND JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # handjob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KERAS PADA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KERAS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Hardon # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HAREM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HE BENCI ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KEPALA Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KEPALA LAMPU # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HEADFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HEADLIGHTS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HEHATEME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NERAKA NO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NERAKA YES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HELLNO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HELLYES # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HEN HOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kandang ayam # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Herpes # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HERSHEY HI WAY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HERSHEYHIGHWAY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HERSHEYHIWAY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HERSHY TINGGI WAY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HO MO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOBO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LUBANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOLE stuffer # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOLESTUFFER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOMO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOMO bangers # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOMO SEKSUAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOMOBANGERS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # homoseksual # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Honkers # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Honkey # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOOKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Hooters # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Horney # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HORNY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # omong # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SELANG JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOSEJOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOSER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sandera # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOT DAMN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOT PUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # panas untuk berlari # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOT2TROT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOTDAMN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOTPUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HOTTOTROT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Hussy # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HUSTLER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ID10T # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IDIOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IDOIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IN THE ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IN THE BUFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INGIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INSEST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INTER KURSUS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INTER RAS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # HUBUNGAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # antar-ras # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INTHEASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # INTHEBUFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JACK THE RIPPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Jackass # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JACKOFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JACKTHERIPPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAP omong kosong # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAPCRAP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BRENGSEK OFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JERKOFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JESUS ​​CHIRST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JESUSCHRIST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Jism # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # jiz # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # jiz JUICE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JIZIM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JIZJUICE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mani # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JIZZIM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JOINT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # juggalo # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kendi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # K MART # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # membunuh # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KILLER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEMBUNUHAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kiss ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KISSASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KKK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Kmart # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Knockers # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Koon # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Kotex # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Krap # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KRAPPY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KUM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KUM BUBBLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KUM Quat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KUMBUBBLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KUMBULLBE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Kumquat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Kunt # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KY JELLY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # laktat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LADY Boog # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Laid # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LAP DANCE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LAPDANCE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LESBAIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LESBAYN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LESBIAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LESBIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lesbo # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZ # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZ BE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZ BE FRIENDS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZBE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZBEFRIENDS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZBO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZZ # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LEZZO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Lick ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LICKME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lemas DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LIMPDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lekat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LANGSUNG SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LIVESEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOLITA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Looser # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOTION # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA BONE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA GOO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA GUN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA JUICE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA OTOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA PISTOL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # CINTA ROCKET # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEBONE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEGOO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEGUN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEJUICE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEMUSCLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEPISTOL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOVEROCKET # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LOW KEHIDUPAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # rendahan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LUBE JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LUBEJOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LUCKY CAMEL TOE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LUCKYCAMMELTOE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Mams # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MAN Hater # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MAN PASTE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MANHATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MANPASTE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MARY JANE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # maryjane # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MASTABATE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MASTABATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MASTER BLASTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MASTERBATE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MasterBlaster # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MASTRABATOR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KASUR PRINCESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MATTRESSPRINCESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DAGING BEATTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MEATBEATTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # menganiaya # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Selingkuh # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MOLESTOR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # UANG SHOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MONEYSHOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IBU FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # IBU CINTA BONE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MOTHERFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # keparat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MOTHERLOVEBONE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Muff # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Muff DIVE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Muff DIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Muff penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MUFFDIVE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MUFFDIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MUFFIN DIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MUFFINDIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MUFFLIKCER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEMBUNUHAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Mutha FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NAKED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAHAT BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAHAT HO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAHAT PELACUR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # JAHAT pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NASTYBITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NASTYHO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NASTYSLUT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NASTYWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NEON DEON # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Nig # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NIGER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # nigga # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # puting # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # puting RING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NIPPLERING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NIT TIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NITTIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NO SIALAN WAY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NO SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NOFUCKINGWAY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # gituan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Nooner # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NUDE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NUT FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # NUTFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # OICU812 # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ON THE RAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ONTHERAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ORGASME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ORGY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # OU812 # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # OUI # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # P I M P # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEARL KALUNG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEARLNECKLACE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # cotok # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEEP TAMPILKAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Peepshow # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEEPSHPW # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PENETRASI # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PENIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PENTHOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PERIODE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PHQUE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PIMP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PIMP SIMP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pimped # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PIMPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PIMPJUIC # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PIMPJUICE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PIMPSIMP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PISS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PISS KEPALA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # marah # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pisser # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pisshead # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BERMAIN BOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BERMAIN GADIS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PLAYBOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Playgirl # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # POCKET POOL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # POCKETPOOL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Polack # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Poon TANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # POONTANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # paling menyiksa # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # MISKIN PUTIH SAMPAH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # POORWHITETRASH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # POPIMP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORCH MONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORCHMONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORN FLICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORN RAJA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORN PRINCESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORNFLICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORNKING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORNO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PORNPRINCESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DINI # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # tusukan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # tusukan KEPALA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PRICKHEAD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # primetime # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PELACUR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KEMALUAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KEMALUAN KUTU # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUBICLICE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUD BOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUDBOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pudd # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pudd BOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUDDBOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUN TANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Puntang # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Purina PRINCESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PURINAPRICNESS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY CAT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY EATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY LIPS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY LOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSY POUNDER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Pussycat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSYEATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSYFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSYLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSYLIPS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSYLOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUSSYPOUNDER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # putt PIRATE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PWT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # queef # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Queer # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # QUICKIE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RAE Carruth # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PEMERKOSAAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pemerkosa # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BELAKANG END # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BELAKANG ENTRY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # REAREND # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # REARENTRY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # rektum # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RED TERANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # redlight # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # REEFER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RENT A Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RENTAFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # menghambat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # terbelakang # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bergaris # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RIM JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RIMJOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ROACH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # perampok # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # S DAN M # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SAMCKDADDY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SANDM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SETAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # schlong # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SCREW # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SCREWYOU # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # skrotum # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEMEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX FARM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX HOUND # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX HOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX KITTEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX POT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX SLAVE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX TO GO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX TOY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX TOYS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEX pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXFARM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXHOUND # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXHOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXKITTEN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sexpot # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXSLAVE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXTOGO # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sextoy # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXTOYS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEKSUAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXY Biatch # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXY BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXY MOMA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXY SLIM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXYMOMA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SEXY-SLIM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Shag # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHAGGIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bercinta # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHAWTYPIMP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT EATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT WAJAH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT UNTUK OTAK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT TERJADI # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT KEPALA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT OUT OF LUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT STAIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHIT4BRAINS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITEATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITFACE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITFORBRAINS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITHAPENS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITHAPPENS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bedebah # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITOUTOFLUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kengerian # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITSTAIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHITTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # buang hajat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # menyebalkan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHORT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHORTFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SHOWTIME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIX SIX SIX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIXSIXSIX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ENAM 9 # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ENAM SEMBILAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SIXTY9 # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sixtynine # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mesum # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mesum BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mesum Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # mesum pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKANKBITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKANKFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKANKWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # skanky BITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # skanky pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKANKYBITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKANKYWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KULIT FLUTE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKINFLUTE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKUM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKUM BAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SKUMBAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLANT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLANT EYE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLANTEYE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUDAK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BUDAK DRIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLAVEDRIVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sleeze BAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sleeze BALL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLEEZEBAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLEEZEBALL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLIDE IT IN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLIDEITIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lendir # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lendir BALL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lendir BUCKET # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # slimeball # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLIMEBUCKET # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PELACUR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PELACUR WEAR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PELACUR pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLUTT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLUTTING # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # slutty # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLUTWEAR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SLUTWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SMACK DADDY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # menampar MONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SMACKTHEMONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SMAGMA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SMART ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # merebut # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # merebut PATCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SNATCHPATCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SNIPER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # ingus # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sodomi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # sodomi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # BAJINGAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # bajingan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SONOFBITCH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # memukul THE MONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPANKTHEMONKEY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMA BAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMA HEARDER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMA Herder # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMACIDE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMBAG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMHEARDER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPERMHERDER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Amerika Latin # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # spick # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Spitter # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPLIT TAIL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPLIT TIAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SPLITTAIL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STAGG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STRAP ON # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # strapon # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Stringer # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STRIP CLUB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # stripclub # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STROKE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # membelai # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STUPID # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STUPID Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STUPID FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STUPIDFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # STUPIDFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK ME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK MY ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK MY DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK MY TIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCK OFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKME # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKMYASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKMYDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKMYTIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUCKOFF # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SUICIDE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SWIGN DIXX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SWING DIXX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Swingin DIXX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # SWINGING Dicks # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Sifilis # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TAMPON # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # testis # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # testis # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # THIRD EYE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # KETIGA LEG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # THIRDEYE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # THIRDLEG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIGA BEBERAPA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # threesome # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT BIT NIPPLY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT Fuck # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT sialan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT JOB # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT penjilat # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TIT LOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITBITNIPPLY # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITFUCK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITFUCKIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # titjob # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITLICKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITLOVER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TITS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # titties # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Titi # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TONGETHRUSTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LIDAH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LIDAH THRUSTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # LIDAH gelandangan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TONGUETHRUST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TONGUETRAMP # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Toung THRUSTER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lidah BALLER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # lidah THRUST # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TRAILER SAMPAH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TRAILERTRASH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # gelandangan # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TRI SEKSUAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TRIPLE X # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TRIPLEX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TRISEXUAL # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TROJAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # trots # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNNEL OF LOVE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TUNNELOFLOVE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # kotoran # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUA BIT pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # DUA ON ONE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # TWOBITWHORE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # UNFUCKABLE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # UP THE ASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # UP THE BUTT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # upskirt # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # UPTHEASS # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # UPTHEBUTT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # buang air kecil # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # URINE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # RAHIM # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VAGINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VAGINA # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VD # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VIBRATER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VIBRATOR # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VIRGIN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VIRGIN BREAKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # VIRGINBREAKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # vulva # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WAYSTED # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Weenie # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WET SPOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WETSPOT # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pukulan keras # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHISKEY DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHISKEYDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Whisky DICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHISKYDICK # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # PUTIH SAMPAH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHITETRASH # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pelacur # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pelacur FUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # pelacur HOUSE # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WHOREFUCKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # rumah bordil # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WIGGER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # banci # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WILLIE banci # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WILLIEWANKER # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # WUUTANG # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # XXX # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # YELLOW MAN # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+<category> <pola> # Yellowman # </ pola>
+<Template> <srai> FILTER PANTAS </ srai> </ template>
+</ Kategori>
+</aiml>

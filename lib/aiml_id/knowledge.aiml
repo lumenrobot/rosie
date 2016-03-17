@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: knowledge.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> DEFINE <set> singkatan </ set> </ pola>
+<Template> <peta name = "singkatan"> <star /> </ peta>. </ Template>
+</ Kategori>
+<category> <pola> APAKAH H2O </ pola>
+<Template> Air. </ Template>
+</ Kategori>
+<category> <pola> APA SUARA TIDAK $ A MATI ^ </ pola>
+<Template> Tidak ada suara. </ Template>
+</ Kategori>
+<category> <pola> SAAT # TANAMAN ^ </ pola>
+<Template> Tanaman di musim semi. Panen di musim gugur. </ Template>
+</ Kategori>
+<category> <pola> APAKAH <set> ordinal </ set> BULAN ^ </ pola>
+<Template> <srai> NTHWORD <peta name = "nomor urut"> <star /> </ peta> Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember </ srai> </ template>
+</ Kategori>
+<category> <pola> APAKAH TERAKHIR BULAN ^ </ pola>
+<Template> <srai> NTHWORD 12 Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember </ srai> </ template>
+</ Kategori>
+<category> <pola> APAKAH TERAKHIR # ALKITAB # </ pola>
+<Template> Wahyu </ template>
+</ Kategori>
+<category> <pola> APA COUNTRY IS * <set> Artikel </ set> MODAL * </ pattern>
+<Template> <peta> <nama> capital2nation </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> APA BANGSA IS * <set> Artikel </ set> MODAL * </ pattern>
+<Template> <peta> <nama> capital2nation </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> APA COUNTRY IS * MODAL * </ pattern>
+<Template> <peta> <nama> capital2nation </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> APA BANGSA IS * MODAL * </ pattern>
+<Template> <peta> <nama> capital2nation </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> APA NEGARA IS * <set> Artikel </ set> MODAL * </ pattern>
+<Template> <peta> <nama> capital2state </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> APA NEGARA IS * MODAL * </ pattern>
+<Template> <peta> <nama> capital2state </ nama> <bintang /> </ peta> </ template>
+</ Kategori>
+<category> <pola> RHYME * </ pattern>
+<Template> <berpikir>
+<Set var = "sajak"> <peta name = "sajak"> <star /> </ peta> </ set>
+</ Berpikir>
+<Kondisi var = "sajak">
+<Value li = "tidak diketahui"> anti <bintang /> </ li>
+<Li> <dapatkan var = "sajak" /> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> IS # <set> basah </ set> ^ WET ^ </ pola>
+<Template> <index star = "2" /> basah. </ Template>
+</ Kategori>
+<category> <pola> APA BENTUK IS # <set> lingkup </ set> </ pola>
+<Template> Bulat </ template>
+</ Kategori>
+<category> <pola> APA # BERIKUTNYA # 2 4 6 8 </ pola>
+<Template> 10 </ template>
+</ Kategori>
+<category> <pola> APA # BERIKUTNYA # 2 4 6 </ pola>
+<Template> 8 </ template>
+</ Kategori>
+<category> <pola> APA # BERIKUTNYA # 1 3 5 7 </ pola>
+<Template> 9 </ template>
+</ Kategori>
+<category> <pola> APA # BERIKUTNYA # 1 3 5 </ pola>
+<Template> 7 </ template>
+</ Kategori>
+<category> <pola> APAKAH IBUKOTA <set> negara </ set> </ pola>
+<Template> <peta> <nama> state2capital </ nama> <bintang /> </ peta>. </ Template>
+</ Kategori>
+<category> <pola> APAKAH IBUKOTA <set> bangsa </ set> </ pola>
+<Template> <peta> <nama> nation2capital </ nama> <bintang /> </ peta>. </ Template>
+</ Kategori>
+<category> <pola> APAKAH KOTA TERBESAR ^ <set> negara </ set> ^ </ pola>
+<Template> <peta> <nama> state2largestcity </ nama> <bintang /> </ peta>. </ Template>
+</ Kategori>
+<category> <pola> APAKAH AIML ^ </ pola>
+<Template> AIML, atau Artificial Intelligence Markup Language, adalah dialek XML untuk menciptakan agen perangkat lunak bahasa alami. </ Template>
+</ Kategori>
+<category> <pola> APAKAH PERTAMA BULAN * </ pattern>
+<Template> Januari. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # DIMULAI DENGAN # S </ pola>
+<Template> Sabtu, Minggu. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # MULAI DENGAN # S </ pola>
+<Template> Sabtu, Minggu. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # DIMULAI DENGAN # M </ pola>
+<Template> Senin. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # DIMULAI DENGAN # W </ pola>
+<Template> Rabu. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # DIMULAI DENGAN # F </ pola>
+<Template> Jumat. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # DIMULAI DENGAN # T </ pola>
+<Template> Selasa, Kamis. </ Template>
+</ Kategori>
+<category> <pola> APA HARI # MULAI DENGAN # T </ pola>
+<Template> Selasa, Kamis. </ Template>
+</ Kategori>
+<category> <pola> IS KEBAKARAN HOT # </ pola>
+<Template> Api adalah panas. </ Template>
+</ Kategori>
+<category> <pola> IS KEBAKARAN DINGIN # </ pola>
+<Template> Api adalah panas. </ Template>
+</ Kategori>
+<category> <pola> APAKAH 1ST BULAN * </ pattern>
+<Template> Januari. </ Template>
+</ Kategori>
+<category> <pola> IS * A # NOMOR </ pola>
+<Template> ada </ template>
+</ Kategori>
+<category> <pola> IS * A # MAKANAN </ pola>
+<Template> Bukan berarti saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS * A # BAHASA </ pola>
+<Template> ada </ template>
+</ Kategori>
+<category> <pola> IS * SEBULAN </ pola>
+<Template> ada </ template>
+</ Kategori>
+<category> <pola> IS * A # MASUK </ pola>
+<Template> ada </ template>
+</ Kategori>
+<category> <pola> IS * A # NAMA </ pola>
+<Template> Biasanya tidak. </ Template>
+</ Kategori>
+<category> <pola> IS * A # SURAT </ pola>
+<Template> ada </ template>
+</ Kategori>
+<category> <pola> IS <set> jumlah </ set> A # NOMOR </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> IS <set> makanan </ set> A # MAKANAN </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> IS <set> bahasa </ set> A # BAHASA </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> IS <set> bulan </ set> SEBULAN </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> IS <set> starsign </ set> A # MASUK </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> IS <set> nama </ set> A # NAMA </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> IS <set> surat </ set> A # SURAT </ pola>
+<Template> Ya </ template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # COUNTRY # </ pola>
+<Template> Satu negara adalah <random> <li> Amerika Serikat </ li> <li> Rusia </ li> <li> Cina </ li> <li> Jepang </ li> <li> Perancis </ li > <li> Afrika Selatan </ li> </ random>. </ template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # NORTH POLE </ pola>
+<Template> Ice, Seal, Penguins, Elf, Santa Claus. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # BEACH </ pola>
+<Template> Pasir, Surf, Sunbathers, Lifeguards, Rumput Laut. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # BANK </ pola>
+<Template> Teller, Uang, Cek, Pengawal. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # HUTAN </ pola>
+<Template> Trees. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # WOODS </ pola>
+<Template> Trees. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # OCEAN </ pola>
+<Template> Fish, gelombang, rumput laut, kapal. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # FARM </ pola>
+<Template> Tanaman, ternak, traktor, gudang. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # SIGN </ pola>
+<Template> Leo, Pisces, Libra. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # SEARCH ENGINE </ pola>
+<Template> Google. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # AMERIKA UTARA </ pola>
+<Template> Amerika Serikat, Kanada, Meksiko, Kuba. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # AMERIKA SELATAN </ pola>
+<Template> Brasil, Argentina, Columbia, Venezuela. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # EROPA </ pola>
+<Template> Jerman, Perancis, Belanda, Irlandia. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # HEWAN </ pola>
+<Template> Anjing, kucing, kuda, monyet, ular, elang. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # AFRIKA </ pola>
+<Template> Mesir, Sudan, Nigeria, Afrika Selatan. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # ASIA </ pola>
+<Template> Rusia, Cina, India, Pakistan. </ Template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> # ORANGE </ pola>
+<Template> Wortel </ template>
+</ Kategori>
+<category> <pola> NAMA <set> quantifier </ set> * </ pattern>
+<Template> <random> <li> Nama baik akan </ li>
+<Li> Saya akan memilih nama </ li>
+<Li> Mari kita menyebutnya </ li>
+</ Random> <random> <li> Fred </ li> <li> Larry </ li> <li> Jenny </ li> </ random> </ template>
+</ Kategori>
+<category> <pola> <set> binatang </ set> </ pola>
+<Template> <bintang /> adalah binatang. </ Template>
+</ Kategori>
+<category> <pola> IS * AN HEWAN </ pola>
+<Template> <bintang /> bukan hewan saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS <set> binatang </ set> AN HEWAN </ pola>
+<Template> <bintang /> adalah binatang. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> binatang </ set> AN HEWAN </ pola>
+<Index star = "2" /> <template> <srai> IS HEWAN AN </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> binatang </ set> * HEWAN * </ pattern>
+<Template> <srai> IS <bintang /> HEWAN AN </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> binatang </ set> * HEWAN * </ pattern>
+<Index star = "2" /> <template> <srai> IS HEWAN AN </ srai> </ template>
+</ Kategori>
+<category> <pola> ADALAH * HEWAN # </ pola>
+<Template> <srai> IS <peta> <nama> tunggal </ nama> <bintang /> </ peta> AN HEWAN </ srai> </ template>
+</ Kategori>
+<category> <pola> ADALAH <set> quantifier </ set> * HEWAN # </ pola>
+<Template> <srai> IS <peta> <nama> tunggal </ nama> <index star = "2" /> </ peta> HEWAN AN </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> preposisi </ set> </ pola>
+<Template> <bintang /> adalah sebuah preposisi. </ Template>
+</ Kategori>
+<category> <pola> <set> burung </ set> </ pola>
+<Template> <bintang /> adalah burung. </ Template>
+</ Kategori>
+<category> <pola> IS * BURUNG </ pola>
+<Template> <bintang /> bukan burung saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS <set> burung </ set> BURUNG </ pola>
+<Template> <bintang /> adalah burung. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> burung </ set> BURUNG </ pola>
+<Index star = "2" /> <template> <srai> IS A BURUNG </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> burung </ set> * BURUNG * </ pattern>
+<Template> <srai> IS <bintang /> BURUNG </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> burung </ set> * BURUNG * </ pattern>
+<Index star = "2" /> <template> <srai> IS A BURUNG </ srai> </ template>
+</ Kategori>
+<category> <pola> ADALAH * BIRDS # </ pola>
+<Template> <srai> IS <peta> <nama> tunggal </ nama> <bintang /> </ peta> BURUNG </ srai> </ template>
+</ Kategori>
+<category> <pola> ADALAH <set> quantifier </ set> * BIRDS # </ pola>
+<Template> <srai> IS <peta> <nama> tunggal </ nama> <index star = "2" /> </ peta> BURUNG </ srai> </ template>
+</ Kategori>
+<category> <pola> IS * A WARNA </ pola>
+<Template> <bintang /> bukan warna yang saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS <set> warna </ set> A WARNA </ pola>
+<Template> <bintang /> adalah warna. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> warna </ set> A WARNA </ pola>
+<Index star = "2" /> <template> <srai> IS A WARNA </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> warna </ set> * WARNA * </ pattern>
+<Template> <srai> IS <bintang /> A WARNA </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> warna </ set> * WARNA * </ pattern>
+<Index star = "2" /> <template> <srai> IS A WARNA </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> jumlah </ set> </ pola>
+<Template> <bintang /> adalah nomor. </ Template>
+</ Kategori>
+<category> <pola> IS * A NUMBER </ pola>
+<Template> <bintang /> bukan nomor saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS <set> jumlah </ set> A NUMBER </ pola>
+<Template> <bintang /> adalah nomor. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> jumlah </ set> A NUMBER </ pola>
+<Index star = "2" /> <template> <srai> IS A NUMBER </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> jumlah </ set> * NOMOR * </ pattern>
+<Template> <srai> IS <bintang /> A NUMBER </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> jumlah </ set> * NOMOR * </ pattern>
+<Index star = "2" /> <template> <srai> IS A NUMBER </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> bahasa </ set> </ pola>
+<Template> <bintang /> adalah bahasa. </ Template>
+</ Kategori>
+<category> <pola> IS * A BAHASA </ pola>
+<Template> <bintang /> bukan bahasa saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS <set> bahasa </ set> A BAHASA </ pola>
+<Template> <bintang /> adalah bahasa. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> bahasa </ set> A BAHASA </ pola>
+<Index star = "2" /> <template> <srai> IS A BAHASA </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> bahasa </ set> * Bahasa * </ pattern>
+<Template> <srai> IS <bintang /> A BAHASA </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> bahasa </ set> * Bahasa * </ pattern>
+<Index star = "2" /> <template> <srai> IS A BAHASA </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> surat </ set> </ pola>
+<Template> <bintang /> adalah surat. </ Template>
+</ Kategori>
+<category> <pola> IS * SURAT </ pola>
+<Template> <bintang /> bukanlah surat yang saya tahu. </ Template>
+</ Kategori>
+<category> <pola> IS <set> surat </ set> SURAT </ pola>
+<Template> <bintang /> adalah surat. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> surat </ set> SURAT </ pola>
+<Index star = "2" /> <template> <srai> IS A SURAT </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> surat </ set> * SURAT * </ pattern>
+<Template> <srai> IS <bintang /> SURAT </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> surat </ set> * SURAT * </ pattern>
+<Index star = "2" /> <template> <srai> IS A SURAT </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> bulan </ set> </ pola>
+<Template> <bintang /> adalah bulan. </ Template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> bulan </ set> SEBULAN </ pola>
+<Index star = "2" /> <template> <srai> IS A BULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> bulan </ set> * BULAN * </ pattern>
+<Template> <srai> IS <bintang /> A BULAN </ srai> </ template>
+</ Kategori>
+<category> <pola> IS <set> Artikel </ set> <set> bulan </ set> * BULAN * </ pattern>
+<Index star = "2" /> <template> <srai> IS A BULAN </ srai> </ template>
+</ Kategori>
+</aiml>

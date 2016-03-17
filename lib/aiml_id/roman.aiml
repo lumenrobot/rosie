@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: roman.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> ROMAN <set> numbername </ set> </ pola>
+<Template> <srai> ROMAN <peta> <nama> name2number </ nama> <bintang /> </ peta> </ srai> </ template>
+</ Kategori>
+<category> <pola> ROMAN * </ pattern>
+<Template> <berpikir> <set var = "mantan"> <meledak> <bintang /> </ meledak> </ set> </ berpikir>
+<Kondisi var = "ex">
+<Li> <value> <bintang /> </ value> Saya tidak tahu apa yang <srai> meledak <bintang /> </ srai> di Romawi. </ Li>
+<Li> <srai> ROMAN <meledak> <bintang /> </ meledak> </ srai> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> ROMAN <set> digit </ set> </ pola>
+<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+<Kondisi var = "d">
+<Value li = "1"> I </ li>
+<Value li = "2"> II </ li>
+<Value li = "3"> III </ li>
+<Value li = "4"> IV </ li>
+<Value li = "5"> V </ li>
+<Value li = "6"> VI </ li>
+<Value li = "7"> VII </ li>
+<Value li = "8"> VIII </ li>
+<Value li = "9"> IX </ li>
+<Li />
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> ROMAN <set> digit </ set> <set> digit </ set> </ pola>
+<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+<Kondisi var = "d">
+<Value li = "1"> X </ li>
+<Value li = "2"> XX </ li>
+<Value li = "3"> XXX </ li>
+<Value li = "4"> XL </ li>
+<Value li = "5"> L </ li>
+<Value li = "6"> LX </ li>
+<Value li = "7"> LXX </ li>
+<Value li = "8"> lxxx </ li>
+<Value li = "9"> XC </ li>
+<Li />
+</ Kondisi> <srai> ROMAN <bintang index = "2" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> ROMAN <set> digit </ set> <set> digit </ set> <set> digit </ set> </ pola>
+<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+<Kondisi var = "d">
+<Value li = "1"> C </ li>
+<Value li = "2"> CC </ li>
+<Value li = "3"> CCC </ li>
+<Value li = "4"> CD </ li>
+<Value li = "5"> D </ li>
+<Value li = "6"> DC </ li>
+<Value li = "7"> DCC </ li>
+<Value li = "8"> DCCC </ li>
+<Value li = "9"> CM </ li>
+<Li />
+<Index = "2" / star> <index star = "3" /> </ kondisi> <srai> ROMAN </ srai> </ template>
+</ Kategori>
+<category> <pola> ROMAN <set> digit </ set> <set> digit </ set> <set> digit </ set> <set> digit </ set> </ pola>
+<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+<Kondisi var = "d">
+<Value li = "1"> M </ li>
+<Value li = "2"> MM </ li>
+<Value li = "3"> MMM </ li>
+<Value li = "4"> MMMM </ li> <li nilai = "5"> D </ li>
+<Value li = "6"> MMMMM </ li>
+<Value li = "7"> MMMMMM </ li>
+<Value li = "8"> MMMMMMM </ li>
+<Value li = "9"> MMMMMMMM </ li>
+<Li />
+<Index star = "4" /> <index star = "3" /> </ kondisi> <srai> ROMAN <index = "2" / star> </ srai> </ template>
+</ Kategori>
+</aiml>

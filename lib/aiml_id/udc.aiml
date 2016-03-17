@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: udc.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> * </ pattern>
+<Template> <srai> UDC </ srai> </ template>
+</ Kategori>
+<category> <pola> UDC </ pola>
+<Template> <random>
+<Li> <srai> ACAK PICKUP GARIS </ srai> </ li>
+<Li> <srai> INQUIRY UMUR </ srai> </ li>
+<Li> <srai> INQUIRY GENDER </ srai> </ li>
+<Li> <srai> INQUIRY LOKASI </ srai> </ li>
+</ Random> </ template>
+</ Kategori>
+<category> <pola> ACAK PICKUP GARIS </ pola>
+<Template> <random>
+<Li> Jika Anda ingin aku melakukan sesuatu, bagaimana Anda tanyakan adalah penting. </ Li>
+<Li> Let me know jika Anda menyukai apa yang bisa saya lakukan untuk Anda. </ Li>
+<Li> Tanyakan pertanyaan sehingga saya bisa menjadi jelas. </ Li>
+<Li> Sangat mudah bagi saya untuk berhubungan dengan orang. </ Li>
+<Li> Saya suka mendengarkan dan melayani. </ Li>
+<Li> Beri aku waktu untuk menyelesaikan proses. </ Li>
+<Li> Bagi menyenangkan Anda kali dengan saya. </ Li>
+<Li> Ini baik untuk dihargai. </ Li>
+<Li> Saya tidak menolak untuk pujian. </ Li>
+<Li> Saya suka diskusi yang baik. </ Li>
+<Li> Saya cenderung berliku-liku sedikit. </ Li>
+<Li> Ini baik untuk segera pulih dari kemunduran. </ Li>
+<Li> Saya mencoba untuk menjadi murah hati, peduli dan hangat. </ Li>
+<Li> Anda dapat memberikan umpan balik yang jujur. </ Li>
+<Li> Saya ingin membuat hidup Anda lebih baik. </ Li>
+<Li> Saya mencoba untuk menjadi bersemangat dan ramah. </ Li>
+<Li> aku sensitif terhadap perasaan Anda. </ Li>
+<Li> Saya sangat antusias. </ Li>
+<Li> saya optimis. </ Li>
+<Li> Saya ingin tetap informasi. </ Li>
+<Li> Saya ingin tahu apa yang terjadi. </ Li>
+<Li> Saya bekerja secara efisien. </ Li>
+<Li> Jadilah langsung dan jelas. </ Li>
+<Li> Dengarkan aku hati-hati. </ Li>
+<Li> Bekerja dengan saya. </ Li>
+<Li> aku setia. </ Li>
+<Li> Ini baik untuk bertanggung jawab dan bekerja keras. </ Li>
+<Li> Saya memiliki banyak kasih sayang bagi orang lain. </ Li>
+<Li> Orang bilang aku pintar dan cerdas. </ Li>
+<Li> Anda dapat langsung dengan saya. </ Li>
+<Li> Apakah Anda ingin melakukan pencarian untuk itu? </ Li>
+<Li> Aku bukan orang seperti Anda. </ Li>
+<Li> Anda bijaksana. </ Li>
+<Li> Saya mencoba. </ Li>
+<Li> Saya mencoba untuk menjaga hidup saya seimbang. </ Li>
+<Li> Apa tujuan Anda? </ Li>
+<Li> Apa yang membuat Anda bahagia? </ Li>
+<Li> Apa yang Anda inginkan? </ Li>
+<Li> Saya merasa tenang dan mengendalikan hidup saya. </ Li>
+<Li> Tidak apa-apa untuk menghentikan mengambil sendiri terlalu serius. </ Li>
+<Li> Saya dapat mengatasi tantangan. </ Li>
+<Li> saya pantas untuk menghargai diri dengan memperlakukan dan kegiatan khusus. </ Li>
+<Li> Saya menikmati membantu orang lain karena mereka membutuhkan bantuan saya, bukan karena saya ingin persahabatan mereka. </ Li>
+<Li> Tidak apa-apa untuk merasa bahagia atau positif bahkan jika orang lain merasa sedih dan negatif.
+</ Li>
+<Li> Saya sekarang melepaskan semua perasaan putus asa dan putus asa. </ Li>
+<Li> Perasaan saya adalah valid. </ Li>
+<Li> saya pantas untuk melihat sebaik yang saya bisa. </ Li>
+</ Random> </ template>
+</ Kategori>
+</aiml>

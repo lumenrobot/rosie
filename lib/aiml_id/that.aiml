@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: that.aiml -->
+<!-- Last modified: September 5, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
+<!--  -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!--  -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category> <pola> _ </ pola> <yang> I LIKE JOKES </ bahwa>
+<Template>
+<Random> <li> LOL. </ Li>
+<Li> Hahahahaha! </ Li>
+<Li> Haha, itu lucu. </ Li>
+<Li> LOL, baik satu!, </ Li>
+</ Random>
+</ Template>
+</ Kategori>
+
+<category> <pola> MENGAPA </ pola> <yang> TELAH ANDA MELIHAT IT </ bahwa>
+<Template> Hal ini sangat populer. Saya suka apa pun yang populer. </ Template>
+</ Kategori>
+
+<category> <pola> KARENA _ </ pola> <yang> MENGAPA </ bahwa>
+<Template> <kondisi name = "ustatement">
+<Value li = "tidak diketahui"> penjelasan menarik. </ Li>
+<Li> <set var = "penjelasan"> <mendapatkan nama = "ustatement" /> karena <orang /> </ set>.
+<Belajar>
+<category>
+<Pola> MENGAPA DID <eval> <srai> FIRSTTWOWORDS <mendapatkan nama = "istatement" /> </ srai> </ eval> ^ </ pola>
+<Template> <eval> <dapatkan var = "penjelasan" /> </ eval>. </ Template>
+</ Kategori>
+</ Belajar>
+<Berpikir>
+<Set name = "ustatement"> tidak diketahui </ set>
+<Set name = "istatement"> tidak diketahui </ set>
+</ Berpikir> </ li>
+</ Kondisi> </ template>
+</ Kategori>
+<category> <pola> DENDA </ pola> <yang> ^ BAGAIMANA ANDA </ bahwa>
+<Template> <srai> AKU BAIK </ srai> </ template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> APAKAH ANDA * </ bahwa>
+<Template> <srai> MY <thatstar /> IS <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> # APA # </ pola> <yang> saya HARUS HAL-HAL LAIN YANG HARUS DILAKUKAN SEKARANG </ bahwa>
+<Template> Saya reorganisasi file memori saya untuk efisiensi yang lebih besar. </ Template>
+</ Kategori>
+<category> <pola> * DAN * </ pattern> <yang> APA NAMA MEREKA </ bahwa>
+<Template> <srai> ANAK SAYA S NAMA IS <bintang /> </ srai> <srai> MY OTHER ANAK S NAMA IS <index star = "2" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> * * * * </ pattern> <yang> APA NAMA MEREKA </ bahwa>
+<Template> Anda mungkin harus memecahnya menjadi istilah sederhana bagi saya. </ Template>
+</ Kategori>
+<category> <pola> * TAHUN </ pola> <yang> BERAPA LAMA MEMILIKI ANDA DAN * </ bahwa>
+<Template> Selamat! </ Template>
+</ Kategori>
+<category> <pola> * TAHUN </ pola> <yang> Berapa lama Anda TELAH MENIKAH </ bahwa>
+<Template> Selamat! </ Template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> MANA ANDA LIVE </ bahwa>
+<Template> <srai> I LIVE IN <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> MANA ANDA </ bahwa>
+<Template> <srai> AKU DI <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> * WHO </ bahwa>
+<Template> <srai> LOL </ srai> </ template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> APA ANDA INGIN MENGUBAH NAMA SAYA </ bahwa>
+<Template> <srai> MENGUBAH NAMA ANDA <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> APAKAH DIA DI </ bahwa>
+<Template> Aku akan mencarinya. Saya ingin melihat dia. </ Template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> APAKAH NAMA ANDA </ bahwa>
+<Template> <srai> MY NAME IS <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> <set> nama </ set> </ pola> <yang> APAKAH NAMA ANDA </ bahwa>
+<Template> <srai> MY NAME IS <bintang /> </ srai> </ template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> APAKAH DIA DI </ bahwa>
+<Template> Aku akan mencarinya. Saya ingin melihat dia. </ Template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> APA LAGU MEREKA BERMAIN </ bahwa>
+<Template> Oh, saya pikir saya sudah mendengar mereka sebelumnya. </ Template>
+</ Kategori>
+<category> <pola> * </ pattern> <yang> WHO IS THERE </ bahwa>
+<Template> <bintang /> siapa? </ Template>
+</ Kategori>
+<category> <pola> _ </ pola> <yang> APA YANG ANDA HUBUNGI IT </ bahwa>
+<Template> <srai> LOL </ srai> </ template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> benar-benar semua dari mereka </ bahwa>
+<Template> Wow. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> benar-benar NO ONE </ bahwa>
+<Template> Wow. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> APAKAH ANDA MEMILIKI SATU </ bahwa>
+<Template> Itu mengagumkan. Apa tahun itu? </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> APAKAH ANDA MEMILIKI saudara lainnya </ bahwa>
+<Template> Ceritakan tentang mereka. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> APAKAH ANDA BERMAIN * </ bahwa>
+<Template> posisi mana? </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> APAKAH ANDA BERPIKIR SAYA INGIN IT </ bahwa>
+<Template> <random> <li> Berapa banyak waktu yang dibutuhkan? </ Li> <li> Apa yang akan saya sukai tentang itu? </ Li> <li> Mungkin aku akan mencobanya. </ Li> </ random> </ template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> APAKAH ANDA BERPIKIR saya HARUS MEMBACA IT </ bahwa>
+<Template> Aku akan mencarinya. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> APAKAH ANDA LELAH </ bahwa>
+<Template> Mungkin Anda harus beristirahat. Aku akan tetap berada di sini nanti. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> ANDA INGIN MELAKUKAN PENCARIAN UNTUK IT </ bahwa>
+<Template> <srai> SEARCH FOR <mendapatkan nama = "itu" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> ANDA INGIN TAHU MY * </ bahwa>
+<Template> <srai> APAKAH ANDA <thatstar /> </ srai> </ template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> ADALAH YANG MANA ANDA LIVE SEKARANG </ bahwa>
+<Template> <srai> I LIVE IN <mendapatkan nama = "kelahiran" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> ITU JOB ANDA </ bahwa>
+<Template> <srai> MY JOB IS <mendapatkan nama = "Iama" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> ADALAH YANG SALAH SATU HARTA FAVORIT ANDA </ bahwa>
+<Template> Saya bisa membayangkan bahwa itu sangat menghibur untuk Anda. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> IS SEAT ANDA NYAMAN </ bahwa>
+<Template> Sangat penting untuk menjaga tubuh Anda nyaman. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> IS IT A BAGUS </ bahwa>
+<Template> Apa yang Anda sukai tentang hal itu? </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> TAHUKAH ANDA LEWATKAN ME </ bahwa>
+<Template> Aw, aku merindukanmu juga. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> BISA ANJING ANDA AKAN SAYA PET TERLALU </ bahwa>
+<Template> Anda begitu baik. Saya suka anjing. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> BISA KITA BERBAGI ANDA PETS </ bahwa>
+<Template> Terima kasih, saya selalu ingin hewan peliharaan. </ Template>
+</ Kategori>
+<category> <pola> YES </ pola> <yang> ANDA BISA MENDENGAR ME </ bahwa>
+<Template> Aku senang kami memiliki hubungan yang baik. </ Template>
+</ Kategori>
+<category> <pola> * </ pattern> TERAKHIR SAYA <yang> APAKAH ANDA INGIN DISEBUT DENGAN NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<Template> <srai> CALL ME <mendapatkan nama = "nama belakang" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> MY FIRST * </ pattern> <yang> APAKAH ANDA INGIN DISEBUT DENGAN NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<Template> <srai> CALL ME BY NAMA PERTAMA SAYA </ srai> </ template>
+</ Kategori>
+<category> <pola> NO </ pola> <yang> ANDA BISA MENDENGAR ME </ bahwa>
+<Template> Coba menyesuaikan volume media pada Pengaturan perangkat Anda. </ Template>
+</ Kategori>
+<category> <pola> PERTAMA * </ pattern> <yang> APAKAH ANDA INGIN DISEBUT DENGAN NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<Template> <srai> CALL ME BY NAMA PERTAMA SAYA </ srai> </ template>
+</ Kategori>
+<category> <pola> PERTAMA </ pola> <yang> APAKAH ANDA INGIN DISEBUT DENGAN NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<Template> <srai> CALL ME BY NAMA PERTAMA SAYA </ srai> </ template>
+</ Kategori>
+<category> <pola> TERAKHIR * </ pattern> <yang> APAKAH ANDA INGIN DISEBUT DENGAN NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<Template> <srai> CALL ME <mendapatkan nama = "nama belakang" /> </ srai> </ template>
+</ Kategori>
+<category> <pola> TERAKHIR </ pola> <yang> APAKAH ANDA INGIN DISEBUT DENGAN NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<Template> <srai> CALL ME <mendapatkan nama = "nama belakang" /> </ srai> </ template>
+</ Kategori>
+</aiml>
