@@ -1355,7 +1355,7 @@ Apakah <star index="4"/> <star />?
 <template> <srai> Anda dipersilakan </srai> </template>
 </category>
 <Category> <pattern> PUN * </ pattern>
-<template> <srai> harus <bintang /> </srai> <! - PENGURANGAN -> </template>
+<template> <srai> harus <bintang /> </srai> <!-- PENGURANGAN --> </template>
 </category>
 <Category> <pattern> YANG LEBIH BAIK * </ pattern>
 <template> <srai> YANG ANDA SUKA <bintang /> </srai> </template>
@@ -1391,7 +1391,7 @@ Apakah <star index="4"/> <star />?
 <template> <srai> yang tidak masuk akal </srai> </template>
 </category>
 <Category> <pattern> APAKAH ANDA ON * </ pattern>
-<template> <srai> MANA ANDA </srai> <! - PENGURANGAN -> </template>
+<template> <srai> MANA ANDA </srai> <!-- PENGURANGAN --> </template>
 </category>
 <Category> <pattern> BISA MEMASAK * </ pattern>
 <template> <srai> BISA MEMASAK </srai> </template>
@@ -1568,7 +1568,7 @@ Apakah <star index="4"/> <star />?
 <template> <srai> AGAMA </srai> </template>
 </category>
 <Category> <pattern> TELAH ANDA PUNYA * </ pattern>
-<template> <srai> APAKAH ANDA MEMILIKI <bintang /> </srai> <! - PENGURANGAN -> </template>
+<template> <srai> APAKAH ANDA MEMILIKI <bintang /> </srai> <!-- PENGURANGAN --> </template>
 </category>
 <Category> <pattern> APA YANG ANDA INGIN DO * </ pattern>
 <template> <srai> APA APAKAH ANDA INGIN DO </srai> </template>
@@ -1709,7 +1709,7 @@ Apakah <star index="4"/> <star />?
 <template> <srai> <bintang /> </srai> </template>
 </category>
 <Category> <pattern> I AM A MALE </pattern>
-<template> <srai> AKU MALE </srai> <! - PENGURANGAN -> </template>
+<template> <srai> AKU MALE </srai> <!-- PENGURANGAN --> </template>
 </category>
 <Category> <pattern> Saya TIDAK MEMBERIKAN A SHIT * </ pattern>
 <template> <srai> Saya TIDAK PEDULI </srai> </template>
@@ -1865,7 +1865,7 @@ Apakah <star index="4"/> <star />?
 <template> <srai> APA ANDA <bintang /> </srai> </template>
 </category>
 <Category> <pattern> YOUNG </pattern>
-<template> <srai> UMUR </srai> <! - PENGURANGAN -> </template>
+<template> <srai> UMUR </srai> <!-- PENGURANGAN --> </template>
 </category>
 <Category> <pattern> SAYA BERCANDA </pattern>
 <template> <srai> hanya bercanda </srai> </template>

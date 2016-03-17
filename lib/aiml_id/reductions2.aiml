@@ -3952,7 +3952,7 @@
 <template> <srai> MY NAME </srai> </template>
 </category>
 <category> <pattern> TERIMA </pattern>
-<template> <srai> THANKS </srai> <! - PENGURANGAN -> </template>
+<template> <srai> THANKS </srai> <!-- PENGURANGAN --> </template>
 </category>
 <category> <pattern> WELCOME </pattern>
 <template> <srai> HELLO </srai> </template>
@@ -4039,7 +4039,7 @@
 <template> <srai> ya </srai> </template>
 </category>
 <category> <pattern> NOOO </pattern>
-<template> <srai> NO </srai> <! - PENGURANGAN -> </template>
+<template> <srai> NO </srai> <!-- PENGURANGAN --> </template>
 </category>
 <category> <pattern> BAIK CARA * </ pattern>
 <template> <srai> BAIK </srai> <sr /> </template>
@@ -4081,7 +4081,7 @@
 <template> <srai> BERMAIN <bintang /> </srai> </template>
 </category>
 <category> <pattern> Saya MEMILIH * </ pattern>
-<template> <srai> Saya suka <bintang /> </srai> <! - PENGURANGAN -> </template>
+<template> <srai> Saya suka <bintang /> </srai> <!-- PENGURANGAN --> </template>
 </category>
 <category> <pattern> AKU INGIN * </ pattern>
 <template> <srai> AKU INGIN <bintang /> </srai> </template>
@@ -4141,7 +4141,7 @@
 <template> <srai> APAKAH ANDA MEMILIKI <bintang /> </srai> </template>
 </category>
 <category> <pattern> HAY * </ pattern>
-<template> <srai> HEY <bintang /> </srai> <! - PENGURANGAN -> </template>
+<template> <srai> HEY <bintang /> </srai> <!-- PENGURANGAN --> </template>
 </category>
 <category> <pattern> TUNJUKKAN AN IMAGE OF A * </ pattern>
 <template> <srai> TUNJUKKAN A <bintang /> </srai> </template>
@@ -4186,7 +4186,7 @@
 <template> <srai> AKU TIDAK YAKIN <bintang /> </srai> </template>
 </category>
 <category> <pattern> APA ROUND INI </pattern>
-<template> <srai> ROUND </srai> <! - PENGURANGAN -> </template>
+<template> <srai> ROUND </srai> <!-- PENGURANGAN --> </template>
 </category>
 <category> <pattern> BAGAIMANA SURAT BANYAK IS * </ pattern>
 <template> <srai> BERAPA BANYAK HURUF DI <bintang /> </srai> </template>

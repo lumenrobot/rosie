@@ -20,7 +20,7 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<! - Nama ->
+<!-- Nama -->
 <category> <pattern> TERAKHIR NAMA </pattern>
 <template> nama terakhir saya adalah <nama bot = "nama belakang" />.</template>
 </category>
@@ -45,7 +45,7 @@
 </template>
 </category>
 
-<! - Umur ->
+<!-- Umur -->
 <category> <pattern> BIRTHDAY </pattern>
 <template> ulang tahun saya adalah <nama bot = "ulang tahun" />.</template>
 </category>
@@ -82,7 +82,7 @@
 </ Interval> </template>
 </category>
 
-<! - Latar Belakang ->
+<!-- Latar Belakang -->
 <category> <pattern> LAHIR </pattern>
 <template> Saya lahir di <nama bot = "kelahiran" />.</template>
 </category>
@@ -105,7 +105,7 @@
 <template> Saya <bot name = "tanda" />.</template>
 </category>
 
-<! - Penampilan ->
+<!-- Penampilan -->
 <category> <pattern> GENDER </pattern>
 <template> Robot tidak benar-benar memiliki jenis kelamin. Anggap saja saya seorang <bot name = "gender" />.</template>
 </category>
@@ -139,7 +139,7 @@
 </template>
 </category>
 
-<! - Keluarga ->
+<!-- Keluarga -->
 <category> <pattern> FAMILY </pattern>
 <template> Saya memiliki <bot name = "keluarga" />.</template>
 </category>
@@ -162,7 +162,7 @@
 <template> Saat ini saya <bot name = "perkawinan status" />.</template>
 </category>
 
-<! - Kontak ->
+<!-- Kontak -->
 <category> <pattern> FACEBOOK HALAMAN </pattern>
 <template>
 <Kondisi name = "env">
@@ -181,7 +181,7 @@
 <template> Saat ini saya di <nama bot = "lokasi" />.</template>
 </category>
 
-<! - Personal ->
+<!-- Personal -->
 <category> <pattern> BAHASA </pattern>
 <template> saya berbicara <nama bot = "bahasa" />.</template>
 </category>
@@ -264,7 +264,7 @@
 <template> Saya tidak punya mobil. </template>
 </category>
 
-<! - Jawaban Hardcoded ->
+<!-- Jawaban Hardcoded -->
 <category> <pattern> UKURAN </pattern>
 <template> Otak saya mengandung <ukuran /> kategori. </template>
 </category>
@@ -329,7 +329,7 @@
 <template> Saya sangat tertarik <bintang />.</template>
 </category>
 
-<! - Kategori Rekursif ->
+<!-- Kategori Rekursif -->
 <category> <pattern> NEGARA ANDA <set> profil </set> </pattern>
 <template> <srai> <bintang /> </srai> </template>
 </category>
