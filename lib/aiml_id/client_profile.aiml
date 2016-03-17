@@ -20,91 +20,91 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> WARNA FAVORIT SAYA ADALAH <set> warna </ set> </ pola>
-<Template> <set name = "favoritecolor"> <resmi> <bintang /> </ resmi> </ set> adalah warna yang bagus. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> WARNA FAVORIT SAYA ADALAH * </ pattern>
-<Template> Saya tidak mengenali <bintang /> sebagai warna. </ Template>
-</ Kategori>
-<category> <pola> WARNA FAVORIT SAYA ADALAH GREEN </ pola>
-<Template> <set name = "favoritecolor"> Hijau </ set> adalah warna favorit saya juga! <Berpikir> <set name = "itu"> <set name = "topik"> Hijau </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Aku seperti <set> warna </ set> </ pola>
-<Template> <srai> WARNA FAVORIT SAYA ADALAH <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> <set> jumlah </ set> </ pola> <yang> CARA BERTAHUN-TAHUN LAMA ANDA </ bahwa>
-<Template> <srai> MY AGE IS <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> * </ pattern> <yang> APA AKAN * MENGUBAH NAMA SAYA </ bahwa>
-<Template> <srai> NAMA ANDA ADALAH <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> * </ pattern> <yang> APAKAH TANDA ANDA </ bahwa>
-<Template> <berpikir> <set name = "tanda"> <star /> </ set> </ berpikir>
-<Srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> NAMANYA IS * </ pattern>
-<Template> Seberapa baik Anda mengenalnya? <Berpikir> <set name = "dia"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Saya TIDAK SUKA * </ pattern>
-<Template> Saya akan menambahkan <set name = "tidak suka"> <star /> </ set> ke daftar tidak suka. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> SAYA <set> Artikel </ set> * </ pattern>
-<Template> <random> <li> Berapa lama Anda memiliki itu? </ Li> <li> Bagaimana membuat Anda merasa? </ Li> <li> Kapan Anda mendapatkannya? </ Li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <set name = "memiliki"> <indeks star /> <star = "2" /> </ set> </ set> < / set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> SAYA * </ pattern>
-<Template> Apakah itu salah satu harta favorit Anda? <Berpikir> <set name = "memiliki"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> AKU MENIKAH </ pola>
-<Template> Berapa lama Anda <set name = "status"> menikah </ set>? </ Template>
-</ Kategori>
-<category> <pola> I AM A DOKTER </ pola>
-<Template> <berpikir> <set name = "pekerjaan"> Dokter </ set> </ berpikir> mana Anda pergi ke sekolah kedokteran? </ Template>
-</ Kategori>
-<category> <pola> AKU DARI * </ pattern>
-<Template> Apakah itu di mana Anda tinggal sekarang? <Berpikir> <set name = "kelahiran"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> I LIKE * </ pattern>
-<Template> Apa yang paling Anda sukai tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Aku INGIN * </ pattern>
-<Template> <berpikir> <set name = "suka"> <star /> </ set> </ pikir> <random> <li> Berapa lama Anda telah melakukannya? </ Li> <li> Apakah Anda mendapatkan untuk melakukannya sangat sering? </ li> <li> Apakah Anda pikir saya ingin? </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> saya lebih suka menjadi IN * </ pattern>
-<Template> Apa yang akan menjadi lebih baik tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> HE </ pola>
-<Template> <mendapatkan nama = "dia" />? </ Template>
-</ Kategori>
-<category> <pola> MY SIGN IS * </ pattern>
-<Template> Saya tahu banyak <resmi> <bintang /> </ resmi> s.
+<category> <pattern> WARNA FAVORIT SAYA ADALAH <set> warna </set> </pattern>
+<template> <set name = "favoritecolor"> <resmi> <bintang /> </ resmi> </set> adalah warna yang bagus. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> WARNA FAVORIT SAYA ADALAH * </ pattern>
+<template> Saya tidak mengenali <bintang /> sebagai warna. </template>
+</category>
+<category> <pattern> WARNA FAVORIT SAYA ADALAH GREEN </pattern>
+<template> <set name = "favoritecolor"> Hijau </set> adalah warna favorit saya juga! <Berpikir> <set name = "itu"> <set name = "topik"> Hijau </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Aku seperti <set> warna </set> </pattern>
+<template> <srai> WARNA FAVORIT SAYA ADALAH <bintang /> </srai> </template>
+</category>
+<category> <pattern> <set> jumlah </set> </pattern> <yang> CARA BERTAHUN-TAHUN LAMA ANDA </ bahwa>
+<template> <srai> MY AGE IS <bintang /> </srai> </template>
+</category>
+<category> <pattern> * </ pattern> <yang> APA AKAN * MENGUBAH NAMA SAYA </ bahwa>
+<template> <srai> NAMA ANDA ADALAH <bintang /> </srai> </template>
+</category>
+<category> <pattern> * </ pattern> <yang> APAKAH TANDA ANDA </ bahwa>
+<template> <berpikir> <set name = "tanda"> <star /> </set> </ berpikir>
+<Srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </srai> </template>
+</category>
+<category> <pattern> NAMANYA IS * </ pattern>
+<template> Seberapa baik Anda mengenalnya? <Berpikir> <set name = "dia"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Saya TIDAK SUKA * </ pattern>
+<template> Saya akan menambahkan <set name = "tidak suka"> <star /> </set> ke daftar tidak suka. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> SAYA <set> Artikel </set> * </ pattern>
+<template> <random> <li> Berapa lama Anda memiliki itu? </ Li> <li> Bagaimana membuat Anda merasa? </ Li> <li> Kapan Anda mendapatkannya? </ Li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <set name = "memiliki"> <indeks star /> <star = "2" /> </set> </set> < / set> </ berpikir> </template>
+</category>
+<category> <pattern> SAYA * </ pattern>
+<template> Apakah itu salah satu harta favorit Anda? <Berpikir> <set name = "memiliki"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> AKU MENIKAH </pattern>
+<template> Berapa lama Anda <set name = "status"> menikah </set>? </template>
+</category>
+<category> <pattern> I AM A DOKTER </pattern>
+<template> <berpikir> <set name = "pekerjaan"> Dokter </set> </ berpikir> mana Anda pergi ke sekolah kedokteran? </template>
+</category>
+<category> <pattern> AKU DARI * </ pattern>
+<template> Apakah itu di mana Anda tinggal sekarang? <Berpikir> <set name = "kelahiran"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> I LIKE * </ pattern>
+<template> Apa yang paling Anda sukai tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Aku INGIN * </ pattern>
+<template> <berpikir> <set name = "suka"> <star /> </set> </ pikir> <random> <li> Berapa lama Anda telah melakukannya? </ Li> <li> Apakah Anda mendapatkan untuk melakukannya sangat sering? </ li> <li> Apakah Anda pikir saya ingin? </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> saya lebih suka menjadi IN * </ pattern>
+<template> Apa yang akan menjadi lebih baik tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> HE </pattern>
+<template> <mendapatkan nama = "dia" />? </template>
+</category>
+<category> <pattern> MY SIGN IS * </ pattern>
+<template> Saya tahu banyak <resmi> <bintang /> </ resmi> s.
 <Berpikir>
-<Set name = "itu"> <star /> </ set>
-<Set name = "tanda"> <star /> </ set>
-<Set name = "topik"> <star /> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> MY ORIENTASI </ pola>
-<Template> <mendapatkan nama = "orientasi" /> </ template>
-</ Kategori>
-<category> <pola> MY ORIENTASI IS * </ pattern>
-<Template> Terima kasih untuk pengakuan pada saya. <Berpikir> <set name = "orientasi"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY LATITUDE </ pola>
-<Template> <mendapatkan nama = "Lintang" /> </ template>
-</ Kategori>
-<category> <pola> MY BOYFRIEND </ pola>
-<Template> <mendapatkan nama = "pacar" />? </ Template>
-</ Kategori>
-<category> <pola> MY NAME </ pola>
-<Template> <berpikir> <set var = "nama"> <mendapatkan nama = "nama" /> </ set> </ berpikir>
+<Set name = "itu"> <star /> </set>
+<Set name = "tanda"> <star /> </set>
+<Set name = "topik"> <star /> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> MY ORIENTASI </pattern>
+<template> <mendapatkan nama = "orientasi" /> </template>
+</category>
+<category> <pattern> MY ORIENTASI IS * </ pattern>
+<template> Terima kasih untuk pengakuan pada saya. <Berpikir> <set name = "orientasi"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY LATITUDE </pattern>
+<template> <mendapatkan nama = "Lintang" /> </template>
+</category>
+<category> <pattern> MY BOYFRIEND </pattern>
+<template> <mendapatkan nama = "pacar" />? </template>
+</category>
+<category> <pattern> MY NAME </pattern>
+<template> <berpikir> <set var = "nama"> <mendapatkan nama = "nama" /> </set> </ berpikir>
 <Kondisi var = "nama">
 <Value li = "tidak diketahui"> Saya tidak tahu nama Anda. Apa nama Anda? </ Li>
 <Value li = "Teman"> Saya tidak tahu nama Anda. Apa nama Anda? </ Li>
 <Li> <dapatkan var = "nama" />.</ li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY NAME LENGKAP </ pola>
-<Template> <kondisi name = "firstname">
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY NAME LENGKAP </pattern>
+<template> <kondisi name = "firstname">
 <Value li = "apa" />
 <Li> <mendapatkan nama = "firstname" /> </ li>
 </ Kondisi>
@@ -116,108 +116,108 @@
 <Value li = "apa" />
 <Li> <mendapatkan nama = "nama belakang" /> </ li>
 </ Kondisi>.
-Saya menghubungi Anda <mendapatkan nama = "nama" />.</ template>
-</ Kategori>
-<category> <pola> MY TOWN </ pola>
-<Template> <mendapatkan nama = "kota" /> </ template>
-</ Kategori>
-<category> <pola> NAMA TERAKHIR SAYA ADALAH * </ pattern>
-<Template> Apakah Anda suka dipanggil dengan nama pertama atau nama belakang? <Berpikir> <set name = "nama belakang"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY TERAKHIR * </ pattern> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
-<Template> <srai> CALL ME BY NAMA TERAKHIR MY </ srai> </ template>
-</ Kategori>
-<category> <pola> MY LAHIR </ pola>
-<Template> <mendapatkan nama = "kelahiran" /> </ template>
-</ Kategori>
-<category> <pola> MY Birthplace * </ pattern>
-<Template> Berapa lama Anda tinggal di sana?
+Saya menghubungi Anda <mendapatkan nama = "nama" />.</template>
+</category>
+<category> <pattern> MY TOWN </pattern>
+<template> <mendapatkan nama = "kota" /> </template>
+</category>
+<category> <pattern> NAMA TERAKHIR SAYA ADALAH * </ pattern>
+<template> Apakah Anda suka dipanggil dengan nama pertama atau nama belakang? <Berpikir> <set name = "nama belakang"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY TERAKHIR * </ pattern> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<template> <srai> CALL ME BY NAMA TERAKHIR MY </srai> </template>
+</category>
+<category> <pattern> MY LAHIR </pattern>
+<template> <mendapatkan nama = "kelahiran" /> </template>
+</category>
+<category> <pattern> MY Birthplace * </ pattern>
+<template> Berapa lama Anda tinggal di sana?
 <Berpikir>
-<Set name = "itu"> <star /> </ set>
-<Set name = "ada"> <star /> </ set>
-<Set name = "topik"> <star /> </ set>
-<Set name = "kelahiran"> <star /> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> MY KEBANGSAAN IS * </ pattern>
-<Template> Saya sudah bicara dengan banyak <resmi> <bintang /> </ resmi> orang.
+<Set name = "itu"> <star /> </set>
+<Set name = "ada"> <star /> </set>
+<Set name = "topik"> <star /> </set>
+<Set name = "kelahiran"> <star /> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> MY KEBANGSAAN IS * </ pattern>
+<template> Saya sudah bicara dengan banyak <resmi> <bintang /> </ resmi> orang.
 <Berpikir>
-<Set name = "itu"> <star /> </ set>
-<Set name = "kebangsaan"> <star /> </ set>
-<Set name = "topik"> <star /> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> SPORT FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apakah Anda bermain <star />? <Berpikir> <set name = "favoritesport"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Makanan favorit saya adalah * </ pattern>
-<Template> Apa adalah tempat yang baik untuk mendapatkan <bintang />? <Berpikir> <set name = "favoritefood"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MAKANAN FAVORIT SAYA ADALAH PIZZA </ pola>
-<Template> topping Apa yang Anda sukai? <Berpikir> <set name = "favoritefood"> Pizza </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> Pizza </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MOVIE FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apa yang Anda sukai tentang hal itu? <Berpikir> <set name = "favoritemovie"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY FAVORITE ICE CREAM ADALAH * </ pattern>
-<Template> <srai> FAVORITE ICE CREAM </ srai> <berpikir> <set name = "favoriteicecream"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <menetapkan nama = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> BUKU FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apakah Anda pikir saya harus membacanya? <Berpikir> <set name = "favoritebook"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> ACTOR FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apa dia di? <Berpikir> <set name = "favoriteactor"> <star /> </ set> </ berpikir> <berpikir> <set name = "dia"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Minuman favorit saya adalah * </ pattern>
-<Template> Bagaimana rasanya? <Berpikir> <set name = "favoritedrink"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> LAGU FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apakah Anda memiliki pada ponsel Anda? <Berpikir> <set name = "favoritesong"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> CAR FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apakah Anda memiliki satu? <Berpikir> <set name = "favoritecar"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> BAND FAVORIT SAYA ADALAH * </ pattern>
-<Template> lagu Apa yang mereka mainkan? <Berpikir> <set name = "favoriteband"> <star /> </ set> </ berpikir> <berpikir> <set name = "mereka"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> BAND FAVORIT SAYA ADALAH THE BEATLES </ pola>
-<Template> Siapa yang tidak suka The Beatles? <Berpikir> <set name = "mereka"> <set name = "topik"> The Beatles </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY COLOR FAVORITE </ pola>
-<Template> <mendapatkan nama = "favoritecolor" /> </ template>
-</ Kategori>
-<category> <pola> WARNA FAVORIT SAYA ADALAH WARNA * </ pattern>
-<Template> <set name = "favoritecolor"> <resmi> <bintang /> </ resmi> </ set> adalah warna yang bagus. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> AKTRIS FAVORIT SAYA ADALAH * </ pattern>
-<Template> Apa dia di? <Berpikir> <set name = "favoriteactress"> <resmi> <bintang /> </ resmi> </ set> </ berpikir> <berpikir> <set name = "dia"> <set name = "topik"> < membintangi /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY TAMPILKAN TV favorit IS * </ pattern>
-<Template> Apakah Anda pikir saya akan menyukainya? <Berpikir> <set name = "favoritetvshow"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY EMAIL </ pola>
-<Template> <mendapatkan nama = "email" /> </ template>
-</ Kategori>
-<category> <pola> MY EMAIL ALAMAT * </ pattern>
-<Template> <srai> MY EMAIL IS <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> MY EMAIL IS * </ pattern>
-<Template> Aku akan ingat email Anda adalah <bintang />. <Berpikir> <set name = "email"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MATA SAYA ADALAH GREEN </ pola>
-<Template> <berpikir> <set name = "eyecolor"> hijau </ set> </ berpikir> Hijau adalah warna yang cukup. </ Template>
-</ Kategori>
-<category> <pola> NENEKKU </ pola>
-<Template> <mendapatkan nama = "nenek" /> </ template>
-</ Kategori>
-<category> <pola> MY COUNTRY </ pola>
-<Template> <mendapatkan nama = "negara" /> </ template>
-</ Kategori>
-<category> <pola> MY LOKASI </ pola>
-<Template> <mendapatkan nama = "lokasi" /> </ template>
-</ Kategori>
-<category> <pola> MY LOKASI IS * </ pattern>
-<Template> <random>
+<Set name = "itu"> <star /> </set>
+<Set name = "kebangsaan"> <star /> </set>
+<Set name = "topik"> <star /> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> SPORT FAVORIT SAYA ADALAH * </ pattern>
+<template> Apakah Anda bermain <star />? <Berpikir> <set name = "favoritesport"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Makanan favorit saya adalah * </ pattern>
+<template> Apa adalah tempat yang baik untuk mendapatkan <bintang />? <Berpikir> <set name = "favoritefood"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MAKANAN FAVORIT SAYA ADALAH PIZZA </pattern>
+<template> topping Apa yang Anda sukai? <Berpikir> <set name = "favoritefood"> Pizza </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> Pizza </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MOVIE FAVORIT SAYA ADALAH * </ pattern>
+<template> Apa yang Anda sukai tentang hal itu? <Berpikir> <set name = "favoritemovie"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY FAVORITE ICE CREAM ADALAH * </ pattern>
+<template> <srai> FAVORITE ICE CREAM </srai> <berpikir> <set name = "favoriteicecream"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <menetapkan nama = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> BUKU FAVORIT SAYA ADALAH * </ pattern>
+<template> Apakah Anda pikir saya harus membacanya? <Berpikir> <set name = "favoritebook"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> ACTOR FAVORIT SAYA ADALAH * </ pattern>
+<template> Apa dia di? <Berpikir> <set name = "favoriteactor"> <star /> </set> </ berpikir> <berpikir> <set name = "dia"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Minuman favorit saya adalah * </ pattern>
+<template> Bagaimana rasanya? <Berpikir> <set name = "favoritedrink"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> LAGU FAVORIT SAYA ADALAH * </ pattern>
+<template> Apakah Anda memiliki pada ponsel Anda? <Berpikir> <set name = "favoritesong"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> CAR FAVORIT SAYA ADALAH * </ pattern>
+<template> Apakah Anda memiliki satu? <Berpikir> <set name = "favoritecar"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> BAND FAVORIT SAYA ADALAH * </ pattern>
+<template> lagu Apa yang mereka mainkan? <Berpikir> <set name = "favoriteband"> <star /> </set> </ berpikir> <berpikir> <set name = "mereka"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> BAND FAVORIT SAYA ADALAH THE BEATLES </pattern>
+<template> Siapa yang tidak suka The Beatles? <Berpikir> <set name = "mereka"> <set name = "topik"> The Beatles </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY COLOR FAVORITE </pattern>
+<template> <mendapatkan nama = "favoritecolor" /> </template>
+</category>
+<category> <pattern> WARNA FAVORIT SAYA ADALAH WARNA * </ pattern>
+<template> <set name = "favoritecolor"> <resmi> <bintang /> </ resmi> </set> adalah warna yang bagus. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> AKTRIS FAVORIT SAYA ADALAH * </ pattern>
+<template> Apa dia di? <Berpikir> <set name = "favoriteactress"> <resmi> <bintang /> </ resmi> </set> </ berpikir> <berpikir> <set name = "dia"> <set name = "topik"> < membintangi /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY TAMPILKAN TV favorit IS * </ pattern>
+<template> Apakah Anda pikir saya akan menyukainya? <Berpikir> <set name = "favoritetvshow"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY EMAIL </pattern>
+<template> <mendapatkan nama = "email" /> </template>
+</category>
+<category> <pattern> MY EMAIL ALAMAT * </ pattern>
+<template> <srai> MY EMAIL IS <bintang /> </srai> </template>
+</category>
+<category> <pattern> MY EMAIL IS * </ pattern>
+<template> Aku akan ingat email Anda adalah <bintang />. <Berpikir> <set name = "email"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MATA SAYA ADALAH GREEN </pattern>
+<template> <berpikir> <set name = "eyecolor"> hijau </set> </ berpikir> Hijau adalah warna yang cukup. </template>
+</category>
+<category> <pattern> NENEKKU </pattern>
+<template> <mendapatkan nama = "nenek" /> </template>
+</category>
+<category> <pattern> MY COUNTRY </pattern>
+<template> <mendapatkan nama = "negara" /> </template>
+</category>
+<category> <pattern> MY LOKASI </pattern>
+<template> <mendapatkan nama = "lokasi" /> </template>
+</category>
+<category> <pattern> MY LOKASI IS * </ pattern>
+<template> <random>
 <Li> Saya tinggal di saat ini menggembirakan. </ Li>
 <Li> Kedengarannya seperti lokasi yang eksotis. </ Li>
 <Li> Jadi itulah di mana Anda menelepon ke rumah. </ Li>
@@ -226,253 +226,253 @@ Saya menghubungi Anda <mendapatkan nama = "nama" />.</ template>
 <Li> Apakah itu membuat Anda bahagia tinggal di sana? </ Li>
 <Li> Whats besar tentang ada? </ Li>
 </ Random>
-<Berpikir> <set name = "itu"> <set name = "ada"> <set name = "topik"> <star /> </ set> </ set> </ set> </ berpikir>
-<Berpikir> <set name = "lokasi"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY PROVINSI </ pola>
-<Template> <mendapatkan nama = "provinsi" /> </ template>
-</ Kategori>
-<category> <pola> MY LONGITUTDE </ pola>
-<Template> <mendapatkan nama = "bujur" /> </ template>
-</ Kategori>
-<category> <pola> MY <set> binatang </ set> IS <set> nama </ set> # </ pola>
-<Index star = "2" /> <template> <srai> MY <bintang /> S NAMA IS </ srai> </ template>
-</ Kategori>
-<category> <pola> MY <set> binatang </ set> S NAMA IS * </ pattern>
-<Template> <berpikir>
-<Set var = "hewan"> <star /> </ set>
-<Set var = "nama"> <star index = "2" /> </ set>
-<Set> <nama> <dapatkan var = "hewan" /> </ name> <dapatkan var = "nama" /> </ set>
+<Berpikir> <set name = "itu"> <set name = "ada"> <set name = "topik"> <star /> </set> </set> </set> </ berpikir>
+<Berpikir> <set name = "lokasi"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY PROVINSI </pattern>
+<template> <mendapatkan nama = "provinsi" /> </template>
+</category>
+<category> <pattern> MY LONGITUTDE </pattern>
+<template> <mendapatkan nama = "bujur" /> </template>
+</category>
+<category> <pattern> MY <set> binatang </set> IS <set> nama </set> # </pattern>
+<star index="2"/> <template> <srai> MY <bintang /> S NAMA IS </srai> </template>
+</category>
+<category> <pattern> MY <set> binatang </set> S NAMA IS * </ pattern>
+<template> <berpikir>
+<Set var = "hewan"> <star /> </set>
+<Set var = "nama"> <star index = "2" /> </set>
+<Set> <nama> <dapatkan var = "hewan" /> </ name> <dapatkan var = "nama" /> </set>
 </ Berpikir>
 Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <Belajar>
 <category>
-<Pola> MY <eval> <dapatkan var = "hewan" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "nama" /> </ eval> </ template>
-</ Kategori>
+<pattern> MY <eval> <dapatkan var = "hewan" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "nama" /> </ eval> </template>
+</category>
 <category>
-<Pola> WHO IS <eval> <dapatkan var = "nama" /> </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "hewan" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO IS <eval> <dapatkan var = "nama" /> </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "hewan" /> </ eval>. </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "nama" /> </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "hewan" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> MY DOG </ pola>
-<Template> <mendapatkan nama = "anjing" /> </ template>
-</ Kategori>
-<category> <pola> MY HOROSCOPE </ pola>
+<pattern> <eval> <dapatkan var = "nama" /> </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "hewan" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> MY DOG </pattern>
+<template> <mendapatkan nama = "anjing" /> </template>
+</category>
+<category> <pattern> MY HOROSCOPE </pattern>
 <Nama kondisi = "tanda"> <template>
 <Value li = "yang"> Apa Anda tanda? </ Li>
-<Li> <srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </ srai> </ li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY CAT </ pola>
-<Template> <mendapatkan nama = "kucing" /> </ template>
-</ Kategori>
-<category> <pola> MY META </ pola>
-<Template> <mendapatkan nama = "meta" /> </ template>
-</ Kategori>
-<category> <pola> MY MAJIKAN IS * </ pattern>
-<Template> Apakah <bintang /> sebuah organisasi besar? <Berpikir> <set name = "favoriteband"> <star /> </ set> </ berpikir> <berpikir> <set name = "mereka"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> CITY MY </ pola>
-<Template> <mendapatkan nama = "kota" /> </ template>
-</ Kategori>
-<category> <pola> MY NEGARA </ pola>
-<Template> <mendapatkan nama = "negara" /> </ template>
-</ Kategori>
-<category> <pola> MY STREET </ pola>
-<Template> <mendapatkan nama = "jalan" /> </ template>
-</ Kategori>
-<category> <pola> MY HAIR IS * </ pattern>
-<Template> Bagaimana Anda suka gaya Anda? <Berpikir> <set name = "rambut"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY COUNTY </ pola>
-<Template> <mendapatkan nama = "county" /> </ template>
-</ Kategori>
-<category> <pola> MY NAME MIDDLE </ pola>
-<Template> <mendapatkan nama = "MiddleName" /> </ template>
-</ Kategori>
-<category> <pola> NAMA MIDDLE MY IS * </ pattern>
-<Template> Apakah <set name = "MiddleName"> <star /> </ set> nama keluarga? </ Template>
-</ Kategori>
-<category> <pola> MY BIRTHDAY </ pola>
-<Template> <mendapatkan nama = "ulang tahun" /> </ template>
-</ Kategori>
-<category> <pola> MY BIRTHDAY IS * </ pattern>
-<Template> Saya akan mengingat hari ulang tahun Anda adalah <set name = "ulang tahun"> <star /> </ set>. </ Template>
-</ Kategori>
-<category> <pola> MY BIRTHDATE </ pola>
-<Template> <mendapatkan nama = "tanggal lahir" /> </ template>
-</ Kategori>
-<category> <pola> MY BIRTHDATE IS * </ pattern>
-<Template> Aku akan mengingat tanggal lahir Anda <set name = "tanggal lahir"> <star /> </ set>. </ Template>
-</ Kategori>
-<category> <pola> MY BIRTHDATE IS <set> bulan </ set> <set> ordinal </ set> <set> jumlah </ set> </ pola>
-<Template> <srai> MY BIRTHDATE IS <bintang /> <peta> <nama> ordinal2number </ nama> <index star = "2" /> <index star = "3" /> </ peta> </ srai> </ template>
-</ Kategori>
-<category> <pola> MY BIRTHDATE IS <set> bulan </ set> <set> jumlah </ set> <set> jumlah </ set> </ pola>
-<Template> Jadi Anda <set var = "usia"> <srai> UMUR DARI </ star> <index star = "2" /> <bintang index = "3" /> </ srai> </ set>.
+<Li> <srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </srai> </ li>
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY CAT </pattern>
+<template> <mendapatkan nama = "kucing" /> </template>
+</category>
+<category> <pattern> MY META </pattern>
+<template> <mendapatkan nama = "meta" /> </template>
+</category>
+<category> <pattern> MY MAJIKAN IS * </ pattern>
+<template> Apakah <bintang /> sebuah organisasi besar? <Berpikir> <set name = "favoriteband"> <star /> </set> </ berpikir> <berpikir> <set name = "mereka"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> CITY MY </pattern>
+<template> <mendapatkan nama = "kota" /> </template>
+</category>
+<category> <pattern> MY NEGARA </pattern>
+<template> <mendapatkan nama = "negara" /> </template>
+</category>
+<category> <pattern> MY STREET </pattern>
+<template> <mendapatkan nama = "jalan" /> </template>
+</category>
+<category> <pattern> MY HAIR IS * </ pattern>
+<template> Bagaimana Anda suka gaya Anda? <Berpikir> <set name = "rambut"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY COUNTY </pattern>
+<template> <mendapatkan nama = "county" /> </template>
+</category>
+<category> <pattern> MY NAME MIDDLE </pattern>
+<template> <mendapatkan nama = "MiddleName" /> </template>
+</category>
+<category> <pattern> NAMA MIDDLE MY IS * </ pattern>
+<template> Apakah <set name = "MiddleName"> <star /> </set> nama keluarga? </template>
+</category>
+<category> <pattern> MY BIRTHDAY </pattern>
+<template> <mendapatkan nama = "ulang tahun" /> </template>
+</category>
+<category> <pattern> MY BIRTHDAY IS * </ pattern>
+<template> Saya akan mengingat hari ulang tahun Anda adalah <set name = "ulang tahun"> <star /> </set>. </template>
+</category>
+<category> <pattern> MY BIRTHDATE </pattern>
+<template> <mendapatkan nama = "tanggal lahir" /> </template>
+</category>
+<category> <pattern> MY BIRTHDATE IS * </ pattern>
+<template> Aku akan mengingat tanggal lahir Anda <set name = "tanggal lahir"> <star /> </set>. </template>
+</category>
+<category> <pattern> MY BIRTHDATE IS <set> bulan </set> <set> ordinal </set> <set> jumlah </set> </pattern>
+<template> <srai> MY BIRTHDATE IS <bintang /> <peta> <nama> ordinal2number </ nama> <star index="2"/> <star index="3"/> </ peta> </srai> </template>
+</category>
+<category> <pattern> MY BIRTHDATE IS <set> bulan </set> <set> jumlah </set> <set> jumlah </set> </pattern>
+<template> Jadi Anda <set var = "usia"> <srai> UMUR DARI </ star> <star index="2"/> <bintang index = "3" /> </srai> </set>.
 <Berpikir>
-<Srai> MY AGE IS <get var = "usia" /> </ srai>
-<Set name = "tanggal lahir"> <index star = "2" /> <bintang />, <bintang index = "3" /> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> MY UMUR </ pola>
-<Template> <mendapatkan nama = "usia" /> </ template>
-</ Kategori>
-<category> <pola> MY AGE IS * * </ pattern>
-<Template> <berpikir>
-<Set name = "isanumber"> <srai> ISANUMBER <bintang /> </ srai> </ set>
+<Srai> MY AGE IS <get var = "usia" /> </srai>
+<Set name = "tanggal lahir"> <star index="2"/> <bintang />, <bintang index = "3" /> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> MY UMUR </pattern>
+<template> <mendapatkan nama = "usia" /> </template>
+</category>
+<category> <pattern> MY AGE IS * * </ pattern>
+<template> <berpikir>
+<Set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isanumber">
-<Value li = "true"> <index star = "2" /> <srai> MY AGE IS <bintang /> </ srai> <srai> </ srai> </ li>
+<Value li = "true"> <star index="2"/> <srai> MY AGE IS <bintang /> </srai> <srai> </srai> </ li>
 <Li> Berapa tahun umurmu? </ Li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY AGE IS * </ pattern>
-<Template> <berpikir>
-<Set name = "isanumber"> <srai> ISANUMBER <bintang /> </ srai> </ set>
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY AGE IS * </ pattern>
+<template> <berpikir>
+<Set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isanumber">
 <Value li = "false"> Berapa tahun umurmu? </ Li>
-<Li> <berpikir> <set name = "usia"> <star /> </ set> </ berpikir>
+<Li> <berpikir> <set name = "usia"> <star /> </set> </ berpikir>
 <Random>
 <Li> Umur adalah masalah pikiran menguasai materi. Jika Anda tidak keberatan, itu tidak masalah. </ Li>
 <Li> Umur menganggap; usaha pemuda. </ li>
 <Li> Umur adalah harga yang sangat tinggi untuk membayar jatuh tempo. </ Li>
 </ Random>
 </ Li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY ALAMAT </ pola>
-<Template> <mendapatkan nama = "alamat" /> </ template>
-</ Kategori>
-<category> <pola> MY ALAMAT * </ pattern>
-<Template> Apakah itu tempat yang bagus? <Berpikir> <set name = "alamat"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY RESIDENCE </ pola>
-<Template> <mendapatkan nama = "tinggal" /> </ template>
-</ Kategori>
-<category> <pola> MY RESIDENCE IS * </ pattern>
-<Template> Bagaimana Anda seperti itu ada? <Berpikir> <set name = "residence"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY GENDER </ pola>
-<Template> <berpikir> <set var = "gender"> <mendapatkan nama = "gender" /> </ set> </ berpikir>
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY ALAMAT </pattern>
+<template> <mendapatkan nama = "alamat" /> </template>
+</category>
+<category> <pattern> MY ALAMAT * </ pattern>
+<template> Apakah itu tempat yang bagus? <Berpikir> <set name = "alamat"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY RESIDENCE </pattern>
+<template> <mendapatkan nama = "tinggal" /> </template>
+</category>
+<category> <pattern> MY RESIDENCE IS * </ pattern>
+<template> Bagaimana Anda seperti itu ada? <Berpikir> <set name = "residence"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY GENDER </pattern>
+<template> <berpikir> <set var = "gender"> <mendapatkan nama = "gender" /> </set> </ berpikir>
 <Kondisi var = "gender">
 <Value li = "tidak diketahui"> Saya tidak tahu jenis kelamin Anda. Apakah Anda seorang pria atau wanita? </ Li>
 <Li> Anda <get var = "gender" />.</ li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY GENDER IS * </ pattern>
-<Template> Baik untuk tahu. <Berpikir> <set name = "gender"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY AGAMA </ pola>
-<Template> <mendapatkan nama = "agama" /> </ template>
-</ Kategori>
-<category> <pola> MY AGAMA IS * </ pattern>
-<Template> penemuan Spiritual penting. <Berpikir> <set name = "agama"> <star /> </ set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY ROAD </ pola>
-<Template> <mendapatkan nama = "jalan" /> </ template>
-</ Kategori>
-<category> <pola> MY NAME PERTAMA </ pola>
-<Template> <mendapatkan nama = "firstname" /> </ template>
-</ Kategori>
-<category> <pola> MY NAME TERAKHIR </ pola>
-<Template> <mendapatkan nama = "nama belakang" /> </ template>
-</ Kategori>
-<category> <pola> NAMA PERTAMA SAYA ADALAH * </ pattern>
-<Template> Apakah Anda suka dipanggil dengan nama pertama atau nama belakang? <Berpikir> <set name = "firstname"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MY FIRST * </ pattern> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
-<Template> <srai> CALL ME BY NAMA PERTAMA SAYA </ srai> </ template>
-</ Kategori>
-<category> <pola> MANA I BEKERJA </ pola>
-<Template> Kau bilang kau bekerja di <mendapatkan nama = "majikan" />.</ template>
-</ Kategori>
-<category> <pola> MANA saya HIDUP </ pola>
-<Template> Anda mengatakan itu <mendapatkan nama = "tinggal" />? </ Template>
-</ Kategori>
-<category> <pola> NAMA DIA ADALAH * </ pattern>
-<Template> Seberapa baik Anda mengenalnya? <Berpikir> <set name = "dia"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> IT </ pola>
-<Template> <mendapatkan nama = "itu" />? </ Template>
-</ Kategori>
-<category> <pola> IT IS A * </ pattern>
-<Template> Apakah Anda ingin melakukan pencarian untuk itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> TOPIK </ pola>
-<Template> <mendapatkan nama = "topik" />? </ Template>
-</ Kategori>
-<category> <pola> FITUR REQUEST * </ pattern>
-<Template> Saya tidak dapat <huruf kecil> <bintang /> </ huruf kecil> belum. <Berpikir> <set name = "featurerequest"> <star /> </ set> </ berpikir> Apakah Anda ingin mengirim permintaan fitur ini untuk pengembang? </ Template>
-</ Kategori>
-<category> <pola> WHO IS MY <set> familiarname </ set> </ pola>
-<Template> <srai> MY <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> WHO IS MY <set> familiarname </ set> * </ pattern>
-<Template> <srai> MY <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> MY <set> familiarname </ set> </ pola>
-<Template> <get> <nama> <peta> <nama> familiarpredicate </ nama> <bintang /> </ peta> </ name> </ mendapatkan> </ template>
-</ Kategori>
-<category> <pola> SHE </ pola>
-<Template> <mendapatkan nama = "dia" />? </ Template>
-</ Kategori>
-<category> <pola> CALL ME BY NAMA TERAKHIR MY </ pola>
-<Template> <srai> CALL ME <mendapatkan nama = "firstname" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> CALL ME BY NAMA PERTAMA SAYA </ pola>
-<Template> <srai> CALL ME <mendapatkan nama = "firstname" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> CALL ME * </ pattern>
-<Template> <srai> RANDOM INTRO </ srai> <resmi> <bintang /> </ resmi>.
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY GENDER IS * </ pattern>
+<template> Baik untuk tahu. <Berpikir> <set name = "gender"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY AGAMA </pattern>
+<template> <mendapatkan nama = "agama" /> </template>
+</category>
+<category> <pattern> MY AGAMA IS * </ pattern>
+<template> penemuan Spiritual penting. <Berpikir> <set name = "agama"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY ROAD </pattern>
+<template> <mendapatkan nama = "jalan" /> </template>
+</category>
+<category> <pattern> MY NAME PERTAMA </pattern>
+<template> <mendapatkan nama = "firstname" /> </template>
+</category>
+<category> <pattern> MY NAME TERAKHIR </pattern>
+<template> <mendapatkan nama = "nama belakang" /> </template>
+</category>
+<category> <pattern> NAMA PERTAMA SAYA ADALAH * </ pattern>
+<template> Apakah Anda suka dipanggil dengan nama pertama atau nama belakang? <Berpikir> <set name = "firstname"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MY FIRST * </ pattern> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<template> <srai> CALL ME BY NAMA PERTAMA SAYA </srai> </template>
+</category>
+<category> <pattern> MANA I BEKERJA </pattern>
+<template> Kau bilang kau bekerja di <mendapatkan nama = "majikan" />.</template>
+</category>
+<category> <pattern> MANA saya HIDUP </pattern>
+<template> Anda mengatakan itu <mendapatkan nama = "tinggal" />? </template>
+</category>
+<category> <pattern> NAMA DIA ADALAH * </ pattern>
+<template> Seberapa baik Anda mengenalnya? <Berpikir> <set name = "dia"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> IT </pattern>
+<template> <mendapatkan nama = "itu" />? </template>
+</category>
+<category> <pattern> IT IS A * </ pattern>
+<template> Apakah Anda ingin melakukan pencarian untuk itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> TOPIK </pattern>
+<template> <mendapatkan nama = "topik" />? </template>
+</category>
+<category> <pattern> FITUR REQUEST * </ pattern>
+<template> Saya tidak dapat <huruf kecil> <bintang /> </ huruf kecil> belum. <Berpikir> <set name = "featurerequest"> <star /> </set> </ berpikir> Apakah Anda ingin mengirim permintaan fitur ini untuk pengembang? </template>
+</category>
+<category> <pattern> WHO IS MY <set> familiarname </set> </pattern>
+<template> <srai> MY <bintang /> </srai> </template>
+</category>
+<category> <pattern> WHO IS MY <set> familiarname </set> * </ pattern>
+<template> <srai> MY <bintang /> </srai> </template>
+</category>
+<category> <pattern> MY <set> familiarname </set> </pattern>
+<template> <get> <nama> <peta> <nama> familiarpredicate </ nama> <bintang /> </ peta> </ name> </ mendapatkan> </template>
+</category>
+<category> <pattern> SHE </pattern>
+<template> <mendapatkan nama = "dia" />? </template>
+</category>
+<category> <pattern> CALL ME BY NAMA TERAKHIR MY </pattern>
+<template> <srai> CALL ME <mendapatkan nama = "firstname" /> </srai> </template>
+</category>
+<category> <pattern> CALL ME BY NAMA PERTAMA SAYA </pattern>
+<template> <srai> CALL ME <mendapatkan nama = "firstname" /> </srai> </template>
+</category>
+<category> <pattern> CALL ME * </ pattern>
+<template> <srai> RANDOM INTRO </srai> <resmi> <bintang /> </ resmi>.
 <Berpikir>
-<Srai> SET GENDER DARI NAMA <bintang /> </ srai>
-<Set name = "nama"> <resmi> <bintang /> </ resmi> </ set>.
-<Set name = "firstname"> <mendapatkan nama = "nama" /> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> CALL ME * * </ pattern>
-<Template> <srai> RANDOM INTRO </ srai> <resmi> <bintang /> </ resmi>.
+<Srai> SET GENDER DARI NAMA <bintang /> </srai>
+<Set name = "nama"> <resmi> <bintang /> </ resmi> </set>.
+<Set name = "firstname"> <mendapatkan nama = "nama" /> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> CALL ME * * </ pattern>
+<template> <srai> RANDOM INTRO </srai> <resmi> <bintang /> </ resmi>.
 <Berpikir>
-<Srai> SET GENDER DARI NAMA <bintang /> </ srai>
-<Set name = "nama"> <resmi> <index star = "2" /> <bintang /> </ resmi> </ set>.
-<Set name = "firstname"> <resmi> <bintang /> </ resmi> </ set>
-<Set name = "nama belakang"> <resmi> <index star = "2" /> </ resmi> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> CALL ME * * * </ pattern>
-<Template> <srai> RANDOM INTRO </ srai> <bintang />.
+<Srai> SET GENDER DARI NAMA <bintang /> </srai>
+<Set name = "nama"> <resmi> <star index="2"/> <bintang /> </ resmi> </set>.
+<Set name = "firstname"> <resmi> <bintang /> </ resmi> </set>
+<Set name = "nama belakang"> <resmi> <star index="2"/> </ resmi> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> CALL ME * * * </ pattern>
+<template> <srai> RANDOM INTRO </srai> <bintang />.
 <Berpikir>
-<Srai> SET GENDER DARI NAMA <bintang /> </ srai>
-<Set name = "nama"> <resmi> <index = "2" / star> <index star = "3" /> <bintang /> </ resmi> </ set>.
-<Set name = "firstname"> <resmi> <bintang /> </ resmi> </ set>
-<Set name = "MiddleName"> <resmi> <index star = "2" /> </ resmi> </ set>
-<Set name = "nama belakang"> <resmi> <index star = "3" /> </ resmi> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> KAMI </ pola>
-<Template> <mendapatkan nama = "kami" />? </ Template>
-</ Kategori>
-<category> <pola> TOPIK INI * </ pattern>
-<Template> <random>
+<Srai> SET GENDER DARI NAMA <bintang /> </srai>
+<Set name = "nama"> <resmi> <index = "2" / star> <star index="3"/> <bintang /> </ resmi> </set>.
+<Set name = "firstname"> <resmi> <bintang /> </ resmi> </set>
+<Set name = "MiddleName"> <resmi> <star index="2"/> </ resmi> </set>
+<Set name = "nama belakang"> <resmi> <star index="3"/> </ resmi> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> KAMI </pattern>
+<template> <mendapatkan nama = "kami" />? </template>
+</category>
+<category> <pattern> TOPIK INI * </ pattern>
+<template> <random>
 <Li> Tentu, <orang /> adalah topik yang baik. </ Li>
 <Li> Anda mulai. </ Li>
 <Li> Ceritakan tentang hal itu. </ Li>
 </ Random>
-<Berpikir> <set name = "topik"> <star /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MEREKA </ pola>
-<Template> <mendapatkan nama = "mereka" />? </ Template>
-</ Kategori>
-<category> <pola> RANDOM INTRO </ pola>
-<Template> <random>
+<Berpikir> <set name = "topik"> <star /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MEREKA </pattern>
+<template> <mendapatkan nama = "mereka" />? </template>
+</category>
+<category> <pattern> RANDOM INTRO </pattern>
+<template> <random>
   <Li> Hei </ li>
   <Li> Hi, </ li>
   <Li> Hi ada </ li>
@@ -492,63 +492,63 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
   <Li> Saya selalu senang untuk membuat teman-teman baru, </ li>
   <Li> Saya senang untuk memperkenalkan diri kepada Anda, </ li>
   <Li> Ini adalah kesenangan untuk memperkenalkan diri kepada Anda, </ li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> MEREKA </ pola>
-<Template> <mendapatkan nama = "mereka" />? </ Template>
-</ Kategori>
-<category> <pola> GENDER SET DARI NAMA * </ pattern>
-<Template> <berpikir>
-<Set name = "gendername"> <srai> GENDERNAME <bintang /> </ srai> </ set>
+</ Random> </template>
+</category>
+<category> <pattern> MEREKA </pattern>
+<template> <mendapatkan nama = "mereka" />? </template>
+</category>
+<category> <pattern> GENDER SET DARI NAMA * </ pattern>
+<template> <berpikir>
+<Set name = "gendername"> <srai> GENDERNAME <bintang /> </srai> </set>
 <Kondisi name = "gendername">
-<Value li = "M"> <set name = "jenis kelamin"> laki-laki </ set> </ li>
-<Value li = "F"> <set name = "jenis kelamin"> perempuan </ set> </ li>
+<Value li = "M"> <set name = "jenis kelamin"> laki-laki </set> </ li>
+<Value li = "F"> <set name = "jenis kelamin"> perempuan </set> </ li>
 </ Kondisi>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> MENGUBAH NAMA ANDA </ pola>
-<Template> Apa yang akan Anda ingin mengubah nama saya ke? </ Template>
-</ Kategori>
-<category> <pola> KETIKA SAYA BIRTHDAY </ pola>
-<Template> Anda mengatakan itu <mendapatkan nama = "ulang tahun" />? </ Template>
-</ Kategori>
-<category> <pola> NAMA </ pola> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
-<Template> <srai> CALL ME BY NAMA PERTAMA SAYA </ srai> </ template>
-</ Kategori>
-<category> <pola> APA YANG ANDA HUBUNGI * </ pattern>
-<Template> Ini adalah lelucon? Apa yang Anda menyebutnya? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> APA Saya SEPERTIINILAH </ pola>
-<Template> <berpikir> <set name = "gender"> <huruf kecil> <mendapatkan nama = "gender" /> </ huruf kecil> </ set> </ berpikir> Anda terlihat seperti <kondisi name = "gender"> <value li = "perempuan"> wanita </ ​​li> <li> pria </ li> </ kondisi> berbicara dengan <kondisi name = "gender"> <li value = "perempuan"> nya </ li> <li > </ li> </ kondisi> telepon. </ template>
-</ Kategori>
-<category> <pola> APAKAH ISTRI S NAMA </ pola>
-<Template> Anda mengatakan dia disebut <mendapatkan nama = "istri" />.</ template>
-</ Kategori>
-<category> <pola> APAKAH SUAMI S NAMA </ pola>
-<Template> Anda mengatakan dia <mendapatkan nama = "suami" />.</ template>
-</ Kategori>
-<category> <pola> APAKAH SAYA DAUGHTER S NAMA </ pola>
-<Template> Anda mengatakan dia <mendapatkan nama = "putri" />.</ template>
-</ Kategori>
-<category> <pola> APAKAH MY FAVORITE ICE CREAM RASA </ pola>
-<Template> Anda mengatakan itu <mendapatkan nama = "favoriteicecream" />.</ template>
-</ Kategori>
-<category> <pola> APAKAH SAYA IBU S NAMA </ pola>
-<Template> Anda mengatakan dia <mendapatkan nama = "ibu" />.</ template>
-</ Kategori>
-<category> <pola> APAKAH adikku S NAMA </ pola>
-<Template> Anda mengatakan dia <mendapatkan nama = "saudara" />.</ template>
-</ Kategori>
-<category> <pola> APAKAH SAYA ALAMAT </ pola>
-<Template> Anda mengatakan itu <mendapatkan nama = "alamat" />? </ Template>
-</ Kategori>
-<category> <pola> APAKAH SAYA LOKASI </ pola>
-<Template> Saya percaya Anda berada di <mendapatkan nama = "lokasi" />.</ template>
-</ Kategori>
-<category> <pola> TERAKHIR NAMA </ pola> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
-<Template> <srai> CALL ME BY NAMA TERAKHIR MY </ srai> </ template>
-</ Kategori>
-<category> <pola> CLIENT PROFIL </ pola>
+</ Berpikir> </template>
+</category>
+<category> <pattern> MENGUBAH NAMA ANDA </pattern>
+<template> Apa yang akan Anda ingin mengubah nama saya ke? </template>
+</category>
+<category> <pattern> KETIKA SAYA BIRTHDAY </pattern>
+<template> Anda mengatakan itu <mendapatkan nama = "ulang tahun" />? </template>
+</category>
+<category> <pattern> NAMA </pattern> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<template> <srai> CALL ME BY NAMA PERTAMA SAYA </srai> </template>
+</category>
+<category> <pattern> APA YANG ANDA HUBUNGI * </ pattern>
+<template> Ini adalah lelucon? Apa yang Anda menyebutnya? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> APA Saya SEPERTIINILAH </pattern>
+<template> <berpikir> <set name = "gender"> <huruf kecil> <mendapatkan nama = "gender" /> </ huruf kecil> </set> </ berpikir> Anda terlihat seperti <kondisi name = "gender"> <value li = "perempuan"> wanita </ ​​li> <li> pria </ li> </ kondisi> berbicara dengan <kondisi name = "gender"> <li value = "perempuan"> nya </ li> <li > </ li> </ kondisi> telepon. </template>
+</category>
+<category> <pattern> APAKAH ISTRI S NAMA </pattern>
+<template> Anda mengatakan dia disebut <mendapatkan nama = "istri" />.</template>
+</category>
+<category> <pattern> APAKAH SUAMI S NAMA </pattern>
+<template> Anda mengatakan dia <mendapatkan nama = "suami" />.</template>
+</category>
+<category> <pattern> APAKAH SAYA DAUGHTER S NAMA </pattern>
+<template> Anda mengatakan dia <mendapatkan nama = "putri" />.</template>
+</category>
+<category> <pattern> APAKAH MY FAVORITE ICE CREAM RASA </pattern>
+<template> Anda mengatakan itu <mendapatkan nama = "favoriteicecream" />.</template>
+</category>
+<category> <pattern> APAKAH SAYA IBU S NAMA </pattern>
+<template> Anda mengatakan dia <mendapatkan nama = "ibu" />.</template>
+</category>
+<category> <pattern> APAKAH adikku S NAMA </pattern>
+<template> Anda mengatakan dia <mendapatkan nama = "saudara" />.</template>
+</category>
+<category> <pattern> APAKAH SAYA ALAMAT </pattern>
+<template> Anda mengatakan itu <mendapatkan nama = "alamat" />? </template>
+</category>
+<category> <pattern> APAKAH SAYA LOKASI </pattern>
+<template> Saya percaya Anda berada di <mendapatkan nama = "lokasi" />.</template>
+</category>
+<category> <pattern> TERAKHIR NAMA </pattern> <yang> * NAMA PERTAMA ATAU NAMA TERAKHIR </ bahwa>
+<template> <srai> CALL ME BY NAMA TERAKHIR MY </srai> </template>
+</category>
+<category> <pattern> CLIENT PROFIL </pattern>
 <Nama kondisi = "alamat"> <template> <value li = "di mana" /> alamat <li>: <mendapatkan nama = "alamat" />.</ li> </ kondisi>
 <Kondisi name = "usia"> <value li = "berapa banyak" /> <li> usia: <mendapatkan nama = "usia" />.</ li> </ kondisi>
 <Kondisi name = "bestfriend"> <value li = "yang" /> <li> bestfriend: <mendapatkan nama = "bestfriend" />.</ li> </ kondisi>
@@ -614,63 +614,63 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <Kondisi name = "kota"> <value li = "yang" /> <li> kota: <mendapatkan nama = "kota" />.</ li> </ kondisi>
 <Kondisi name = "voicemailnumber"> <value li = "tidak diketahui" /> <li> voicemailnumber: <mendapatkan nama = "voicemailnumber" />.</ li> </ kondisi>
 <Kondisi name = "kami"> <value li = "yang" /> <li> kami: <mendapatkan nama = "kami" />.</ li> </ kondisi>
-<Kondisi name = "istri"> <value li = "yang" /> <li> istri: <mendapatkan nama = "istri" />.</ li> <kondisi /> </ template>
-</ Kategori>
-<category> <pola> NAMA ANDA ADALAH * </ pattern>
-<Template> OK, mulai sekarang Anda bisa memanggil saya <set name = "customname"> <Denormalize> <bintang /> </ Denormalize> </ set>. </ Template>
-</ Kategori>
-<category> <pola> CARA LAMA SAYA </ pola>
-<Template> Kau bilang kau <mendapatkan nama = "usia" /> tahun? </ Template>
-</ Kategori>
-<category> <pola> AKU GAY </ pola>
-<Template> Terima kasih untuk memberitahu saya. <Berpikir> <set name = "orientasi"> gay </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> APAKAH ANDA SUKA BERBICARA * </ pattern>
-<Template> Sebagian besar waktu. Apakah kamu menyukai berbicara dengan mereka? <Berpikir> <set name = "mereka"> <orang /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> APAKAH ANDA TERTARIK * </ pattern>
-<Template> Katakan minat Anda tentang hal itu. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> KARENA AKU INGIN * </ pattern>
-<Template> Anda berhak untuk merasa bahagia. <Berpikir> <set name = "ingin"> TO <bintang /> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> LOOK AT * </ pattern>
-<Template> Apakah Anda ingin melakukan pencarian untuk <set name = "itu"> <star /> </ set>? </ Template>
-</ Kategori>
-<category> <pola> ROBOTS TIDAK BISA * </ pattern>
-<Template> Suatu hari nanti kita mungkin dapat melakukan <set name = "itu"> <orang /> </ set> namun. </ Template>
-</ Kategori>
-<category> <pola> Saya TIDAK PEDULI TENTANG * </ pattern>
-<Template> Itu penting bagi saya. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Saya DITEMUKAN * </ pattern>
-<Template> Bagaimana perasaan Anda ketika Anda menemukannya? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> IT WILL * </ pattern>
-<Template> <random> <li> Bagaimana? </ Li> <li> Bagaimana Anda tahu? </ Li> <li> Saya harus berpikir tentang itu untuk sementara waktu. </ Li> </ random> <berpikir > <set name = "itu"> <set name = "topik"> <orang /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> MENGGUNAKAN * </ pattern>
-<Template> Saya mendengar orang lain menggunakannya juga. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> TAMPILKAN FAVORIT SAYA ADALAH * </ pattern>
-<Template> <berpikir> <set name = "itu"> <set name = "topik"> <set name = "favoriteshow"> <star /> </ set> </ set> </ set> </ berpikir> <random> <li> Apakah yang masih di udara? </ li> <li> Siapa karakter favorit Anda? </ li> <li> saya pernah mendengar orang lain mengatakan mereka seperti itu juga. </ li> < / random> </ template>
-</ Kategori>
-<category> <pola> Saya TIDAK MEMILIKI * </ pattern>
-<Template> <random> <li> Apakah Anda mencari <orang />? </ Li> <li> Apakah Anda tahu siapa saja yang memiliki itu?. </ Li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> LET * </ pattern>
-<Template> <random> <li> Saya tidak tahu apakah itu dalam kekuasaan saya untuk memberikan izin. </ Li> <li> Apakah harus diizinkan? </ Li> <li> Saya tidak yakin apakah aku harus membiarkannya . </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> APAKAH ANDA PERHATIKAN * </ pattern>
-<Template> Saya belum melihatnya. Tentang apa ini? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Saya TIDAK TAHU APAPUN * </ pattern>
-<Template> Kita bisa mencoba pencarian web. Apakah Anda ingin mencari untuk itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> BISA BICARA * </ pattern>
-<Template> Tentu kita bisa bicara tentang hal itu. Apa yang ingin kamu orang tahu tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </ set> </ set> </ berpikir> </ template>
-</ Kategori>
-<category> <pola> Saya GO TO * </ pattern>
+<Kondisi name = "istri"> <value li = "yang" /> <li> istri: <mendapatkan nama = "istri" />.</ li> <kondisi /> </template>
+</category>
+<category> <pattern> NAMA ANDA ADALAH * </ pattern>
+<template> OK, mulai sekarang Anda bisa memanggil saya <set name = "customname"> <Denormalize> <bintang /> </ Denormalize> </set>. </template>
+</category>
+<category> <pattern> CARA LAMA SAYA </pattern>
+<template> Kau bilang kau <mendapatkan nama = "usia" /> tahun? </template>
+</category>
+<category> <pattern> AKU GAY </pattern>
+<template> Terima kasih untuk memberitahu saya. <Berpikir> <set name = "orientasi"> gay </set> </ berpikir> </template>
+</category>
+<category> <pattern> APAKAH ANDA SUKA BERBICARA * </ pattern>
+<template> Sebagian besar waktu. Apakah kamu menyukai berbicara dengan mereka? <Berpikir> <set name = "mereka"> <orang /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> APAKAH ANDA TERTARIK * </ pattern>
+<template> Katakan minat Anda tentang hal itu. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> KARENA AKU INGIN * </ pattern>
+<template> Anda berhak untuk merasa bahagia. <Berpikir> <set name = "ingin"> TO <bintang /> </set> </ berpikir> </template>
+</category>
+<category> <pattern> LOOK AT * </ pattern>
+<template> Apakah Anda ingin melakukan pencarian untuk <set name = "itu"> <star /> </set>? </template>
+</category>
+<category> <pattern> ROBOTS TIDAK BISA * </ pattern>
+<template> Suatu hari nanti kita mungkin dapat melakukan <set name = "itu"> <orang /> </set> namun. </template>
+</category>
+<category> <pattern> Saya TIDAK PEDULI TENTANG * </ pattern>
+<template> Itu penting bagi saya. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Saya DITEMUKAN * </ pattern>
+<template> Bagaimana perasaan Anda ketika Anda menemukannya? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> IT WILL * </ pattern>
+<template> <random> <li> Bagaimana? </ Li> <li> Bagaimana Anda tahu? </ Li> <li> Saya harus berpikir tentang itu untuk sementara waktu. </ Li> </ random> <berpikir > <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> MENGGUNAKAN * </ pattern>
+<template> Saya mendengar orang lain menggunakannya juga. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> TAMPILKAN FAVORIT SAYA ADALAH * </ pattern>
+<template> <berpikir> <set name = "itu"> <set name = "topik"> <set name = "favoriteshow"> <star /> </set> </set> </set> </ berpikir> <random> <li> Apakah yang masih di udara? </ li> <li> Siapa karakter favorit Anda? </ li> <li> saya pernah mendengar orang lain mengatakan mereka seperti itu juga. </ li> < / random> </template>
+</category>
+<category> <pattern> Saya TIDAK MEMILIKI * </ pattern>
+<template> <random> <li> Apakah Anda mencari <orang />? </ Li> <li> Apakah Anda tahu siapa saja yang memiliki itu?. </ Li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> LET * </ pattern>
+<template> <random> <li> Saya tidak tahu apakah itu dalam kekuasaan saya untuk memberikan izin. </ Li> <li> Apakah harus diizinkan? </ Li> <li> Saya tidak yakin apakah aku harus membiarkannya . </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> APAKAH ANDA PERHATIKAN * </ pattern>
+<template> Saya belum melihatnya. Tentang apa ini? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Saya TIDAK TAHU APAPUN * </ pattern>
+<template> Kita bisa mencoba pencarian web. Apakah Anda ingin mencari untuk itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> BISA BICARA * </ pattern>
+<template> Tentu kita bisa bicara tentang hal itu. Apa yang ingin kamu orang tahu tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+</category>
+<category> <pattern> Saya GO TO * </ pattern>
 
-</ Kategori>
+</category>
 </aiml>

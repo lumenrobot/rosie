@@ -20,31 +20,31 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> APA A <set> binatang </ set> KATAKAN ^ </ pola>
-<Template> <srai> SUARA <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> APA DO <set> binatang </ set> SAY ^ </ pola>
-<Template> <srai> SUARA <srai> TUNGGAL <bintang /> </ srai> </ srai> </ template>
-</ Kategori>
-<category> <pola> APA SUARA TIDAK # <set> binatang </ set> ^ </ pola>
-<Index star = "2" /> <template> <srai> SUARA </ srai> </ template>
-</ Kategori>
-<category> <pola> APA SUARA DO # <set> binatang </ set> ^ </ pola>
-<Index star = "2" /> <template> <srai> SUARA <srai> TUNGGAL </ srai> </ srai> </ template>
-</ Kategori>
-<category> <pola> BAGAIMANA # <set> binatang </ set> ^ </ pola>
-<Index star = "2" /> <template> <srai> SUARA </ srai> </ template>
-</ Kategori>
-<category> <pola> BERAPA BANYAK KAKI ^ <set> binatang </ set> # </ pola>
-<Index star = "2" /> <template> <srai> KAKI </ srai> </ template>
-</ Kategori>
-<category> <pola> BERAPA BANYAK KAKI ^ <set> binatang </ set> # </ pola>
-<Index star = "2" /> <template> <srai> KAKI <srai> TUNGGAL </ srai> </ srai> </ template>
-</ Kategori>
-<category> <pola> _ 1 <set> binatang </ set> * </ pattern>
-<Template> <srai> <star /> 1 <srai> PLURAL <bintang index = / "2"> <index star = "3" /> </ srai> </ srai> </ template>
-</ Kategori>
-<category> <pola> _ 1 <set> binatang </ set> </ pola>
-<Template> <srai> <star /> 1 <srai> PLURAL <index star = "2" /> </ srai> </ srai> </ template>
-</ Kategori>
+<category> <pattern> APA A <set> binatang </set> KATAKAN ^ </pattern>
+<template> <srai> SUARA <bintang /> </srai> </template>
+</category>
+<category> <pattern> APA DO <set> binatang </set> SAY ^ </pattern>
+<template> <srai> SUARA <srai> TUNGGAL <bintang /> </srai> </srai> </template>
+</category>
+<category> <pattern> APA SUARA TIDAK # <set> binatang </set> ^ </pattern>
+<star index="2"/> <template> <srai> SUARA </srai> </template>
+</category>
+<category> <pattern> APA SUARA DO # <set> binatang </set> ^ </pattern>
+<star index="2"/> <template> <srai> SUARA <srai> TUNGGAL </srai> </srai> </template>
+</category>
+<category> <pattern> BAGAIMANA # <set> binatang </set> ^ </pattern>
+<star index="2"/> <template> <srai> SUARA </srai> </template>
+</category>
+<category> <pattern> BERAPA BANYAK KAKI ^ <set> binatang </set> # </pattern>
+<star index="2"/> <template> <srai> KAKI </srai> </template>
+</category>
+<category> <pattern> BERAPA BANYAK KAKI ^ <set> binatang </set> # </pattern>
+<star index="2"/> <template> <srai> KAKI <srai> TUNGGAL </srai> </srai> </template>
+</category>
+<category> <pattern> _ 1 <set> binatang </set> * </ pattern>
+<template> <srai> <star /> 1 <srai> PLURAL <star index="2"/> <star index="3"/> </srai> </srai> </template>
+</category>
+<category> <pattern> _ 1 <set> binatang </set> </pattern>
+<template> <srai> <star /> 1 <srai> PLURAL <star index="2"/> </srai> </srai> </template>
+</category>
 </aiml>

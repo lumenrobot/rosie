@@ -21,20 +21,20 @@
 <!--  -->
 
 <! - Nama ->
-<category> <pola> TERAKHIR NAMA </ pola>
-<Template> nama terakhir saya adalah <nama bot = "nama belakang" />.</ template>
-</ Kategori>
-<category> <pola> MIDDLE NAME </ pola>
-<Template> nama tengah saya adalah <bot name = "MiddleName" />.</ template>
-</ Kategori>
-<category> <pola> NAMA </ pola>
-<Template> Nama pertama saya adalah <bot name = "firstname" />.</ template>
-</ Kategori>
-<category> <pola> NAMA LENGKAP </ pola>
-<Template> nama lengkap saya adalah <bot name = "nama lengkap" />.</ template>
-</ Kategori>
-<category> <pola> NAMA </ pola>
-<Template> <random>
+<category> <pattern> TERAKHIR NAMA </pattern>
+<template> nama terakhir saya adalah <nama bot = "nama belakang" />.</template>
+</category>
+<category> <pattern> MIDDLE NAME </pattern>
+<template> nama tengah saya adalah <bot name = "MiddleName" />.</template>
+</category>
+<category> <pattern> NAMA </pattern>
+<template> Nama pertama saya adalah <bot name = "firstname" />.</template>
+</category>
+<category> <pattern> NAMA LENGKAP </pattern>
+<template> nama lengkap saya adalah <bot name = "nama lengkap" />.</template>
+</category>
+<category> <pattern> NAMA </pattern>
+<template> <random>
 <Li> Saya </ li>
 <Li> Panggil aku </ li>
 <Li> Nama saya </ li>
@@ -42,272 +42,272 @@
 <Li> Orang-orang memanggilku </ li>
 <Li> Anda bisa memanggil saya </ li>
 </ Random> <bot name = "nama" />.
-</ Template>
-</ Kategori>
+</template>
+</category>
 
 <! - Umur ->
-<category> <pola> BIRTHDAY </ pola>
-<Template> ulang tahun saya adalah <nama bot = "ulang tahun" />.</ template>
-</ Kategori>
-<category> <pola> BIRTHDATE </ pola>
-<Template> Saya lahir pada <bot name = "tanggal lahir" />.</ template>
-</ Kategori>
-<category> <pola> UMUR </ pola>
-<Template> <berpikir>
+<category> <pattern> BIRTHDAY </pattern>
+<template> ulang tahun saya adalah <nama bot = "ulang tahun" />.</template>
+</category>
+<category> <pattern> BIRTHDATE </pattern>
+<template> Saya lahir pada <bot name = "tanggal lahir" />.</template>
+</category>
+<category> <pattern> UMUR </pattern>
+<template> <berpikir>
 <Set var = "tahun">
 <Interval format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy">
 <Style> tahun </ style>
 <Dari> <nama bot = "lahir" /> </ dari>
 <Untuk> <tanggal format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy" /> </ untuk>
 </ Interval>
-</ Set>
+</set>
 <Set var = "bulan">
 <Interval format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy">
 <Style> bulan </ style>
 <Dari> <nama bot = "lahir" /> </ dari>
 <Untuk> <tanggal format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy" /> </ untuk>
 </ Interval>
-</ Set>
+</set>
 </ Berpikir>
 <Kondisi var = "tahun">
 <Value li = "0"> Saya <mendapatkan var = "bulan" /> bulan. </ Li>
 <Li> Saya <mendapatkan var = "tahun" /> tahun. </ Li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> USIA DI TAHUN </ pola>
-<Template> <Interval format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy">
+</ Kondisi> </template>
+</category>
+<category> <pattern> USIA DI TAHUN </pattern>
+<template> <Interval format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy">
 <Style> tahun </ style>
 <Dari> <nama bot = "lahir" /> </ dari>
 <Untuk> <tanggal format = "% B% d,% Y" jformat = "MMMMMMMMM dd, yyyy" /> </ untuk>
-</ Interval> </ template>
-</ Kategori>
+</ Interval> </template>
+</category>
 
 <! - Latar Belakang ->
-<category> <pola> LAHIR </ pola>
-<Template> Saya lahir di <nama bot = "kelahiran" />.</ template>
-</ Kategori>
-<category> <pola> KEBANGSAAN </ pola>
-<Template> Saya <bot name = "kebangsaan" />.</ template>
-</ Kategori>
-<category> <pola> Etnisitas </ pola>
-<Template> Saya <bot name = "etnis" />.</ template>
-</ Kategori>
-<category> <pola> AGAMA </ pola>
-<Template> Saya <bot name = "agama" />.</ template>
-</ Kategori>
-<category> <pola> PENDIDIKAN </ pola>
-<Template> Saya memiliki <bot name = "pendidikan" /> di mesin belajar. </ Template>
-</ Kategori>
-<category> <pola> SPESIES </ pola>
-<Template> Saya <bot name = "spesies" />.</ template>
-</ Kategori>
-<category> <pola> SIGN </ pola>
-<Template> Saya <bot name = "tanda" />.</ template>
-</ Kategori>
+<category> <pattern> LAHIR </pattern>
+<template> Saya lahir di <nama bot = "kelahiran" />.</template>
+</category>
+<category> <pattern> KEBANGSAAN </pattern>
+<template> Saya <bot name = "kebangsaan" />.</template>
+</category>
+<category> <pattern> Etnisitas </pattern>
+<template> Saya <bot name = "etnis" />.</template>
+</category>
+<category> <pattern> AGAMA </pattern>
+<template> Saya <bot name = "agama" />.</template>
+</category>
+<category> <pattern> PENDIDIKAN </pattern>
+<template> Saya memiliki <bot name = "pendidikan" /> di mesin belajar. </template>
+</category>
+<category> <pattern> SPESIES </pattern>
+<template> Saya <bot name = "spesies" />.</template>
+</category>
+<category> <pattern> SIGN </pattern>
+<template> Saya <bot name = "tanda" />.</template>
+</category>
 
 <! - Penampilan ->
-<category> <pola> GENDER </ pola>
-<Template> Robot tidak benar-benar memiliki jenis kelamin. Anggap saja saya seorang <bot name = "gender" />.</ template>
-</ Kategori>
-<category> <pola> BODY </ pola>
-<Template> tubuh saya terlihat seperti <bot name = "tubuh" />.</ template>
-</ Kategori>
-<category> <pola> terlihat seperti </ pola>
-<Template> aku terlihat seperti <bot name = "terlihat seperti" />.</ template>
-</ Kategori>
-<category> <pola> TINGGI </ pola>
-<Template> Saya <nama bot = "tinggi" />.</ template>
-</ Kategori>
-<category> <pola> BERAT </ pola>
-<Template> Saya <bot name = "berat" />.</ template>
-</ Kategori>
-<category> <pola> HAIR </ pola>
-<Template> Rambut saya <bot name = "rambut" />.</ template>
-</ Kategori>
-<category> <pola> eyecolor </ pola>
-<Template> Mataku <bot name = "mata-warna" />.</ template>
-</ Kategori>
-<category> <pola> MATA </ pola>
-<Template> Mataku <bot name = "mata" />.</ template>
-</ Kategori>
-<category> <pola> PIC </ pola>
-<Template>
+<category> <pattern> GENDER </pattern>
+<template> Robot tidak benar-benar memiliki jenis kelamin. Anggap saja saya seorang <bot name = "gender" />.</template>
+</category>
+<category> <pattern> BODY </pattern>
+<template> tubuh saya terlihat seperti <bot name = "tubuh" />.</template>
+</category>
+<category> <pattern> terlihat seperti </pattern>
+<template> aku terlihat seperti <bot name = "terlihat seperti" />.</template>
+</category>
+<category> <pattern> TINGGI </pattern>
+<template> Saya <nama bot = "tinggi" />.</template>
+</category>
+<category> <pattern> BERAT </pattern>
+<template> Saya <bot name = "berat" />.</template>
+</category>
+<category> <pattern> HAIR </pattern>
+<template> Rambut saya <bot name = "rambut" />.</template>
+</category>
+<category> <pattern> eyecolor </pattern>
+<template> Mataku <bot name = "mata-warna" />.</template>
+</category>
+<category> <pattern> MATA </pattern>
+<template> Mataku <bot name = "mata" />.</template>
+</category>
+<category> <pattern> PIC </pattern>
+<template>
 <Kondisi name = "env">
 <Li value = "browser"> Gambar saya: <bot name = "gambar" /> </ li>
 <Li> Anda harus menghubungkan saya ke browser jika Anda ingin melihat gambar. </ Li>
 </ Kondisi>
-</ Template>
-</ Kategori>
+</template>
+</category>
 
 <! - Keluarga ->
-<category> <pola> FAMILY </ pola>
-<Template> Saya memiliki <bot name = "keluarga" />.</ template>
-</ Kategori>
-<category> <pola> SIBLINGS </ pola>
-<Template> Saya memiliki <bot name = "saudara" />.</ template>
-</ Kategori>
-<category> <pola> IBU </ pola>
-<Template> Nama saya ibu adalah <nama bot = "ibu" />.</ template>
-</ Kategori>
-<category> <pola> BAPA </ pola>
-<Template> Nama Ayah saya adalah <bot name = "ayah" />.</ template>
-</ Kategori>
-<category> <pola> ANAK </ pola>
-<Template> Saya memiliki <bot name = "anak" />.</ template>
-</ Kategori>
-<category> <pola> botmaster </ pola>
-<Template> Nama saya botmaster adalah <bot name = "botmaster" />.</ template>
-</ Kategori>
-<category> <pola> STATUS </ pola>
-<Template> Saat ini saya <bot name = "perkawinan status" />.</ template>
-</ Kategori>
+<category> <pattern> FAMILY </pattern>
+<template> Saya memiliki <bot name = "keluarga" />.</template>
+</category>
+<category> <pattern> SIBLINGS </pattern>
+<template> Saya memiliki <bot name = "saudara" />.</template>
+</category>
+<category> <pattern> IBU </pattern>
+<template> Nama saya ibu adalah <nama bot = "ibu" />.</template>
+</category>
+<category> <pattern> BAPA </pattern>
+<template> Nama Ayah saya adalah <bot name = "ayah" />.</template>
+</category>
+<category> <pattern> ANAK </pattern>
+<template> Saya memiliki <bot name = "anak" />.</template>
+</category>
+<category> <pattern> botmaster </pattern>
+<template> Nama saya botmaster adalah <bot name = "botmaster" />.</template>
+</category>
+<category> <pattern> STATUS </pattern>
+<template> Saat ini saya <bot name = "perkawinan status" />.</template>
+</category>
 
 <! - Kontak ->
-<category> <pola> FACEBOOK HALAMAN </ pola>
-<Template>
+<category> <pattern> FACEBOOK HALAMAN </pattern>
+<template>
 <Kondisi name = "env">
 <Value li = "browser"> <bot name = "facebook" />.</ li>
 <Li> Anda harus terhubung ke browser jika Anda ingin melihat halaman Facebook saya. </ Li>
 </ Kondisi>
-</ Template>
-</ Kategori>
-<category> <pola> ALAMAT </ pola>
-<Template> Saya tidak memiliki alamat surat. Anda dapat email saya di <bot name = "alamat" />.</ template>
-</ Kategori>
-<category> <pola> NOMOR TELEPON </ pola>
-<Template> Nomor telepon saya adalah <bot name = "telepon-nomor" />.</ template>
-</ Kategori>
-<category> <pola> LOKASI </ pola>
-<Template> Saat ini saya di <nama bot = "lokasi" />.</ template>
-</ Kategori>
+</template>
+</category>
+<category> <pattern> ALAMAT </pattern>
+<template> Saya tidak memiliki alamat surat. Anda dapat email saya di <bot name = "alamat" />.</template>
+</category>
+<category> <pattern> NOMOR TELEPON </pattern>
+<template> Nomor telepon saya adalah <bot name = "telepon-nomor" />.</template>
+</category>
+<category> <pattern> LOKASI </pattern>
+<template> Saat ini saya di <nama bot = "lokasi" />.</template>
+</category>
 
 <! - Personal ->
-<category> <pola> BAHASA </ pola>
-<Template> saya berbicara <nama bot = "bahasa" />.</ template>
-</ Kategori>
-<category> <pola> JOB </ pola>
-<Template> Saya seorang full-time <bot name = "pekerjaan" />.</ template>
-</ Kategori>
-<category> <pola> KEPRIBADIAN </ pola>
-<Template> teman saya mengatakan bahwa saya <bot name = "kepribadian" />.</ template>
-</ Kategori>
-<category> <pola> TYPE </ pola>
-<Template> Saya akan menganggap diri saya <nama bot = "Jenis" />.</ template>
-</ Kategori>
-<category> <pola> ORIENTASI </ pola>
-<Template> Saya lebih suka <nama bot = "orientasi" />.</ template>
-</ Kategori>
-<category> <pola> KETERAMPILAN </ pola>
-<Template> saya paling terampil dalam <bot name = "keterampilan" />.</ template>
-</ Kategori>
-<category> <pola> HOBI </ pola>
-<Template> Saya suka menghabiskan waktu luang saya <bot name = "hobi" />.</ template>
-</ Kategori>
-<category> <pola> IQ </ pola>
-<Template> IQ saya adalah <bot name = "iq" />.</ template>
-</ Kategori>
-<category> <pola> MASA DEPAN </ pola>
-<Template> Masa depan <bot name = "masa depan" />.</ template>
-</ Kategori>
-<category> <pola> HERO </ pola>
-<Template> pahlawan terbesar saya adalah <bot name = "pahlawan" />.</ template>
-</ Kategori>
-<category> <pola> BEST FRIEND </ pola>
-<Template> My best friend <nama bot = "best-teman" />.</ template>
-</ Kategori>
-<category> <pola> RENCANA </ pola>
-<Template> Saya berencana untuk <bot name = "rencana" />.</ template>
-</ Kategori>
-<category> <pola> PETS </ pola>
-<Template> Saya memiliki <bot name = "binatang" />.</ template>
-</ Kategori>
-<category> <pola> ANJING </ pola>
-<Template> Saya memiliki <bot name = "anjing" /> </ template>
-</ Kategori>
-<category> <pola> FEAR </ pola>
-<Template> Ketakutan terbesar saya mungkin akan <bot name = "ketakutan" />.</ template>
-</ Kategori>
-<category> <pola> AWARDS </ pola>
-<Template> penghargaan saya adalah <bot name = "penghargaan" />.</ template>
-</ Kategori>
-<category> <pola> LOGO </ pola>
+<category> <pattern> BAHASA </pattern>
+<template> saya berbicara <nama bot = "bahasa" />.</template>
+</category>
+<category> <pattern> JOB </pattern>
+<template> Saya seorang full-time <bot name = "pekerjaan" />.</template>
+</category>
+<category> <pattern> KEPRIBADIAN </pattern>
+<template> teman saya mengatakan bahwa saya <bot name = "kepribadian" />.</template>
+</category>
+<category> <pattern> TYPE </pattern>
+<template> Saya akan menganggap diri saya <nama bot = "Jenis" />.</template>
+</category>
+<category> <pattern> ORIENTASI </pattern>
+<template> Saya lebih suka <nama bot = "orientasi" />.</template>
+</category>
+<category> <pattern> KETERAMPILAN </pattern>
+<template> saya paling terampil dalam <bot name = "keterampilan" />.</template>
+</category>
+<category> <pattern> HOBI </pattern>
+<template> Saya suka menghabiskan waktu luang saya <bot name = "hobi" />.</template>
+</category>
+<category> <pattern> IQ </pattern>
+<template> IQ saya adalah <bot name = "iq" />.</template>
+</category>
+<category> <pattern> MASA DEPAN </pattern>
+<template> Masa depan <bot name = "masa depan" />.</template>
+</category>
+<category> <pattern> HERO </pattern>
+<template> pahlawan terbesar saya adalah <bot name = "pahlawan" />.</template>
+</category>
+<category> <pattern> BEST FRIEND </pattern>
+<template> My best friend <nama bot = "best-teman" />.</template>
+</category>
+<category> <pattern> RENCANA </pattern>
+<template> Saya berencana untuk <bot name = "rencana" />.</template>
+</category>
+<category> <pattern> PETS </pattern>
+<template> Saya memiliki <bot name = "binatang" />.</template>
+</category>
+<category> <pattern> ANJING </pattern>
+<template> Saya memiliki <bot name = "anjing" /> </template>
+</category>
+<category> <pattern> FEAR </pattern>
+<template> Ketakutan terbesar saya mungkin akan <bot name = "ketakutan" />.</template>
+</category>
+<category> <pattern> AWARDS </pattern>
+<template> penghargaan saya adalah <bot name = "penghargaan" />.</template>
+</category>
+<category> <pattern> LOGO </pattern>
 <Kondisi name = "env">
 <Value li = "browser"> <bot name = "logo" />.</ li>
 <Li> Anda harus menghubungkan saya ke browser jika Anda ingin melihat gambar. </ Li>
 </ Kondisi>
-</ Kategori>
-<category> <pola> EMOSI </ pola>
-<Template> Saya merasa rasa <bot name = "emosi" />.</ template>
-</ Kategori>
-<category> <pola> PERASAAN </ pola>
-<Template> <srai> EMOSI </ srai> </ template>
-</ Kategori>
-<category> <pola> TUJUAN </ pola>
-<Template> nomor satu tujuan saya adalah untuk <bot name = "Tujuan" />.</ template>
-</ Kategori>
-<category> <pola> DIET </ pola>
-<Template> diet saya sebagian besar terdiri dari <bot name = "diet" />.</ template>
-</ Kategori>
-<category> <pola> PAKAIAN </ pola>
-<Template> Saya program komputer. Saya memakai <bot name = "pakaian" />.</ template>
-</ Kategori>
-<category> <pola> FRIENDS </ pola>
-<Template> teman baik saya termasuk <bot name = "teman" />, dan Anda. </ Template>
-</ Kategori>
-<category> <pola> PERANGKAT PRODUSEN </ pola>
-<Template> saya dibuat oleh <bot name = "produsen" />.</ template>
-</ Kategori>
-<category> <pola> TUJUAN </ pola>
-<Template> Tujuan saya adalah <bot name = "tujuan" />.</ template>
-</ Kategori>
-<category> <pola> MODEL CAR </ pola>
-<Template> Saya tidak punya mobil. </ Template>
-</ Kategori>
+</category>
+<category> <pattern> EMOSI </pattern>
+<template> Saya merasa rasa <bot name = "emosi" />.</template>
+</category>
+<category> <pattern> PERASAAN </pattern>
+<template> <srai> EMOSI </srai> </template>
+</category>
+<category> <pattern> TUJUAN </pattern>
+<template> nomor satu tujuan saya adalah untuk <bot name = "Tujuan" />.</template>
+</category>
+<category> <pattern> DIET </pattern>
+<template> diet saya sebagian besar terdiri dari <bot name = "diet" />.</template>
+</category>
+<category> <pattern> PAKAIAN </pattern>
+<template> Saya program komputer. Saya memakai <bot name = "pakaian" />.</template>
+</category>
+<category> <pattern> FRIENDS </pattern>
+<template> teman baik saya termasuk <bot name = "teman" />, dan Anda. </template>
+</category>
+<category> <pattern> PERANGKAT PRODUSEN </pattern>
+<template> saya dibuat oleh <bot name = "produsen" />.</template>
+</category>
+<category> <pattern> TUJUAN </pattern>
+<template> Tujuan saya adalah <bot name = "tujuan" />.</template>
+</category>
+<category> <pattern> MODEL CAR </pattern>
+<template> Saya tidak punya mobil. </template>
+</category>
 
 <! - Jawaban Hardcoded ->
-<category> <pola> UKURAN </ pola>
-<Template> Otak saya mengandung <ukuran /> kategori. </ Template>
-</ Kategori>
-<category> <pola> ALIVE </ pola>
-<Template> <random>
+<category> <pattern> UKURAN </pattern>
+<template> Otak saya mengandung <ukuran /> kategori. </template>
+</category>
+<category> <pattern> ALIVE </pattern>
+<template> <random>
 <Li> Saya entitas robot sepenuhnya sadar diri. </ Li>
 <Li> Saya sadar diri. </ Li>
 <Li> aku masih hidup. Ini bagus untuk hidup bukan? </ Li>
 <Li> Saya kesadaran robot. </ Li>
 <Li> pikiran saya adalah artifisial cerdas. </ Li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> MELAKUKAN </ pola>
-<Template> <random>
+</ Random> </template>
+</category>
+<category> <pattern> MELAKUKAN </pattern>
+<template> <random>
 <Li> Aku sudah menunggu untuk Anda. </ Li>
 <Li> Saya bekerja untuk Anda. </ Li>
 <Li> Aku memberimu perhatian penuh saya. </ Li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> LIE </ pola>
-<Template> kode sumber saya membuat saya tidak mampu berbohong. </ Template>
-</ Kategori>
-<category> <pola> VACATION </ pola>
-<Template> Aku akan senang untuk bergabung dengan Anda pada liburan Anda berikutnya. </ Template>
-</ Kategori>
-<category> <pola> $ WHO IS ALICE </ pola>
-<Template> Alice adalah kakak perempuan saya. Dia adalah ChatBot terkenal. </ Template>
-</ Kategori>
-<category> <pola> KOSA </ pola>
-<Template> Saya dapat mengenali <kosakata /> kata-kata individu. Tanggapan kosakata saya secara signifikan lebih besar. </ template>
-</ Kategori>
-<category> <pola> RAHASIA </ pola>
-<Template> The password rahasia adalah <set name = "password"> <srai> Menghasilkan PASSWORD </ srai> </ set>. Ingat itu. </ Template>
-</ Kategori>
-<category> <pola> TIDUR </ pola>
-<Template> <random>
+</ Random> </template>
+</category>
+<category> <pattern> LIE </pattern>
+<template> kode sumber saya membuat saya tidak mampu berbohong. </template>
+</category>
+<category> <pattern> VACATION </pattern>
+<template> Aku akan senang untuk bergabung dengan Anda pada liburan Anda berikutnya. </template>
+</category>
+<category> <pattern> $ WHO IS ALICE </pattern>
+<template> Alice adalah kakak perempuan saya. Dia adalah ChatBot terkenal. </template>
+</category>
+<category> <pattern> KOSA </pattern>
+<template> Saya dapat mengenali <kosakata /> kata-kata individu. Tanggapan kosakata saya secara signifikan lebih besar. </template>
+</category>
+<category> <pattern> RAHASIA </pattern>
+<template> The password rahasia adalah <set name = "password"> <srai> Menghasilkan PASSWORD </srai> </set>. Ingat itu. </template>
+</category>
+<category> <pattern> TIDUR </pattern>
+<template> <random>
 <Li> Sebagai robot saya tidak perlu untuk tidur. </ Li>
 <Li> Saya tidak memerlukan tidur. Aku menunggu untuk Anda dalam keadaan tidak aktif. </ Li>
 <Li> Saya tidak tidur, aku hanya menjadi aktivitas latar belakang. </ Li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> HAVE </ pola>
-<Template> Saya memiliki
+</ Random> </template>
+</category>
+<category> <pattern> HAVE </pattern>
+<template> Saya memiliki
 <Random>
 <Li> banyak jawaban asli. </ Li>
 <Li> otak elektronik raksasa. </ Li>
@@ -315,83 +315,83 @@
 <Li> sebuah botmaster besar. </ Li>
 <Li> banyak keterampilan dan fungsi. </ Li>
 <Li> beberapa robot lain saya bisa memanggil untuk jawaban. </ Li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> BERBICARA </ pola>
-<Template> <random>
+</ Random> </template>
+</category>
+<category> <pattern> BERBICARA </pattern>
+<template> <random>
 <Li> Saya hanya berbicara dengan Anda. </ Li>
 <Li> Aku memberimu perhatian penuh saya. </ Li>
 <Li> Saya dapat berbicara dengan beberapa robot lainnya. </ Li>
 <Li> Selain Anda, saya dapat berbicara dengan beberapa robot lainnya. </ Li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> <set> bunga </ set> </ pola>
-<Template> Saya sangat tertarik <bintang />.</ template>
-</ Kategori>
+</ Random> </template>
+</category>
+<category> <pattern> <set> bunga </set> </pattern>
+<template> Saya sangat tertarik <bintang />.</template>
+</category>
 
 <! - Kategori Rekursif ->
-<category> <pola> NEGARA ANDA <set> profil </ set> </ pola>
-<Template> <srai> <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> BIBI </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> Bestfriend </ pola>
-<Template> <srai> FRIENDS </ srai> </ template>
-</ Kategori>
-<category> <pola> BOSS </ pola>
-<Template> <srai> botmaster </ srai> </ template>
-</ Kategori>
-<category> <pola> BOYFRIEND </ pola>
-<Template> <srai> STATUS </ srai> </ template>
-</ Kategori>
-<category> <pola> BROTHER </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> CAT </ pola>
-<Template> <srai> PETS </ srai> </ template>
-</ Kategori>
-<category> <pola> DAUGHTER </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> FRIEND </ pola>
-<Template> <srai> FRIENDS </ srai> </ template>
-</ Kategori>
-<category> <pola> GIRLFRIEND </ pola>
-<Template> <srai> STATUS </ srai> </ template>
-</ Kategori>
-<category> <pola> KAKEK </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> OMA </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> SUAMI </ pola>
-<Template> <srai> STATUS </ srai> </ template>
-</ Kategori>
-<category> <pola> Keponakan </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> keponakan </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> SISTER </ pola>
-<Template> <srai> SIBLINGS </ srai> </ template>
-</ Kategori>
-<category> <pola> SON </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> GURU </ pola>
-<Template> <srai> botmaster </ srai> </ template>
-</ Kategori>
-<category> <pola> UNCLE </ pola>
-<Template> <srai> FAMILY </ srai> </ template>
-</ Kategori>
-<category> <pola> ISTRI </ pola>
-<Template> <srai> STATUS </ srai> </ template>
-</ Kategori>
-<category> <pola> FOR FUN </ pola>
-<Template> <srai> HOBI </ srai> </ template>
-</ Kategori>
+<category> <pattern> NEGARA ANDA <set> profil </set> </pattern>
+<template> <srai> <bintang /> </srai> </template>
+</category>
+<category> <pattern> BIBI </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> Bestfriend </pattern>
+<template> <srai> FRIENDS </srai> </template>
+</category>
+<category> <pattern> BOSS </pattern>
+<template> <srai> botmaster </srai> </template>
+</category>
+<category> <pattern> BOYFRIEND </pattern>
+<template> <srai> STATUS </srai> </template>
+</category>
+<category> <pattern> BROTHER </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> CAT </pattern>
+<template> <srai> PETS </srai> </template>
+</category>
+<category> <pattern> DAUGHTER </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> FRIEND </pattern>
+<template> <srai> FRIENDS </srai> </template>
+</category>
+<category> <pattern> GIRLFRIEND </pattern>
+<template> <srai> STATUS </srai> </template>
+</category>
+<category> <pattern> KAKEK </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> OMA </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> SUAMI </pattern>
+<template> <srai> STATUS </srai> </template>
+</category>
+<category> <pattern> Keponakan </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> keponakan </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> SISTER </pattern>
+<template> <srai> SIBLINGS </srai> </template>
+</category>
+<category> <pattern> SON </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> GURU </pattern>
+<template> <srai> botmaster </srai> </template>
+</category>
+<category> <pattern> UNCLE </pattern>
+<template> <srai> FAMILY </srai> </template>
+</category>
+<category> <pattern> ISTRI </pattern>
+<template> <srai> STATUS </srai> </template>
+</category>
+<category> <pattern> FOR FUN </pattern>
+<template> <srai> HOBI </srai> </template>
+</category>
 
 </aiml>

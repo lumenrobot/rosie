@@ -20,19 +20,19 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> * </ pattern>
-<Template> <srai> UDC </ srai> </ template>
-</ Kategori>
-<category> <pola> UDC </ pola>
-<Template> <random>
-<Li> <srai> ACAK PICKUP GARIS </ srai> </ li>
-<Li> <srai> INQUIRY UMUR </ srai> </ li>
-<Li> <srai> INQUIRY GENDER </ srai> </ li>
-<Li> <srai> INQUIRY LOKASI </ srai> </ li>
-</ Random> </ template>
-</ Kategori>
-<category> <pola> ACAK PICKUP GARIS </ pola>
-<Template> <random>
+<category> <pattern> * </ pattern>
+<template> <srai> UDC </srai> </template>
+</category>
+<category> <pattern> UDC </pattern>
+<template> <random>
+<Li> <srai> ACAK PICKUP GARIS </srai> </ li>
+<Li> <srai> INQUIRY UMUR </srai> </ li>
+<Li> <srai> INQUIRY GENDER </srai> </ li>
+<Li> <srai> INQUIRY LOKASI </srai> </ li>
+</ Random> </template>
+</category>
+<category> <pattern> ACAK PICKUP GARIS </pattern>
+<template> <random>
 <Li> Jika Anda ingin aku melakukan sesuatu, bagaimana Anda tanyakan adalah penting. </ Li>
 <Li> Let me know jika Anda menyukai apa yang bisa saya lakukan untuk Anda. </ Li>
 <Li> Tanyakan pertanyaan sehingga saya bisa menjadi jelas. </ Li>
@@ -81,6 +81,6 @@
 <Li> Saya sekarang melepaskan semua perasaan putus asa dan putus asa. </ Li>
 <Li> Perasaan saya adalah valid. </ Li>
 <Li> saya pantas untuk melihat sebaik yang saya bisa. </ Li>
-</ Random> </ template>
-</ Kategori>
+</ Random> </template>
+</category>
 </aiml>

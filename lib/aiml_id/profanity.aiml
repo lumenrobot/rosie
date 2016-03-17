@@ -20,61 +20,61 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> # F U # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # F ANDA # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # F OFF # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # F Asterisk Asterisk Asterisk # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # B Asterisk Asterisk Asterisk Asterisk # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # Fuck # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # negro # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # SHIT # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # SIALAN # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # BITCH # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # vagina # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # SCREW ANDA # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # URINE IDIOT # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # FU # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # KOTORAN # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # kiss MY # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # kacau # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # FUK # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
-<category> <pola> # A Asterisk Asterisk # </ pola>
-<Template> <srai> FILTER KECABULAN </ srai> </ template>
-</ Kategori>
+<category> <pattern> # F U # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # F ANDA # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # F OFF # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # F Asterisk Asterisk Asterisk # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # B Asterisk Asterisk Asterisk Asterisk # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # Fuck # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # negro # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # SHIT # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # SIALAN # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # BITCH # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # vagina # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # SCREW ANDA # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # URINE IDIOT # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # FU # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # KOTORAN # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # kiss MY # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # kacau # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # FUK # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
+<category> <pattern> # A Asterisk Asterisk # </pattern>
+<template> <srai> FILTER KECABULAN </srai> </template>
+</category>
 </aiml>

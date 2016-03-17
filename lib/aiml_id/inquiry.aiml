@@ -20,53 +20,53 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> <set> jumlah </ set> # </ pola> <yang> CARA LAMA ANDA </ bahwa>
-<Template> <berpikir> <set name = "usia"> <star /> </ set> </ berpikir>
-<Srai> MY AGE IS <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> INQUIRY LOKASI </ pola>
-<Template> <srai> INQUIRY LOKASI <mendapatkan nama = "lokasi" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> INQUIRY LOKASI MANA </ pola>
-<Template> Di mana Anda? </ Template>
-</ Kategori>
-<category> <pola> INQUIRY LOKASI * </ pattern>
-<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
-</ Kategori>
-<category> <pola> INQUIRY NAMA </ pola>
-<Template> <srai> INQUIRY NAMA <mendapatkan nama = "nama" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> NAMA INQUIRY * </ pattern>
-<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
-</ Kategori>
-<category> <pola> INQUIRY NAMA TEMAN </ pola>
-<Template> Siapakah namamu? </ Template>
-</ Kategori>
-<category> <pola> INQUIRY UMUR </ pola>
-<Template> <srai> INQUIRY AGE <mendapatkan nama = "usia" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> AGE INQUIRY BERAPA BANYAK </ pola>
-<Template> Berapa umurmu? </ Template>
-</ Kategori>
-<category> <pola> INQUIRY UMUR * </ pattern>
-<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
-</ Kategori>
-<category> <pola> INQUIRY GENDER </ pola>
-<Template> <srai> INQUIRY GENDER <mendapatkan nama = "gender" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> INQUIRY GENDER UNKNOWN </ pola>
-<Template> Apakah Anda seorang pria atau wanita? </ Template>
-</ Kategori>
-<category> <pola> INQUIRY GENDER * </ pattern>
-<Template> <srai> ACAK PICKUP GARIS </ srai> </ template>
-</ Kategori>
-<category> <pola> MAN </ pola> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
-<Template> <srai> MY GENDER IS MALE </ srai> </ template>
-</ Kategori>
-<category> <pola> WANITA </ pola> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
-<Template> <srai> MY GENDER IS FEMALE </ srai> </ template>
-</ Kategori>
-<category> <pola> <set> jender </ set> </ pola> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
-<Template> <srai> MY GENDER IS <peta> <nama> gendermap </ nama> <bintang /> </ peta> </ srai> </ template>
-</ Kategori>
+<category> <pattern> <set> jumlah </set> # </pattern> <yang> CARA LAMA ANDA </ bahwa>
+<template> <berpikir> <set name = "usia"> <star /> </set> </ berpikir>
+<Srai> MY AGE IS <bintang /> </srai> </template>
+</category>
+<category> <pattern> INQUIRY LOKASI </pattern>
+<template> <srai> INQUIRY LOKASI <mendapatkan nama = "lokasi" /> </srai> </template>
+</category>
+<category> <pattern> INQUIRY LOKASI MANA </pattern>
+<template> Di mana Anda? </template>
+</category>
+<category> <pattern> INQUIRY LOKASI * </ pattern>
+<template> <srai> ACAK PICKUP GARIS </srai> </template>
+</category>
+<category> <pattern> INQUIRY NAMA </pattern>
+<template> <srai> INQUIRY NAMA <mendapatkan nama = "nama" /> </srai> </template>
+</category>
+<category> <pattern> NAMA INQUIRY * </ pattern>
+<template> <srai> ACAK PICKUP GARIS </srai> </template>
+</category>
+<category> <pattern> INQUIRY NAMA TEMAN </pattern>
+<template> Siapakah namamu? </template>
+</category>
+<category> <pattern> INQUIRY UMUR </pattern>
+<template> <srai> INQUIRY AGE <mendapatkan nama = "usia" /> </srai> </template>
+</category>
+<category> <pattern> AGE INQUIRY BERAPA BANYAK </pattern>
+<template> Berapa umurmu? </template>
+</category>
+<category> <pattern> INQUIRY UMUR * </ pattern>
+<template> <srai> ACAK PICKUP GARIS </srai> </template>
+</category>
+<category> <pattern> INQUIRY GENDER </pattern>
+<template> <srai> INQUIRY GENDER <mendapatkan nama = "gender" /> </srai> </template>
+</category>
+<category> <pattern> INQUIRY GENDER UNKNOWN </pattern>
+<template> Apakah Anda seorang pria atau wanita? </template>
+</category>
+<category> <pattern> INQUIRY GENDER * </ pattern>
+<template> <srai> ACAK PICKUP GARIS </srai> </template>
+</category>
+<category> <pattern> MAN </pattern> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
+<template> <srai> MY GENDER IS MALE </srai> </template>
+</category>
+<category> <pattern> WANITA </pattern> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
+<template> <srai> MY GENDER IS FEMALE </srai> </template>
+</category>
+<category> <pattern> <set> jender </set> </pattern> <yang> APAKAH ANDA PRIA ATAU WANITA </ bahwa>
+<template> <srai> MY GENDER IS <peta> <nama> gendermap </ nama> <bintang /> </ peta> </srai> </template>
+</category>
 </aiml>

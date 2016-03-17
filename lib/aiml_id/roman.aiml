@@ -20,18 +20,18 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> ROMAN <set> numbername </ set> </ pola>
-<Template> <srai> ROMAN <peta> <nama> name2number </ nama> <bintang /> </ peta> </ srai> </ template>
-</ Kategori>
-<category> <pola> ROMAN * </ pattern>
-<Template> <berpikir> <set var = "mantan"> <meledak> <bintang /> </ meledak> </ set> </ berpikir>
+<category> <pattern> ROMAN <set> numbername </set> </pattern>
+<template> <srai> ROMAN <peta> <nama> name2number </ nama> <bintang /> </ peta> </srai> </template>
+</category>
+<category> <pattern> ROMAN * </ pattern>
+<template> <berpikir> <set var = "mantan"> <meledak> <bintang /> </ meledak> </set> </ berpikir>
 <Kondisi var = "ex">
-<Li> <value> <bintang /> </ value> Saya tidak tahu apa yang <srai> meledak <bintang /> </ srai> di Romawi. </ Li>
-<Li> <srai> ROMAN <meledak> <bintang /> </ meledak> </ srai> </ li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> ROMAN <set> digit </ set> </ pola>
-<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+<Li> <value> <bintang /> </ value> Saya tidak tahu apa yang <srai> meledak <bintang /> </srai> di Romawi. </ Li>
+<Li> <srai> ROMAN <meledak> <bintang /> </ meledak> </srai> </ li>
+</ Kondisi> </template>
+</category>
+<category> <pattern> ROMAN <set> digit </set> </pattern>
+<template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
 <Value li = "1"> I </ li>
 <Value li = "2"> II </ li>
@@ -43,10 +43,10 @@
 <Value li = "8"> VIII </ li>
 <Value li = "9"> IX </ li>
 <Li />
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> ROMAN <set> digit </ set> <set> digit </ set> </ pola>
-<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+</ Kondisi> </template>
+</category>
+<category> <pattern> ROMAN <set> digit </set> <set> digit </set> </pattern>
+<template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
 <Value li = "1"> X </ li>
 <Value li = "2"> XX </ li>
@@ -58,10 +58,10 @@
 <Value li = "8"> lxxx </ li>
 <Value li = "9"> XC </ li>
 <Li />
-</ Kondisi> <srai> ROMAN <bintang index = "2" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> ROMAN <set> digit </ set> <set> digit </ set> <set> digit </ set> </ pola>
-<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+</ Kondisi> <srai> ROMAN <bintang index = "2" /> </srai> </template>
+</category>
+<category> <pattern> ROMAN <set> digit </set> <set> digit </set> <set> digit </set> </pattern>
+<template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
 <Value li = "1"> C </ li>
 <Value li = "2"> CC </ li>
@@ -73,10 +73,10 @@
 <Value li = "8"> DCCC </ li>
 <Value li = "9"> CM </ li>
 <Li />
-<Index = "2" / star> <index star = "3" /> </ kondisi> <srai> ROMAN </ srai> </ template>
-</ Kategori>
-<category> <pola> ROMAN <set> digit </ set> <set> digit </ set> <set> digit </ set> <set> digit </ set> </ pola>
-<Template> <berpikir> <set var = "d"> <star /> </ set> </ berpikir>
+<Index = "2" / star> <star index="3"/> </ kondisi> <srai> ROMAN </srai> </template>
+</category>
+<category> <pattern> ROMAN <set> digit </set> <set> digit </set> <set> digit </set> <set> digit </set> </pattern>
+<template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
 <Value li = "1"> M </ li>
 <Value li = "2"> MM </ li>
@@ -87,6 +87,6 @@
 <Value li = "8"> MMMMMMM </ li>
 <Value li = "9"> MMMMMMMM </ li>
 <Li />
-<Index star = "4" /> <index star = "3" /> </ kondisi> <srai> ROMAN <index = "2" / star> </ srai> </ template>
-</ Kategori>
+<star index="4"/> <star index="3"/> </ kondisi> <srai> ROMAN <index = "2" / star> </srai> </template>
+</category>
 </aiml>

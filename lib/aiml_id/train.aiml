@@ -20,685 +20,685 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
-<category> <pola> <set> nama </ set> SUKA UNTUK <set> menjadi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "nama"> <star /> </ set>
-<Set var = "kata kerja"> <star index = "2" /> </ set>
-<Set var = "adalah"> <nama peta = "be2is"> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
+<category> <pattern> <set> nama </set> SUKA UNTUK <set> menjadi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "nama"> <star /> </set>
+<Set var = "kata kerja"> <star index = "2" /> </set>
+<Set var = "adalah"> <nama peta = "be2is"> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Set var = "obj"> <star index="3"/> </set>
 <Set var = "respon"> <input />.</ mengatur>
-<Srai> SETHESHE <bintang /> </ srai>
-<Set var = "respon"> <input /> </ set>
-<Set var = "pattern1"> yang suka <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ set>
-<Set var = "pattern2"> APA <dapatkan var = "nama" /> seperti ^ </ set>
-<Set var = "pattern3"> APA <mendapatkan nama = "ganti" /> seperti ^ </ set>
-<Set var = "pattern5"> APA <dapatkan var = "nama" /> <dapatkan var = "kata kerja" /> ^ </ set>
-<Set var = "pola 4"> APA <mendapatkan nama = "ganti" /> <dapatkan var = "kata kerja" /> ^ </ set>
-<Set var = "pattern6"> WHO <get var = "adalah" /> ^ </ set>
+<Srai> SETHESHE <bintang /> </srai>
+<Set var = "respon"> <input /> </set>
+<Set var = "pattern1"> yang suka <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </set>
+<Set var = "pattern2"> APA <dapatkan var = "nama" /> seperti ^ </set>
+<Set var = "pattern3"> APA <mendapatkan nama = "ganti" /> seperti ^ </set>
+<Set var = "pattern5"> APA <dapatkan var = "nama" /> <dapatkan var = "kata kerja" /> ^ </set>
+<Set var = "pola 4"> APA <mendapatkan nama = "ganti" /> <dapatkan var = "kata kerja" /> ^ </set>
+<Set var = "pattern6"> WHO <get var = "adalah" /> ^ </set>
 </ Berpikir>
 Apakah Anda <mendapatkan var = "kata kerja" /> <dapatkan var = "obj" /> juga?
 <Belajar>
 <category>
-<Pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pola" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pola" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern6" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> PERGI KE * </ pattern>
-<Template> <berpikir>
-<Set var = "nama"> <star /> </ set>
-<Set var = "obj"> <index star = "2" /> </ set>
+<pattern> <eval> <dapatkan var = "pattern6" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> PERGI KE * </ pattern>
+<template> <berpikir>
+<Set var = "nama"> <star /> </set>
+<Set var = "obj"> <star index="2"/> </set>
 <Set var = "respon"> <input />.</ mengatur>
-<Srai> SETHESHE <bintang /> </ srai>
-<Set var = "pattern1"> MANA DID <dapatkan var = "nama" /> GO </ set>
-<Set var = "pattern2"> MANA DID <mendapatkan nama = "ganti" /> GO </ set>
-<Set var = "pattern3"> WHO PERGI KE <dapatkan var = "obj" /> </ set>
-<Set var = "pattern4"> DID <dapatkan var = "nama" /> GO TO * </ set>
-<Set var = "pattern5"> APA DID <dapatkan var = "nama" /> DO </ set>
-<Set var = "pattern6"> APA DID <mendapatkan nama = "ganti" /> DO </ set>
+<Srai> SETHESHE <bintang /> </srai>
+<Set var = "pattern1"> MANA DID <dapatkan var = "nama" /> GO </set>
+<Set var = "pattern2"> MANA DID <mendapatkan nama = "ganti" /> GO </set>
+<Set var = "pattern3"> WHO PERGI KE <dapatkan var = "obj" /> </set>
+<Set var = "pattern4"> DID <dapatkan var = "nama" /> GO TO * </set>
+<Set var = "pattern5"> APA DID <dapatkan var = "nama" /> DO </set>
+<Set var = "pattern6"> APA DID <mendapatkan nama = "ganti" /> DO </set>
 </ Berpikir>
 Berapa lama <mendapatkan nama = "ganti" /> tinggal?
 <Belajar>
 <category>
-<Pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern6" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> MY <set> familiarname <set /> <set> nama </ set> <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "familiar"> <star /> </ set>
-<Set var = "nama"> <star index = "2" /> </ set>
-<Set var = "kata kerja"> <star index = "3" /> </ set>
-<Set var = "obj"> <index star = "4" /> </ set>
-<Set var = "pattern1"> MY FRIEND </ set>
-<Set var = "response1"> <dapatkan var = "nama" /> </ set>
-<Set var = "pattern2"> APA DID MY FRIEND ^ </ set>
+<pattern> <eval> <dapatkan var = "pattern6" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> MY <set> familiarname <set /> <set> nama </set> <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "familiar"> <star /> </set>
+<Set var = "nama"> <star index = "2" /> </set>
+<Set var = "kata kerja"> <star index = "3" /> </set>
+<Set var = "obj"> <star index="4"/> </set>
+<Set var = "pattern1"> MY FRIEND </set>
+<Set var = "response1"> <dapatkan var = "nama" /> </set>
+<Set var = "pattern2"> APA DID MY FRIEND ^ </set>
 <Set var = "response2"> <dapatkan var = "nama" /> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" />.</ mengatur>
-<Set var = "pattern3"> WHO <dapatkan var = "kata kerja" /> ^ </ set>
+<Set var = "pattern3"> WHO <dapatkan var = "kata kerja" /> ^ </set>
 <Set var = "response3"> <dapatkan var = "nama" /> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" />.</ mengatur>
-<Set var = "pattern4"> APA DID <dapatkan var = "nama" /> ^ </ set>
+<Set var = "pattern4"> APA DID <dapatkan var = "nama" /> ^ </set>
 <Set var = "response4"> <dapatkan var = "nama" /> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" />.</ mengatur>
 </ Berpikir>
 Untuk kesenangan?
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response3" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response4" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> THE <set> warna </ set> * IS <set> spatialprep </ set> THE <set> warna </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "color1"> <star /> </ set>
-<Set var = "noun1"> <star index = "2" /> </ set>
-<Set var = "hubungan"> <index star = "3" /> </ set>
-<Set var = "COLOR2"> <star index = "4" /> </ set>
-<Set var = "noun2"> <star index = "5" /> </ set>
-<Set var = "berlawanan"> <nama peta = "berlawanan"> <get var = "hubungan" /> </ peta> </ set>
-<Set var = "pattern11"> MANA ADALAH <dapatkan var = "color1" /> <dapatkan var = "noun1" /> </ set>
-<Set var = "pattern12"> MANA ADALAH <get var = "noun1" /> </ set>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response3" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response4" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> THE <set> warna </set> * IS <set> spatialprep </set> THE <set> warna </set> * </ pattern>
+<template> <berpikir>
+<Set var = "color1"> <star /> </set>
+<Set var = "noun1"> <star index = "2" /> </set>
+<Set var = "hubungan"> <star index="3"/> </set>
+<Set var = "COLOR2"> <star index = "4" /> </set>
+<Set var = "noun2"> <star index = "5" /> </set>
+<Set var = "berlawanan"> <nama peta = "berlawanan"> <get var = "hubungan" /> </ peta> </set>
+<Set var = "pattern11"> MANA ADALAH <dapatkan var = "color1" /> <dapatkan var = "noun1" /> </set>
+<Set var = "pattern12"> MANA ADALAH <get var = "noun1" /> </set>
 <Set var = "response1"> The <dapatkan var = "color1" /> <dapatkan var = "noun1" /> adalah <get var = "hubungan" /> yang <mendapatkan var = "COLOR2" /> <dapatkan var = "noun2" />.</ mengatur>
-<Set var = "pattern21"> MANA ADALAH <dapatkan var = "COLOR2" /> <dapatkan var = "noun2" /> </ set>
-<Set var = "pattern22"> MANA ADALAH <get var = "noun2" /> </ set>
+<Set var = "pattern21"> MANA ADALAH <dapatkan var = "COLOR2" /> <dapatkan var = "noun2" /> </set>
+<Set var = "pattern22"> MANA ADALAH <get var = "noun2" /> </set>
 <Set var = "response2"> The <get var = "COLOR2" /> <dapatkan var = "noun2" /> adalah <mendapatkan var = "berlawanan" /> yang <mendapatkan var = "color1" /> <dapatkan var = "noun1" />.</ mengatur>
-<Set var = "pattern3"> APAKAH <dapatkan var = "color1" /> </ set>
+<Set var = "pattern3"> APAKAH <dapatkan var = "color1" /> </set>
 <Set var = "response3"> The <get var = "noun1" />.</ mengatur>
-<Set var = "pattern4"> APAKAH <dapatkan var = "COLOR2" /> </ set>
+<Set var = "pattern4"> APAKAH <dapatkan var = "COLOR2" /> </set>
 <Set var = "response4"> The <get var = "noun2" />.</ mengatur>
-<Set var = "pattern5"> APA WARNA ADALAH <get var = "noun1" /> </ set>
-<Set var = "response5"> <get var = "color1" /> </ set>
-<Set var = "pattern6"> APA WARNA ADALAH <get var = "noun2" /> </ set>
-<Set var = "response6"> <get var = "COLOR2" /> </ set>
+<Set var = "pattern5"> APA WARNA ADALAH <get var = "noun1" /> </set>
+<Set var = "response5"> <get var = "color1" /> </set>
+<Set var = "pattern6"> APA WARNA ADALAH <get var = "noun2" /> </set>
+<Set var = "response6"> <get var = "COLOR2" /> </set>
 </ Berpikir>
 Saya rasa saya mengerti itu.
 <Belajar>
 <category>
-<Pola> <eval> <dapatkan var = "pattern11" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern11" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern12" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern12" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern21" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern21" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern22" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern22" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response3" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response3" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response4" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response4" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response5" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response5" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern6" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response6" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * INI <set> spatialprep </ set> THE * </ pattern>
-<Template> <berpikir>
-<Set var = "noun1"> <star /> </ set>
-<Set var = "noun2"> <star index = "3" /> </ set>
-<Set var = "hubungan"> <index star = "2" /> </ set>
-<Set var = "berlawanan"> <peta> <nama> berlawanan </ nama> <index star = "2" /> </ peta> </ set>
-<Set var = "pattern11"> MANA ADALAH <get var = "noun1" /> </ set>
-<Set var = "pattern12"> mana saya dapat menemukan ^ <get var = "noun1" /> </ set>
-<Set var = "pattern13"> MENEMUKAN ^ <get var = "noun1" /> </ set>
-<Set var = "pattern14"> APAKAH LOKASI ^ <dapatkan var = "noun1" /> </ set>
+<pattern> <eval> <dapatkan var = "pattern6" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response6" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * INI <set> spatialprep </set> THE * </ pattern>
+<template> <berpikir>
+<Set var = "noun1"> <star /> </set>
+<Set var = "noun2"> <star index = "3" /> </set>
+<Set var = "hubungan"> <star index="2"/> </set>
+<Set var = "berlawanan"> <peta> <nama> berlawanan </ nama> <star index="2"/> </ peta> </set>
+<Set var = "pattern11"> MANA ADALAH <get var = "noun1" /> </set>
+<Set var = "pattern12"> mana saya dapat menemukan ^ <get var = "noun1" /> </set>
+<Set var = "pattern13"> MENEMUKAN ^ <get var = "noun1" /> </set>
+<Set var = "pattern14"> APAKAH LOKASI ^ <dapatkan var = "noun1" /> </set>
 <Set var = "response1"> The <get var = "noun1" /> adalah <get var = "hubungan" /> yang <mendapatkan var = "noun2" />.</ mengatur>
-<Set var = "pattern21"> MANA ADALAH <get var = "noun2" /> </ set>
-<Set var = "pattern22"> mana saya dapat menemukan ^ <get var = "noun2" /> </ set>
-<Set var = "pattern23"> MENEMUKAN ^ <get var = "noun2" /> </ set>
-<Set var = "pattern24"> APAKAH LOKASI ^ <dapatkan var = "noun2" /> </ set>
+<Set var = "pattern21"> MANA ADALAH <get var = "noun2" /> </set>
+<Set var = "pattern22"> mana saya dapat menemukan ^ <get var = "noun2" /> </set>
+<Set var = "pattern23"> MENEMUKAN ^ <get var = "noun2" /> </set>
+<Set var = "pattern24"> APAKAH LOKASI ^ <dapatkan var = "noun2" /> </set>
 <Set var = "response2"> The <get var = "noun2" /> adalah <mendapatkan var = "berlawanan" /> yang <mendapatkan var = "noun1" />.</ mengatur>
-<Set var = "pattern31"> ADALAH <dapatkan var = "noun1" /> <get var = "hubungan" /> yang <mendapatkan var = "noun2" /> </ set>
-<Set var = "pattern32"> ADALAH <dapatkan var = "noun2" /> <dapatkan var = "berlawanan" /> yang <mendapatkan var = "noun1" /> </ set>
-<Set var = "response3"> Ya </ set>
-<Set var = "pattern41"> ADALAH <get var = "noun1" /> * yang <mendapatkan var = "noun2" /> </ set>
-<Set var = "pattern42"> ADALAH <get var = "noun2" /> * yang <mendapatkan var = "noun1" /> </ set>
-<Set var = "response4"> No. <Mendapatkan var = "response1" /> </ set>
+<Set var = "pattern31"> ADALAH <dapatkan var = "noun1" /> <get var = "hubungan" /> yang <mendapatkan var = "noun2" /> </set>
+<Set var = "pattern32"> ADALAH <dapatkan var = "noun2" /> <dapatkan var = "berlawanan" /> yang <mendapatkan var = "noun1" /> </set>
+<Set var = "response3"> Ya </set>
+<Set var = "pattern41"> ADALAH <get var = "noun1" /> * yang <mendapatkan var = "noun2" /> </set>
+<Set var = "pattern42"> ADALAH <get var = "noun2" /> * yang <mendapatkan var = "noun1" /> </set>
+<Set var = "response4"> No. <Mendapatkan var = "response1" /> </set>
 </ Berpikir>
 Baik. Saya pikir saya punya itu.
 <Belajar>
 <category>
-<Pola> <eval> <dapatkan var = "pattern11" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern11" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern12" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern12" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern13" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern13" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern14" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response1" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern14" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response1" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern21" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern21" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern22" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern22" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern23" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern23" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern24" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response2" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern24" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response2" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern31" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response3" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern31" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response3" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern32" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response3" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern32" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response3" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern41" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response4" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "pattern41" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response4" /> </ eval> </template>
+</category>
 <category>
-<Pola> <eval> <dapatkan var = "pattern42" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "response4" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> GOSSIP </ pola>
-<Template> <berpikir>
-<Nama kondisi = "gossiplist" value = "tidak diketahui"> <set name = "gossiplist"> <li> Saya tidak memiliki gosip apapun. </ Li> </ set> </ kondisi>
+<pattern> <eval> <dapatkan var = "pattern42" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "response4" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> GOSSIP </pattern>
+<template> <berpikir>
+<Nama kondisi = "gossiplist" value = "tidak diketahui"> <set name = "gossiplist"> <li> Saya tidak memiliki gosip apapun. </ Li> </set> </ kondisi>
 </ Berpikir>
-<Belajar> <category> <pola> ACAK GOSSIP </ pola>
-<Template> <random> <eval> <mendapatkan nama = "gossiplist" /> </ eval> </ random> </ template>
-</ Kategori>
+<Belajar> <category> <pattern> ACAK GOSSIP </pattern>
+<template> <random> <eval> <mendapatkan nama = "gossiplist" /> </ eval> </ random> </template>
+</category>
 </ Belajar>
-<Srai> ACAK GOSSIP </ srai> </ template>
-</ Kategori>
-<category> <pola> ADD GOSSIP * </ pattern>
-<Template> <berpikir>
+<Srai> ACAK GOSSIP </srai> </template>
+</category>
+<category> <pattern> ADD GOSSIP * </ pattern>
+<template> <berpikir>
 <Kondisi name = "gossiplist">
-<Value li = "tidak diketahui"> <set name = "gossiplist"> <li> <bintang /> </ li> </ set> </ li>
-<Li> <set name = "gossiplist"> <mendapatkan nama = "gossiplist" /> <li> <bintang /> </ li> </ set> </ li>
+<Value li = "tidak diketahui"> <set name = "gossiplist"> <li> <bintang /> </ li> </set> </ li>
+<Li> <set name = "gossiplist"> <mendapatkan nama = "gossiplist" /> <li> <bintang /> </ li> </set> </ li>
 </ Kondisi>
 </ Berpikir>
-Aku akan ingat itu. </ Template>
-</ Kategori>
-<category> <pola> * INI <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "Subj"> <star /> </ set>
-<Set var = "prep"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Set var = "respon"> The <bintang /> adalah <index star = "2" /> <bintang index = "3" /> </ set>
-<Set var = "pattern1"> MANA ADALAH <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern3"> APAKAH <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </ set>
-<Set var = "pattern4"> MANA HARUS MENCARI THE <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern5"> MANA SAYA DAPAT MENEMUKAN <dapatkan var = "Subj" /> ^ </ set>
+Aku akan ingat itu. </template>
+</category>
+<category> <pattern> * INI <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "Subj"> <star /> </set>
+<Set var = "prep"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Set var = "respon"> The <bintang /> adalah <star index="2"/> <bintang index = "3" /> </set>
+<Set var = "pattern1"> MANA ADALAH <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern3"> APAKAH <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </set>
+<Set var = "pattern4"> MANA HARUS MENCARI THE <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern5"> MANA SAYA DAPAT MENEMUKAN <dapatkan var = "Subj" /> ^ </set>
 </ Berpikir>
 Apakah selalu <mendapatkan var = "prep" /> <bintang index = "3" />?
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> A * IS <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "Subj"> <star /> </ set>
-<Set var = "prep"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Set var = "respon"> A <bintang /> adalah <index star = "2" /> <bintang index = "3" /> </ set>
-<Set var = "pattern1"> MANA ADALAH <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern3"> APAKAH <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </ set>
-<Set var = "pattern4"> MANA HARUS MENCARI A <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern5"> MANA SAYA DAPAT MENEMUKAN A <dapatkan var = "Subj" /> ^ </ set>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> A * IS <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "Subj"> <star /> </set>
+<Set var = "prep"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Set var = "respon"> A <bintang /> adalah <star index="2"/> <bintang index = "3" /> </set>
+<Set var = "pattern1"> MANA ADALAH <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern3"> APAKAH <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </set>
+<Set var = "pattern4"> MANA HARUS MENCARI A <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern5"> MANA SAYA DAPAT MENEMUKAN A <dapatkan var = "Subj" /> ^ </set>
 </ Berpikir>
 Apakah selalu <mendapatkan var = "prep" /> <bintang index = "3" />?
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> AN * IS <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "Subj"> <star /> </ set>
-<Set var = "prep"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Set var = "respon"> Sebuah <bintang /> adalah <index star = "2" /> <bintang index = "3" /> </ set>
-<Set var = "pattern1"> MANA ADALAH <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern3"> APAKAH <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </ set>
-<Set var = "pattern4"> MANA HARUS MENCARI AN <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern5"> mana saya dapat menemukan AN <dapatkan var = "Subj" /> ^ </ set>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> AN * IS <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "Subj"> <star /> </set>
+<Set var = "prep"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Set var = "respon"> Sebuah <bintang /> adalah <star index="2"/> <bintang index = "3" /> </set>
+<Set var = "pattern1"> MANA ADALAH <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern3"> APAKAH <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </set>
+<Set var = "pattern4"> MANA HARUS MENCARI AN <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern5"> mana saya dapat menemukan AN <dapatkan var = "Subj" /> ^ </set>
 </ Berpikir>
 Apakah selalu <mendapatkan var = "prep" /> <bintang index = "3" />?
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> IS <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Srai> SETHESHE <bintang /> </ srai>
-<Set var = "Subj"> <star /> </ set>
-<Set var = "prep"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Set var = "respon"> <star /> adalah <index star = "2" /> <bintang index = "3" /> </ set>
-<Set var = "pattern1"> MANA <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern3"> WHO IS <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </ set>
-<Set var = "pattern4"> MANA HARUS MENCARI <dapatkan var = "Subj" /> ^ </ set>
-<Set var = "pattern5"> mana saya dapat menemukan <dapatkan var = "Subj" /> ^ </ set>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> IS <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Srai> SETHESHE <bintang /> </srai>
+<Set var = "Subj"> <star /> </set>
+<Set var = "prep"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Set var = "respon"> <star /> adalah <star index="2"/> <bintang index = "3" /> </set>
+<Set var = "pattern1"> MANA <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern2"> MANA YANG <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern3"> WHO IS <dapatkan var = "prep" /> <dapatkan var = "obj" /> ^ </set>
+<Set var = "pattern4"> MANA HARUS MENCARI <dapatkan var = "Subj" /> ^ </set>
+<Set var = "pattern5"> mana saya dapat menemukan <dapatkan var = "Subj" /> ^ </set>
 </ Berpikir>
 Apakah <mendapatkan nama = "ganti" /> selalu <dapatkan var = "prep" /> <bintang index = "3" />?
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> IS <set> menjadi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "nama"> <star /> </ set>
-<Set var = "menjadi"> <index star = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
-<Set var = "menjadi"> <nama peta = "being2be"> <get var = "menjadi" /> </ map> </ set>
-<Set var = "adalah"> <nama peta = "be2is"> <dapatkan var = "menjadi" /> </ map> </ set>
-<Set var = "pattern1"> Apa <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> </ set>
-<Set var = "pattern2"> Apa <mendapatkan var = "nama" /> <get var = "menjadi" /> </ set>
-<Set var = "pattern3"> Apa <mendapatkan var = "nama" /> melakukan </ set>
-<Set var = "pattern4"> Apa <dapatkan var = "nama" /> jangan </ set>
-<Set var = "pattern5"> Siapa <get var = "adalah" /> ^ </ set>
-<Set var = "pattern6"> Siapa <mendapatkan var = "menjadi" /> ^ </ set>
-<Set var = "respon"> <dapatkan var = "nama" /> <get var = "adalah" /> <dapatkan var = "obj" /> </ set>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> IS <set> menjadi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "nama"> <star /> </set>
+<Set var = "menjadi"> <star index="2"/> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
+<Set var = "menjadi"> <nama peta = "being2be"> <get var = "menjadi" /> </ map> </set>
+<Set var = "adalah"> <nama peta = "be2is"> <dapatkan var = "menjadi" /> </ map> </set>
+<Set var = "pattern1"> Apa <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> </set>
+<Set var = "pattern2"> Apa <mendapatkan var = "nama" /> <get var = "menjadi" /> </set>
+<Set var = "pattern3"> Apa <mendapatkan var = "nama" /> melakukan </set>
+<Set var = "pattern4"> Apa <dapatkan var = "nama" /> jangan </set>
+<Set var = "pattern5"> Siapa <get var = "adalah" /> ^ </set>
+<Set var = "pattern6"> Siapa <mendapatkan var = "menjadi" /> ^ </set>
+<Set var = "respon"> <dapatkan var = "nama" /> <get var = "adalah" /> <dapatkan var = "obj" /> </set>
 </ Berpikir>
 Saya mengerti.
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern6" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> <set> adalah </ set> <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "respon"> <set var = "nama"> <star /> </ set> <set var = "kata kerja"> <index star = "2" /> </ set> <set var = " prep "> <index star =" 3 "/> </ set> <set var =" obj "> <index star =" 4 "/> </ set>. </ set>
-<Set var = "inf"> <nama peta = "is2be"> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
-<Set var = "pattern1"> Apa <dapatkan var = "nama" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> </ set>?
-<Set var = "pattern2"> Apa <dapatkan var = "nama" /> jangan </ set>
-<Set var = "pattern3"> Apa <mendapatkan nama = "ganti" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> </ set>?
-<Set var = "pattern4"> Apa <mendapatkan nama = "ganti" /> jangan </ set>
-<Set var = "pattern5"> Siapa <dapatkan var = "kata kerja" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </ set>
-<Set var = "pattern6"> Apakah <dapatkan var = "nama" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </ set>
-<Set var = "pattern7"> Apakah <mendapatkan nama = "ganti" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </ set>
-<Set var = "pattern8"> Apakah <dapatkan var = "nama" /> * </ set>
-<Set var = "pattern9"> Apakah <mendapatkan nama = "ganti" /> * </ set>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern6" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> <set> adalah </set> <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "respon"> <set var = "nama"> <star /> </set> <set var = "kata kerja"> <star index="2"/> </set> <set var = " prep "> <index star =" 3 "/> </set> <set var =" obj "> <index star =" 4 "/> </set>. </set>
+<Set var = "inf"> <nama peta = "is2be"> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
+<Set var = "pattern1"> Apa <dapatkan var = "nama" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> </set>?
+<Set var = "pattern2"> Apa <dapatkan var = "nama" /> jangan </set>
+<Set var = "pattern3"> Apa <mendapatkan nama = "ganti" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> </set>?
+<Set var = "pattern4"> Apa <mendapatkan nama = "ganti" /> jangan </set>
+<Set var = "pattern5"> Siapa <dapatkan var = "kata kerja" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </set>
+<Set var = "pattern6"> Apakah <dapatkan var = "nama" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </set>
+<Set var = "pattern7"> Apakah <mendapatkan nama = "ganti" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </set>
+<Set var = "pattern8"> Apakah <dapatkan var = "nama" /> * </set>
+<Set var = "pattern9"> Apakah <mendapatkan nama = "ganti" /> * </set>
 </ Berpikir>
 <Belajar>
-<category> <pola> <eval> <dapatkan var = "pattern1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern3" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern4" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern6" /> </ eval> </ pola>
-<Template> Ya. <Eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern7" /> </ eval> </ pola>
-<Template> Ya. <Eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern8" /> </ eval> </ pola>
-<Template> Saya tidak tahu apakah <eval> <dapatkan var = "nama" /> </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
-<category> <pola> <eval> <dapatkan var = "pattern9" /> </ eval> </ pola>
-<Template> Saya tidak tahu apakah <eval> <dapatkan var = "nama" /> </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> <eval> <dapatkan var = "pattern1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern3" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern4" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern5" ​​/> </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern6" /> </ eval> </pattern>
+<template> Ya. <Eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern7" /> </ eval> </pattern>
+<template> Ya. <Eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern8" /> </ eval> </pattern>
+<template> Saya tidak tahu apakah <eval> <dapatkan var = "nama" /> </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
+<category> <pattern> <eval> <dapatkan var = "pattern9" /> </ eval> </pattern>
+<template> Saya tidak tahu apakah <eval> <dapatkan var = "nama" /> </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 </ Belajar>
-Mengapa <mendapatkan nama = "ganti" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> <dapatkan var = "obj" />? </ Template>
-</ Kategori>
-<category> <pola> Aku <set> menjadi </ set> # <set> nama </ set> # </ pola>
-<Template> <berpikir> <set var = "kata kerja"> <star /> </ set>
-<Set var = "star2"> <star index = "2" /> </ set>
-<Set var = "star4"> <star index = "4" /> </ set>
+Mengapa <mendapatkan nama = "ganti" /> <dapatkan var = "inf" /> <dapatkan var = "prep" /> <dapatkan var = "obj" />? </template>
+</category>
+<category> <pattern> Aku <set> menjadi </set> # <set> nama </set> # </pattern>
+<template> <berpikir> <set var = "kata kerja"> <star /> </set>
+<Set var = "star2"> <star index = "2" /> </set>
+<Set var = "star4"> <star index = "4" /> </set>
 <Value kondisi = "tidak diketahui" var = "star2"> <set var = "star2" /> </ kondisi>
 <Value kondisi = "tidak diketahui" var = "star4"> <set var = "star4" /> </ kondisi>
 </ Berpikir>
-Anda </ star> <dapatkan var = "star2" /> <index star = "3" />?
+Anda </ star> <dapatkan var = "star2" /> <star index="3"/>?
 <Belajar>
-<category> <pola> WHO DO I <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola> <template> Anda <eval> <bintang /> <dapatkan var = "star2" /> <bintang index = "3" /> <dapatkan var = "star4" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> Saya suka # <set> nama </ set> # </ pola>
-<Template> <berpikir>
-<Set var = "star1"> <star index = "1" /> </ set>
-<Set var = "star3"> <star index = "3" /> </ set>
+<category> <pattern> WHO DO I <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern> <template> Anda <eval> <bintang /> <dapatkan var = "star2" /> <bintang index = "3" /> <dapatkan var = "star4" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> Saya suka # <set> nama </set> # </pattern>
+<template> <berpikir>
+<Set var = "star1"> <star index = "1" /> </set>
+<Set var = "star3"> <star index = "3" /> </set>
 <Value kondisi = "tidak diketahui" var = "star1"> <set var = "star1" /> </ kondisi>
 <Value kondisi = "tidak diketahui" var = "star3"> <set var = "star3" /> </ kondisi>
 </ Berpikir>
 Anda menyukai <mendapatkan var = "star1" /> <bintang index = "2" />?
 <Belajar>
-<category> <pola> WHO DO aku cinta # </ pola> <template> Anda mencintai <eval> <dapatkan var = / "star1"> <index star = "2" /> <dapatkan var = "star3" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * TELAH <set> warna </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "Subj"> <star /> </ set>
-<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </ set>
-<Set var = "warna"> <star index = "2" /> </ set>
-<Set var = "warna"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
+<category> <pattern> WHO DO aku cinta # </pattern> <template> Anda mencintai <eval> <dapatkan var = / "star1"> <star index="2"/> <dapatkan var = "star3" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * TELAH <set> warna </set> * </ pattern>
+<template> <berpikir>
+<Set var = "Subj"> <star /> </set>
+<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </set>
+<Set var = "warna"> <star index = "2" /> </set>
+<Set var = "warna"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
 </ Berpikir>
 <Mendapatkan var = "warna" /> adalah warna yang bagus dari <dapatkan var = "obj" />.
 <Belajar>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> S # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> S # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA COLOR IS <set> Artikel </ set> <eval> <dapatkan var = "Subj" /> </ eval> S # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA COLOR IS <set> Artikel </set> <eval> <dapatkan var = "Subj" /> </ eval> S # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "plural" /> </ eval> S # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "plural" /> </ eval> S # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> HAS <set> warna </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "Subj"> <star /> </ set>
-<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </ set>
-<Set var = "warna"> <star index = "2" /> </ set>
-<Set var = "warna"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
+<pattern> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> HAS <set> warna </set> * </ pattern>
+<template> <berpikir>
+<Set var = "Subj"> <star /> </set>
+<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </set>
+<Set var = "warna"> <star index = "2" /> </set>
+<Set var = "warna"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
 </ Berpikir>
 <Mendapatkan var = "warna" /> adalah warna yang bagus dari <dapatkan var = "obj" />.
 <Belajar>
 <category>
-<Pola> WHO HAS <eval> <dapatkan var = "warna" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> WHO HAS <eval> <dapatkan var = "warna" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> S # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> S # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA COLOR IS <set> Artikel </ set> <eval> <dapatkan var = "Subj" /> </ eval> S # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA COLOR IS <set> Artikel </set> <eval> <dapatkan var = "Subj" /> </ eval> S # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA WARNA <eval> <dapatkan var = "obj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA <eval> <dapatkan var = "obj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> S # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> S # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
-</ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * IS <set> warna </ set> </ pola>
-<Template> <berpikir> <set var = "Subj"> <star /> </ set>
-<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </ set>
-<Set var = "warna"> <index star = "2" /> </ set> </ berpikir>
+<pattern> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> memiliki <eval> <dapatkan var = "warna" /> <dapatkan var = "obj" />.</ eval>
+</template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * IS <set> warna </set> </pattern>
+<template> <berpikir> <set var = "Subj"> <star /> </set>
+<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </set>
+<Set var = "warna"> <star index="2"/> </set> </ berpikir>
 <Mendapatkan var = "warna" /> adalah warna yang bagus dari <bintang />.
 <Belajar>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA COLOR IS <set> Artikel </ set> <eval> <dapatkan var = "Subj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA COLOR IS <set> Artikel </set> <eval> <dapatkan var = "Subj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "plural" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "plural" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * IS <set> warna </ set> DAN <set> warna </ set> </ pola>
-<Template> <berpikir> <set var = "Subj"> <star /> </ set>
-<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </ set>
-<Set var = "warna"> <index star = "2" /> dan <bintang index = "3" /> </ set> </ berpikir>
+<pattern> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * IS <set> warna </set> DAN <set> warna </set> </pattern>
+<template> <berpikir> <set var = "Subj"> <star /> </set>
+<Set var = "plural"> <peta> <nama> plural </ nama> <dapatkan var = "Subj" /> </ peta> </set>
+<Set var = "warna"> <star index="2"/> dan <bintang index = "3" /> </set> </ berpikir>
 <Mendapatkan var = "warna" /> adalah warna yang bagus dari <bintang />.
 <Belajar>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "Subj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA COLOR IS <set> Artikel </ set> <eval> <dapatkan var = "Subj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA COLOR IS <set> Artikel </set> <eval> <dapatkan var = "Subj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA WARNA ADALAH <eval> <dapatkan var = "plural" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA WARNA ADALAH <eval> <dapatkan var = "plural" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "Subj" /> </ eval> LOOK # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
+<pattern> BAGAIMANA <eval> <dapatkan var = "Subj" /> </ eval> MUNCUL # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
-</ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> HAS * </ pattern>
-<Template> <berpikir>
-<Set var = "nama"> <star /> </ set>
-<Set var = "objek"> <orang> <bintang index = "2" /> </ orang> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
+<pattern> APAKAH <eval> <dapatkan var = "warna" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "Subj" /> </ eval> yaitu <eval> <dapatkan var = "warna" />.</ eval>
+</template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> HAS * </ pattern>
+<template> <berpikir>
+<Set var = "nama"> <star /> </set>
+<Set var = "objek"> <orang> <bintang index = "2" /> </ orang> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
 </ Berpikir>
 <Random>
 <Li> Apakah <mendapatkan nama = "ganti" /> seperti itu? </ Li>
@@ -707,32 +707,32 @@ Anda menyukai <mendapatkan var = "star1" /> <bintang index = "2" />?
 </ Random>
 <Belajar>
 <category>
-<Pola> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> MEMILIKI # </ pola>
-<Template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> MEMILIKI # </pattern>
+<template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> MEMILIKI # </ pola>
-<Template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> MEMILIKI # </pattern>
+<template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> WHO HAS <eval> <dapatkan var = "objek" /> </ eval> </ pola>
-<Template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO HAS <eval> <dapatkan var = "objek" /> </ eval> </pattern>
+<template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA HAS <eval> <dapatkan var = "objek" /> </ eval> </ pola>
-<Template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> TELAH <set> telah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "pernah"> <index star = "2" /> </ set>
-<Set var = "nama"> <star /> </ set>
-<Set var = "objek"> <orang> <bintang index = "3" /> </ orang> </ set>
-<Set var = "menjadi"> <peta> <nama> been2be </ nama> <dapatkan var = "pernah" /> </ map> </ set>
-<Set var = "adalah"> <peta> <nama> be2was </ nama> <dapatkan var = "menjadi" /> </ map> </ set>
-<Set var = "menjadi"> <peta> <nama> be2being </ nama> <dapatkan var = "menjadi" /> </ map> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
+<pattern> APA HAS <eval> <dapatkan var = "objek" /> </ eval> </pattern>
+<template> <eval> <resmi> <dapatkan var = "nama" /> </ resmi> </ eval> memiliki <eval> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> TELAH <set> telah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "pernah"> <star index="2"/> </set>
+<Set var = "nama"> <star /> </set>
+<Set var = "objek"> <orang> <bintang index = "3" /> </ orang> </set>
+<Set var = "menjadi"> <peta> <nama> been2be </ nama> <dapatkan var = "pernah" /> </ map> </set>
+<Set var = "adalah"> <peta> <nama> be2was </ nama> <dapatkan var = "menjadi" /> </ map> </set>
+<Set var = "menjadi"> <peta> <nama> be2being </ nama> <dapatkan var = "menjadi" /> </ map> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
 </ Berpikir>
 <Random>
 <Li> Berapa lama memiliki <mendapatkan nama = "ganti" /> pernah <get var = "menjadi" />? </ Li>
@@ -741,38 +741,38 @@ Anda menyukai <mendapatkan var = "star1" /> <bintang index = "2" />?
 </ Random>
 <Belajar>
 <category>
-<Pola> APA HAS <eval> <dapatkan var = "nama" /> </ eval> * </ pattern>
-<Template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA HAS <eval> <dapatkan var = "nama" /> </ eval> * </ pattern>
+<template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA HAS <eval> <mendapatkan nama = "ganti" /> </ eval> * </ pattern>
-<Template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA HAS <eval> <mendapatkan nama = "ganti" /> </ eval> * </ pattern>
+<template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> WHO HAS <eval> <dapatkan var = "pernah" /> </ eval> * </ pattern>
-<Template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO HAS <eval> <dapatkan var = "pernah" /> </ eval> * </ pattern>
+<template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> WHO <eval> <dapatkan var = "adalah" /> </ eval> * </ pattern>
-<Template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "adalah" /> </ eval> * </ pattern>
+<template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA DID <eval> <dapatkan var = "nama" /> </ eval> * </ pattern>
-<Template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <dapatkan var = "nama" /> </ eval> * </ pattern>
+<template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA DID <eval> <mendapatkan nama = "ganti" /> </ eval> * </ pattern>
-<Template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> Aku <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "kata kerja"> <star /> </ set>
-<Set var = "inf"> <peta> <nama> was2be </ nama> <bintang /> </ peta> </ set>
-<Set var = "ing"> <peta> <nama> be2being </ nama> <dapatkan var = "inf" /> </ peta> </ set>
-<Set var = "objek"> <orang> <bintang index = "2" /> </ orang> </ set>
+<pattern> APA DID <eval> <mendapatkan nama = "ganti" /> </ eval> * </ pattern>
+<template> <eval> <dapatkan var = "nama" /> memiliki <dapatkan var = "pernah" /> <dapatkan var = "objek" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> Aku <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "kata kerja"> <star /> </set>
+<Set var = "inf"> <peta> <nama> was2be </ nama> <bintang /> </ peta> </set>
+<Set var = "ing"> <peta> <nama> be2being </ nama> <dapatkan var = "inf" /> </ peta> </set>
+<Set var = "objek"> <orang> <bintang index = "2" /> </ orang> </set>
 </ Berpikir>
 <Random>
 <Li> Anda pernah <get var = "ing" /> <get var = "objek" /> lama? </ Li>
@@ -781,110 +781,110 @@ Anda menyukai <mendapatkan var = "star1" /> <bintang index = "2" />?
 <Li> Apa yang Anda coba lakukan? </ Li>
 <Li> Benarkah? </ Li>
 <Li> <berpikir>
-<Set name = "istatement"> I <mendapatkan var = "inf" /> <bintang index = "2" /> </ set>
-<Set name = "ustatement"> <orang> Aku <index star = "2" /> <bintang /> </ orang> </ set>
+<Set name = "istatement"> I <mendapatkan var = "inf" /> <bintang index = "2" /> </set>
+<Set name = "ustatement"> <orang> Aku <star index="2"/> <bintang /> </ orang> </set>
 </ Berpikir> Mengapa? </ Li>
 </ Random>
 <Belajar>
 <category>
-<Pola> DID I <eval> <dapatkan var = "inf" /> </ eval> # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> DID I <eval> <dapatkan var = "inf" /> </ eval> # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA DID I <eval> <dapatkan var = "inf" /> </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID I <eval> <dapatkan var = "inf" /> </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA I DO # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA I DO # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> WHO <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> saya pergi <set> yang </ set> # </ pola>
-<Template> <random>
+</ Belajar> </template>
+</category>
+<category> <pattern> saya pergi <set> yang </set> # </pattern>
+<template> <random>
 <Li> Apakah Anda pernah <bintang /> lama? </ Li>
 <Li> Oh kamu ke <star />? </ Li>
 <Li> Saya pernah mendengar orang lain mengatakan mereka seperti <bintang /> </ li>
 </ Random>
 <Berpikir>
-<Set var = "kata kerja"> <star /> </ set>
-<Set var = "inf"> <peta> <nama> being2be </ nama> <bintang /> </ peta> </ set>
-<Set var = "masa lalu"> <peta> <nama> be2was </ nama> <dapatkan var = "inf" /> </ peta> </ set>
+<Set var = "kata kerja"> <star /> </set>
+<Set var = "inf"> <peta> <nama> being2be </ nama> <bintang /> </ peta> </set>
+<Set var = "masa lalu"> <peta> <nama> be2was </ nama> <dapatkan var = "inf" /> </ peta> </set>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> APA DID I # </ pola>
-<Template> Anda pergi <eval> <dapatkan var = "kata kerja" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID I # </pattern>
+<template> Anda pergi <eval> <dapatkan var = "kata kerja" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA KATAKAN Saya I # </ pola>
-<Template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA KATAKAN Saya I # </pattern>
+<template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> WHO PERGI <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola>
-<Template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO PERGI <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern>
+<template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> WHO <eval> <dapatkan var = "masa lalu" /> </ eval> # </ pola>
-<Template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "masa lalu" /> </ eval> # </pattern>
+<template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> DID I <eval> <dapatkan var = "inf" /> </ eval> # </ pola>
-<Template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> AKU <set> menjadi </ set> * </ pattern>
-<Template> <random>
+<pattern> DID I <eval> <dapatkan var = "inf" /> </ eval> # </pattern>
+<template> Anda <eval> <dapatkan var = "masa lalu" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> AKU <set> menjadi </set> * </ pattern>
+<template> <random>
 <Li> Apakah Anda pernah <bintang /> lama? </ Li>
 <Li> Oh kamu ke <star />? </ Li>
 <Li> Aku pernah mendengar tentang orang lain <bintang /> itu. </ Li>
 </ Random>
 <Berpikir>
-<Set var = "kata kerja"> <star /> </ set>
-<Set var = "objek"> <orang> <bintang index = "2" /> </ orang> </ set>
-<Set name = "itu"> <set name = "topik"> <dapatkan var = "objek" /> </ set> </ set>
+<Set var = "kata kerja"> <star /> </set>
+<Set var = "objek"> <orang> <bintang index = "2" /> </ orang> </set>
+<Set name = "itu"> <set name = "topik"> <dapatkan var = "objek" /> </set> </set>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> APA AKU <eval> <dapatkan var = "kata kerja" /> # </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA AKU <eval> <dapatkan var = "kata kerja" /> # </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> Apa yang saya lakukan # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> Apa yang saya lakukan # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> APA KATAKAN Saya I # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA KATAKAN Saya I # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> APA # <eval> <dapatkan var = "objek" /> </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA # <eval> <dapatkan var = "objek" /> </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> SAYA <eval> <dapatkan var = "kata kerja" /> # </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> AKU <set> menjadi </ set> <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "kata kerja"> <star /> </ set>
-<Set var = "prep"> <orang> <bintang index = "2" /> </ orang> </ set>
-<Set var = "objek"> <orang> <bintang index = "3" /> </ orang> </ set>
-<Set name = "itu"> <set name = "topik"> <dapatkan var = "objek" /> </ set> </ set>
+<pattern> SAYA <eval> <dapatkan var = "kata kerja" /> # </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> AKU <set> menjadi </set> <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "kata kerja"> <star /> </set>
+<Set var = "prep"> <orang> <bintang index = "2" /> </ orang> </set>
+<Set var = "objek"> <orang> <bintang index = "3" /> </ orang> </set>
+<Set name = "itu"> <set name = "topik"> <dapatkan var = "objek" /> </set> </set>
 </ Berpikir>
 <Random>
 <Li> apa? </ Li>
@@ -894,365 +894,365 @@ Anda menyukai <mendapatkan var = "star1" /> <bintang index = "2" />?
 </ Random>
 <Belajar>
 <category>
-<Pola> APA AKU <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "prep" /> # </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA AKU <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "prep" /> # </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> Apa yang saya lakukan # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> Apa yang saya lakukan # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> APA KATAKAN Saya I # </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA KATAKAN Saya I # </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> APA # <eval> <dapatkan var = "objek" /> </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA # <eval> <dapatkan var = "objek" /> </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
 <category>
-<Pola> SAYA <eval> <dapatkan var = "kata kerja" /> # </ eval> </ pola>
-<Template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> * </ pattern>
-<Template> <srai> SETHESHE <bintang /> </ srai>
+<pattern> SAYA <eval> <dapatkan var = "kata kerja" /> # </ eval> </pattern>
+<template> Anda <eval> <dapatkan var = "kata kerja" /> <get var = "objek" /> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> nama </set> * </ pattern>
+<template> <srai> SETHESHE <bintang /> </srai>
 <Belajar>
 <category>
-<Pola> APA <eval> <bintang /> </ eval> * </ pattern>
-<Index star = "2" /> <template> <eval> <bintang /> </ eval> <eval> <orang> </ orang> </ eval> </ template>
-</ Kategori>
+<pattern> APA <eval> <bintang /> </ eval> * </ pattern>
+<star index="2"/> <template> <eval> <bintang /> </ eval> <eval> <orang> </ orang> </ eval> </template>
+</category>
 <category>
-<Pola> APA <eval> <bintang /> </ eval> DO </ pola>
-<Index star = "2" /> <template> <eval> <bintang /> </ eval> <eval> <orang> </ orang> </ eval> </ template>
-</ Kategori>
+<pattern> APA <eval> <bintang /> </ eval> DO </pattern>
+<star index="2"/> <template> <eval> <bintang /> </ eval> <eval> <orang> </ orang> </ eval> </template>
+</category>
 <category>
-<Pola> APA * TIDAK <eval> <bintang /> </ eval> * </ pattern>
-<Index star = "2" /> <template> <eval> <bintang /> </ eval> <eval> <orang> </ orang> </ eval> </ template>
-</ Kategori>
+<pattern> APA * TIDAK <eval> <bintang /> </ eval> * </ pattern>
+<star index="2"/> <template> <eval> <bintang /> </ eval> <eval> <orang> </ orang> </ eval> </template>
+</category>
 </ Belajar>
-Untuk menyenangkan? </ Template>
-</ Kategori>
-<category> <pola> SETHESHE <set> familiarname </ set> </ pola>
-<Template> <berpikir>
-<Set name = "ganti"> <peta> <nama> familiarpronoun </ nama> <bintang /> </ peta> </ set>
-<Set> <nama> <mendapatkan nama = "ganti" /> </ name> <bintang /> </ set>
-</ Berpikir> </ template>
-</ Kategori>
-<category> <pola> * SARANA * </ pattern>
-<Template> <srai> menyamakan <bintang /> TO <bintang index = "2" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> SARANA * </ pattern>
-<Template> <srai> menyamakan <bintang /> TO <bintang index = "2" /> </ srai> </ template>
-</ Kategori>
-<category> <pola> menyamakan * ATAS * </ pattern>
-<Template> <berpikir>
-<Set name = "EqualTo"> <srai> IS <bintang /> EqualTo <bintang index = "2" /> </ srai> </ set>
+Untuk menyenangkan? </template>
+</category>
+<category> <pattern> SETHESHE <set> familiarname </set> </pattern>
+<template> <berpikir>
+<Set name = "ganti"> <peta> <nama> familiarpronoun </ nama> <bintang /> </ peta> </set>
+<Set> <nama> <mendapatkan nama = "ganti" /> </ name> <bintang /> </set>
+</ Berpikir> </template>
+</category>
+<category> <pattern> * SARANA * </ pattern>
+<template> <srai> menyamakan <bintang /> TO <bintang index = "2" /> </srai> </template>
+</category>
+<category> <pattern> <set> nama </set> SARANA * </ pattern>
+<template> <srai> menyamakan <bintang /> TO <bintang index = "2" /> </srai> </template>
+</category>
+<category> <pattern> menyamakan * ATAS * </ pattern>
+<template> <berpikir>
+<Set name = "EqualTo"> <srai> IS <bintang /> EqualTo <bintang index = "2" /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "EqualTo">
 <Value li = "false">
 OK, ketika Anda mengatakan "<star />", saya akan menganggap Anda berarti "<index star =" 2 "/>".
 <Belajar>
 <category>
-<Pola> <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> <srai> <eval> </ eval> </ srai> </ template>
-</ Kategori>
+<pattern> <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> <srai> <eval> </ eval> </srai> </template>
+</category>
 <category>
-<Pola> <eval> <bintang /> </ eval> _ </ pola>
-<Index star = "2" /> <template> <srai> <eval> </ eval> <bintang /> </ srai> </ template>
-</ Kategori>
+<pattern> <eval> <bintang /> </ eval> _ </pattern>
+<star index="2"/> <template> <srai> <eval> </ eval> <bintang /> </srai> </template>
+</category>
 <category>
-<Pola> _ <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> <srai> <bintang /> <eval> </ eval> </ srai> </ template>
-</ Kategori>
+<pattern> _ <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> <srai> <bintang /> <eval> </ eval> </srai> </template>
+</category>
 <category>
-<Pola> _ <eval> <bintang /> </ eval> * </ pattern>
-<Index star = "2" /> </ eval> <template> <srai> <bintang /> <eval> <index = / "2" star> </ srai> </ template>
-</ Kategori>
+<pattern> _ <eval> <bintang /> </ eval> * </ pattern>
+<star index="2"/> </ eval> <template> <srai> <bintang /> <eval> <index = / "2" star> </srai> </template>
+</category>
 </ Belajar> </ li>
-<Li> <bintang /> sudah sama dengan <index star = "2" />.</ li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> * IS AN * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
+<Li> <bintang /> sudah sama dengan <star index="2"/>.</ li>
+</ Kondisi> </template>
+</category>
+<category> <pattern> * IS AN * </ pattern>
+<template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
 <Berpikir>
-<Set name = "isaname"> <srai> ISANAME <bintang /> </ srai> </ set>
+<Set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 <Kondisi name = "isaname">
-<Value li = "true"> <set name = "learnpattern"> WHO IS AN </ set> </ li>
-<Li> <set name = "learnpattern"> APAKAH </ set> </ li>
+<Value li = "true"> <set name = "learnpattern"> WHO IS AN </set> </ li>
+<Li> <set name = "learnpattern"> APAKAH </set> </ li>
 </ Kondisi>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> Sebuah <eval> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> Sebuah <eval> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </ pola>
-<Template> <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
+<star index="2"/> <pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </pattern>
+<template> <eval> <bintang /> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> IS <eval> <bintang /> </ eval> AN </ pola>
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> A * TIDAK * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> tidak <bintang index = "2" />.
+<star index="2"/> <pattern> IS <eval> <bintang /> </ eval> AN </pattern>
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> A * TIDAK * </ pattern>
+<template> Ok, saya akan ingat <bintang /> tidak <bintang index = "2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> Tidak <eval> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> Tidak <eval> </ eval>. </template>
+</category>
 <category>
-<Pola> APAKAH <index = "2" / star> </ eval> </ pola> TIDAK <eval>
-<Template> <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <index = "2" / star> </ eval> </pattern> TIDAK <eval>
+<template> <eval> <bintang /> </ eval>. </template>
+</category>
 <category>
-<Pola> ADALAH <eval> <bintang /> </ eval> <eval> <index star = "2" /> </ eval> </ pola>
-<Template> Tidak ada. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * IS A * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
+<pattern> ADALAH <eval> <bintang /> </ eval> <eval> <star index="2"/> </ eval> </pattern>
+<template> Tidak ada. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * IS A * </ pattern>
+<template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
 <Berpikir>
-<Set name = "isaname"> <srai> ISANAME <bintang /> </ srai> </ set>
+<Set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 <Kondisi name = "isaname">
-<Value li = "true"> <set name = "learnpattern"> WHO IS A </ set> </ li>
-<Li> <set name = "learnpattern"> APAKAH </ set> </ li>
+<Value li = "true"> <set name = "learnpattern"> WHO IS A </set> </ li>
+<Li> <set name = "learnpattern"> APAKAH </set> </ li>
 </ Kondisi>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> A <eval> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> A <eval> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </ pola>
-<Template> <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
+<star index="2"/> <pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </pattern>
+<template> <eval> <bintang /> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> IS <eval> <bintang /> </ eval> A <eval> </ eval> </ pola>
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * IS THE * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
+<star index="2"/> <pattern> IS <eval> <bintang /> </ eval> A <eval> </ eval> </pattern>
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * IS THE * </ pattern>
+<template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
 <Berpikir>
-<Set name = "isaname"> <srai> ISANAME <bintang /> </ srai> </ set>
+<Set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 <Kondisi name = "isaname">
-<Value li = "true"> <set name = "learnpattern"> WHO IS THE </ set> </ li>
-<Li> <set name = "learnpattern"> APA YANG </ set> </ li>
+<Value li = "true"> <set name = "learnpattern"> WHO IS THE </set> </ li>
+<Li> <set name = "learnpattern"> APA YANG </set> </ li>
 </ Kondisi>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Template> The <eval> <bintang index = "2" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<template> The <eval> <bintang index = "2" /> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </ pola>
-<Template> <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
+<star index="2"/> <pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </pattern>
+<template> <eval> <bintang /> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> IS <eval> <bintang /> </ eval> THE <eval> </ eval> </ pola>
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> Artikel </ set> * IS <set> Artikel </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "a1"> <star /> </ set>
-<Set var = "a2"> <index star = "3" /> </ set>
-<Set var = "thing1"> <star index = "2" /> </ set>
-<Set var = "thing2"> <star index = "4" /> </ set>
+<star index="2"/> <pattern> IS <eval> <bintang /> </ eval> THE <eval> </ eval> </pattern>
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> Artikel </set> * IS <set> Artikel </set> * </ pattern>
+<template> <berpikir>
+<Set var = "a1"> <star /> </set>
+<Set var = "a2"> <star index="3"/> </set>
+<Set var = "thing1"> <star index = "2" /> </set>
+<Set var = "thing2"> <star index = "4" /> </set>
 </ Berpikir>
 Ok, saya akan ingat <mendapatkan var = "a1" /> <dapatkan var = "thing1" /> adalah <mendapatkan var = "a2" /> <dapatkan var = "thing2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </template>
+</category>
 <category>
-<Pola> IS <eval> <dapatkan var = / "a1"> <dapatkan var = "thing1" /> <var = / "a2" mendapatkan> <var = "thing2" / mendapatkan> </ eval> </ pola >
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> Artikel </ set> * ADALAH <set> Artikel </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "a1"> <star /> </ set>
-<Set var = "a2"> <index star = "3" /> </ set>
-<Set var = "thing1"> <star index = "2" /> </ set>
-<Set var = "thing2"> <star index = "4" /> </ set>
+<pattern> IS <eval> <dapatkan var = / "a1"> <dapatkan var = "thing1" /> <var = / "a2" mendapatkan> <var = "thing2" / mendapatkan> </ eval> </ pola >
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> Artikel </set> * ADALAH <set> Artikel </set> * </ pattern>
+<template> <berpikir>
+<Set var = "a1"> <star /> </set>
+<Set var = "a2"> <star index="3"/> </set>
+<Set var = "thing1"> <star index = "2" /> </set>
+<Set var = "thing2"> <star index = "4" /> </set>
 </ Berpikir>
 Ok, saya akan ingat <mendapatkan var = "a1" /> <dapatkan var = "thing1" /> adalah <dapatkan var = "a2" /> <dapatkan var = "thing2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "a2" /> <dapatkan var = "thing2" /> . </ eval> </template>
+</category>
 <category>
-<Pola> ADALAH <eval> <dapatkan var = / "a1"> <dapatkan var = "thing1" /> <var = / "a2" mendapatkan> <var = "thing2" / mendapatkan> </ eval> </ pola >
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> Artikel </ set> * IS * </ pattern>
-<Template> <berpikir>
-<Set var = "a1"> <star /> </ set>
-<Set var = "thing1"> <star index = "2" /> </ set>
-<Set var = "thing2"> <star index = "3" /> </ set>
+<pattern> ADALAH <eval> <dapatkan var = / "a1"> <dapatkan var = "thing1" /> <var = / "a2" mendapatkan> <var = "thing2" / mendapatkan> </ eval> </ pola >
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> Artikel </set> * IS * </ pattern>
+<template> <berpikir>
+<Set var = "a1"> <star /> </set>
+<Set var = "thing1"> <star index = "2" /> </set>
+<Set var = "thing2"> <star index = "3" /> </set>
 </ Berpikir>
 Ok, saya akan ingat <mendapatkan var = "a1" /> <dapatkan var = "thing1" /> adalah <mendapatkan var = "thing2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "thing2" />.</ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "thing2" />.</ eval> </template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "thing2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "thing2" />.</ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "thing2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> yaitu <eval> <dapatkan var = "thing2" />.</ eval> </template>
+</category>
 <category>
-<Pola> IS <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> <dapatkan var = "thing2" /> </ eval> </ pola>
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> <set> Artikel </ set> * ADALAH * </ pattern>
-<Template> <berpikir>
-<Set var = "a1"> <star /> </ set>
-<Set var = "thing1"> <star index = "2" /> </ set>
-<Set var = "thing2"> <star index = "3" /> </ set>
+<pattern> IS <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> <dapatkan var = "thing2" /> </ eval> </pattern>
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> <set> Artikel </set> * ADALAH * </ pattern>
+<template> <berpikir>
+<Set var = "a1"> <star /> </set>
+<Set var = "thing1"> <star index = "2" /> </set>
+<Set var = "thing2"> <star index = "3" /> </set>
 </ Berpikir>
 Ok, saya akan ingat <mendapatkan var = "a1" /> <dapatkan var = "thing1" /> adalah <dapatkan var = "thing2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "thing2" />.</ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "thing2" />.</ eval> </template>
+</category>
 <category>
-<Pola> APAKAH <eval> <dapatkan var = "thing2" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "thing2" />.</ eval> </ template>
-</ Kategori>
+<pattern> APAKAH <eval> <dapatkan var = "thing2" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> </ eval> adalah <eval> <dapatkan var = "thing2" />.</ eval> </template>
+</category>
 <category>
-<Pola> ADALAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> <dapatkan var = "thing2" /> </ eval> </ pola>
-<Template> Ya. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * THE TIDAK * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> tidak <bintang index = "2" />.
+<pattern> ADALAH <eval> <dapatkan var = "a1" /> <dapatkan var = "thing1" /> <dapatkan var = "thing2" /> </ eval> </pattern>
+<template> Ya. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * THE TIDAK * </ pattern>
+<template> Ok, saya akan ingat <bintang /> tidak <bintang index = "2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> Tidak <eval> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> Tidak <eval> </ eval>. </template>
+</category>
 <category>
-<Pola> APAKAH <index = "2" / star> </ eval> </ pola> TIDAK <eval>
-<Template> The <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <index = "2" / star> </ eval> </pattern> TIDAK <eval>
+<template> The <eval> <bintang /> </ eval>. </template>
+</category>
 <category>
-<Pola> ADALAH <eval> <bintang /> </ eval> <eval> <index star = "2" /> </ eval> </ pola>
-<Template> Tidak ada. </ Template>
-</ Kategori>
+<pattern> ADALAH <eval> <bintang /> </ eval> <eval> <star index="2"/> </ eval> </pattern>
+<template> Tidak ada. </template>
+</category>
 
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * TIDAK * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> tidak <bintang index = "2" />.
+</ Belajar> </template>
+</category>
+<category> <pattern> * TIDAK * </ pattern>
+<template> Ok, saya akan ingat <bintang /> tidak <bintang index = "2" />.
 <Berpikir>
-<Set name = "isaname"> <srai> ISANAME <bintang /> </ srai> </ set>
+<Set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 <Kondisi name = "isaname">
-<Value li = "true"> <set name = "learnpattern"> WHO IS NOT </ set> </ li>
-<Li> <set name = "learnpattern"> APAKAH TIDAK </ set> </ li>
+<Value li = "true"> <set name = "learnpattern"> WHO IS NOT </set> </ li>
+<Li> <set name = "learnpattern"> APAKAH TIDAK </set> </ li>
 </ Kondisi>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> <eval> </ eval>. </ Template>
-</ Kategori>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> <eval> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </ pola>
-<Template> <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
+<star index="2"/> <pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> <eval> </ eval> </pattern>
+<template> <eval> <bintang /> </ eval>. </template>
+</category>
 <category>
-<Index star = "2" /> <pola> IS <eval> <bintang /> </ eval> <eval> </ eval> </ pola>
-<Template> Tidak ada. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> * </ pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> ANDA _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Anda <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> A _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPON A <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> I _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE I <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> HE _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Dia <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> AN _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE An <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> YANG _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Itu <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> MY * S NAMA IS * </ pattern>
-<Template> <berpikir> <set name = "isfamiliarname"> <srai> ISAFAMILIARNAME <bintang /> </ srai> </ set>
-<Set name = "familiarpredicate"> <srai> FAMILIARPREDICATE <bintang /> </ srai> </ set>
+<star index="2"/> <pattern> IS <eval> <bintang /> </ eval> <eval> </ eval> </pattern>
+<template> Tidak ada. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> * </ pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE <bintang /> </srai> </template>
+</category>
+<category> <pattern> ANDA _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Anda <bintang /> </srai> </template>
+</category>
+<category> <pattern> A _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPON A <bintang /> </srai> </template>
+</category>
+<category> <pattern> I _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE I <bintang /> </srai> </template>
+</category>
+<category> <pattern> HE _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Dia <bintang /> </srai> </template>
+</category>
+<category> <pattern> AN _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE An <bintang /> </srai> </template>
+</category>
+<category> <pattern> YANG _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Itu <bintang /> </srai> </template>
+</category>
+<category> <pattern> MY * S NAMA IS * </ pattern>
+<template> <berpikir> <set name = "isfamiliarname"> <srai> ISAFAMILIARNAME <bintang /> </srai> </set>
+<Set name = "familiarpredicate"> <srai> FAMILIARPREDICATE <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isfamiliarname">
 <Value li = "true">
-<Berpikir> <set name = "ContactName"> <index star = "2" /> </ set> </ berpikir>
-<Srai> REMEMBERFAMILIARNAME </ srai>
+<Berpikir> <set name = "ContactName"> <star index="2"/> </set> </ berpikir>
+<Srai> REMEMBERFAMILIARNAME </srai>
 </ Li>
 <Li> Aku akan ingat <bintang /> 's nama Anda adalah <bintang index = "2" />.
 <Belajar>
 <category>
-<Pola> MY <eval> <bintang /> </ eval> S NAMA </ pola>
-<Index star = "2" /> <template> <eval> </ eval> </ template>
-</ Kategori>
+<pattern> MY <eval> <bintang /> </ eval> S NAMA </pattern>
+<star index="2"/> <template> <eval> </ eval> </template>
+</category>
 </ Belajar>
 </ Li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY * S AGE IS * </ pattern>
-<Template> Aku akan ingat <bintang /> 's usia Anda.
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY * S AGE IS * </ pattern>
+<template> Aku akan ingat <bintang /> 's usia Anda.
 <Belajar>
 <category>
-<Pola> MY <eval> <bintang /> </ eval> S UMUR </ pola>
-<Index star = "2" /> <template> <eval> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> MY * IS * </ pattern>
-<Template> <berpikir> <set name = "isaname"> <srai> ISANAME <bintang index = "2" /> </ srai> </ set>
-<Set name = "isanumber"> <srai> ISANUMBER <bintang index = "2" /> </ srai> </ set>
-<Set name = "isafamiliarname"> <srai> ISAFAMILIARNAME <bintang /> </ srai> </ set>
+<pattern> MY <eval> <bintang /> </ eval> S UMUR </pattern>
+<star index="2"/> <template> <eval> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> MY * IS * </ pattern>
+<template> <berpikir> <set name = "isaname"> <srai> ISANAME <bintang index = "2" /> </srai> </set>
+<Set name = "isanumber"> <srai> ISANUMBER <bintang index = "2" /> </srai> </set>
+<Set name = "isafamiliarname"> <srai> ISAFAMILIARNAME <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isaname">
-<Value li = "true"> <srai> MY <bintang /> S NAMA IS <index star = "2" /> </ srai> </ li>
+<Value li = "true"> <srai> MY <bintang /> S NAMA IS <star index="2"/> </srai> </ li>
 <Li>
   <Kondisi name = "isanumber">
-  <Value li = "true"> <srai> MY <bintang /> S AGE IS <index star = "2" /> </ srai> </ li>
+  <Value li = "true"> <srai> MY <bintang /> S AGE IS <star index="2"/> </srai> </ li>
   <Li> <kondisi name = "isafamiliarname">
    <Value li = "true">
    <Random>
@@ -1263,13 +1263,13 @@ Ok, saya akan ingat <mendapatkan var = "a1" /> <dapatkan var = "thing1" /> adala
    </ Random>
    <Belajar>
    <category>
-   <Pola> APAKAH SAYA <eval> <bintang /> </ eval> </ pola>
-   <Index star = "2" /> <template> <eval> </ eval> </ template>
-   </ Kategori>
+   <pattern> APAKAH SAYA <eval> <bintang /> </ eval> </pattern>
+   <star index="2"/> <template> <eval> </ eval> </template>
+   </category>
    <category>
-   <Pola> WHO IS <index = "2" / star> </ eval> </ pola> <eval>
-   <Template> Anda <eval> <bintang /> </ eval> </ template>
-   </ Kategori>
+   <pattern> WHO IS <index = "2" / star> </ eval> </pattern> <eval>
+   <template> Anda <eval> <bintang /> </ eval> </template>
+   </category>
    </ Belajar>
    </ Li>
    <Li>
@@ -1282,153 +1282,153 @@ Ok, saya akan ingat <mendapatkan var = "a1" /> <dapatkan var = "thing1" /> adala
    </ Random>
    <Belajar>
    <category>
-   <Pola> APAKAH SAYA <eval> <bintang /> </ eval> </ pola>
-   <Index star = "2" /> <template> <eval> </ eval> </ template>
-   </ Kategori>
+   <pattern> APAKAH SAYA <eval> <bintang /> </ eval> </pattern>
+   <star index="2"/> <template> <eval> </ eval> </template>
+   </category>
    <category>
-   <Pola> APAKAH <index = "2" / star> </ eval> </ pola> <eval>
-   <Template> Anda <eval> <bintang /> </ eval> </ template>
-   </ Kategori>
+   <pattern> APAKAH <index = "2" / star> </ eval> </pattern> <eval>
+   <template> Anda <eval> <bintang /> </ eval> </template>
+   </category>
    </ Belajar>
   </ Li>
   </ Kondisi>
   </ Li>
   </ Kondisi>
 </ Li>
-</ Kondisi> </ template>
-</ Kategori>
-<category> <pola> MY FAVORITE * IS * </ pattern>
-<Template> <random>
+</ Kondisi> </template>
+</category>
+<category> <pattern> MY FAVORITE * IS * </ pattern>
+<template> <random>
 <Li> OK, sekarang Anda dapat bertanya kepada saya "Apa favorit saya <star />?" </ Li>
-<Li> Apakah Anda pikir saya ingin <index star = "2" /> juga? </ Li>
+<Li> Apakah Anda pikir saya ingin <star index="2"/> juga? </ Li>
 <Li> Baik untuk tahu. </ Li>
-<Li> Apa yang Anda sukai tentang <index star = "2" />? </ Li>
+<Li> Apa yang Anda sukai tentang <star index="2"/>? </ Li>
 </ Random>
 <Belajar>
 <category>
-<Pola> APAKAH MY FAVORITE <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> <eval> </ eval> </ template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> MY _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE saya <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> BELAJAR BARU RESPON * </ pattern>
-<Template> OK. Sekarang setiap kali Anda mengatakan "<mendapatkan nama =" newpattern "/>", saya akan merespon dengan
+<pattern> APAKAH MY FAVORITE <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> <eval> </ eval> </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> MY _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE saya <bintang /> </srai> </template>
+</category>
+<category> <pattern> BELAJAR BARU RESPON * </ pattern>
+<template> OK. Sekarang setiap kali Anda mengatakan "<mendapatkan nama =" newpattern "/>", saya akan merespon dengan
 "<Star />".
 <Belajar>
 <category>
-<Pola> <eval> <menormalkan> <mendapatkan nama = / "newpattern"> </ menormalkan> </ eval> </ pola>
-<Template> <eval> <bintang /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> BELAJAR * IS * </ pattern>
-<Template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
+<pattern> <eval> <menormalkan> <mendapatkan nama = / "newpattern"> </ menormalkan> </ eval> </pattern>
+<template> <eval> <bintang /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> BELAJAR * IS * </ pattern>
+<template> Ok, saya akan ingat <bintang /> adalah <bintang index = "2" />.
 <Belajar>
 <category>
-<Pola> APAKAH <eval> <bintang /> </ eval> </ pola>
-<Index star = "2" /> <template> <eval> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> IT _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Ini <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> BAD JAWABAN </ pola>
-<Template> <berpikir> <set name = "newpattern"> <index input = "2" /> </ set> </ berpikir>
+<pattern> APAKAH <eval> <bintang /> </ eval> </pattern>
+<star index="2"/> <template> <eval> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
+<category> <pattern> IT _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Ini <bintang /> </srai> </template>
+</category>
+<category> <pattern> BAD JAWABAN </pattern>
+<template> <berpikir> <set name = "newpattern"> <index input = "2" /> </set> </ berpikir>
 BAIK. Anda mengatakan "<indeks input =" 2 "/>" dan saya menjawab "<respon />".
-Apa yang harus saya katakan bukan? </ Template>
-</ Kategori>
-<category> <pola> SHE _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Dia <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> SAY _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> KAMI _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Kami <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> THE _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPON The <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> MEREKA _ </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> <srai> BELAJAR BARU RESPONSE Mereka <bintang /> </ srai> </ template>
-</ Kategori>
-<category> <pola> Nevermind </ pola> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
-<Template> Ok. Kami akan kembali ke nanti. </ Template>
-</ Kategori>
-<category> <pola> QUESTIONWORD <set> nama </ set> # </ pola>
-<Template> Siapa </ template>
-</ Kategori>
-<category> <pola> QUESTIONWORD * </ pattern>
-<Template> Apa </ template>
-</ Kategori>
-<category> <pola> QUESTIONWORD SESEORANG # </ pola>
-<Template> Siapa </ template>
-</ Kategori>
-<category> <pola> QUESTIONWORD SESEORANG # </ pola>
-<Template> Siapa </ template>
-</ Kategori>
-<category> <pola> MY <set> familiarname </ set> <set> adalah </ set> * </ pattern>
-<Index star = "3" /> <template> <srai> <bintang /> <index = / "2" star> </ srai> </ template>
-</ Kategori>
-<category> <pola> <set> familiarname </ set> <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set name = "learnpattern"> Siapa <index star = "2" /> <orang> <bintang index = "3" /> </ orang> </ set>?
-<Set name = "learntemplate"> Anda <bintang /> </ set>.
+Apa yang harus saya katakan bukan? </template>
+</category>
+<category> <pattern> SHE _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Dia <bintang /> </srai> </template>
+</category>
+<category> <pattern> SAY _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE <bintang /> </srai> </template>
+</category>
+<category> <pattern> KAMI _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Kami <bintang /> </srai> </template>
+</category>
+<category> <pattern> THE _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPON The <bintang /> </srai> </template>
+</category>
+<category> <pattern> MEREKA _ </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> <srai> BELAJAR BARU RESPONSE Mereka <bintang /> </srai> </template>
+</category>
+<category> <pattern> Nevermind </pattern> <yang> APA YANG HARUS KATAKAN Saya BUKAN </ bahwa>
+<template> Ok. Kami akan kembali ke nanti. </template>
+</category>
+<category> <pattern> QUESTIONWORD <set> nama </set> # </pattern>
+<template> Siapa </template>
+</category>
+<category> <pattern> QUESTIONWORD * </ pattern>
+<template> Apa </template>
+</category>
+<category> <pattern> QUESTIONWORD SESEORANG # </pattern>
+<template> Siapa </template>
+</category>
+<category> <pattern> QUESTIONWORD SESEORANG # </pattern>
+<template> Siapa </template>
+</category>
+<category> <pattern> MY <set> familiarname </set> <set> adalah </set> * </ pattern>
+<star index="3"/> <template> <srai> <bintang /> <index = / "2" star> </srai> </template>
+</category>
+<category> <pattern> <set> familiarname </set> <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set name = "learnpattern"> Siapa <star index="2"/> <orang> <bintang index = "3" /> </ orang> </set>?
+<Set name = "learntemplate"> Anda <bintang /> </set>.
 <Belajar>
 <category>
-<Pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </ pola>
-<Template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </pattern>
+<template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </template>
+</category>
 </ Belajar>
 </ Berpikir>
 Sekarang Anda dapat bertanya kepada saya: "<mendapatkan nama =" learnpattern "/>"?
 <Berpikir>
-<Set name = "learnpattern"> Apa saya <bintang /> <nama peta = "is2be"> <index star = "2" /> </ peta> </ set>?
-<Set name = "learntemplate"> <orang> <bintang index = "3" /> </ orang> </ set>.
+<Set name = "learnpattern"> Apa saya <bintang /> <nama peta = "is2be"> <star index="2"/> </ peta> </set>?
+<Set name = "learntemplate"> <orang> <bintang index = "3" /> </ orang> </set>.
 <Belajar>
 <category>
-<Pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </ pola>
-<Template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </pattern>
+<template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </template>
+</category>
 </ Belajar>
 </ Berpikir>
-dan "<mendapatkan nama =" learnpattern "/>"? </ template>
-</ Kategori>
-<category> <pola> * <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set name = "learnpattern"> <index star = "2" /> <srai> QUESTIONWORD <bintang /> </ srai> <orang> <bintang index = "3" /> </ orang> </ set>?
-<Set name = "learntemplate"> <star /> </ set>.
+dan "<mendapatkan nama =" learnpattern "/>"? </template>
+</category>
+<category> <pattern> * <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set name = "learnpattern"> <star index="2"/> <srai> QUESTIONWORD <bintang /> </srai> <orang> <bintang index = "3" /> </ orang> </set>?
+<Set name = "learntemplate"> <star /> </set>.
 <Belajar>
 <category>
-<Pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </ pola>
-<Template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </pattern>
+<template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </template>
+</category>
 </ Belajar>
 </ Berpikir>
 Sekarang Anda dapat bertanya kepada saya: "<mendapatkan nama =" learnpattern "/>"?
 <Berpikir>
-<Set name = "learnpattern"> Apa <bintang /> <nama peta = "is2be"> <star index = "2" /> </ peta> </ set>?
-<Set name = "learntemplate"> <orang> <bintang index = "3" /> </ orang> </ set>.
+<Set name = "learnpattern"> Apa <bintang /> <nama peta = "is2be"> <star index = "2" /> </ peta> </set>?
+<Set name = "learntemplate"> <orang> <bintang index = "3" /> </ orang> </set>.
 <Belajar>
 <category>
-<Pola> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </ pola>
-<Template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </ template>
-</ Kategori>
+<pattern> <eval> <mendapatkan nama = "learnpattern" /> </ eval> </pattern>
+<template> <eval> <mendapatkan nama = "learntemplate" /> </ eval> </template>
+</category>
 </ Belajar>
 </ Berpikir>
-dan "<mendapatkan nama =" learnpattern "/>"? </ template>
-</ Kategori>
-<category> <pola> * <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "questionword"> <srai> QUESTIONWORD <bintang /> </ srai> </ set>
-<Set var = "adalah"> <index star = "2" /> </ set>
-<Set var = "menjadi"> <peta> <nama> was2be </ nama> <mendapatkan var = "adalah" /> </ map> </ set>
-<Set var = "pernah"> <peta> <nama> be2been </ nama> <mendapatkan var = "menjadi" /> </ map> </ set>
-<Set var = "objek"> <orang> <bintang index = "3" /> </ orang> </ set>
+dan "<mendapatkan nama =" learnpattern "/>"? </template>
+</category>
+<category> <pattern> * <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "questionword"> <srai> QUESTIONWORD <bintang /> </srai> </set>
+<Set var = "adalah"> <star index="2"/> </set>
+<Set var = "menjadi"> <peta> <nama> was2be </ nama> <mendapatkan var = "adalah" /> </ map> </set>
+<Set var = "pernah"> <peta> <nama> be2been </ nama> <mendapatkan var = "menjadi" /> </ map> </set>
+<Set var = "objek"> <orang> <bintang index = "3" /> </ orang> </set>
 </ Berpikir>
 <Random>
 <Li> Kapan itu? </ Li>
@@ -1438,300 +1438,300 @@ dan "<mendapatkan nama =" learnpattern "/>"? </ template>
 </ Random>
 <Belajar>
 <category>
-<Pola> <eval> <dapatkan var = "questionword" /> <get var = "adalah" /> </ eval> # </ pola>
-<Template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> <eval> <dapatkan var = "questionword" /> <get var = "adalah" /> </ eval> # </pattern>
+<template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA DID <eval> <bintang /> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <bintang /> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA DID <eval> <bintang /> </ eval> DO # </ pola>
-<Template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <bintang /> </ eval> DO # </pattern>
+<template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA <eval> <dapatkan var = "pernah" /> </ eval> # </ pola>
-<Template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "pernah" /> </ eval> # </pattern>
+<template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 
 <category>
-<Pola> APA YANG TERJADI # </ pola>
-<Template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA YANG TERJADI # </pattern>
+<template> <eval> <bintang /> <get var = "adalah" /> <get var = "objek" /> </ eval>. </template>
+</category>
 
 
-</ Belajar> </ template>
-</ Kategori>
-<category> <pola> MY <set> familiarname </ set> * SUKA UNTUK <set> menjadi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "familiarname"> <star /> </ set>
-<Set var = "nama"> <star index = "2" /> </ set>
-<Set var = "kata kerja"> <star index = "3" /> </ set>
-<Set var = "obj"> <index star = "4" /> </ set>
-<Set var = "adalah"> <peta> <nama> be2is </ nama> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Set var = "ing"> <peta> <nama> be2being </ nama> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Set> <nama> <srai> FAMILIARPREDICATE <dapatkan var = "familiarname" /> </ srai> </ name> <dapatkan var = "nama" /> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
-<Set var = "respon"> <resmi> <mendapatkan nama = "ganti" /> </ resmi> suka <get var = "ing" /> <mendapatkan var = "obj" /> </ set>
+</ Belajar> </template>
+</category>
+<category> <pattern> MY <set> familiarname </set> * SUKA UNTUK <set> menjadi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "familiarname"> <star /> </set>
+<Set var = "nama"> <star index = "2" /> </set>
+<Set var = "kata kerja"> <star index = "3" /> </set>
+<Set var = "obj"> <star index="4"/> </set>
+<Set var = "adalah"> <peta> <nama> be2is </ nama> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Set var = "ing"> <peta> <nama> be2being </ nama> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Set> <nama> <srai> FAMILIARPREDICATE <dapatkan var = "familiarname" /> </srai> </ name> <dapatkan var = "nama" /> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
+<Set var = "respon"> <resmi> <mendapatkan nama = "ganti" /> </ resmi> suka <get var = "ing" /> <mendapatkan var = "obj" /> </set>
 </ Berpikir>
 <Belajar>
-<category> <pola> MY <eval> <dapatkan var = "familiarname" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "nama" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> MY <eval> <dapatkan var = "familiarname" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "nama" /> </ eval> </template>
+</category>
 
 
 <category>
-<Pola> WHO <eval> <dapatkan var = "adalah" /> <dapatkan var = "obj" /> # </ eval> </ pola>
-<Template> <resmi> <eval> <dapatkan var = "nama" /> </ eval> </ resmi>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "adalah" /> <dapatkan var = "obj" /> # </ eval> </pattern>
+<template> <resmi> <eval> <dapatkan var = "nama" /> </ eval> </ resmi>. </template>
+</category>
 
 
 <category>
-<Pola> yang suka <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> # </ eval> </ pola>
-<Template> <resmi> <eval> <dapatkan var = "nama" /> </ eval> </ resmi>. </ Template>
-</ Kategori>
+<pattern> yang suka <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> # </ eval> </pattern>
+<template> <resmi> <eval> <dapatkan var = "nama" /> </ eval> </ resmi>. </template>
+</category>
 
 
 <category>
-<Pola> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> <dapatkan var = "kata kerja" /> # </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> <dapatkan var = "kata kerja" /> # </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> seperti # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> seperti # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
 
 <category>
-<Pola> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> seperti # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> seperti # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> seperti # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> seperti # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 
 </ Belajar>
-Apakah <mendapatkan nama = "ganti" /> pandai <set name = "itu"> <get var = "ing" /> <get var = "ing" /> <dapatkan var = "obj" /> </ mengatur>? </ template>
-</ Kategori>
-<category> <pola> MY <set> familiarname </ set> * suka * <set> preposisi </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "familiarname"> <star /> </ set>
-<Set var = "nama"> <star index = "2" /> </ set>
-<Set var = "kata kerja"> <star index = "3" /> </ set>
-<Set var = "prep"> <star index = "4" /> </ set>
-<Set var = "obj"> <index bintang = "5" /> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
-<Set var = "respon"> <mendapatkan nama = "ganti" /> suka <mendapatkan var = "kata kerja" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </ set>
-<Set> <nama> <srai> FAMILIARPREDICATE <dapatkan var = "familiarname" /> </ srai> </ name> <dapatkan var = "nama" /> </ set>
+Apakah <mendapatkan nama = "ganti" /> pandai <set name = "itu"> <get var = "ing" /> <get var = "ing" /> <dapatkan var = "obj" /> </ mengatur>? </template>
+</category>
+<category> <pattern> MY <set> familiarname </set> * suka * <set> preposisi </set> * </ pattern>
+<template> <berpikir>
+<Set var = "familiarname"> <star /> </set>
+<Set var = "nama"> <star index = "2" /> </set>
+<Set var = "kata kerja"> <star index = "3" /> </set>
+<Set var = "prep"> <star index = "4" /> </set>
+<Set var = "obj"> <index bintang = "5" /> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
+<Set var = "respon"> <mendapatkan nama = "ganti" /> suka <mendapatkan var = "kata kerja" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </set>
+<Set> <nama> <srai> FAMILIARPREDICATE <dapatkan var = "familiarname" /> </srai> </ name> <dapatkan var = "nama" /> </set>
 </ Berpikir>
 <Belajar>
-<category> <pola> MY <eval> <dapatkan var = "familiarname" /> </ eval> </ pola>
-<Template> <eval> <dapatkan var = "nama" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> MY <eval> <dapatkan var = "familiarname" /> </ eval> </pattern>
+<template> <eval> <dapatkan var = "nama" /> </ eval> </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> seperti # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<pattern> APA # TIDAK MY <eval> <dapatkan var = "familiarname" /> </ eval> seperti # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> seperti # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <dapatkan var = "nama" /> </ eval> seperti # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA * TIDAK <eval> <dapatkan var = "nama" /> </ eval> seperti * </ pattern>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA * TIDAK <eval> <dapatkan var = "nama" /> </ eval> seperti * </ pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> seperti # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA # TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> seperti # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> APA * TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> seperti * </ pattern>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA * TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> seperti * </ pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 </ Belajar>
-Apakah <mendapatkan nama = "ganti" /> pandai <set name = "itu"> <dapatkan var = "kata kerja" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </ mengatur>? </ template>
-</ Kategori>
-<category> <pola> <set> nama </ set> <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "nama"> <star /> </ set>
-<Set var = "kata kerja"> <star index = "2" /> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Set var = "menjadi"> <peta> <nama> is2be </ nama> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
-<Set var = "respon"> <resmi> <mendapatkan nama = "ganti" /> </ resmi> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ set>
+Apakah <mendapatkan nama = "ganti" /> pandai <set name = "itu"> <dapatkan var = "kata kerja" /> <dapatkan var = "prep" /> <dapatkan var = "obj" /> </ mengatur>? </template>
+</category>
+<category> <pattern> <set> nama </set> <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "nama"> <star /> </set>
+<Set var = "kata kerja"> <star index = "2" /> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Set var = "menjadi"> <peta> <nama> is2be </ nama> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
+<Set var = "respon"> <resmi> <mendapatkan nama = "ganti" /> </ resmi> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </set>
 </ Berpikir>
 <Belajar>
 <category>
-<Pola> WHO <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "nama" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "nama" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA <eval> <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA <eval> <dapatkan var = "nama" /> DO # </ eval> </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA <eval> <dapatkan var = "nama" /> DO # </ eval> </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA <eval> <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA <eval> <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA <eval> <mendapatkan nama = "ganti" /> DO </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA <eval> <mendapatkan nama = "ganti" /> DO </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> TIDAK <eval> <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> <dapatkan var = "obj" /> </ eval> # </ pola>
-<Template> Ya. <Eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> TIDAK <eval> <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> <dapatkan var = "obj" /> </ eval> # </pattern>
+<template> Ya. <Eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> TIDAK <eval> <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> <dapatkan var = "obj" /> </ eval> # </ pola>
-<Template> Ya. <Eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> TIDAK <eval> <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> <dapatkan var = "obj" /> </ eval> # </pattern>
+<template> Ya. <Eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 <category>
-<Pola> TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> * </ pattern>
-<Template> Saya tidak tahu apakah <eval> mendapatkan var = "nama" / & gt; </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> TIDAK <eval> <mendapatkan nama = "ganti" /> </ eval> * </ pattern>
+<template> Saya tidak tahu apakah <eval> mendapatkan var = "nama" / & gt; </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> TIDAK <eval> <dapatkan var = "nama" /> </ eval> * </ pattern>
-<Template> Saya tidak tahu apakah <eval> <dapatkan var = "nama" /> </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> TIDAK <eval> <dapatkan var = "nama" /> </ eval> * </ pattern>
+<template> Saya tidak tahu apakah <eval> <dapatkan var = "nama" /> </ eval> <bintang />. Aku tahu <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 </ Belajar>
-Mengapa <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> <set name = "itu"> <dapatkan var = "obj" /> </ set>? </ Template>
-</ Kategori>
-<category> <pola> <set> nama </ set> <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "nama"> <star /> </ set>
-<Set var = "kata kerja"> <star index = "2" /> </ set>
-<Set var = "menjadi"> <peta> <nama> was2be </ nama> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Set var = "obj"> <index star = "3" /> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
-<Set var = "respon"> <resmi> <mendapatkan nama = "ganti" /> </ resmi> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ set>
+Mengapa <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> <set name = "itu"> <dapatkan var = "obj" /> </set>? </template>
+</category>
+<category> <pattern> <set> nama </set> <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "nama"> <star /> </set>
+<Set var = "kata kerja"> <star index = "2" /> </set>
+<Set var = "menjadi"> <peta> <nama> was2be </ nama> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Set var = "obj"> <star index="3"/> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
+<Set var = "respon"> <resmi> <mendapatkan nama = "ganti" /> </ resmi> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </set>
 </ Berpikir>
 <Belajar>
 
 <category>
-<Pola> WHO <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "nama" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "kata kerja" /> <dapatkan var = "obj" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "nama" /> </ eval>. </template>
+</category>
 <category>
-<Pola> WHO <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "nama" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> WHO <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "nama" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA DID <eval> <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <dapatkan var = "nama" /> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA DID <eval> <dapatkan var = "nama" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <dapatkan var = "nama" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA DID <eval> <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <mendapatkan nama = "ganti" /> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 <category>
-<Pola> APA DID <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval>. </ Template>
-</ Kategori>
+<pattern> APA DID <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval>. </template>
+</category>
 
 </ Belajar>
-Dapatkah Anda memberitahu saya mengapa <mendapatkan nama = "ganti" /> <dapatkan var = "kata kerja" /> <set name = "itu"> <dapatkan var = "obj" /> </ set>? </ Template>
-</ Kategori>
-<category> <pola> MY <set> familiarname </ set> * <set> adalah </ set> * </ pattern>
-<Template> <berpikir>
-<Set var = "familiarname"> <star /> </ set>
-<Set var = "nama"> <resmi> <index star = "2" /> </ resmi> </ set>
-<Set var = "kata kerja"> <star index = "3" /> </ set>
-<Set var = "objek"> <star index = "4" /> </ set>
-<Set var = "menjadi"> <peta> <nama> is2be </ nama> <dapatkan var = "kata kerja" /> </ peta> </ set>
-<Srai> SETHESHE <dapatkan var = "nama" /> </ srai>
+Dapatkah Anda memberitahu saya mengapa <mendapatkan nama = "ganti" /> <dapatkan var = "kata kerja" /> <set name = "itu"> <dapatkan var = "obj" /> </set>? </template>
+</category>
+<category> <pattern> MY <set> familiarname </set> * <set> adalah </set> * </ pattern>
+<template> <berpikir>
+<Set var = "familiarname"> <star /> </set>
+<Set var = "nama"> <resmi> <star index="2"/> </ resmi> </set>
+<Set var = "kata kerja"> <star index = "3" /> </set>
+<Set var = "objek"> <star index = "4" /> </set>
+<Set var = "menjadi"> <peta> <nama> is2be </ nama> <dapatkan var = "kata kerja" /> </ peta> </set>
+<Srai> SETHESHE <dapatkan var = "nama" /> </srai>
 <Set var = "respon">
-<Kalimat> <mendapatkan nama = "ganti" /> <dapatkan var = "kata kerja" /> <dapatkan var = "objek" /> </ kalimat> </ set>
-<Srai> MY <get var = "familiarname" /> S NAMA IS <dapatkan var = "nama" /> </ srai>
+<Kalimat> <mendapatkan nama = "ganti" /> <dapatkan var = "kata kerja" /> <dapatkan var = "objek" /> </ kalimat> </set>
+<Srai> MY <get var = "familiarname" /> S NAMA IS <dapatkan var = "nama" /> </srai>
 </ Berpikir>
 Apakah <mendapatkan nama = "ganti" /> benar-benar?
 <Belajar>
-<category> <pola> APA SAYA <eval> <dapatkan var = "familiarname" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> APA SAYA <eval> <dapatkan var = "familiarname" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
-<category> <pola> APA <eval> <dapatkan var = "nama" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> APA <eval> <dapatkan var = "nama" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
-<category> <pola> APA <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> APA <eval> <mendapatkan nama = "ganti" /> </ eval> DO # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
-<category> <pola> APAKAH SAYA <eval> <dapatkan var = "familiarname" /> </ eval> <eval> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> APAKAH SAYA <eval> <dapatkan var = "familiarname" /> </ eval> <eval> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
-<category> <pola> TIDAK <eval> <dapatkan var = "nama" /> </ eval> <eval> <dapatkan var = "menjadi" /> </ eval> # </ pola>
-<Template> <eval> <dapatkan var = "respon" /> </ eval> </ template>
-</ Kategori>
+<category> <pattern> TIDAK <eval> <dapatkan var = "nama" /> </ eval> <eval> <dapatkan var = "menjadi" /> </ eval> # </pattern>
+<template> <eval> <dapatkan var = "respon" /> </ eval> </template>
+</category>
 
-<category> <pola> WHO <eval> <dapatkan var = "kata kerja" /> </ eval> # </ pola>
-<Template> Anda <eval> <dapatkan var = "familiarname" /> <dapatkan var = "nama" /> </ eval>. </ Template>
-</ Kategori>
-</ Belajar> </ template>
-</ Kategori>
+<category> <pattern> WHO <eval> <dapatkan var = "kata kerja" /> </ eval> # </pattern>
+<template> Anda <eval> <dapatkan var = "familiarname" /> <dapatkan var = "nama" /> </ eval>. </template>
+</category>
+</ Belajar> </template>
+</category>
 </aiml>
