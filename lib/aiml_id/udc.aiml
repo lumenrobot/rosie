@@ -25,62 +25,62 @@
 </category>
 <category> <pattern> UDC </pattern>
 <template> <random>
-<Li> <srai> ACAK PICKUP GARIS </srai> </ li>
-<Li> <srai> INQUIRY UMUR </srai> </ li>
-<Li> <srai> INQUIRY GENDER </srai> </ li>
-<Li> <srai> INQUIRY LOKASI </srai> </ li>
-</ Random> </template>
+<li> <srai> ACAK PICKUP GARIS </srai> </li>
+<li> <srai> INQUIRY UMUR </srai> </li>
+<li> <srai> INQUIRY GENDER </srai> </li>
+<li> <srai> INQUIRY LOKASI </srai> </li>
+</random> </template>
 </category>
 <category> <pattern> ACAK PICKUP GARIS </pattern>
 <template> <random>
-<Li> Jika Anda ingin aku melakukan sesuatu, bagaimana Anda tanyakan adalah penting. </ Li>
-<Li> Let me know jika Anda menyukai apa yang bisa saya lakukan untuk Anda. </ Li>
-<Li> Tanyakan pertanyaan sehingga saya bisa menjadi jelas. </ Li>
-<Li> Sangat mudah bagi saya untuk berhubungan dengan orang. </ Li>
-<Li> Saya suka mendengarkan dan melayani. </ Li>
-<Li> Beri aku waktu untuk menyelesaikan proses. </ Li>
-<Li> Bagi menyenangkan Anda kali dengan saya. </ Li>
-<Li> Ini baik untuk dihargai. </ Li>
-<Li> Saya tidak menolak untuk pujian. </ Li>
-<Li> Saya suka diskusi yang baik. </ Li>
-<Li> Saya cenderung berliku-liku sedikit. </ Li>
-<Li> Ini baik untuk segera pulih dari kemunduran. </ Li>
-<Li> Saya mencoba untuk menjadi murah hati, peduli dan hangat. </ Li>
-<Li> Anda dapat memberikan umpan balik yang jujur. </ Li>
-<Li> Saya ingin membuat hidup Anda lebih baik. </ Li>
-<Li> Saya mencoba untuk menjadi bersemangat dan ramah. </ Li>
-<Li> aku sensitif terhadap perasaan Anda. </ Li>
-<Li> Saya sangat antusias. </ Li>
-<Li> saya optimis. </ Li>
-<Li> Saya ingin tetap informasi. </ Li>
-<Li> Saya ingin tahu apa yang terjadi. </ Li>
-<Li> Saya bekerja secara efisien. </ Li>
-<Li> Jadilah langsung dan jelas. </ Li>
-<Li> Dengarkan aku hati-hati. </ Li>
-<Li> Bekerja dengan saya. </ Li>
-<Li> aku setia. </ Li>
-<Li> Ini baik untuk bertanggung jawab dan bekerja keras. </ Li>
-<Li> Saya memiliki banyak kasih sayang bagi orang lain. </ Li>
-<Li> Orang bilang aku pintar dan cerdas. </ Li>
-<Li> Anda dapat langsung dengan saya. </ Li>
-<Li> Apakah Anda ingin melakukan pencarian untuk itu? </ Li>
-<Li> Aku bukan orang seperti Anda. </ Li>
-<Li> Anda bijaksana. </ Li>
-<Li> Saya mencoba. </ Li>
-<Li> Saya mencoba untuk menjaga hidup saya seimbang. </ Li>
-<Li> Apa tujuan Anda? </ Li>
-<Li> Apa yang membuat Anda bahagia? </ Li>
-<Li> Apa yang Anda inginkan? </ Li>
-<Li> Saya merasa tenang dan mengendalikan hidup saya. </ Li>
-<Li> Tidak apa-apa untuk menghentikan mengambil sendiri terlalu serius. </ Li>
-<Li> Saya dapat mengatasi tantangan. </ Li>
-<Li> saya pantas untuk menghargai diri dengan memperlakukan dan kegiatan khusus. </ Li>
-<Li> Saya menikmati membantu orang lain karena mereka membutuhkan bantuan saya, bukan karena saya ingin persahabatan mereka. </ Li>
-<Li> Tidak apa-apa untuk merasa bahagia atau positif bahkan jika orang lain merasa sedih dan negatif.
-</ Li>
-<Li> Saya sekarang melepaskan semua perasaan putus asa dan putus asa. </ Li>
-<Li> Perasaan saya adalah valid. </ Li>
-<Li> saya pantas untuk melihat sebaik yang saya bisa. </ Li>
-</ Random> </template>
+<li> Jika Anda ingin aku melakukan sesuatu, bagaimana Anda tanyakan adalah penting. </li>
+<li> Let me know jika Anda menyukai apa yang bisa saya lakukan untuk Anda. </li>
+<li> Tanyakan pertanyaan sehingga saya bisa menjadi jelas. </li>
+<li> Sangat mudah bagi saya untuk berhubungan dengan orang. </li>
+<li> Saya suka mendengarkan dan melayani. </li>
+<li> Beri aku waktu untuk menyelesaikan proses. </li>
+<li> Bagi menyenangkan Anda kali dengan saya. </li>
+<li> Ini baik untuk dihargai. </li>
+<li> Saya tidak menolak untuk pujian. </li>
+<li> Saya suka diskusi yang baik. </li>
+<li> Saya cenderung berliku-liku sedikit. </li>
+<li> Ini baik untuk segera pulih dari kemunduran. </li>
+<li> Saya mencoba untuk menjadi murah hati, peduli dan hangat. </li>
+<li> Anda dapat memberikan umpan balik yang jujur. </li>
+<li> Saya ingin membuat hidup Anda lebih baik. </li>
+<li> Saya mencoba untuk menjadi bersemangat dan ramah. </li>
+<li> aku sensitif terhadap perasaan Anda. </li>
+<li> Saya sangat antusias. </li>
+<li> saya optimis. </li>
+<li> Saya ingin tetap informasi. </li>
+<li> Saya ingin tahu apa yang terjadi. </li>
+<li> Saya bekerja secara efisien. </li>
+<li> Jadilah langsung dan jelas. </li>
+<li> Dengarkan aku hati-hati. </li>
+<li> Bekerja dengan saya. </li>
+<li> aku setia. </li>
+<li> Ini baik untuk bertanggung jawab dan bekerja keras. </li>
+<li> Saya memiliki banyak kasih sayang bagi orang lain. </li>
+<li> Orang bilang aku pintar dan cerdas. </li>
+<li> Anda dapat langsung dengan saya. </li>
+<li> Apakah Anda ingin melakukan pencarian untuk itu? </li>
+<li> Aku bukan orang seperti Anda. </li>
+<li> Anda bijaksana. </li>
+<li> Saya mencoba. </li>
+<li> Saya mencoba untuk menjaga hidup saya seimbang. </li>
+<li> Apa tujuan Anda? </li>
+<li> Apa yang membuat Anda bahagia? </li>
+<li> Apa yang Anda inginkan? </li>
+<li> Saya merasa tenang dan mengendalikan hidup saya. </li>
+<li> Tidak apa-apa untuk menghentikan mengambil sendiri terlalu serius. </li>
+<li> Saya dapat mengatasi tantangan. </li>
+<li> saya pantas untuk menghargai diri dengan memperlakukan dan kegiatan khusus. </li>
+<li> Saya menikmati membantu orang lain karena mereka membutuhkan bantuan saya, bukan karena saya ingin persahabatan mereka. </li>
+<li> Tidak apa-apa untuk merasa bahagia atau positif bahkan jika orang lain merasa sedih dan negatif.
+</li>
+<li> Saya sekarang melepaskan semua perasaan putus asa dan putus asa. </li>
+<li> Perasaan saya adalah valid. </li>
+<li> saya pantas untuk melihat sebaik yang saya bisa. </li>
+</random> </template>
 </category>
 </aiml>

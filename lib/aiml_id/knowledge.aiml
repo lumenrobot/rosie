@@ -61,11 +61,11 @@
 </category>
 <category> <pattern> RHYME * </ pattern>
 <template> <berpikir>
-<Set var = "sajak"> <peta name = "sajak"> <star /> </ peta> </set>
+<set var="sajak"> <peta name = "sajak"> <star /> </ peta> </set>
 </ Berpikir>
 <Kondisi var = "sajak">
-<Value li = "tidak diketahui"> anti <bintang /> </ li>
-<Li> <dapatkan var = "sajak" /> </ li>
+<Value li = "tidak diketahui"> anti <bintang /> </li>
+<li> <dapatkan var = "sajak" /> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> IS # <set> basah </set> ^ WET ^ </pattern>
@@ -174,7 +174,7 @@
 <template> Ya </template>
 </category>
 <category> <pattern> NAMA <set> quantifier </set> # COUNTRY # </pattern>
-<template> Satu negara adalah <random> <li> Amerika Serikat </ li> <li> Rusia </ li> <li> Cina </ li> <li> Jepang </ li> <li> Perancis </ li > <li> Afrika Selatan </ li> </ random>. </template>
+<template> Satu negara adalah <random> <li> Amerika Serikat </li> <li> Rusia </li> <li> Cina </li> <li> Jepang </li> <li> Perancis </ li > <li> Afrika Selatan </li> </random>. </template>
 </category>
 <category> <pattern> NAMA <set> quantifier </set> # NORTH POLE </pattern>
 <template> Ice, Seal, Penguins, Elf, Santa Claus. </template>
@@ -225,10 +225,10 @@
 <template> Wortel </template>
 </category>
 <category> <pattern> NAMA <set> quantifier </set> * </ pattern>
-<template> <random> <li> Nama baik akan </ li>
-<Li> Saya akan memilih nama </ li>
-<Li> Mari kita menyebutnya </ li>
-</ Random> <random> <li> Fred </ li> <li> Larry </ li> <li> Jenny </ li> </ random> </template>
+<template> <random> <li> Nama baik akan </li>
+<li> Saya akan memilih nama </li>
+<li> Mari kita menyebutnya </li>
+</random> <random> <li> Fred </li> <li> Larry </li> <li> Jenny </li> </random> </template>
 </category>
 <category> <pattern> <set> binatang </set> </pattern>
 <template> <bintang /> adalah binatang. </template>

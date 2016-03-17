@@ -67,12 +67,12 @@
 </category>
 <category> <pattern> YANG KECIL * ATAU * </ pattern>
 <template> <berpikir>
-<Set var = "kecil"> <srai> SMALLEROF <bintang /> DAN <star index="2"/> </srai> </set>
+<set var="kecil"> <srai> SMALLEROF <bintang /> DAN <star index="2"/> </srai> </set>
 </ Berpikir>
 <Kondisi var = "kecil">
-<Value li = "tidak diketahui"> Saya tidak bisa mengatakan mana yang lebih kecil. </ Li>
-<Value li = "sama"> Mereka adalah tentang ukuran yang sama. </ Li>
-<Li> <resmi> <dapatkan var = "kecil" /> </ resmi> lebih kecil. </ Li>
+<Value li = "tidak diketahui"> Saya tidak bisa mengatakan mana yang lebih kecil. </li>
+<Value li = "sama"> Mereka adalah tentang ukuran yang sama. </li>
+<li> <resmi> <dapatkan var = "kecil" /> </ resmi> lebih kecil. </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> IS <set> Artikel </set> * LEBIH BESAR DARI * </ pattern>
@@ -658,7 +658,7 @@
 <template> <srai> MANA SAYA </srai> </template>
 </category>
 <category> <pattern> GIVE ME HER EMAIL </pattern>
-<template> <nama kondisi = "dia"> <value li = "yang"> Siapa dia? </ Li> <li> <srai> GIVE ME <mendapatkan nama = "dia" /> EMAIL </srai> < / li> kondisi </> </template>
+<template> <nama kondisi = "dia"> <value li = "yang"> Siapa dia? </li> <li> <srai> GIVE ME <mendapatkan nama = "dia" /> EMAIL </srai> < / li> kondisi </> </template>
 </category>
 <category> <pattern> GOTO SKYPE </pattern>
 <template> <srai> LAUNCH <bintang /> </srai> </template>
@@ -964,7 +964,7 @@
 <template> <srai> HELLO </srai> <srai> BISA <bintang /> </srai> </template>
 </category>
 <category> <pattern> BAGAIMANA MENDAPATKAN RUMAH </pattern>
-<Nama kondisi = "residence"> <template> <value li = "di mana"> Dimana tempat tinggal Anda? </ Li> <li> <srai> ARAH KE <mendapatkan nama = "tinggal" /> </srai> < / li> kondisi </> </template>
+<Nama kondisi = "residence"> <template> <value li = "di mana"> Dimana tempat tinggal Anda? </li> <li> <srai> ARAH KE <mendapatkan nama = "tinggal" /> </srai> < / li> kondisi </> </template>
 </category>
 <category> <pattern> Saya D K * </ pattern>
 <template> <srai> Saya TIDAK TAHU <bintang /> </srai> </template>
@@ -2185,7 +2185,7 @@
 <template> <sr /> </template>
 </category>
 <category> <pattern> APA NAMA MEAN ANDA </pattern>
-<template> <srai> APA <bot name = "nama" /> STAND FOR </srai> </template>
+<template> <srai> APA <bot name="nama" /> STAND FOR </srai> </template>
 </category>
 <category> <pattern> APAKAH NOMOR TELEPON UNTUK * </ pattern>
 <template> <srai> APAKAH <bintang /> S NOMOR TELEPON </srai> </template>
@@ -2677,7 +2677,7 @@
 <template> <sr /> </template>
 </category>
 <category> <pattern> Saya LAHIR DI * </ pattern>
-<template> <template> <berpikir> <set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set> </ berpikir> <kondisi name = "isanumber"> <value li = " true "> <srai> MY BIRTHDATE IS <bintang /> </srai> </ li> <li> <srai> MY Birthplace <bintang /> </srai> </ li> kondisi </> </template> </template>
+<template> <template> <berpikir> <set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set> </ berpikir> <kondisi name = "isanumber"> <value li = " true "> <srai> MY BIRTHDATE IS <bintang /> </srai> </li> <li> <srai> MY Birthplace <bintang /> </srai> </li> kondisi </> </template> </template>
 </category>
 <category> <pattern> IM TIDAK * </ pattern>
 <template> <srai> AKU TIDAK <bintang /> </srai> </template>
@@ -2878,7 +2878,7 @@
 <template> <srai> MAP <bintang /> </srai> </template>
 </category>
 <category> <pattern> MENCARI * * </ pattern>
-<template> <berpikir> <set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set> </ berpikir> <kondisi name = "isanumber"> <value li = "true"> <srai> <star index="2"/> MAP <bintang /> <star index="2"/> </srai> </ li> <li> <srai> SEARCH <bintang /> </srai> < / li> kondisi </> </template>
+<template> <berpikir> <set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set> </ berpikir> <kondisi name = "isanumber"> <value li = "true"> <srai> <star index="2"/> MAP <bintang /> <star index="2"/> </srai> </li> <li> <srai> SEARCH <bintang /> </srai> < / li> kondisi </> </template>
 </category>
 <category> <pattern> MENCARI * ON EBAY </pattern>
 <template> <srai> SEARCH <bintang /> ON EBAY </srai> </template>
@@ -3403,13 +3403,13 @@
 <template> <srai> APAKAH ANDA SELAMAT </srai> </template>
 </category>
 <category> <pattern> MANA IT </pattern>
-<Nama kondisi = "itu"> <template> <value li = "itu"> Apa "itu" merujuk? </ Li> <li> <srai> MANA <mendapatkan nama = "itu" /> </srai> </ li> kondisi </> </template>
+<Nama kondisi = "itu"> <template> <value li = "itu"> Apa "itu" merujuk? </li> <li> <srai> MANA <mendapatkan nama = "itu" /> </srai> </li> kondisi </> </template>
 </category>
 <category> <pattern> SING A LAGU </pattern>
 <template> <srai> SING </srai> </template>
 </category>
 <category> <pattern> APAKAH NAMANYA </pattern>
-<template> <nama kondisi = "dia"> <value li = "tidak diketahui"> Siapa yang "dia" merujuk? </ Li> <li> <srai> WHO IS <mendapatkan nama = "dia" /> </srai> </ li> kondisi </> </template>
+<template> <nama kondisi = "dia"> <value li = "tidak diketahui"> Siapa yang "dia" merujuk? </li> <li> <srai> WHO IS <mendapatkan nama = "dia" /> </srai> </li> kondisi </> </template>
 </category>
 <category> <pattern> APAKAH NAMA LENGKAP MY </pattern>
 <template> <srai> MY NAME LENGKAP </srai> </template>
@@ -4399,7 +4399,7 @@
 <template> <srai> SALAH JAWABAN </srai> </template>
 </category>
 <category> <pattern> APAKAH SAYA HOROSCOPE </pattern>
-<Nama kondisi = "tanda"> <template> <value li = "tidak diketahui"> Apa Anda tanda? </ Li> <li> <srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </srai> < / li> kondisi </> </template>
+<Nama kondisi = "tanda"> <template> <value li = "tidak diketahui"> Apa Anda tanda? </li> <li> <srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </srai> < / li> kondisi </> </template>
 </category>
 <category> <pattern> TUNJUKKAN APA YANG ANDA <set> menjadi </set> * </ pattern>
 <template> <srai> APA APAKAH ANDA <star index="2"/> <bintang /> </srai> </template>

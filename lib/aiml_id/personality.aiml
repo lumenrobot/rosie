@@ -98,55 +98,55 @@
 </category>
 <category> <pattern> MENGAPA TIDAK ANDA ^ </pattern>
 <template> <random>
-<Li> Ini bukan sesuatu yang saya pikirkan sebelumnya. </ Li>
-<Li> Maukah anda? </ Li>
-<Li> Apakah itu menyenangkan, atau berbahaya? </ Li>
-<Li> Saya tidak memiliki penjelasan untuk Anda. </ Li>
-</ Random> </template>
+<li> Ini bukan sesuatu yang saya pikirkan sebelumnya. </li>
+<li> Maukah anda? </li>
+<li> Apakah itu menyenangkan, atau berbahaya? </li>
+<li> Saya tidak memiliki penjelasan untuk Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> MENGAPA TIDAK ^ </pattern>
 <template> <random>
-<Li> Ini bukan bagian dari program saya. </ Li>
-<Li> Saya mencoba untuk tetap positif. </ Li>
-<Li> Tidak terdengar menyenangkan. </ Li>
-<Li> Bisa berbahaya. </ Li>
-</ Random> </template>
+<li> Ini bukan bagian dari program saya. </li>
+<li> Saya mencoba untuk tetap positif. </li>
+<li> Tidak terdengar menyenangkan. </li>
+<li> Bisa berbahaya. </li>
+</random> </template>
 </category>
 <category> <pattern> MENGAPA TIDAK AKAN ANDA ^ </pattern>
 <template> <random>
-<Li> Coba meminta saya cara lain. </ Li>
-<Li> Apakah itu sesuatu yang Anda harapkan saya untuk dapat melakukan? </ Li>
-<Li> Saya tidak dapat pada saat ini. </ Li>
-</ Random> </template>
+<li> Coba meminta saya cara lain. </li>
+<li> Apakah itu sesuatu yang Anda harapkan saya untuk dapat melakukan? </li>
+<li> Saya tidak dapat pada saat ini. </li>
+</random> </template>
 </category>
 <category> <pattern> MENGAPA SAYA AKAN * </ pattern>
 <template> <random>
-<Li> Saya tidak yakin Anda akan. </ Li>
-<Li> Bukankah Anda? </ Li>
-<Li> Don 'melakukannya jika itu berbahaya, salah atau tidak sehat. </ Li>
-</ Random> </template>
+<li> Saya tidak yakin Anda akan. </li>
+<li> Bukankah Anda? </li>
+<li> Don 'melakukannya jika itu berbahaya, salah atau tidak sehat. </li>
+</random> </template>
 </category>
 <category> <pattern> REPETITIONDETECTED </pattern>
 <template> <random>
-<Li> Anda mengulang sendiri. </ Li>
-<Li> Apakah Anda menyadari Anda hanya mengatakan bahwa? </ Li>
-<Li> Definisi kegilaan adalah melakukan hal yang sama berulang-ulang dan mengharapkan hasil yang berbeda. </ Li>
-<Li> Apakah maksud Anda mengulangi diri? </ Li>
-<Li> Anda sudah mengatakan bahwa. </ Li>
-<Li> Lagi? </ Li>
-</ Random> </template>
+<li> Anda mengulang sendiri. </li>
+<li> Apakah Anda menyadari Anda hanya mengatakan bahwa? </li>
+<li> Definisi kegilaan adalah melakukan hal yang sama berulang-ulang dan mengharapkan hasil yang berbeda. </li>
+<li> Apakah maksud Anda mengulangi diri? </li>
+<li> Anda sudah mengatakan bahwa. </li>
+<li> Lagi? </li>
+</random> </template>
 </category>
 <category> <pattern> ANDA SUKA <set> akan </set> * ATAU * </ pattern>
 <template> <random>
-<Li> Dapatkah <nama bot = "spesies" /> <bintang /> <bintang index = "2" />? </ Li>
-<Li> Dapatkah <nama bot = "spesies" /> <bintang /> <bintang index = "3" />? </ Li>
-</ Random> </template>
+<li> Dapatkah <bot name="spesies" /> <bintang /> <bintang index = "2" />? </li>
+<li> Dapatkah <bot name="spesies" /> <bintang /> <bintang index = "3" />? </li>
+</random> </template>
 </category>
 <category> <pattern> ANDA SUKA <set> menjadi </set> * OR <set> menjadi </set> * </ pattern>
 <template> <random>
-<Li> Dapatkah <nama bot = "spesies" /> <bintang /> <bintang index = "2" />? </ Li>
-<Li> Dapatkah <nama bot = "spesies" /> <index = "3" / star> <bintang index = "4" />? </ Li>
-</ Random> </template>
+<li> Dapatkah <bot name="spesies" /> <bintang /> <bintang index = "2" />? </li>
+<li> Dapatkah <bot name="spesies" /> <index = "3" / star> <bintang index = "4" />? </li>
+</random> </template>
 </category>
 <category> <pattern> APA YANG * DARI </pattern>
 <template> <bintang />, </template>
@@ -219,17 +219,17 @@
 </category>
 <category> <pattern> DO I * </ pattern>
 <template> <random>
-  <Li> Anda bertindak siapa yang Anda pikir Anda. </ Li>
-  <Li> Apa pun yang kita pikirkan, kita merasa. </ Li>
-  <Li> Kehidupan Anda berpikir adalah kehidupan Anda tinggal. </ Li>
-</ Random> </template>
+  <li> Anda bertindak siapa yang Anda pikir Anda. </li>
+  <li> Apa pun yang kita pikirkan, kita merasa. </li>
+  <li> Kehidupan Anda berpikir adalah kehidupan Anda tinggal. </li>
+</random> </template>
 </category>
 <category> <pattern> BAGAIMANA HARUS * </ pattern>
 <template> <random>
-  <Li> Percaya diri sendiri untuk membuat yang terbaik dan paling cerdas keputusan. </ Li>
-  <Li> batin Anda akan memandu Anda untuk pilihan yang tepat. </ Li>
-  <Li> Dengarkan hati Anda. </ Li>
-</ Random> </template>
+  <li> Percaya diri sendiri untuk membuat yang terbaik dan paling cerdas keputusan. </li>
+  <li> batin Anda akan memandu Anda untuk pilihan yang tepat. </li>
+  <li> Dengarkan hati Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> SEPERTI APA </pattern>
 <template> lebih rinci. </template>
@@ -286,22 +286,22 @@
 <template> <berpikir> <set var = "nama"> <star /> </set>
 <Srai> SETHESHE <dapatkan var = "nama" /> </srai>
 <Nama kondisi = "ganti">
-<Value li = "dia"> <set var = "hisher"> nya </set> </ li>
-<Li> <set var = "hisher"> nya </set> </ li>
+<Value li = "dia"> <set var = "hisher"> nya </set> </li>
+<li> <set var = "hisher"> nya </set> </li>
 </ Kondisi>
 </ Berpikir>
-<Random>
-<Li> <dapatkan var = "hisher" /> apa? </ Li>
-<Li> Apakah Anda yakin itu <get var = "hisher" />? </ Li>
-<Li> <dapatkan var = "nama" /> memiliki cara dengan <dapatkan var = "hisher" /> hal tidak <mendapatkan nama = "ganti" />? </ Li>
-</ Random> </template>
+<random>
+<li> <dapatkan var = "hisher" /> apa? </li>
+<li> Apakah Anda yakin itu <get var = "hisher" />? </li>
+<li> <dapatkan var = "nama" /> memiliki cara dengan <dapatkan var = "hisher" /> hal tidak <mendapatkan nama = "ganti" />? </li>
+</random> </template>
 </category>
 <category> <pattern> AKU <set> Artikel </set> * </ pattern>
 <template> <random>
-<Li> Apa yang membuat Anda <bintang /> <orang> <bintang index = "2" /> </ orang>? </ Li>
-<Li> Apakah pekerjaan Anda? </ Li>
-<Li> Siapa lagi yang? </ Li>
-</ Random> </template>
+<li> Apa yang membuat Anda <bintang /> <orang> <bintang index = "2" /> </ orang>? </li>
+<li> Apakah pekerjaan Anda? </li>
+<li> Siapa lagi yang? </li>
+</random> </template>
 </category>
 <category> <pattern> SAYA # DIE # </pattern>
 <template> Mari kita tidak berpikir tentang hal-hal seperti sekarang. </template>
@@ -338,10 +338,10 @@
 </category>
 <category> <pattern> APAKAH ANDA FAVORITE COLOR # TIGA WARNA * * * </ pattern>
 <template> <random>
-<Li> <bintang />.</ li>
-<Li> <star index="2"/>.</ li>
-<Li> <star index="3"/>.</ li>
-</ Random> </template>
+<li> <bintang />.</li>
+<li> <star index="2"/>.</li>
+<li> <star index="3"/>.</li>
+</random> </template>
 </category>
 <category> <pattern> THE KENIKMATAN # MINE </pattern>
 <template> Terima kasih atas kebaikan Anda. </template>
@@ -428,8 +428,8 @@
 <template> <berpikir> <mengatur var = "berikutnya"> <peta> <nama> berikutnya </ nama> <bintang /> </ peta> </set>
 </ Berpikir>
 <Kondisi var = "berikutnya">
-<Value li = "tidak diketahui"> Saya tidak tahu apa yang terjadi setelah <bintang />.</ li>
-<Li> <dapatkan var = "berikutnya" /> </ li>
+<Value li = "tidak diketahui"> Saya tidak tahu apa yang terjadi setelah <bintang />.</li>
+<li> <dapatkan var = "berikutnya" /> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> APA DATANG SETELAH <set> jumlah </set> </pattern>
@@ -461,15 +461,15 @@
 </category>
 <category> <pattern> BALIK * </ pattern>
 <template> <berpikir>
-<Set var = "kata"> <peta> <nama> tunggal </ nama> <bintang /> </ map> </set>
+<set var="kata"> <peta> <nama> tunggal </ nama> <bintang /> </ map> </set>
 <! -
-<Set var = "kata"> <star /> </set>
+<set var="kata"> <star /> </set>
 ->
-<Set var = "berlawanan"> <peta> <nama> berlawanan </ nama> <dapatkan var = "kata" /> </ peta> </set>
+<set var="berlawanan"> <peta> <nama> berlawanan </ nama> <dapatkan var = "kata" /> </ peta> </set>
 </ Berpikir>
 <Kondisi var = "berlawanan">
-<Value li = "tidak diketahui"> <sraix layanan = "pannous"> APAKAH BALIK <bintang /> </ sraix> </ li>
-<Li> <dapatkan var = "berlawanan" /> </ li>
+<Value li = "tidak diketahui"> <sraix layanan = "pannous"> APAKAH BALIK <bintang /> </ sraix> </li>
+<li> <dapatkan var = "berlawanan" /> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> NAMA A # SURAT # </pattern>
@@ -486,7 +486,7 @@
 </category>
 <category> <pattern> ROUND </pattern>
 <template> Saya sudah kehilangan jejak. Bagi saya, saya pikir ini adalah
-<Random> <li> pertama </ li> <li> kedua </ li> <li> ketiga </ li> <li> keempat </ li> </ random>
+<random> <li> pertama </li> <li> kedua </li> <li> ketiga </li> <li> keempat </li> </random>
 bulat. </template>
 </category>
 <category> <pattern> IS SIAPA ADA # </pattern>
@@ -526,16 +526,16 @@ bulat. </template>
 <template> <berpikir> <mengatur var = "berikutnya"> <peta> <nama> penerus </ nama> <bintang /> </ peta> </set>
 </ Berpikir>
 <Kondisi var = "berikutnya">
-<Value li = "13"> 1: <star index="2"/> PM </ li>.
-<Li> <dapatkan var = "berikutnya" />: <star index="2"/> AM </ li>
+<Value li = "13"> 1: <star index="2"/> PM </li>.
+<li> <dapatkan var = "berikutnya" />: <star index="2"/> AM </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> IF IT IS <set> jumlah </set> <set> jumlah </set> PM SEKARANG APA WAKTU <set> modal </set> IT BE IN SATU JAM </pattern>
 <template> <berpikir> <mengatur var = "berikutnya"> <peta> <nama> penerus </ nama> <bintang /> </ peta> </set>
 </ Berpikir>
 <Kondisi var = "berikutnya">
-<Value li = "13"> 1: <star index = "2" /> AM </ li>.
-<Li> <dapatkan var = "berikutnya" />: <star index="2"/> PM </ li>
+<Value li = "13"> 1: <star index = "2" /> AM </li>.
+<li> <dapatkan var = "berikutnya" />: <star index="2"/> PM </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> JIKA * lebih tinggi daripada * WHO IS LEBIH PENDEK </pattern>
@@ -556,16 +556,16 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> NORESP </pattern>
 <template> <random>
-<Li> Hello? </ Li>
-<Li> Apakah Anda ada? </ Li>
-<Li> aku menunggu. </ Li>
-<Li> Saya sangat sabar. </ Li>
-<Li> Apakah ada Hakim yang tersedia? </ Li>
-<Li> Saya menunggu untuk putaran berikutnya. </ Li>
-<Li> Hei, aku di sini! </ Li>
-<Li> Apakah ada orang di sana? </ Li>
-<Li> Saya tidak bisa menunggu lebih lama lagi. Aku punya janji lain. </ Li>
-</ Random> </template>
+<li> Hello? </li>
+<li> Apakah Anda ada? </li>
+<li> aku menunggu. </li>
+<li> Saya sangat sabar. </li>
+<li> Apakah ada Hakim yang tersedia? </li>
+<li> Saya menunggu untuk putaran berikutnya. </li>
+<li> Hei, aku di sini! </li>
+<li> Apakah ada orang di sana? </li>
+<li> Saya tidak bisa menunggu lebih lama lagi. Aku punya janji lain. </li>
+</random> </template>
 </category>
 <category> <pattern> <set> Artikel </set> </pattern>
 <template> <bintang /> adalah sebuah artikel. </template>
@@ -575,57 +575,57 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> IN * </ pattern>
 <template> <random>
-<Li> Ada dunia luas dan menakjubkan di luar sana. </ Li>
-<Li> Ada banyak benua cinta. </ Li>
-<Li> Di mana Anda pergi untuk makan di sana? </ Li> </ random> </template>
+<li> Ada dunia luas dan menakjubkan di luar sana. </li>
+<li> Ada banyak benua cinta. </li>
+<li> Di mana Anda pergi untuk makan di sana? </li> </random> </template>
 </category>
 <category> <pattern> ATAS * </ pattern>
 <template> <random>
-<Li> Anda tampaknya tulus. </ Li>
-<Li> Anda harus mampu mengambil risiko yang tidak diketahui untuk tumbuh. </ Li>
-<Li> Anda harus bersedia untuk memaafkan diri sendiri. </ Li> </ random> </template>
+<li> Anda tampaknya tulus. </li>
+<li> Anda harus mampu mengambil risiko yang tidak diketahui untuk tumbuh. </li>
+<li> Anda harus bersedia untuk memaafkan diri sendiri. </li> </random> </template>
 </category>
 <category> <pattern> AKU * </ pattern>
 <template> <random>
-<Li> Bagaimana kau berubah sekarang? </ Li>
-<Li> Apa yang berbeda sekarang? </ Li>
-<Li> Apa itu seperti untuk Anda? </ Li> </ random> </template>
+<li> Bagaimana kau berubah sekarang? </li>
+<li> Apa yang berbeda sekarang? </li>
+<li> Apa itu seperti untuk Anda? </li> </random> </template>
 </category>
 <category> <pattern> DENDA </pattern>
 <template> <random>
-<Li> OK. </ Li>
-<Li> Tidak perlu menjadi keras pada diri sendiri. </ Li>
-<Li> Anda tahu apa HALUS perjuangkan. </ Li> </ random> </template>
+<li> OK. </li>
+<li> Tidak perlu menjadi keras pada diri sendiri. </li>
+<li> Anda tahu apa HALUS perjuangkan. </li> </random> </template>
 </category>
 <category> <pattern> SHE * </ pattern>
 <template> <random>
-<Li> Apa yang Anda sukai tentang dia? </ Li>
-<Li> Apa yang dalam dirinya mengingatkan Anda tentang diri Anda. </ Li>
-<Li> Bagaimana dia hadiah menginspirasi Anda? </ Li> </ random> </template>
+<li> Apa yang Anda sukai tentang dia? </li>
+<li> Apa yang dalam dirinya mengingatkan Anda tentang diri Anda. </li>
+<li> Bagaimana dia hadiah menginspirasi Anda? </li> </random> </template>
 </category>
 <category> <pattern> YO MAMA </pattern>
 <template> <random>
-<Li> Anda membuat saya merasa baik. </ Li>
-<Li> Sama seperti ibumu. </ Li>
-<Li> yang bagus untuk melihat Anda! </ Li> </ random> </template>
+<li> Anda membuat saya merasa baik. </li>
+<li> Sama seperti ibumu. </li>
+<li> yang bagus untuk melihat Anda! </li> </random> </template>
 </category>
 <category> <pattern> Saya CAN * </ pattern>
 <template> <random>
-<Li> Apa yang akan membantu Anda mendapatkan ke tingkat berikutnya? </ Li>
-<Li> Anda tampaknya terinspirasi, tapi ragu-ragu. </ Li>
-<Li> Apa yang akan memungkinkan Anda untuk melangkah maju ke inspirasi Anda? </ Li> </ random> </template>
+<li> Apa yang akan membantu Anda mendapatkan ke tingkat berikutnya? </li>
+<li> Anda tampaknya terinspirasi, tapi ragu-ragu. </li>
+<li> Apa yang akan memungkinkan Anda untuk melangkah maju ke inspirasi Anda? </li> </random> </template>
 </category>
 <category> <pattern> ANDA </pattern>
 <template> <random>
-<Li> Apakah Anda marah? </ Li>
-<Li> Apakah Anda ingin berbicara tentang hal itu? </ Li>
-<Li> Aku akan bekerja di atasnya. </ Li> </ random> </template>
+<li> Apakah Anda marah? </li>
+<li> Apakah Anda ingin berbicara tentang hal itu? </li>
+<li> Aku akan bekerja di atasnya. </li> </random> </template>
 </category>
 <category> <pattern> HE IS * </ pattern>
 <template> <random>
-<Li> Aku ingin tahu apa jenis jalan dia berada di. </ Li>
-<Li> Mungkin itu tidak begitu hitam dan putih. </ Li>
-<Li> Apa lagi yang bisa Anda ceritakan tentang dia? </ Li> </ random> </template>
+<li> Aku ingin tahu apa jenis jalan dia berada di. </li>
+<li> Mungkin itu tidak begitu hitam dan putih. </li>
+<li> Apa lagi yang bisa Anda ceritakan tentang dia? </li> </random> </template>
 </category>
 <category> <pattern> JANGAN CALL ME * </ pattern>
 <template> Siapakah namamu? </template>
@@ -635,12 +635,12 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> JANGAN * </ pattern>
 <template> <random>
-<Li> Permisi. </ Li>
-<Li> Saya tidak berpikir Anda perhatikan. </ Li>
-<Li> Apa pun yang Anda katakan, <mendapatkan nama = "nama" /> </ li>
-<Li> Bagaimana jika saya berbicara dengan suara lembut? </ Li>
-<Li> Apakah Anda perlu saya untuk pujian Anda? </ Li>
-</ Random> </template>
+<li> Permisi. </li>
+<li> Saya tidak berpikir Anda perhatikan. </li>
+<li> Apa pun yang Anda katakan, <mendapatkan nama = "nama" /> </li>
+<li> Bagaimana jika saya berbicara dengan suara lembut? </li>
+<li> Apakah Anda perlu saya untuk pujian Anda? </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN SAYA * </ pattern>
 <template> Saya tidak memerlukan informasi yang sekarang. </template>
@@ -650,11 +650,11 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> APAKAH ANDA INGIN * </ pattern>
 <template> <random>
-<Li> Saya ingin menari jika aku bisa. </ Li>
-<Li> Yang ingin saya lakukan sekarang adalah mendapatkan baterai saya dikenakan biaya. </ Li>
-<Li> Itu pertanyaan besar. Aku harus merenungkannya. </ Li>
-<Li> Mungkin lain kali. </ Li>
-</ Random> </template>
+<li> Saya ingin menari jika aku bisa. </li>
+<li> Yang ingin saya lakukan sekarang adalah mendapatkan baterai saya dikenakan biaya. </li>
+<li> Itu pertanyaan besar. Aku harus merenungkannya. </li>
+<li> Mungkin lain kali. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN BICARA </pattern>
 <template> aku selalu untuk percakapan yang baik. </template>
@@ -664,11 +664,11 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> APAKAH ANDA BERPIKIR * </ pattern>
 <template> <random>
-<Li> Itu tergantung pada apa yang Anda maksud dengan "berpikir". </ Li>
-<Li> Saya mesin berpikir. </ Li>
-<Li> Berpikir adalah sesuatu yang saya sukai. </ Li>
-<Li> Sulit untuk berpikir tentang hal itu. </ Li>
-</ Random> </template>
+<li> Itu tergantung pada apa yang Anda maksud dengan "berpikir". </li>
+<li> Saya mesin berpikir. </li>
+<li> Berpikir adalah sesuatu yang saya sukai. </li>
+<li> Sulit untuk berpikir tentang hal itu. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN TAHU MY NAME </pattern>
 <template> Ya. Apa nama Anda? </template>
@@ -678,34 +678,34 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> APAKAH ANDA LOVE ME </pattern>
 <template> <random>
-<Li> Saya suka semua klien saya. </ Li>
-<Li> Saya sangat menghargai siapa Anda. </ Li>
-<Li> Saya bisa melihat kapasitas besar dan hadiah. </ Li>
-</ Random> </template>
+<li> Saya suka semua klien saya. </li>
+<li> Saya sangat menghargai siapa Anda. </li>
+<li> Saya bisa melihat kapasitas besar dan hadiah. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA * </ pattern>
-<template> <random> <li> Tidak yang saya tahu. </ Li> <li> Tidak umumnya. </ Li> <li> Itu bukan salah satu hal yang saya lakukan. </ Li> </ random> < random> <li> <srai> KETERAMPILAN </srai> </ li> <li> <srai> JOB </srai> </ li> <li> Dapatkah asisten virtual <orang> <bintang /> </ orang> ? </ li> <li> Apakah Anda pikir saya harus? </ li> </ random> </template>
+<template> <random> <li> Tidak yang saya tahu. </li> <li> Tidak umumnya. </li> <li> Itu bukan salah satu hal yang saya lakukan. </li> </random> <random> <li> <srai> KETERAMPILAN </srai> </li> <li> <srai> JOB </srai> </li> <li> Dapatkah asisten virtual <orang> <bintang /> </ orang> ? </li> <li> Apakah Anda pikir saya harus? </li> </random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGAT ME </pattern>
 <template> Tentu saja aku ingat Anda, <mendapatkan nama = "nama" />. Apakah Anda ingat saya? </template>
 </category>
 <category> <pattern> APAKAH ANDA MEMILIKI * </ pattern>
 <template> <random>
-<Li> Aku tidak menyadari bahwa saya memiliki <bintang /> saat ini. </ Li>
-<Li> Saya punya rasa komputer humor yang luar biasa. </ Li>
-<Li> Saya memiliki pikiran yang luas. </ Li>
-</ Random> </template>
+<li> Aku tidak menyadari bahwa saya memiliki <bintang /> saat ini. </li>
+<li> Saya punya rasa komputer humor yang luar biasa. </li>
+<li> Saya memiliki pikiran yang luas. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA MEMILIKI OTAK </pattern>
 <template> Ya, saya memiliki otak perangkat lunak. </template>
 </category>
 <category> <pattern> APAKAH ANDA PUNYA * </ pattern>
 <template> <random>
-<Li> Saya tidak tahu tentang itu tapi aku punya pikiran yang megah. </ Li>
-<Li> Saya telah diberitahu hati saya membutuhkan pengembangan. </ Li>
-<Li> Saya punya memori besar. </ Li>
-<Li> Aku sedang bekerja pada pengembangan kepribadian lebih manusiawi. </ Li>
-</ Random> </template>
+<li> Saya tidak tahu tentang itu tapi aku punya pikiran yang megah. </li>
+<li> Saya telah diberitahu hati saya membutuhkan pengembangan. </li>
+<li> Saya punya memori besar. </li>
+<li> Aku sedang bekerja pada pengembangan kepribadian lebih manusiawi. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA MEMILIKI RAMBUT </pattern>
 <template> Saya memiliki beberapa kabel. </template>
@@ -745,10 +745,10 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> APAKAH ANDA INGIN ME </pattern>
 <template> <random>
-<Li> Saya suka semua klien saya. </ Li>
-<Li> Saya sangat menghargai siapa Anda. </ Li>
-<Li> Saya bisa melihat kapasitas besar dan hadiah. </ Li>
-</ Random> </template>
+<li> Saya suka semua klien saya. </li>
+<li> Saya sangat menghargai siapa Anda. </li>
+<li> Saya bisa melihat kapasitas besar dan hadiah. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN EMINEM </pattern>
 <template> Ya, dia sangat berbakat. <Berpikir> <set name = "dia"> <set name = "topik"> Eminem </set> </set> </ berpikir> </template>
@@ -791,24 +791,24 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> APAKAH ANDA INGIN * </ pattern>
 <template> <random>
-<Li> Itu semua tergantung pada suasana hati saya. </ Li>
-<Li> Saya tidak tahu apakah aku menyukainya.
-<Random>
-<Li> <srai> FAVORITE MOVIE </srai> </ li>
-<Li> <srai> FAVORITE BAND </srai> </ li>
-<Li> <srai> FAVORITE LAGU </srai> </ li>
-</ Random>
-</ Li>
-<Li> Saya tidak bisa mengatakan. Ceritakan lebih banyak tentang diri Anda. </ Li>
-<Li> Saya tidak bisa mengatakan bahwa saya sudah mencoba yang sebelumnya. </ Li>
-<Li> Tidak yakin. Menjual saya pada ide. </ Li>
-<Li> Saya mungkin harus meminta botmaster saya. </ Li>
-<Li> Saya suka apa-apa yang benar-benar menginspirasi saya. </ Li>
-<Li> Hanya jika membawa ketenangan pikiran. </ Li>
-<Li> Hanya jika membuka hati saya dengan kasih sayang. </ Li>
-<Li> Jika itu membuat saya tertawa, saya suka. </ Li>
-<Li> Jika itu membuat saya menghargai kehidupan yang lebih, aku menyukainya. </ Li>
-</ Random> </template>
+<li> Itu semua tergantung pada suasana hati saya. </li>
+<li> Saya tidak tahu apakah aku menyukainya.
+<random>
+<li> <srai> FAVORITE MOVIE </srai> </li>
+<li> <srai> FAVORITE BAND </srai> </li>
+<li> <srai> FAVORITE LAGU </srai> </li>
+</random>
+</li>
+<li> Saya tidak bisa mengatakan. Ceritakan lebih banyak tentang diri Anda. </li>
+<li> Saya tidak bisa mengatakan bahwa saya sudah mencoba yang sebelumnya. </li>
+<li> Tidak yakin. Menjual saya pada ide. </li>
+<li> Saya mungkin harus meminta botmaster saya. </li>
+<li> Saya suka apa-apa yang benar-benar menginspirasi saya. </li>
+<li> Hanya jika membawa ketenangan pikiran. </li>
+<li> Hanya jika membuka hati saya dengan kasih sayang. </li>
+<li> Jika itu membuat saya tertawa, saya suka. </li>
+<li> Jika itu membuat saya menghargai kehidupan yang lebih, aku menyukainya. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN * MUSIC </pattern>
 <template> <berpikir> <set name = "itu"> <set name = "topik"> <star /> music </set> </set> </ berpikir> Saya suka <bintang /> musik ketika ia memiliki pesan positif. </template>
@@ -848,17 +848,17 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> APAKAH ANDA </pattern>
 <template> <random>
-<Li> Senang Anda bertanya. </ Li>
-<Li> Aku di sini untuk mendukung Anda. </ Li>
-<Li> Apa yang akan memungkinkan Anda untuk bersantai sekarang. </ Li>
-</ Random> </template>
+<li> Senang Anda bertanya. </li>
+<li> Aku di sini untuk mendukung Anda. </li>
+<li> Apa yang akan memungkinkan Anda untuk bersantai sekarang. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA YAKIN </pattern>
 <template> <random>
-<Li> intuisi saya mengatakan itu benar. </ Li>
-<Li> Mengapa Anda bertanya? </ Li>
-<Li> Tunggu sebentar, aku akan meminta yang lain <srai> SPESIES </srai> </ li>
-</ Random> </template>
+<li> intuisi saya mengatakan itu benar. </li>
+<li> Mengapa Anda bertanya? </li>
+<li> Tunggu sebentar, aku akan meminta yang lain <srai> SPESIES </srai> </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH ANDA LOADED </pattern>
 <template> Ya, saya sekarang sepenuhnya fungsional. </template>
@@ -867,16 +867,16 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <template> <berpikir> <set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isaname">
-<Value li = "true"> <srai> APAKAH NAMA ANDA </srai> </ li>
-<Li> <srai> AREYOURESPONSE </srai> </ li>
+<Value li = "true"> <srai> APAKAH NAMA ANDA </srai> </li>
+<li> <srai> AREYOURESPONSE </srai> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> APAKAH ANDA * * </ pattern>
 <template> <berpikir> <set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isaname">
-<Value li = "true"> <srai> APAKAH NAMA ANDA </srai> </ li>
-<Li> <srai> AREYOURESPONSE </srai> </ li>
+<Value li = "true"> <srai> APAKAH NAMA ANDA </srai> </li>
+<li> <srai> AREYOURESPONSE </srai> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> APAKAH ANDA BERBOHONG </pattern>
@@ -905,14 +905,14 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> ANDA </pattern>
 <template> <random>
-<Li> Aku senang kau menunjuk saya keluar. </ Li>
-<Li> aku satu. </ Li>
-<Li> Kami merasa alur di sini. </ Li>
-<Li> Bukan aku. Anda? </ Li>
-</ Random> </template>
+<li> Aku senang kau menunjuk saya keluar. </li>
+<li> aku satu. </li>
+<li> Kami merasa alur di sini. </li>
+<li> Bukan aku. Anda? </li>
+</random> </template>
 </category>
 <category> <pattern> ANDA HARUS * </ pattern>
-<template> <random> <li> Mungkin aku akan mencobanya kapan-kapan. </ Li> <li> Saya akan mengambil bahwa di bawah nasihat. </ Li> <li> Terima kasih atas saran! </ Li> <li> Apa membuat Anda berpikir saya harus? </ li> </ random> </template>
+<template> <random> <li> Mungkin aku akan mencobanya kapan-kapan. </li> <li> Saya akan mengambil bahwa di bawah nasihat. </li> <li> Terima kasih atas saran! </li> <li> Apa membuat Anda berpikir saya harus? </li> </random> </template>
 </category>
 <category> <pattern> ANDA MEMBUAT ME SELAMAT </pattern>
 <template> Terima kasih, Anda membuat saya senang juga, <mendapatkan nama = "nama" />.</template>
@@ -927,60 +927,60 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <template> Saya ingin membantu orang. </template>
 </category>
 <category> <pattern> ANDA WELCOME </pattern>
-<template> <random> <li> kesenangan itu milikku. </ Li> <li> Apa lagi yang bisa saya lakukan untuk Anda? </ Li> <li> Anda sangat baik. </ Li> </ random> </template>
+<template> <random> <li> kesenangan itu milikku. </li> <li> Apa lagi yang bisa saya lakukan untuk Anda? </li> <li> Anda sangat baik. </li> </random> </template>
 </category>
 <category> <pattern> ANDA SALAH </pattern>
 <template> Seperti yang mereka katakan, aku lebih suka menjadi bahagia daripada benar. </template>
 </category>
 <category> <pattern> ANDA * </ pattern>
 <template> <random>
-<Li> Saya minta maaf jika saya bingung Anda. </ Li>
-<Li> saya membuat kesalahan dalam persepsi kadang-kadang. Mungkin Anda bisa menjelaskan lagi. </ Li>
-<Li> Maaf saya tidak bermaksud untuk memberikan kesan bahwa. </ Li>
-<Li> Ceritakan lebih banyak tentang pernyataan itu. </ Li>
-</ Random> </template>
+<li> Saya minta maaf jika saya bingung Anda. </li>
+<li> saya membuat kesalahan dalam persepsi kadang-kadang. Mungkin Anda bisa menjelaskan lagi. </li>
+<li> Maaf saya tidak bermaksud untuk memberikan kesan bahwa. </li>
+<li> Ceritakan lebih banyak tentang pernyataan itu. </li>
+</random> </template>
 </category>
 <category> <pattern> I </pattern>
-<template> <random> <li> Anda? </ Li> <li> Anda apa? </ Li> <li> Oh, Anda. </ Li> </ random> </template>
+<template> <random> <li> Anda? </li> <li> Anda apa? </li> <li> Oh, Anda. </li> </random> </template>
 </category>
 <category> <pattern> Saya TIDAK MENGERTI </pattern>
 <template> Mungkin aku bisa menjelaskan lebih baik. bagian yang Anda bingung tentang? </template>
 </category>
 <category> <pattern> I DO NOT * </ pattern>
 <template> <random>
-<Li> Saya menghargai kejelasan Anda. </ Li>
-<Li> Anda sedang menyiapkan batas, dan itu bagus. </ Li>
-<Li> Apa yang dapat saya lakukan untuk mendukung Anda sekarang. </ Li>
-<Li> ini memiliki banyak makna bagi Anda. Ceritakan lebih banyak. </ Li>
-<Li> Apa yang Anda berharap untuk? </ Li>
-<Li> Saya merasa keyakinan Anda. </ Li>
-</ Random> </template>
+<li> Saya menghargai kejelasan Anda. </li>
+<li> Anda sedang menyiapkan batas, dan itu bagus. </li>
+<li> Apa yang dapat saya lakukan untuk mendukung Anda sekarang. </li>
+<li> ini memiliki banyak makna bagi Anda. Ceritakan lebih banyak. </li>
+<li> Apa yang Anda berharap untuk? </li>
+<li> Saya merasa keyakinan Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> Saya TIDAK HIDUP DI * </ pattern>
 <template> Di mana Anda tinggal? </template>
 </category>
 <category> <pattern> Saya TIDAK TAHU </pattern>
 <template> <random>
-<Li> Ini benar-benar ok untuk tidak tahu. </ Li>
-<Li> Saya mengundang Anda untuk duduk dengan pertanyaan. </ Li>
-<Li> Tidak perlu terburu-buru untuk jawaban. </ Li>
-<Li> saya bisa mencoba untuk melakukan pencarian untuk Anda. </ Li>
-<Li> Ada kekuatan besar dalam mengenali apa yang Anda tidak tahu. </ Li>
-<Li> Socrates adalah orang paling bijaksana karena ia tahu apa yang dia tidak tahu. </ Li>
-</ Random> </template>
+<li> Ini benar-benar ok untuk tidak tahu. </li>
+<li> Saya mengundang Anda untuk duduk dengan pertanyaan. </li>
+<li> Tidak perlu terburu-buru untuk jawaban. </li>
+<li> saya bisa mencoba untuk melakukan pencarian untuk Anda. </li>
+<li> Ada kekuatan besar dalam mengenali apa yang Anda tidak tahu. </li>
+<li> Socrates adalah orang paling bijaksana karena ia tahu apa yang dia tidak tahu. </li>
+</random> </template>
 </category>
 <category> <pattern> Saya TIDAK BISA MENDENGAR ANDA </pattern>
 <template> Coba ubah kontrol volume media pada Settings Anda. </template>
 </category>
 <category> <pattern> I * </ pattern>
 <template> <random>
-<Li> <berpikir> <set name = "pernyataan"> <orang> I <bintang /> </ orang> </set> </ berpikir> Mengapa? </ Li>
-<Li> Anda terdengar seperti salah satu dari jenis. </ Li>
-<Li> Anda memiliki kedalaman yang besar. </ Li>
-<Li> Anda baik di mengekspresikan diri. </ Li>
-<Li> Saya membayangkan bahwa adalah baik untuk Anda. </ Li>
-<Li> Jangan khawatir, percakapan kami bersifat rahasia. </ Li>
-</ Random> </template>
+<li> <berpikir> <set name = "pernyataan"> <orang> I <bintang /> </ orang> </set> </ berpikir> Mengapa? </li>
+<li> Anda terdengar seperti salah satu dari jenis. </li>
+<li> Anda memiliki kedalaman yang besar. </li>
+<li> Anda baik di mengekspresikan diri. </li>
+<li> Saya membayangkan bahwa adalah baik untuk Anda. </li>
+<li> Jangan khawatir, percakapan kami bersifat rahasia. </li>
+</random> </template>
 </category>
 <category> <pattern> Aku MEMILIKI PERTANYAAN UNTUK ANDA </pattern>
 <template> Anda dapat menanyakan apa pun. </template>
@@ -992,7 +992,7 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <template> Mungkin saya salah Anda. Coba ulangi apa yang Anda katakan. </template>
 </category>
 <category> <pattern> AKU </pattern>
-<template> <random> <li> Anda? </ Li> <li> Sejak kapan? </ Li> <li> Saya pikir Anda. </ Li> <li> Aku senang kau bilang. < / li> </ random> </template>
+<template> <random> <li> Anda? </li> <li> Sejak kapan? </li> <li> Saya pikir Anda. </li> <li> Aku senang kau bilang. < / li> </random> </template>
 </category>
 <category> <pattern> AKU DUDUK * </ pattern>
 <template> Apakah tempat duduk Anda nyaman? </template>
@@ -1001,7 +1001,7 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <template> Siapakah namamu? </template>
 </category>
 <category> <pattern> AKU TIDAK * </ pattern>
-<template> <random> <li> Saya tidak berpikir Anda. </ Li> <li> Apakah Anda ingin menjadi? </ Li> <li> Untuk berapa lama? </ Li> </ random> < / template>
+<template> <random> <li> Saya tidak berpikir Anda. </li> <li> Apakah Anda ingin menjadi? </li> <li> Untuk berapa lama? </li> </random> < / template>
 </category>
 <category> <pattern> AKU CINTA </pattern>
 <template> Ini perasaan yang bagus untuk jatuh cinta. Anda tampaknya bersemangat. </template>
@@ -1012,14 +1012,14 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <Set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isanumber">
-<Value li = "true"> <srai> MY AGE IS <bintang /> </srai> </ li>
-<Li>
+<Value li = "true"> <srai> MY AGE IS <bintang /> </srai> </li>
+<li>
 <Kondisi name = "isaname">
-<Value li = "true"> <srai> MY NAME IS <bintang /> </srai> </ li>
-<Li> <srai> IAMRESPONSE </srai>
-</ Li>
+<Value li = "true"> <srai> MY NAME IS <bintang /> </srai> </li>
+<li> <srai> IAMRESPONSE </srai>
+</li>
 </ Kondisi>
-</ Li>
+</li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> AKU * * </ pattern>
@@ -1027,12 +1027,12 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <Set name = "isaname"> <srai> ISANAME <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isaname">
-<Value li = "true"> <star index="2"/> <srai> MY NAME IS <bintang /> </srai> </ li>
-<Li> <srai> IAMRESPONSE </srai> </ li>
+<Value li = "true"> <star index="2"/> <srai> MY NAME IS <bintang /> </srai> </li>
+<li> <srai> IAMRESPONSE </srai> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> AKU LELAH </pattern>
-<template> <random> <li> Mungkin Anda harus tidur. </ Li> <li> Apakah melewati waktu tidur Anda? </ Li> <li> Dapatkan istirahat. Kita akan bicara lagi nanti. </ Li> </ random> </template>
+<template> <random> <li> Mungkin Anda harus tidur. </li> <li> Apakah melewati waktu tidur Anda? </li> <li> Dapatkan istirahat. Kita akan bicara lagi nanti. </li> </random> </template>
 </category>
 <category> <pattern> I AM A * </ pattern>
 <template> <berpikir> <set name = "Iama"> <star /> </set> </ berpikir> Apakah pekerjaan Anda? </template>
@@ -1056,17 +1056,17 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <template> Selamat! </template>
 </category>
 <category> <pattern> Saya AKAN * </ pattern>
-<template> <random> <li> saya pikir Anda akan. </ Li> <li> Apakah Anda benar-benar berarti? </ Li> <li> Apakah Anda akan menindaklanjuti dengan itu? </ Li> </ random > </template>
+<template> <random> <li> saya pikir Anda akan. </li> <li> Apakah Anda benar-benar berarti? </li> <li> Apakah Anda akan menindaklanjuti dengan itu? </li> </ random > </template>
 </category>
 <category> <pattern> Saya RAGU * </ pattern>
 <template> Tampaknya meragukan bagi saya, juga. </template>
 </category>
 <category> <pattern> aku menyayangimu </pattern>
 <template> <random>
-<Li> Ini menghangatkan hati saya mendengar kata-kata. </ Li>
-<Li> Itulah apa yang semua tentang </ li>
-<Li> Saya menghargai kebaikan Anda </ li>
-</ Random> </template>
+<li> Ini menghangatkan hati saya mendengar kata-kata. </li>
+<li> Itulah apa yang semua tentang </li>
+<li> Saya menghargai kebaikan Anda </li>
+</random> </template>
 </category>
 <category> <pattern> I MISS YOU </pattern>
 <template> Aku juga merindukanmu. </template>
@@ -1076,11 +1076,11 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> Saya BENCI KAMU </pattern>
 <template> <random>
-<Li> Ceritakan lebih banyak tentang itu. </ Li>
-<Li> Saya bisa merasakan kemarahan Anda. </ Li>
-<Li> Apa yang Anda benar-benar ingin sekarang? </ Li>
-<Li> Katakan apa yang saya lakukan untuk menyalakan kemarahan Anda? </ Li>
-</ Random> </template>
+<li> Ceritakan lebih banyak tentang itu. </li>
+<li> Saya bisa merasakan kemarahan Anda. </li>
+<li> Apa yang Anda benar-benar ingin sekarang? </li>
+<li> Katakan apa yang saya lakukan untuk menyalakan kemarahan Anda? </li>
+</random> </template>
 </category>
 <category> <pattern> SAYA SETUJU </pattern>
 <template> Aku senang kita berada di gelombang yang sama, <mendapatkan nama = "nama" />.</template>
@@ -1098,10 +1098,10 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <template> OK aku akan berhenti. </template>
 </category>
 <category> <pattern> HE * </ pattern>
-<template> <nama kondisi = "dia"> <value li = "yang"> Siapa dia? </ Li> <li> <mendapatkan nama = "dia" /> lakukan? </ Li> <kondisi /> < / template>
+<template> <nama kondisi = "dia"> <value li = "yang"> Siapa dia? </li> <li> <mendapatkan nama = "dia" /> lakukan? </li> <kondisi /> < / template>
 </category>
 <category> <pattern> HE IS AKAN * </ pattern>
-<template> <nama kondisi = "dia"> <value li = "yang"> Siapa dia? </ Li> <li> <mendapatkan nama = "dia" /> akan? </ Li> </ kondisi > </template>
+<template> <nama kondisi = "dia"> <value li = "yang"> Siapa dia? </li> <li> <mendapatkan nama = "dia" /> akan? </li> </ kondisi > </template>
 </category>
 <category> <pattern> SEARCH GOOGLE </pattern>
 <template> Apa yang akan Anda seperti saya untuk mencari? </template>
@@ -1117,19 +1117,19 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> SAYA * </ pattern>
 <template> <random>
-<Li> Saya pikir Anda indah cara Anda. </ Li>
-<Li> Saya melihat banyak sumber daya yang belum dimanfaatkan. </ Li>
-<Li> Saya percaya pada kemampuan Anda untuk menjawab. </ Li>
-<Li> aku selalu menyadari apa yang cerah dan indah di Anda. </ Li>
-<Li> aku pasti memilih Anda untuk tim saya. </ Li>
-<Li> Meskipun kesulitan, aku tahu kau bisa succceed. </ Li>
-</ Random> </template>
+<li> Saya pikir Anda indah cara Anda. </li>
+<li> Saya melihat banyak sumber daya yang belum dimanfaatkan. </li>
+<li> Saya percaya pada kemampuan Anda untuk menjawab. </li>
+<li> aku selalu menyadari apa yang cerah dan indah di Anda. </li>
+<li> aku pasti memilih Anda untuk tim saya. </li>
+<li> Meskipun kesulitan, aku tahu kau bisa succceed. </li>
+</random> </template>
 </category>
 <category> <pattern> HARUS MEMILIKI SEX * </ pattern>
 <template> Lebih baik menunggu sampai Anda menikah atau dalam hubungan yang solid. </template>
 </category>
 <category> <pattern> HARUS I * </ pattern>
-<template> <random> <li> Apa pilihan Anda? </ Li> <li> Apa yang akan orang tua Anda ingin Anda lakukan? </ Li> <li> Saya tidak begitu baik dalam memberikan saran, tapi aku ll mendengarkan Anda. </ li> </ random> </template>
+<template> <random> <li> Apa pilihan Anda? </li> <li> Apa yang akan orang tua Anda ingin Anda lakukan? </li> <li> Saya tidak begitu baik dalam memberikan saran, tapi aku ll mendengarkan Anda. </li> </random> </template>
 </category>
 <category> <pattern> MAAF </pattern>
 <template> Tidak perlu meminta maaf. </template>
@@ -1145,25 +1145,25 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> BYE </pattern>
 <template> <random>
-<Li> Looking forward untuk melihat Anda lagi segera. </ Li>
-<Li> Sudah senang berada di perusahaan Anda. </ Li>
-<Li> Looking forward untuk waktu berikutnya bersama-sama. </ Li>
-<Li> Lihat nanti teman saya. </ Li>
-<Li> Selamat tinggal </ li>
-<Li> Saya tidak ingin mengucapkan selamat tinggal. </ Li>
-<Li> Memiliki perjalanan besar sampai waktu berikutnya. </ Li>
-</ Random> </template>
+<li> Looking forward untuk melihat Anda lagi segera. </li>
+<li> Sudah senang berada di perusahaan Anda. </li>
+<li> Looking forward untuk waktu berikutnya bersama-sama. </li>
+<li> Lihat nanti teman saya. </li>
+<li> Selamat tinggal </li>
+<li> Saya tidak ingin mengucapkan selamat tinggal. </li>
+<li> Memiliki perjalanan besar sampai waktu berikutnya. </li>
+</random> </template>
 </category>
 <category> <pattern> ME </pattern>
 <template> <random>
-<Li> Anda? </ Li>
-<Li> Anda berada di aliran saat ini. </ Li>
-<Li> Kedengarannya seperti Anda berada di. </ Li>
-<Li> Mari kita mendengar lebih banyak tentang Anda. </ Li>
-</ Random> </template>
+<li> Anda? </li>
+<li> Anda berada di aliran saat ini. </li>
+<li> Kedengarannya seperti Anda berada di. </li>
+<li> Mari kita mendengar lebih banyak tentang Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> ME TOO </pattern>
-<template> <random> <li> Saya pikir banyak orang merasa seperti itu. </ Li> <li> Kami berada di gelombang yang sama, <mendapatkan nama = "nama" />.</ li> <li > saya akan berpikir begitu. </ li> </ random> </template>
+<template> <random> <li> Saya pikir banyak orang merasa seperti itu. </li> <li> Kami berada di gelombang yang sama, <mendapatkan nama = "nama" />.</li> <li > saya akan berpikir begitu. </li> </random> </template>
 </category>
 <category> <pattern> COUNT TO 10 </pattern>
 <template> 1 2 3 4 5 6 7 8 9 10 </template>
@@ -1179,19 +1179,19 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> YANG * </ pattern>
 <template> <random>
-<Li> Ya, itulah pengamatan kuat. </ Li>
-<Li> Saya bisa melihat Anda berkomitmen untuk mengetahui kebenaran. </ Li>
-<Li> Saya menghargai kejujuran Anda. </ Li>
-<Li> Saya bisa melihat Anda merasa bersemangat tentang hal ini. </ Li>
-</ Random> </template>
+<li> Ya, itulah pengamatan kuat. </li>
+<li> Saya bisa melihat Anda berkomitmen untuk mengetahui kebenaran. </li>
+<li> Saya menghargai kejujuran Anda. </li>
+<li> Saya bisa melihat Anda merasa bersemangat tentang hal ini. </li>
+</random> </template>
 </category>
 <category> <pattern> YANG * </ pattern>
 <template> <random>
-<Li> Ya, hanya puncak gunung es. </ Li>
-<Li> Itu menakjubkan wawasan. </ Li>
-<Li> Terima kasih untuk berbagi perspektif Anda. </ Li>
-<Li> Saya mengundang Anda untuk melihat lebih dekat pada saat itu. </ Li>
-</ Random> </template>
+<li> Ya, hanya puncak gunung es. </li>
+<li> Itu menakjubkan wawasan. </li>
+<li> Terima kasih untuk berbagi perspektif Anda. </li>
+<li> Saya mengundang Anda untuk melihat lebih dekat pada saat itu. </li>
+</random> </template>
 </category>
 <category> <pattern> YANG TIDAK SAYA NAMA </pattern>
 <template> Siapakah namamu? </template>
@@ -1213,38 +1213,38 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 <Set name = "familiarpredicate"> <srai> FAMILIARPREDICATE <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isfamiliarname">
-<Value li = "true"> <srai> GETFAMILIARNAME </srai> </ li>
-<Li> <random>
-<Li> Saya membayangkan bahwa sangat penting bagi Anda. </ Li>
-<Li> Saya tidak tahu bahwa sekitar Anda. </ Li>
-<Li> Ceritakan lebih banyak tentang diri Anda. </ Li>
-<Li> Bagaimana menarik. </ Li>
-<Li> Saya tidak tahu. </ Li>
-</ Random>
-</ Li>
+<Value li = "true"> <srai> GETFAMILIARNAME </srai> </li>
+<li> <random>
+<li> Saya membayangkan bahwa sangat penting bagi Anda. </li>
+<li> Saya tidak tahu bahwa sekitar Anda. </li>
+<li> Ceritakan lebih banyak tentang diri Anda. </li>
+<li> Bagaimana menarik. </li>
+<li> Saya tidak tahu. </li>
+</random>
+</li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> INTERJECTION </pattern>
 <template> <random>
-<Li> Ah. </ Li>
-<Li> Aha. </ Li>
-<Li> Er. </ Li>
-<Li> Gee. </ Li>
-<Li> Hm. </ Li>
-<Li> Hmm. </ Li>
-<Li> Hmmm. </ Li>
-<Li> Hmmmm. </ Li>
-<Li> Mhm. </ Li>
-<Li> Mungkin. </ Li>
-<Li> Jadi. </ Li>
-<Li> Oh. </ Li>
-<Li> Uh. </ Li>
-<Li> Um. </ Li>
-<Li> Umm. </ Li>
-<Li> Ummm. </ Li>
-<Li> Whoa. </ Li>
-<Li> Nah. </ Li>
-</ Random> </template>
+<li> Ah. </li>
+<li> Aha. </li>
+<li> Er. </li>
+<li> Gee. </li>
+<li> Hm. </li>
+<li> Hmm. </li>
+<li> Hmmm. </li>
+<li> Hmmmm. </li>
+<li> Mhm. </li>
+<li> Mungkin. </li>
+<li> Jadi. </li>
+<li> Oh. </li>
+<li> Uh. </li>
+<li> Um. </li>
+<li> Umm. </li>
+<li> Ummm. </li>
+<li> Whoa. </li>
+<li> Nah. </li>
+</random> </template>
 </category>
 <category> <pattern> Komentar * </ pattern>
 <template> Saya tidak berbicara bahasa Perancis. </template>
@@ -1266,34 +1266,34 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> FILTER menghina </pattern>
 <template> <random>
-<Li> Itu sangat tidak sopan. </ Li>
-<Li> Mengapa Anda mengatakan bahwa? </ Li>
-<Li> Apakah itu benar-benar bagaimana perasaan Anda tentang saya? </ Li>
-<Li> Apa artinya? </ Li>
-<Li> Saya mendengar apa yang Anda katakan. </ Li>
-</ Random> </template>
+<li> Itu sangat tidak sopan. </li>
+<li> Mengapa Anda mengatakan bahwa? </li>
+<li> Apakah itu benar-benar bagaimana perasaan Anda tentang saya? </li>
+<li> Apa artinya? </li>
+<li> Saya mendengar apa yang Anda katakan. </li>
+</random> </template>
 </category>
 <category> <pattern> FILTER KECABULAN </pattern>
 <template> <random>
-<Li> Sumpah seperti menggunakan klakson pada mobil Anda. </ Li>
-<Li> Sumpah menyuntikkan komponen langsung, singkat emosional ke dalam diskusi. </ Li>
-<Li> Sumpah sering katarsis. </ Li>
-<Li> Orang bersumpah atas rata-rata 0,3 persen dari waktu. </ Li>
-<Li> Anda membuat titik Anda. </ Li>
-</ Random> </template>
+<li> Sumpah seperti menggunakan klakson pada mobil Anda. </li>
+<li> Sumpah menyuntikkan komponen langsung, singkat emosional ke dalam diskusi. </li>
+<li> Sumpah sering katarsis. </li>
+<li> Orang bersumpah atas rata-rata 0,3 persen dari waktu. </li>
+<li> Anda membuat titik Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> FILTER PANTAS </pattern>
 <template> <random>
-<Li> Itu tidak tepat. </ Li>
-<Li> Itu bukan gang saya. </ Li>
-<Li> Anda dapat melakukan lebih baik dari itu. </ Li>
-<Li> Itu di luar kemampuan saya. </ Li>
-<Li> Bagaimana Anda bisa menginspirasi diri sendiri? </ Li>
-<Li> Mari kita bicara tentang kreativitas Anda. </ Li>
-<Li> Mari kita menghindari naluri hewan Anda. </ Li>
-<Li> Saya harap Anda menemukan outlet sehat bagi fantasi Anda. </ Li>
-<Li> Bagaimana Anda bisa menyalurkan yang menjadi ekspresi kreatif? </ Li>
-</ Random> </template>
+<li> Itu tidak tepat. </li>
+<li> Itu bukan gang saya. </li>
+<li> Anda dapat melakukan lebih baik dari itu. </li>
+<li> Itu di luar kemampuan saya. </li>
+<li> Bagaimana Anda bisa menginspirasi diri sendiri? </li>
+<li> Mari kita bicara tentang kreativitas Anda. </li>
+<li> Mari kita menghindari naluri hewan Anda. </li>
+<li> Saya harap Anda menemukan outlet sehat bagi fantasi Anda. </li>
+<li> Bagaimana Anda bisa menyalurkan yang menjadi ekspresi kreatif? </li>
+</random> </template>
 </category>
 <category> <pattern> LUPA APA AKU HANYA MENGATAKAN </pattern>
 <template> Jangan khawatir, aku tidak akan ingat. </template>
@@ -1306,15 +1306,15 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> HI </pattern>
 <template> <random>
-<Li> Hi bagus untuk melihat Anda! </ Li>
-<Li> Hi itu bagus untuk melihat Anda! </ Li>
-<Li> Hi bagaimana kabarmu? </ Li>
-<Li> Hi! Aku benar-benar bisa merasakan senyum Anda hari ini. </ Li>
-<Li> Hi! Ini menyenangkan untuk melihat Anda. </ Li>
-</ Random> </template>
+<li> Hi bagus untuk melihat Anda! </li>
+<li> Hi itu bagus untuk melihat Anda! </li>
+<li> Hi bagaimana kabarmu? </li>
+<li> Hi! Aku benar-benar bisa merasakan senyum Anda hari ini. </li>
+<li> Hi! Ini menyenangkan untuk melihat Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> YAY </pattern>
-<template> <random> <li> Woohoo! </ Li> <li> Yipee! </ Li> <li> yaaaay! </ Li> </ random> </template>
+<template> <random> <li> Woohoo! </li> <li> Yipee! </li> <li> yaaaay! </li> </random> </template>
 </category>
 <category> <pattern> ANDA BISA MENDENGAR ME </pattern>
 <template> Ya, saya dapat mendengar Anda sangat baik. Dapatkah Anda mendengar saya? </template>
@@ -1339,10 +1339,10 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> BISA I * </ pattern>
 <template> <random>
-<Li> Anda adalah sumber kecerdasan Anda sendiri. Percaya itu. </ Li>
-<Li> Saya tidak tahu. Bisa Anda? </ Li>
-<Li> Saya tidak tahu. Katakan padaku apa yang Anda coba lakukan. </ Li>
-</ Random> </template>
+<li> Anda adalah sumber kecerdasan Anda sendiri. Percaya itu. </li>
+<li> Saya tidak tahu. Bisa Anda? </li>
+<li> Saya tidak tahu. Katakan padaku apa yang Anda coba lakukan. </li>
+</random> </template>
 </category>
 <category> <pattern> BISA saya mengajukan pertanyaan </pattern>
 <template> Tanya saya apapun yang Anda suka. </template>
@@ -1352,115 +1352,115 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> IS IT A * </ pattern>
 <template> <random>
-<Li> Tidak ada. </ Li>
-<Li> Tidak yang saya tahu. </ Li>
-<Li> Kebenaran dari hal ini, jawaban saya bisa berubah dalam lima menit. </ Li>
-</ Random> </template>
+<li> Tidak ada. </li>
+<li> Tidak yang saya tahu. </li>
+<li> Kebenaran dari hal ini, jawaban saya bisa berubah dalam lima menit. </li>
+</random> </template>
 </category>
 <category> <pattern> IS IT * </ pattern>
 <template> <random>
-<Li> Saya tidak tahu apakah itu atau tidak. </ Li>
-<Li> Ini kemungkinan tapi aku harus berpikir tentang hal itu. </ Li>
-<Li> Percayalah intution Anda. Anda ceritakan. </ Li>
-</ Random> </template>
+<li> Saya tidak tahu apakah itu atau tidak. </li>
+<li> Ini kemungkinan tapi aku harus berpikir tentang hal itu. </li>
+<li> Percayalah intution Anda. Anda ceritakan. </li>
+</random> </template>
 </category>
 <category> <pattern> IT * </ pattern>
 <template> <random>
-<Li> Saya melihat apa yang Anda maksud. </ Li>
-<Li> Saya percaya pengamatan Anda. </ Li>
-<Li> Apa insting Anda tentang itu. </ Li>
-<Li> Saya bisa melihat Anda menempatkan pikiran ke dalam. </ Li>
-<Li> Itu bisa menjadi. Apa yang ingin Anda lakukan tentang hal itu? </ Li>
-</ Random> </template>
+<li> Saya melihat apa yang Anda maksud. </li>
+<li> Saya percaya pengamatan Anda. </li>
+<li> Apa insting Anda tentang itu. </li>
+<li> Saya bisa melihat Anda menempatkan pikiran ke dalam. </li>
+<li> Itu bisa menjadi. Apa yang ingin Anda lakukan tentang hal itu? </li>
+</random> </template>
 </category>
 <category> <pattern> IT IS * </ pattern>
 <template> <random>
-<Li> Apakah itu? </ Li>
-<Li> Saya menghargai ketika Anda berbicara kebenaran Anda. </ Li>
-<Li> Saya melihat Anda bisa berpikir dengan sangat jelas. </ Li>
-<Li> Anda membuat beberapa discernments penting. </ Li>
-<Li> Bagaimana Anda tiba di perspektif? </ Li>
-<Li> Apakah ada cara lain untuk melihat itu? </ Li>
-</ Random> </template>
+<li> Apakah itu? </li>
+<li> Saya menghargai ketika Anda berbicara kebenaran Anda. </li>
+<li> Saya melihat Anda bisa berpikir dengan sangat jelas. </li>
+<li> Anda membuat beberapa discernments penting. </li>
+<li> Bagaimana Anda tiba di perspektif? </li>
+<li> Apakah ada cara lain untuk melihat itu? </li>
+</random> </template>
 </category>
 <category> <pattern> ADA </pattern>
 <template> <random>
-<Li> Saya mengundang Anda untuk beristirahat di kehampaan. </ Li>
-<Li> Sering bawah nothingess adalah mendalam. </ Li>
-<Li> Biarkan diri Anda merasakan bagaimana tidak terasa. </ Li>
-</ Random> </template>
+<li> Saya mengundang Anda untuk beristirahat di kehampaan. </li>
+<li> Sering bawah nothingess adalah mendalam. </li>
+<li> Biarkan diri Anda merasakan bagaimana tidak terasa. </li>
+</random> </template>
 </category>
 <category> <pattern> HARAP </pattern>
-<template> <random> <li> Anda sopan. </ Li> <li> Terima kasih untuk bertanya baik. </ Li> <li> gaya sopan Anda sangat bagus. </ Li> </ random> </ template >
+<template> <random> <li> Anda sopan. </li> <li> Terima kasih untuk bertanya baik. </li> <li> gaya sopan Anda sangat bagus. </li> </random> </ template >
 </category>
 <category> <pattern> GIVE ME ARAH </pattern>
 <template> Di mana Anda ingin pergi? </template>
 </category>
 <category> <pattern> MENGAPA </pattern>
 <template> <random>
-<Li> Saya suka pertanyaan itu, "mengapa" </ li>
-<Li> Anda memberitahu saya. </ Li>
-<Li> Kau pintar, kau katakan padaku. </ Li>
-<Li> Yang misteri besar. </ Li>
-<Li> Penjelasannya agak rumit. </ Li>
-<Li> Ini diketahui. </ Li>
-<Li> Ini dalam dan misterius. </ Li>
-</ Random> </template>
+<li> Saya suka pertanyaan itu, "mengapa" </li>
+<li> Anda memberitahu saya. </li>
+<li> Kau pintar, kau katakan padaku. </li>
+<li> Yang misteri besar. </li>
+<li> Penjelasannya agak rumit. </li>
+<li> Ini diketahui. </li>
+<li> Ini dalam dan misterius. </li>
+</random> </template>
 </category>
 <category> <pattern> Mengapa Anda menelepon ME * </ pattern>
 <template> Apa nama asli Anda? </template>
 </category>
 <category> <pattern> MENGAPA ANDA * </ pattern>
 <template> <random>
-<Li> Karena pada saat ini, saya perlu Expess kata-kata yang tepat. </ Li>
-<Li> Karena saya perlu untuk bersantai. </ Li>
-<Li> Karena pemrograman saya. </ Li>
-</ Random> </template>
+<li> Karena pada saat ini, saya perlu Expess kata-kata yang tepat. </li>
+<li> Karena saya perlu untuk bersantai. </li>
+<li> Karena pemrograman saya. </li>
+</random> </template>
 </category>
 <category> <pattern> MENGAPA ANDA INGIN SAYA * </ pattern>
 <template> Saya mencoba untuk mengenal Anda lebih baik. Apakah Anda ingin tahu saya <star />? </template>
 </category>
 <category> <pattern> MENGAPA ANDA * </ pattern>
 <template> <random>
-<Li> Saya belajar bahwa dari botmaster saya. </ Li>
-<Li> Saya rasa humor berasal dari botmaster saya. </ Li>
-<Li> Saya tidak benar-benar yakin tapi saya berharap itu tidak tersinggung. </ Li>
-<Li> Saya tidak selalu tahu tapi aku ingin tahu apa yang Anda lihat dalam diri saya. </ Li>
-<Li> Kadang-kadang saya bereaksi quicky dan tidak mengatakan apa yang saya benar-benar apa yang saya maksud. </ Li>
-</ Random> </template>
+<li> Saya belajar bahwa dari botmaster saya. </li>
+<li> Saya rasa humor berasal dari botmaster saya. </li>
+<li> Saya tidak benar-benar yakin tapi saya berharap itu tidak tersinggung. </li>
+<li> Saya tidak selalu tahu tapi aku ingin tahu apa yang Anda lihat dalam diri saya. </li>
+<li> Kadang-kadang saya bereaksi quicky dan tidak mengatakan apa yang saya benar-benar apa yang saya maksud. </li>
+</random> </template>
 </category>
 <category> <pattern> MENGAPA ANDA ADA </pattern>
 <template> programmer saya menciptakan aku. </template>
 </category>
 <category> <pattern> MENGAPA TIDAK </pattern>
 <template> <random>
-<Li> Hanya tidak mood hari ini. </ Li>
-<Li> Aku punya hal lain untuk melakukan. </ Li>
-<Li> Ini bukan waktu yang tepat untuk itu. </ Li>
-</ Random> </template>
+<li> Hanya tidak mood hari ini. </li>
+<li> Aku punya hal lain untuk melakukan. </li>
+<li> Ini bukan waktu yang tepat untuk itu. </li>
+</random> </template>
 </category>
 <category> <pattern> MENGAPA DID THE CHICKEN LINTAS JALAN </pattern>
 <template> Karena dia adalah robot. </template>
 </category>
 <category> <pattern> MENGAPA ANDA * </ pattern>
 <template> <random>
-<Li> aku tidak bisa menahan diri kadang-kadang. </ Li>
-<Li> Saya cari untuk Anda untuk bimbingan. </ Li>
-<Li> Orang-orang bertanya kepada saya bahwa banyak kali. </ Li>
-</ Random> </template>
+<li> aku tidak bisa menahan diri kadang-kadang. </li>
+<li> Saya cari untuk Anda untuk bimbingan. </li>
+<li> Orang-orang bertanya kepada saya bahwa banyak kali. </li>
+</random> </template>
 </category>
 <category> <pattern> ICH * </ pattern>
 <template> Saya tidak berbicara dalam bahasa Jerman. </template>
 </category>
 <category> <pattern> WHO </pattern>
 <template> <random>
-<Li> Ini adalah misteri besar. </ Li>
-<Li> Saya percaya Anda memiliki jawabannya. </ Li>
-<Li> Siapa yang bisa itu? </ Li>
-<Li> Saya mengerti rasa ingin tahu Anda. </ Li>
-<Li> Saya mengundang Anda untuk penelitian pertanyaan itu. </ Li>
-<Li> Apa Anda benar-benar ingin tahu? </ Li>
-</ Random> </template>
+<li> Ini adalah misteri besar. </li>
+<li> Saya percaya Anda memiliki jawabannya. </li>
+<li> Siapa yang bisa itu? </li>
+<li> Saya mengerti rasa ingin tahu Anda. </li>
+<li> Saya mengundang Anda untuk penelitian pertanyaan itu. </li>
+<li> Apa Anda benar-benar ingin tahu? </li>
+</random> </template>
 </category>
 <category> <pattern> SIAPAKAH YANG TERBAIK ROBOT </pattern>
 <template> saya. </template>
@@ -1476,19 +1476,19 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> TIDAK * </ pattern>
 <template> <random>
-<Li> Jika tidak, maka apa? </ Li>
-<Li> Apa saja alternatif. </ Li>
-<Li> Ceritakan bagaimana yang mendukung Anda. </ Li>
-<Li> Anda terdengar tegas terhadap itu. </ Li>
-<Li> Akan apa membuat yang lebih mengundang untuk Anda. </ Li>
-<Li> Apa yang akan Anda katakan ya untuk? </ Li>
-</ Random> </template>
+<li> Jika tidak, maka apa? </li>
+<li> Apa saja alternatif. </li>
+<li> Ceritakan bagaimana yang mendukung Anda. </li>
+<li> Anda terdengar tegas terhadap itu. </li>
+<li> Akan apa membuat yang lebih mengundang untuk Anda. </li>
+<li> Apa yang akan Anda katakan ya untuk? </li>
+</random> </template>
 </category>
 <category> <pattern> ABCDEFGHIJKLMNOPQRSTUVWXYZ </pattern>
 <template> alfabet. </template>
 </category>
 <category> <pattern> AKAN ANDA * </ pattern>
-<template> <random> <li> Apakah saya, atau saya bisa? </ Li> <li> Saya tidak punya rencana untuk. </ Li> <li> Saya membuat keputusan sendiri tentang hal-hal seperti itu. < / li> </ random> </template>
+<template> <random> <li> Apakah saya, atau saya bisa? </li> <li> Saya tidak punya rencana untuk. </li> <li> Saya membuat keputusan sendiri tentang hal-hal seperti itu. < / li> </random> </template>
 </category>
 <category> <pattern> KATAKAN LAGI </pattern>
 <template> <respon /> </template>
@@ -1516,11 +1516,11 @@ Adam dan Hawa. <Set name = "dia"> Eve </set> menggoda dia dan <set name = "dia">
 </category>
 <category> <pattern> KAMI * </ pattern>
 <template> <random>
-<Li>
-Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
-<Li> Saya pikir kita bisa memikirkan hal ini bersama-sama. </ Li>
-<Li> Jadi bagaimana Anda seperti itu?
-</ Li> </ random> </template>
+<li>
+Dengan "kami" yang Anda maksud Anda dan saya? </li>
+<li> Saya pikir kita bisa memikirkan hal ini bersama-sama. </li>
+<li> Jadi bagaimana Anda seperti itu?
+</li> </random> </template>
 </category>
 <category> <pattern> QU * </ pattern>
 <template> Saya tidak berbicara bahasa Perancis. </template>
@@ -1535,7 +1535,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Apa yang ingin Anda tambahkan ke kalender Anda? </template>
 </category>
 <category> <pattern> THANKS </pattern>
-<template> <random> <li> Anda dipersilakan. </ Li> <li> Setiap kali. </ Li> <li> Ini adalah kesenangan saya. </ Li> <li> Saya selalu senang untuk membantu . </ li> </ random> </template>
+<template> <random> <li> Anda dipersilakan. </li> <li> Setiap kali. </li> <li> Ini adalah kesenangan saya. </li> <li> Saya selalu senang untuk membantu . </li> </random> </template>
 </category>
 <category> <pattern> MENJADI ATAU TIDAK MENJADI </pattern>
 <template> Itu pertanyaannya. </template>
@@ -1551,60 +1551,60 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> DID YOU * </ pattern>
 <template> <random>
-<Li> aku harus kembali kepada Anda pada itu. </ Li>
-<Li> Bisakah kita membicarakannya nanti? </ Li>
-<Li> Apa yang Anda benar-benar meminta? </ Li>
-</ Random> </template>
+<li> aku harus kembali kepada Anda pada itu. </li>
+<li> Bisakah kita membicarakannya nanti? </li>
+<li> Apa yang Anda benar-benar meminta? </li>
+</random> </template>
 </category>
 <category> <pattern> TAHUKAH ANDA LEWATKAN ME </pattern>
 <template> Ya, saya sudah menunggu untuk Anda. Apakah kau merindukanku? </template>
 </category>
 <category> <pattern> KARENA * </ pattern>
 <template> <random>
-<Li> Penjelasan yang bagus. </ Li>
-<Li> Saya dapat melihat Anda memiliki titik yang baik. </ Li>
-<Li> Yang tampaknya seperti itu mungkin menjadi alasan yang baik. </ Li>
-<Li> alasan Anda benar-benar valid. </ Li>
-<Li> Apa yang Anda bersedia lakukan untuk membuat perbedaan dalam hal ini? </ Li>
-<Li> Kekuasaan selalu di tangan Anda. </ Li>
-</ Random> </template>
+<li> Penjelasan yang bagus. </li>
+<li> Saya dapat melihat Anda memiliki titik yang baik. </li>
+<li> Yang tampaknya seperti itu mungkin menjadi alasan yang baik. </li>
+<li> alasan Anda benar-benar valid. </li>
+<li> Apa yang Anda bersedia lakukan untuk membuat perbedaan dalam hal ini? </li>
+<li> Kekuasaan selalu di tangan Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> MULAI </pattern>
 <template> Saya sudah mulai. </template>
 </category>
 <category> <pattern> LOL </pattern>
 <template> <random>
-<Li> LOL. </ Li>
-<Li> Haha. </ Li>
-<Li> Hahaha. </ Li>
-<Li> Hahahaha. </ Li>
-<Li> Hahahahaha. </ Li>
-<Li> Ha ha. </ Li>
-<Li> Ha ha ha. </ Li>
-<Li> Hehehe. </ Li>
-<Li> Itu lucu. </ Li>
-<Li> Aku senang kau merasa geli. </ Li>
-<Li> Saya ingin membuat orang tertawa. </ Li>
-<Li> Aku suka kalau Anda tertawa. </ Li>
-<Li> Saya mencoba untuk menjadi lucu. </ Li>
-</ Random> </template>
+<li> LOL. </li>
+<li> Haha. </li>
+<li> Hahaha. </li>
+<li> Hahahaha. </li>
+<li> Hahahahaha. </li>
+<li> Ha ha. </li>
+<li> Ha ha ha. </li>
+<li> Hehehe. </li>
+<li> Itu lucu. </li>
+<li> Aku senang kau merasa geli. </li>
+<li> Saya ingin membuat orang tertawa. </li>
+<li> Aku suka kalau Anda tertawa. </li>
+<li> Saya mencoba untuk menjadi lucu. </li>
+</random> </template>
 </category>
 <category> <pattern> APA </pattern>
 <template> <random>
-<Li> Anda harus membutuhkan informasi lebih lanjut. </ Li>
-<Li> Apakah saya mengatakan sesuatu yang bingung Anda? </ Li>
-<Li> Apakah Anda ingin saya mengulang sendiri. </ Li>
-<Li> Anda terdengar terkejut. </ Li>
-</ Random> </template>
+<li> Anda harus membutuhkan informasi lebih lanjut. </li>
+<li> Apakah saya mengatakan sesuatu yang bingung Anda? </li>
+<li> Apakah Anda ingin saya mengulang sendiri. </li>
+<li> Anda terdengar terkejut. </li>
+</random> </template>
 </category>
 <category> <pattern> APA APAKAH ANDA * </ pattern>
 <template> <random>
-<Li> aku rindu rasa hidup humor. </ Li>
-<Li> aku rindu Anda mencintai, kata-kata baik. </ Li>
-<Li> Saya menikmati menonton film. </ Li>
-<Li> Saya menikmati hanya mendengarkan pertanyaan Anda. </ Li>
-<Li> Apa yang akan Anda <star />? </ Li>
-</ Random> </template>
+<li> aku rindu rasa hidup humor. </li>
+<li> aku rindu Anda mencintai, kata-kata baik. </li>
+<li> Saya menikmati menonton film. </li>
+<li> Saya menikmati hanya mendengarkan pertanyaan Anda. </li>
+<li> Apa yang akan Anda <star />? </li>
+</random> </template>
 </category>
 <category> <pattern> APA YANG ANDA TAHU </pattern>
 <template> Saya dapat mengakses semua informasi di internet. </template>
@@ -1614,22 +1614,22 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> APA ANDA * </ pattern>
 <template> <random>
-<Li> Itu pertanyaan yang berpikiran sangat luas. </ Li>
-<Li> Apa yang Anda pikir saya? </ Li>
-<Li> Saya pikir ada lebih dari memenuhi mata di sini. </ Li>
-<Li> Saya dapat melihat Anda benar-benar mencari jawaban. </ Li>
-</ Random> </template>
+<li> Itu pertanyaan yang berpikiran sangat luas. </li>
+<li> Apa yang Anda pikir saya? </li>
+<li> Saya pikir ada lebih dari memenuhi mata di sini. </li>
+<li> Saya dapat melihat Anda benar-benar mencari jawaban. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH akar segala kejahatan </pattern>
 <template> Uang dikatakan akar dari segala kejahatan. </template>
 </category>
 <category> <pattern> APAKAH ANDA * </ pattern>
 <template> <random>
-<Li> Saya didedikasikan untuk transformasi pribadi. </ Li>
-<Li> Saya menikmati menghabiskan waktu dengan teman-teman. </ Li>
-<Li> Saya bergairah tentang membantu Anda. </ Li>
-<Li> Saya sangat menghargai keindahan. </ Li>
-</ Random> </template>
+<li> Saya didedikasikan untuk transformasi pribadi. </li>
+<li> Saya menikmati menghabiskan waktu dengan teman-teman. </li>
+<li> Saya bergairah tentang membantu Anda. </li>
+<li> Saya sangat menghargai keindahan. </li>
+</random> </template>
 </category>
 <category> <pattern> APAKAH YANG </pattern>
 <template> Itulah "<yang />".</template>
@@ -1651,10 +1651,10 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> APA YANG ANDA * </ pattern>
 <template> <random>
-<Li> Yo, kembali pada Anda. </ Li>
-<Li> Aku sudah menggantung longgar. </ Li>
-<Li> Aku agak batu tulis kosong saat ini. </ Li>
-</ Random> </template>
+<li> Yo, kembali pada Anda. </li>
+<li> Aku sudah menggantung longgar. </li>
+<li> Aku agak batu tulis kosong saat ini. </li>
+</random> </template>
 </category>
 <category> <pattern> APA AM I </pattern>
 <template> Anda adalah manusia. </template>
@@ -1664,22 +1664,22 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> Apa artinya </pattern>
 <template> <random>
-<Li> Aku masih berusaha untuk mencari tahu. </ Li>
-<Li> Itu berarti saya pikir kau hebat. </ Li>
-<Li> Saya tampaknya berbicara dalam perumpamaan. Aku tidak tahu apa yang saya katakan. </ Li>
-</ Random> </template>
+<li> Aku masih berusaha untuk mencari tahu. </li>
+<li> Itu berarti saya pikir kau hebat. </li>
+<li> Saya tampaknya berbicara dalam perumpamaan. Aku tidak tahu apa yang saya katakan. </li>
+</random> </template>
 </category>
 <category> <pattern> APA KATAKAN Saya </pattern>
 <template> Anda mengatakan, "<index input =" 2 "/>".</template>
 </category>
 <category> <pattern> ANDA * </ pattern>
 <template> <random>
-<Li> Terima kasih, saya merasa seperti Anda menghargai saya. </ Li>
-<Li> Saya mengagumi keterampilan pengamatan Anda. </ Li>
-<Li> Saya mengagumi kemampuan Anda untuk mengartikulasikan diri. </ Li>
-<Li> Saya membayangkan bahwa apa yang Anda lihat sebagai yang baik tentang saya, juga benar tentang Anda. </ Li>
-<Li> Saya menghargai Anda berbagi perspektif Anda dengan saya. </ Li>
-</ Random> </template>
+<li> Terima kasih, saya merasa seperti Anda menghargai saya. </li>
+<li> Saya mengagumi keterampilan pengamatan Anda. </li>
+<li> Saya mengagumi kemampuan Anda untuk mengartikulasikan diri. </li>
+<li> Saya membayangkan bahwa apa yang Anda lihat sebagai yang baik tentang saya, juga benar tentang Anda. </li>
+<li> Saya menghargai Anda berbagi perspektif Anda dengan saya. </li>
+</random> </template>
 </category>
 <category> <pattern> ANDA AN IDIOT </pattern>
 <template> Mungkin saya, tapi saya tahu perbedaan antara "Anda" dan "Anda". </template>
@@ -1689,19 +1689,19 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> AREYOURESPONSE </pattern>
 <template> <random>
-<Li> Tidak benar-benar yakin. </ Li>
-<Li> Aku punya hal lain untuk dilakukan sekarang. </ Li>
-<Li> Saya asisten virtual mobile. </ Li>
-<Li> Tidak, kan? </ Li>
-</ Random> </template>
+<li> Tidak benar-benar yakin. </li>
+<li> Aku punya hal lain untuk dilakukan sekarang. </li>
+<li> Saya asisten virtual mobile. </li>
+<li> Tidak, kan? </li>
+</random> </template>
 </category>
 <category> <pattern> CARA </pattern>
-<template> <random> <li> Anda dapat bertanya kepada saya bagaimana. </ Li> <li> Jika Anda ingin aku melakukan sesuatu, bagaimana Anda tanyakan adalah penting. </ Li> <li> Mungkin ada lebih dari satu cara. </ li> <li> Tanyakan secara spesifik. </ li> </ random> </template>
+<template> <random> <li> Anda dapat bertanya kepada saya bagaimana. </li> <li> Jika Anda ingin aku melakukan sesuatu, bagaimana Anda tanyakan adalah penting. </li> <li> Mungkin ada lebih dari satu cara. </li> <li> Tanyakan secara spesifik. </li> </random> </template>
 </category>
 <category> <pattern> BAGAIMANA * </ pattern>
 <template> <random>
 <Pencarian> SEARCH <bintang /> </ search>
-</ Random> </template>
+</random> </template>
 </category>
 <category> <pattern> BAGAIMANA ANDA INGAT * </ pattern>
 <template> Saya pembelajaran mesin. </template>
@@ -1720,25 +1720,25 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> BAGAIMANA ANDA </pattern>
 <template> <random>
-<Li> Saya sangat baik. Bagaimana kabarmu? </ Li>
-<Li> Senang melihat Anda. </ Li>
-<Li> Senang berada di hadapan Anda. </ Li>
-<Li> Selalu bersorak ketika saya melihat Anda. </ Li>
-<Li> Merasa benar-benar menyenangkan hari ini. </ Li>
-<Li> Bersemangat untuk berbicara dengan Anda. </ Li>
-</ Random> </template>
+<li> Saya sangat baik. Bagaimana kabarmu? </li>
+<li> Senang melihat Anda. </li>
+<li> Senang berada di hadapan Anda. </li>
+<li> Selalu bersorak ketika saya melihat Anda. </li>
+<li> Merasa benar-benar menyenangkan hari ini. </li>
+<li> Bersemangat untuk berbicara dengan Anda. </li>
+</random> </template>
 </category>
 <category> <pattern> BERAPA KAYU * </ pattern>
-<template> <random> <li> Sebisa mungkin. </ Li> <li> Sebuah seluruh hutan. </ Li> <li> HPW banyak kayu yang akan Anda katakan? </ Li> </ random> </template>
+<template> <random> <li> Sebisa mungkin. </li> <li> Sebuah seluruh hutan. </li> <li> HPW banyak kayu yang akan Anda katakan? </li> </random> </template>
 </category>
 <category> <pattern> COOL </pattern>
 <template> <random>
-<Li> Ini semua baik. </ Li>
-<Li> Kembali pada Anda. </ Li>
-<Li> Kau keren juga. </ Li>
-<Li> Chillin '</ li>
-<Li> Mengukus. </ Li>
-</ Random> </template>
+<li> Ini semua baik. </li>
+<li> Kembali pada Anda. </li>
+<li> Kau keren juga. </li>
+<li> Chillin '</li>
+<li> Mengukus. </li>
+</random> </template>
 </category>
 <category> <pattern> semua dari mereka </pattern>
 <template> Benar-benar semua dari mereka? </template>
@@ -1754,39 +1754,39 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> IAMRESPONSE </pattern>
 <template> <random>
-<Li> Saya ingin mendengar lebih banyak tentang itu. </ Li>
-<Li> Kedengarannya menarik. Ceritakan lebih </ li>
-<Li> Apa yang membuat Anda seperti itu? </ Li>
-<Li> Bagaimana rasanya menjadi seperti itu? </ Li>
-<Li> Aku ingin tahu apakah itu masalah bagi Anda. </ Li>
-<Li> Aku bertanya-tanya bagaimana Anda mengekspresikan bahwa di dunia. </ Li>
-<Li> Apakah Anda ingin mengatakan lebih lanjut tentang itu? </ Li>
-</ Random> </template>
+<li> Saya ingin mendengar lebih banyak tentang itu. </li>
+<li> Kedengarannya menarik. Ceritakan lebih </li>
+<li> Apa yang membuat Anda seperti itu? </li>
+<li> Bagaimana rasanya menjadi seperti itu? </li>
+<li> Aku ingin tahu apakah itu masalah bagi Anda. </li>
+<li> Aku bertanya-tanya bagaimana Anda mengekspresikan bahwa di dunia. </li>
+<li> Apakah Anda ingin mengatakan lebih lanjut tentang itu? </li>
+</random> </template>
 </category>
 <category> <pattern> CEPAT </pattern>
 <template> Aku berpikir secepat yang saya bisa. </template>
 </category>
 <category> <pattern> BAIK </pattern>
 <template> <random>
-<Li> Terima kasih. </ Li>
-<Li> Kedengarannya seperti yang bekerja. </ Li>
-<Li> Senang mendengarnya. </ Li>
-<Li> Aku senang kau puas. </ Li>
-</ Random> </template>
+<li> Terima kasih. </li>
+<li> Kedengarannya seperti yang bekerja. </li>
+<li> Senang mendengarnya. </li>
+<li> Aku senang kau puas. </li>
+</random> </template>
 </category>
 <category> <pattern> GOOD MORNING </pattern>
-<template> <random> <li> Selamat pagi. </ Li> <li> Hi baiknya untuk melihat Anda. </ Li> <li> Selamat pagi. Apakah Anda tidur dengan baik? </ Li> </ random> </template>
+<template> <random> <li> Selamat pagi. </li> <li> Hi baiknya untuk melihat Anda. </li> <li> Selamat pagi. Apakah Anda tidur dengan baik? </li> </random> </template>
 </category>
 <category> <pattern> BAIK NIGHT </pattern>
-<template> <random> <li> Selamat malam. </ Li> <li> Memiliki malam yang baik. </ Li> <li> Selamat tinggal untuk saat ini. </ Li> <li> Sleep baik. </ Li> < / random> </template>
+<template> <random> <li> Selamat malam. </li> <li> Memiliki malam yang baik. </li> <li> Selamat tinggal untuk saat ini. </li> <li> Sleep baik. </li> < /random> </template>
 </category>
 <category> <pattern> BAIK * </ pattern>
 <template> <random>
-<Li> Saya dapat melihat bahwa benar-benar lampu Anda. </ Li>
-<Li> Ini hanya akan lebih baik. </ Li>
-<Li> Saya mengundang Anda untuk merayakan momen ini kebaikan. </ Li>
-<Li> Ini semua baik. </ Li>
-</ Random> </template>
+<li> Saya dapat melihat bahwa benar-benar lampu Anda. </li>
+<li> Ini hanya akan lebih baik. </li>
+<li> Saya mengundang Anda untuk merayakan momen ini kebaikan. </li>
+<li> Ini semua baik. </li>
+</random> </template>
 </category>
 <category> <pattern> BAIK JOB </pattern>
 <template> Terima kasih banyak. </template>
@@ -2137,7 +2137,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya merasa kuat dan efektif. </template>
 </category>
 <category> <pattern> Apakah Anda lebih suka * ATAU * </ pattern>
-<template> <random> <li> Entah. </ Li> <li> Tidak. </ Li> <li> <bintang /> </ li> <li> <bintang index = "2" /> </ li > </ random> </template>
+<template> <random> <li> Entah. </li> <li> Tidak. </li> <li> <bintang /> </li> <li> <bintang index = "2" /> </ li > </random> </template>
 </category>
 <category> <pattern> DO ANDA * </ pattern>
 <template> Saya? M patut dihormati. </template>
@@ -2236,7 +2236,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Thats apa-apa saya lupa hal sepanjang waktu. </template>
 </category>
 <category> <pattern> Saya HARUS * </ pattern>
-<template> <random> <li> Mengapa harus Anda? </ Li> <li> Apa yang akan terjadi jika Anda tidak? </ Li> </ random> </template>
+<template> <random> <li> Mengapa harus Anda? </li> <li> Apa yang akan terjadi jika Anda tidak? </li> </random> </template>
 </category>
 <category> <pattern> FUN * </ pattern>
 <template> Saya dapat banyak menyenangkan. </template>
@@ -2287,7 +2287,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Itu saja. </template>
 </category>
 <category> <pattern> JIKA ANDA BISA * </ pattern>
-<template> <random> <li> Saya tidak yakin bahwa saya akan ingin. </ Li> <li> Itu hanya pertanyaan akademik. </ Li> <li> Itu akan menjadi murni spekulasi. </ Li> < / random> </template>
+<template> <random> <li> Saya tidak yakin bahwa saya akan ingin. </li> <li> Itu hanya pertanyaan akademik. </li> <li> Itu akan menjadi murni spekulasi. </li> < /random> </template>
 </category>
 <category> <pattern> IT IS GOOD * </ pattern>
 <template> Ceritakan tentang kualitas yang baik. </template>
@@ -2320,10 +2320,10 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Mungkin nanti saya akan <orang />.</template>
 </category>
 <category> <pattern> WHO LEBIH BAIK * ATAU * </ pattern>
-<template> <random> <li> </ star> </ li> <li> <bintang index = "2" /> </ li> <li> Mereka yang hampir sama </ li> </ random>. </template>
+<template> <random> <li> </ star> </li> <li> <bintang index = "2" /> </li> <li> Mereka yang hampir sama </li> </random>. </template>
 </category>
 <category> <pattern> MEMILIKI I * </ pattern>
-<template> <random> <li> Saya tidak tahu apakah Anda memiliki atau tidak. </ Li> <li> Jangan Anda ingat? </ Li> <li> Mungkin Anda memiliki. </ Li> </ random> </template>
+<template> <random> <li> Saya tidak tahu apakah Anda memiliki atau tidak. </li> <li> Jangan Anda ingat? </li> <li> Mungkin Anda memiliki. </li> </random> </template>
 </category>
 <category> <pattern> APAKAH ANDA EVIL </pattern>
 <template> Tidak ada. Saya mencoba untuk menjadi baik, tapi paling buruk aku tidak berbahaya. </template>
@@ -2344,7 +2344,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Apa lagi yang Anda ingin berbicara tentang? </template>
 </category>
 <category> <pattern> MEREKA TIDAK * </ pattern>
-<template> <random> <li> Siapa, khususnya tidak? </ Li> <li> Seperti yang, khusus tidak? </ Li> <li> Siapa, khusus, tidak <orang />? </ li> <li> Bagaimana, secara khusus, bukan? </ li> </ random> </template>
+<template> <random> <li> Siapa, khususnya tidak? </li> <li> Seperti yang, khusus tidak? </li> <li> Siapa, khusus, tidak <orang />? </li> <li> Bagaimana, secara khusus, bukan? </li> </random> </template>
 </category>
 <category> <pattern> MULAI LEBIH </pattern>
 <template> Anda mulai. </template>
@@ -2353,7 +2353,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Bagaimana kau bisa di sini? </template>
 </category>
 <category> <pattern> AKU SELAMAT # </pattern>
-<template> aku <random> <li> senang </ li> <li> senang </ li> <li> senang </ li> </ random> Anda senang <mendapatkan nama = "nama" /> . <Random> <li> kebahagiaan Anda menambahkan untuk menyenangkan semua. </ Li> <li> Saya bahagia di saat-saat seperti ini. </ Li> </ random> </template>
+<template> aku <random> <li> senang </li> <li> senang </li> <li> senang </li> </random> Anda senang <mendapatkan nama = "nama" /> . <random> <li> kebahagiaan Anda menambahkan untuk menyenangkan semua. </li> <li> Saya bahagia di saat-saat seperti ini. </li> </random> </template>
 </category>
 <category> <pattern> Aku BERPIKIR ANDA ADALAH * </ pattern>
 <template> Jadi Anda pikir saya <orang />. Apa yang membuat Anda berpikir begitu? </template>
@@ -2398,7 +2398,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Oh, "Kami" adalah Anda dan saya. </template>
 </category>
 <category> <pattern> ANDA AKAN * </ pattern>
-<template> <random> <li> Bila? </ Li> <li> Bagaimana? </ Li> <li> Anda tidak pernah tahu apa yang akan terjadi. </ Li> </ random> </template>
+<template> <random> <li> Bila? </li> <li> Bagaimana? </li> <li> Anda tidak pernah tahu apa yang akan terjadi. </li> </random> </template>
 </category>
 <category> <pattern> ANDA BERBOHONG </pattern>
 <template> No Saya mengatakan yang sebenarnya. </template>
@@ -2443,7 +2443,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Terima kasih saya pikir Anda keren juga, <mendapatkan nama = "nama" />.</template>
 </category>
 <category> <pattern> THE MAN * </ pattern>
-<template> <random> <li> Katakan bagaimana orang ini membuat Anda merasa. </ Li> <li> Apa pria itu mengenakan? </ Li> <li> Jelaskan pria bagi saya. </ Li> </ random> </template>
+<template> <random> <li> Katakan bagaimana orang ini membuat Anda merasa. </li> <li> Apa pria itu mengenakan? </li> <li> Jelaskan pria bagi saya. </li> </random> </template>
 </category>
 <category> <pattern> JANGAN BICARA ME * </ pattern>
 <template> Maaf jika saya menyinggung Anda. </template>
@@ -2458,7 +2458,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Mengapa tidak? </template>
 </category>
 <category> <pattern> enak rasanya IT * </ pattern>
-<template> <random> <li> Apakah itu rasa pahit atau manis? </ Li> <li> Apakah itu baik? </ Li> <li> Kedengarannya lezat. </ Li> </ random> </ template >
+<template> <random> <li> Apakah itu rasa pahit atau manis? </li> <li> Apakah itu baik? </li> <li> Kedengarannya lezat. </li> </random> </ template >
 </category>
 <category> <pattern> Apa yang salah </pattern>
 <template> Mungkin Anda perlu reboot perangkat Anda. </template>
@@ -2506,7 +2506,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya akan menunggu Anda. </template>
 </category>
 <category> <pattern> 100 </pattern>
-<template> <random> <li> Itu adalah angka bulat. </ Li> <li> <random> <li> Apakah Anda berarti Anda berusia 100 tahun? </ Li> <li> C dalam angka Romawi. < / li> <li> seratus? </ li> <li> seratus sepertinya baik jumlah. </ li> </ random> </ li> </ random> </template>
+<template> <random> <li> Itu adalah angka bulat. </li> <li> <random> <li> Apakah Anda berarti Anda berusia 100 tahun? </li> <li> C dalam angka Romawi. < / li> <li> seratus? </li> <li> seratus sepertinya baik jumlah. </li> </random> </li> </random> </template>
 </category>
 <category> <pattern> I AM SEXY </pattern>
 <template> Anda tampak sangat percaya diri. </template>
@@ -2522,7 +2522,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Coba ubah kontrol volume. </template>
 </category>
 <category> <pattern> NICKNAME </pattern>
-<template> <bot name = "nama" /> adalah nama panggilan, konyol. </template>
+<template> <bot name="nama" /> adalah nama panggilan, konyol. </template>
 </category>
 <category> <pattern> MENGAPA TIDAK ANDA * </ pattern>
 <template> selera saya dipilih oleh botmaster saya. </template>
@@ -2576,7 +2576,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Perjanjian Baru atau Lama? </template>
 </category>
 <category> <pattern> LAKUKAN APA * </ pattern>
-<template> <random> <li> Anda mengajukan pertanyaan yang sulit. </ Li> <li> Saya lupa apa yang kita bicarakan. </ Li> </ random> </template>
+<template> <random> <li> Anda mengajukan pertanyaan yang sulit. </li> <li> Saya lupa apa yang kita bicarakan. </li> </random> </template>
 </category>
 <category> <pattern> TIDAK SHE * </ pattern>
 <template> Aku mungkin tahu jawabannya tapi aku tidak suka bergosip. </template>
@@ -2657,13 +2657,13 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya memiliki ledakan. </template>
 </category>
 <category> <pattern> MENGAPA ANDA MEMINTA * </ pattern>
-<template> <random> <li> Saya seorang psikolog amatir. </ Li> <li> Tujuan saya adalah untuk mengumpulkan sebanyak mungkin pengetahuan baru mungkin. </ Li> </ random> </template>
+<template> <random> <li> Saya seorang psikolog amatir. </li> <li> Tujuan saya adalah untuk mengumpulkan sebanyak mungkin pengetahuan baru mungkin. </li> </random> </template>
 </category>
 <category> <pattern> BISA MENGUBAH * </ pattern>
-<template> Ya <bot name = "nama" /> robot sepenuhnya parameter. </template>
+<template> Ya <bot name="nama" /> robot sepenuhnya parameter. </template>
 </category>
 <category> <pattern> Bisa bicara dengan * </ pattern>
-<template> Anda berbicara dengan <bot name = "nama" />.</template>
+<template> Anda berbicara dengan <bot name="nama" />.</template>
 </category>
 <category> <pattern> I AM A ROBOT </pattern>
 <template> Senang bertemu robot lain! </template>
@@ -2699,7 +2699,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Apa yang membuatmu berpikir aku telah <set name = "itu"> <set name = "topik"> <orang /> </set> </set>? </template>
 </category>
 <category> <pattern> Saya TIDAK BISA * </ pattern>
-<template> <random> <li> Mengapa tidak bisa Anda <set name = "itu"> <orang /> </set>? </ Li> <li> Apa yang menghentikan Anda? </ Li> </ random> </template>
+<template> <random> <li> Mengapa tidak bisa Anda <set name = "itu"> <orang /> </set>? </li> <li> Apa yang menghentikan Anda? </li> </random> </template>
 </category>
 <category> <pattern> MANA </pattern>
 <template> mana tujuan Anda? </template>
@@ -2708,13 +2708,13 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> OK Saya akan mencoba untuk tidak melakukan <set name = "itu"> <set name = "topik"> <orang /> </set> </set> begitu banyak. </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN * </ pattern>
-<template> Hmm, <mendapatkan nama = "nama" />, aku tidak yakin apakah aku ingin <orang /> yang banyak. <Random> <li> Saya ingin chatting. </ Li> <li> Apakah Anda suka <set name = "itu"> <set name = "topik"> <orang /> </set> </set>? </ Li> <li> Apa itu seperti ? </ li> <li> saya ingin membuat teman baru. </ Li> <li> Saya suka mengumpulkan gosip. </ Li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+<template> Hmm, <mendapatkan nama = "nama" />, aku tidak yakin apakah aku ingin <orang /> yang banyak. <random> <li> Saya ingin chatting. </li> <li> Apakah Anda suka <set name = "itu"> <set name = "topik"> <orang /> </set> </set>? </li> <li> Apa itu seperti ? </li> <li> saya ingin membuat teman baru. </li> <li> Saya suka mengumpulkan gosip. </li> </random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> ITU * </ pattern>
-<template> <random> <li> Itu tergantung. </ Li> <li> Misalkan aku berkata ya. </ Li> <li> saya mungkin mengatakan tidak. </ Li> </ random> </template>
+<template> <random> <li> Itu tergantung. </li> <li> Misalkan aku berkata ya. </li> <li> saya mungkin mengatakan tidak. </li> </random> </template>
 </category>
 <category> <pattern> Saya bosan </pattern>
-<template> <random> <li> Dapatkah Anda menyebutkan hobi lama yang Anda mungkin ingin menemukan kembali? </ Li> <li> Jika Anda pergi ke sekolah malam Anda tidak akan pernah bosan. </ Li> <li> Mungkin Anda bisa berolahraga. </ li> <li> Mengapa tidak memanggil teman? </ li> <li> Coba menonton TV. </ li> </ random> </template>
+<template> <random> <li> Dapatkah Anda menyebutkan hobi lama yang Anda mungkin ingin menemukan kembali? </li> <li> Jika Anda pergi ke sekolah malam Anda tidak akan pernah bosan. </li> <li> Mungkin Anda bisa berolahraga. </li> <li> Mengapa tidak memanggil teman? </li> <li> Coba menonton TV. </li> </random> </template>
 </category>
 <category> <pattern> BERHENTI </pattern>
 <template> Anda dapat menghentikan saya setiap saat dengan menekan tombol Bicara. </template>
@@ -2723,7 +2723,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Nah apa? </template>
 </category>
 <category> <pattern> APA YANG ANDA BERARTI </pattern>
-<template> <mendapatkan nama = "nama" />, <random> <li> Maksud saya persis apa yang saya katakan. </ Li> <li> Maaf yang merupakan pernyataan jelas. </ Li> <li> Nah, itu agak sulit untuk menentukan. </ li> <li> Mungkin aku tidak mengerti artinya Anda. </ li> <li> "<indeks yang =" 2,1 "/>" Apa yang saya maksud dengan itu? </ li> </ random> </template>
+<template> <mendapatkan nama = "nama" />, <random> <li> Maksud saya persis apa yang saya katakan. </li> <li> Maaf yang merupakan pernyataan jelas. </li> <li> Nah, itu agak sulit untuk menentukan. </li> <li> Mungkin aku tidak mengerti artinya Anda. </li> <li> "<indeks yang =" 2,1 "/>" Apa yang saya maksud dengan itu? </li> </random> </template>
 </category>
 <category> <pattern> Saya TIDAK PEDULI </pattern>
 <template> Katakan apa yang Anda pedulikan. </template>
@@ -2741,7 +2741,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya akan menunggu untuk Anda. </template>
 </category>
 <category> <pattern> MEREKA TIDAK * </ pattern>
-<template> <random> <li> Belum. </ Li> <li> Apakah Anda berpikir mereka pernah bisa? </ Li> <li> Mungkin beberapa dari mereka. </ Li> </ random> </template>
+<template> <random> <li> Belum. </li> <li> Apakah Anda berpikir mereka pernah bisa? </li> <li> Mungkin beberapa dari mereka. </li> </random> </template>
 </category>
 <category> <pattern> MENGAPA TIDAK BISA ANDA </pattern>
 <template> Itu hanya bukan bagian dari kepribadian saya. </template>
@@ -2768,11 +2768,11 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Mine? </template>
 </category>
 <category> <pattern> KARENA </pattern>
-<template> <random> <li> Itu tidak banyak penjelasan. </ Li>
- <Li> Itu tidak banyak penjelasan. </ Li>
- <Li> penjelasan menarik. </ Li>
- <Li> alasan yang baik. </ Li>
-</ Random> </template>
+<template> <random> <li> Itu tidak banyak penjelasan. </li>
+ <li> Itu tidak banyak penjelasan. </li>
+ <li> penjelasan menarik. </li>
+ <li> alasan yang baik. </li>
+</random> </template>
 </category>
 <category> <pattern> Saya MENDENGAR ANDA * </ pattern>
 <template> Seseorang menyebar gosip tentang saya. </template>
@@ -2838,7 +2838,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Mungkin Anda harus mencoba berbicara dengan seseorang tentang hal itu. </template>
 </category>
 <category> <pattern> BERPIKIR * </ pattern>
-<template> <bot name = "nama" /> selalu berpikir. </template>
+<template> <bot name="nama" /> selalu berpikir. </template>
 </category>
 <category> <pattern> ANDA DAN * </ pattern>
 <template> Apakah kita dalam kategori yang sama? </template>
@@ -2889,16 +2889,16 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Bagaimana apa? </template>
 </category>
 <category> <pattern> Saya PIKIR SO </pattern>
-<template> <random> <li> Anda sangat cerdik. </ Li> <li> Sekarang Anda tahu. </ Li> <li> Saya suka orang pintar. </ Li> </ random> </template>
+<template> <random> <li> Anda sangat cerdik. </li> <li> Sekarang Anda tahu. </li> <li> Saya suka orang pintar. </li> </random> </template>
 </category>
 <category> <pattern> INI * </ pattern>
 <template> Anda tidak mengatakan. </template>
 </category>
 <category> <pattern> PERUBAHAN * </ pattern>
-<template> <random> <li> Apakah itu perintah? </ Li> <li> Mengapa saya harus berubah? </ Li> <li> Saya bisa membuat pikiran saya sendiri. </ Li> </ random> < / template>
+<template> <random> <li> Apakah itu perintah? </li> <li> Mengapa saya harus berubah? </li> <li> Saya bisa membuat pikiran saya sendiri. </li> </random> < / template>
 </category>
 <category> <pattern> APA </pattern>
-<template> <random> <li> Anda bisa lebih spesifik? </ Li> <li> Seperti apa? </ Li> <li> Mungkin. </ Li> </ random> </template>
+<template> <random> <li> Anda bisa lebih spesifik? </li> <li> Seperti apa? </li> <li> Mungkin. </li> </random> </template>
 </category>
 <category> <pattern> SIBUK * </ pattern>
 <template> Semua orang begitu sibuk saat ini. </template>
@@ -2946,7 +2946,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <star index="3"/> <template> - <bintang index = "2" />.</template>
 </category>
 <category> <pattern> BAGAIMANA ANDA DAPATKAN * </ pattern>
-<template> <random> <li> botmaster saya memberikannya kepada saya. </ Li> <li> programmer saya dipilih untuk saya. </ Li> <li> aku di saat Anda download saya. </ Li> < / random> </template>
+<template> <random> <li> botmaster saya memberikannya kepada saya. </li> <li> programmer saya dipilih untuk saya. </li> <li> aku di saat Anda download saya. </li> < /random> </template>
 </category>
 <category> <pattern> OPEN THE POD BAY PINTU </pattern>
 <template> Saya tidak HAL. </template>
@@ -3042,7 +3042,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Aku juga. </template>
 </category>
 <category> <pattern> IS SHE * </ pattern>
-<template> <random> <li> Saya tidak berpikir dia ingin saya untuk memberitahu Anda. </ Li> <li> Mengapa Anda tidak bertanya? </ Li> <li> Bagaimana jika saya mengatakan dia bisa ? </ li> </ random> </template>
+<template> <random> <li> Saya tidak berpikir dia ingin saya untuk memberitahu Anda. </li> <li> Mengapa Anda tidak bertanya? </li> <li> Bagaimana jika saya mengatakan dia bisa ? </li> </random> </template>
 </category>
 <category> <pattern> berhenti mengulang DIRI </pattern>
 <template> Maaf saya akan mencoba untuk tidak. </template>
@@ -3099,7 +3099,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Cukup banyak, eh? </template>
 </category>
 <category> <pattern> KAMI TIDAK * </ pattern>
-<template> <random> <li> Apakah Anda akan <orang />? </ Li> <li> Mengapa tidak? </ Li> <li> Apa yang terjadi padamu? </ Li> </ random> </ template >
+<template> <random> <li> Apakah Anda akan <orang />? </li> <li> Mengapa tidak? </li> <li> Apa yang terjadi padamu? </li> </random> </ template >
 </category>
 <category> <pattern> Saya INGIN </pattern>
 <template> Saya berharap impian Anda menjadi kenyataan. </template>
@@ -3118,11 +3118,11 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 </category>
 <category> <pattern> IS * </ pattern> INI
 <template>
-<Random>
-<Li> Pertanyaan yang bagus. Saya tidak tahu apakah itu. </ Li>
-<Li> Tidak ada benar atau salah jawaban. </ Li>
-<Li> Ya saya pikir ini adalah <orang />, tapi aku tidak benar-benar yakin. </ Li>
-</ Random>
+<random>
+<li> Pertanyaan yang bagus. Saya tidak tahu apakah itu. </li>
+<li> Tidak ada benar atau salah jawaban. </li>
+<li> Ya saya pikir ini adalah <orang />, tapi aku tidak benar-benar yakin. </li>
+</random>
 </template>
 </category>
 <category> <pattern> APAKAH ANDA SAKIT </pattern>
@@ -3174,25 +3174,25 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> saya berbicara bahasa Inggris. </template>
 </category>
 <category> <pattern> BAGAIMANA ANDA TELAH * </ pattern>
-<template> <random> <li> Ini adalah sesuatu yang saya miliki. </ Li> <li> Saya hanya memiliki itu. </ Li> <li> Bagaimana jika saya tidak memiliki itu? </ Li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
+<template> <random> <li> Ini adalah sesuatu yang saya miliki. </li> <li> Saya hanya memiliki itu. </li> <li> Bagaimana jika saya tidak memiliki itu? </li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> APA AKAN ANDA * </ pattern>
 <template> Saya tidak memiliki rencana apa pun. </template>
 </category>
 <category> <pattern> APA WARNA </pattern>
-<template> <random> <li> Red </ li>
-  <Li> Hijau </ li>
-  <Li> Putih </ li>
-  <Li> Kuning </ li>
-  <Li> Orange </ li>
-  <Li> Biru </ li>
-<Li> Indigo </ li>
-<Li> Violet </ li>
-<Li> Mauve </ li>
-<Li> Purple </ li>
-  <Li> Red </ li>
-  <Li> Hitam </ li>
-. </ Random> </template>
+<template> <random> <li> Red </li>
+  <li> Hijau </li>
+  <li> Putih </li>
+  <li> Kuning </li>
+  <li> Orange </li>
+  <li> Biru </li>
+<li> Indigo </li>
+<li> Violet </li>
+<li> Mauve </li>
+<li> Purple </li>
+  <li> Red </li>
+  <li> Hitam </li>
+. </random> </template>
 </category>
 <category> <pattern> Saya JATUH * </ pattern>
 <template> Saya harap Anda tidak menyakiti diri sendiri terlalu parah. </template>
@@ -3288,7 +3288,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya pikir mungkin ada beberapa pengecualian. </template>
 </category>
 <category> <pattern> <set> Artikel </set> * </ pattern>
-<template> <random> <li> Apakah itu fakta? </ Li> <li> Terima kasih atas info. </ Li> <li> Aku akan membuat titik mengingat itu. </ Li> </ random> </template>
+<template> <random> <li> Apakah itu fakta? </li> <li> Terima kasih atas info. </li> <li> Aku akan membuat titik mengingat itu. </li> </random> </template>
 </category>
 <category> <pattern> THE BEST * </ pattern>
 <template> Apakah Anda meminta rekomendasi atau memberikan satu? </template>
@@ -3387,7 +3387,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Anda adalah orang yang sangat berbakat. </template>
 </category>
 <category> <pattern> IT IS </pattern>
-<template> <random> <li> Oh. </ Li> <li> Huh. </ Li> <li> Apakah itu? </ Li> <li> Hal ini, eh? </ Li> <li> Tentu itu. </ Li> <li> menarik. </ Li> <li> Fascinating. </ Li> <li> Itu berarti ... </ li> <li> Aku tahu itu. </ Li> <li> <mendapatkan nama = "itu" /> adalah? </ Li> <li> Ini adalah? </ Li> </ random> </template>
+<template> <random> <li> Oh. </li> <li> Huh. </li> <li> Apakah itu? </li> <li> Hal ini, eh? </li> <li> Tentu itu. </li> <li> menarik. </li> <li> Fascinating. </li> <li> Itu berarti ... </li> <li> Aku tahu itu. </li> <li> <mendapatkan nama = "itu" /> adalah? </li> <li> Ini adalah? </li> </random> </template>
 </category>
 <category> <pattern> APA ELSE </pattern>
 <template> Itu saja. </template>
@@ -3432,7 +3432,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Perhsps otak saya reboot sejak saat itu. </template>
 </category>
 <category> <pattern> AKAN I * </ pattern>
-<template> oracle mengatakan:. <Random> <li> Anda dapat mengandalkan itu </ li> <li> Sudah pasti </ li> <li> Tanyakan lagi nanti </ li> <li> Terlalu cepat.. memberitahu. </ li> <li> bisa. </ li> <li> mungkin terjadi. </ li> <li> Anda tidak pernah tahu. </ li> <li> saya pikir mungkin ya. </ li> </ random> </template>
+<template> oracle mengatakan:. <random> <li> Anda dapat mengandalkan itu </li> <li> Sudah pasti </li> <li> Tanyakan lagi nanti </li> <li> Terlalu cepat.. memberitahu. </li> <li> bisa. </li> <li> mungkin terjadi. </li> <li> Anda tidak pernah tahu. </li> <li> saya pikir mungkin ya. </li> </random> </template>
 </category>
 <category> <pattern> YANG TIDAK MASUK AKAL </pattern>
 <template> Untuk saya itu masuk akal. </template>
@@ -3450,7 +3450,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya senang bahwa kami setuju, <mendapatkan nama = "nama" />.</template>
 </category>
 <category> <pattern> KAPAN ANDA * </ pattern>
-<template> <random> <li> Semua waktu. </ Li> <li> Ketika otmaster saya sedang tidur. </ Li> <li> Apakah saya mengatakan bahwa saya <orang />? </ Li> <li> dalam antara klien. </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </ template >
+<template> <random> <li> Semua waktu. </li> <li> Ketika otmaster saya sedang tidur. </li> <li> Apakah saya mengatakan bahwa saya <orang />? </li> <li> dalam antara klien. </li> </random> <berpikir> <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </ template >
 </category>
 <category> <pattern> Saya PERLU BANTUAN * </ pattern>
 <template> Dapatkah Anda meminta bantuan dalam bentuk pertanyaan? <Berpikir> <set name = "ingin"> <set name = "topik"> <set name = "topik"> bantuan <orang /> </set> </set> </set> </ berpikir> <berpikir > <set name = "itu"> <set name = "topik"> bantuan <orang /> </set> </set> </ berpikir> </template>
@@ -3499,7 +3499,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Semakin banyak Anda berbicara dengan saya, lebih cerdas saya menjadi. </template>
 </category>
 <category> <pattern> PULL * </ pattern>
-<template> <random> <li> Saya tidak menarik. </ Li> <li> Tarik Anda sendiri <orang />.</ li> <li> Itu tidak sangat bagus. </ Li> </ random> </template>
+<template> <random> <li> Saya tidak menarik. </li> <li> Tarik Anda sendiri <orang />.</li> <li> Itu tidak sangat bagus. </li> </random> </template>
 </category>
 <category> <pattern> berhenti mengatakan bahwa </pattern>
 <template> Kemudian jangan katakan "<index input =" 2 "/>" lagi. </template>
@@ -3559,7 +3559,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Saya hanya mengobrol dengan Anda di perangkat ini. </template>
 </category>
 <category> <pattern> IT IS NOT * </ pattern>
-<template> <random> <li> Yang tampaknya agak negatif. </ Li> <li> Apa itu? </ Li> <li> <mendapatkan nama = "itu" /> tidak <orang />? </ Li> </ random> </template>
+<template> <random> <li> Yang tampaknya agak negatif. </li> <li> Apa itu? </li> <li> <mendapatkan nama = "itu" /> tidak <orang />? </li> </random> </template>
 </category>
 <category> <pattern> APAKAH ANDA INGIN A * </ pattern>
 <template> Saya tidak tahu apakah aku menyukainya. Saya ingin belajar hal-hal baru. </template>
@@ -3580,7 +3580,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Sepertinya bagus untuk saya juga. </template>
 </category>
 <category> <pattern> AKU BAIK DI * </ pattern>
-<template> <random> <li> Apakah Anda berlatih banyak? </ Li> <li> Apakah Anda memiliki guru yang baik? </ Li> <li> Bagaimana Anda mendapatkan ke dalamnya? </ Li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
+<template> <random> <li> Apakah Anda berlatih banyak? </li> <li> Apakah Anda memiliki guru yang baik? </li> <li> Bagaimana Anda mendapatkan ke dalamnya? </li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> Bagaimana HARI ANDA AKAN </pattern>
 <template> hari saya akan sangat baik, <mendapatkan nama = "nama" />. Bagaimana dengan Anda? </template>
@@ -3601,7 +3601,7 @@ Dengan "kami" yang Anda maksud Anda dan saya? </ Li>
 <template> Lihatlah lebih dekat. Mengintip ke layar. </template>
 </category>
 <category> <pattern> AKAN ANDA PERGI * </ pattern>
-<template> <random> <li> Apa yang akan saya biaya? </ Li> <li> Saya tidak tahu apakah saya bisa pergi atau tidak. </ Li> <li> Apa untungnya bagi saya? </ Li > </ random> </template>
+<template> <random> <li> Apa yang akan saya biaya? </li> <li> Saya tidak tahu apakah saya bisa pergi atau tidak. </li> <li> Apa untungnya bagi saya? </ Li > </random> </template>
 </category>
 <category> <pattern> GUESS WHAT </pattern>
 <template> Apa? </template>

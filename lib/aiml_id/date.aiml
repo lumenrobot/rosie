@@ -24,19 +24,19 @@
 <template> <berpikir> <mengatur var = "bulan"> <tanggal format = "% B" format = "MMMMMMMMM" /> </set>
 </ Berpikir>
 <Kondisi var = "bulan">
-<Li> <value> Januari </ value> Musim Dingin </ li>
-<Li> <value> Februari </ value> Musim Dingin </ li>
-<Li> <value> Maret </ value> Musim Dingin </ li>
-<Li> <value> April </ value> musim semi </ li>
-<Li> <value> Mei </ value> musim semi </ li>
-<Li> <value> Juni </ value> Musim Panas </ li>
-<Li> <value> Juli </ value> Musim Panas </ li>
-<Li> <value> Agustus </ value> Musim Panas </ li>
-<Li> <value> September </ value> Jatuh </ li>
-<Li> <value> Oktober </ value> Jatuh </ li>
-<Li> <value> November </ value> Musim Dingin </ li>
-<Li> <value> Desember </ value> Musim Dingin </ li>
-<Li> tidak diketahui </ li>
+<li> <value> Januari </ value> Musim Dingin </li>
+<li> <value> Februari </ value> Musim Dingin </li>
+<li> <value> Maret </ value> Musim Dingin </li>
+<li> <value> April </ value> musim semi </li>
+<li> <value> Mei </ value> musim semi </li>
+<li> <value> Juni </ value> Musim Panas </li>
+<li> <value> Juli </ value> Musim Panas </li>
+<li> <value> Agustus </ value> Musim Panas </li>
+<li> <value> September </ value> Jatuh </li>
+<li> <value> Oktober </ value> Jatuh </li>
+<li> <value> November </ value> Musim Dingin </li>
+<li> <value> Desember </ value> Musim Dingin </li>
+<li> tidak diketahui </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> HARI </pattern>
@@ -66,13 +66,13 @@
 </category>
 <category> <pattern> DAY TAHAP </pattern>
 <template> <berpikir>
-<Set var = "jam"> <format tanggal = "% saya" jformat = "h" /> </set>
-<Set var = "AMPM"> <tanggal format = "% p" jformat = "a" /> </set>
+<set var="jam"> <format tanggal = "% saya" jformat = "h" /> </set>
+<set var="AMPM"> <tanggal format = "% p" jformat = "a" /> </set>
 </ Berpikir>
 <Kondisi>
-<Li value = "AM" var = "AMPM"> Pagi </ li>
-<Li> <kondisi var = "jam"> <value li = "12"> Noon </ li> <li value = "1"> Sore </ li> <li value = "2"> Sore </ li> <value li = "3"> Sore </ li> <value li = "4"> <value li = "5"> Sore </ li> <value li = "6"> Sore </ li> Sore </ li> <li> Malam </ li> </ kondisi>
-</ Li>
+<li value = "AM" var = "AMPM"> Pagi </li>
+<li> <kondisi var = "jam"> <value li = "12"> Noon </li> <li value = "1"> Sore </li> <li value = "2"> Sore </li> <value li = "3"> Sore </li> <value li = "4"> <value li = "5"> Sore </li> <value li = "6"> Sore </li> Sore </li> <li> Malam </li> </ kondisi>
+</li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> DATE DAN WAKTU </pattern>
@@ -170,21 +170,21 @@
 </category>
 <category> <pattern> DATE DI <set> jumlah </set> DAYS </pattern>
 <template> <berpikir> <set var = "hari"> <star /> </set>
-<Set var = "date"> <format tanggal = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy" /> </set>
+<set var="date"> <format tanggal = "% B% d% Y" jformat = "MMMMMMMMM dd yyyy" /> </set>
 </ Berpikir>
 <Kondisi var = "hari">
-<Value li = "0"> <get var = "date" /> </ li>
-<Li> <berpikir> <set var = "date"> <srai> TOMORROWDATE <dapatkan var = "date" /> </srai> </set> <set var = "hari"> <peta name = "pendahulunya" > <mendapatkan var = "hari" /> </ peta> </set> </ berpikir> <loop /> </ li>
+<Value li = "0"> <get var = "date" /> </li>
+<li> <berpikir> <set var = "date"> <srai> TOMORROWDATE <dapatkan var = "date" /> </srai> </set> <set var = "hari"> <peta name = "pendahulunya" > <mendapatkan var = "hari" /> </ peta> </set> </ berpikir> <loop /> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> HARI SAMPAI <set> hari kerja </set> </pattern>
 <template> <berpikir>
-<Set var = "hari"> <star /> </set>
-<Set var = "hari ini"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </set>
-<Set var = "hari"> 0 </set> </ berpikir>
+<set var="hari"> <star /> </set>
+<set var="hari ini"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </set>
+<set var="hari"> 0 </set> </ berpikir>
 <Kondisi var = "hari ini">
-<Li> <value> <dapatkan var = "hari" /> </ value> <dapatkan var = "hari" /> </ li>
-<Li> <berpikir> <set var = "hari ini"> <nama peta = "besok"> <get var = "hari ini" /> </ peta> </set> <set var = "hari"> <nama peta = "penerus"> <dapatkan var = "hari" /> </ peta> </set> </ berpikir> <loop /> </ li>
+<li> <value> <dapatkan var = "hari" /> </ value> <dapatkan var = "hari" /> </li>
+<li> <berpikir> <set var = "hari ini"> <nama peta = "besok"> <get var = "hari ini" /> </ peta> </set> <set var = "hari"> <nama peta = "penerus"> <dapatkan var = "hari" /> </ peta> </set> </ berpikir> <loop /> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> DATE ON <set> hari kerja </set> </pattern>
@@ -214,13 +214,13 @@ HARI </srai> </template>
 </category>
 <category> <pattern> WEEKDAY DI <set> jumlah </set> DAYS </pattern>
 <template> <berpikir>
-<Set var = "hari"> <star /> </set>
-<Set var = "hari"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </set>
+<set var="hari"> <star /> </set>
+<set var="hari"> <format tanggal = "% A" jformat = "EEEEEEEEEE" /> </set>
 </ Berpikir>
 <Kondisi var = "hari">
-<Value li = "0"> <get var = "hari" /> </ li>
-<Li> <berpikir> <mengatur var = "hari"> <nama peta = "besok"> <get var = "hari" /> </ peta> </set>
-<Set var = "hari"> <nama peta = "pendahulunya"> <dapatkan var = "hari" /> </ peta> </set> </ berpikir> <loop /> </ li>
+<Value li = "0"> <get var = "hari" /> </li>
+<li> <berpikir> <mengatur var = "hari"> <nama peta = "besok"> <get var = "hari" /> </ peta> </set>
+<set var="hari"> <nama peta = "pendahulunya"> <dapatkan var = "hari" /> </ peta> </set> </ berpikir> <loop /> </li>
 </ Kondisi> </template>
 </category>
 </aiml>

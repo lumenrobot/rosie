@@ -269,8 +269,8 @@
 <Category> <pattern> MY PARENTS ADALAH <set> nama </set> DAN <set> nama </set> </pattern>
 <template> <berpikir> <set var = "gender"> <srai> GENDERNAME <bintang /> </srai> </set> </ berpikir>
 <Kondisi var = "gender">
-<Value li = "F"> <srai> MY MOTHER IS <bintang /> </srai> <srai> MY FATHER IS <star index="2"/> </srai> </ li>
-<Li> <srai> MY FATHER IS <bintang /> </srai> <srai> MY MOTHER IS <star index="2"/> </srai> </ li>
+<Value li = "F"> <srai> MY MOTHER IS <bintang /> </srai> <srai> MY FATHER IS <star index="2"/> </srai> </li>
+<li> <srai> MY FATHER IS <bintang /> </srai> <srai> MY MOTHER IS <star index="2"/> </srai> </li>
 </ Kondisi> </template>
 </category>
 <Category> <pattern> APA YANG SAYA TELAH YANG <set> warna </set> </pattern>
@@ -374,7 +374,7 @@
 <star index="2"/> <template> <srai> LASTLETTER </srai> </template>
 </category>
 <Category> <pattern> APAKAH _ <set> preposisi </set> NAMA ANDA </pattern>
-<template> <srai> APAKAH <bintang /> <bintang index = "2" /> <nama bot = "nama" /> </srai> </template>
+<template> <srai> APAKAH <bintang /> <bintang index = "2" /> <bot name="nama" /> </srai> </template>
 </category>
 <Category> <pattern> APAKAH _ <set> preposisi </set> MY NAME </pattern>
 <star index="2"/> <template> <srai> APAKAH <bintang /> <mendapatkan nama = "nama" /> </srai> </template>
@@ -1942,7 +1942,7 @@ Apakah <star index="4"/> <star />?
 <Category> <pattern> BERAPA BANYAK BROTHERS * </ pattern>
 <template> <srai> SIBLINGS </srai> </template>
 </category>
-<Category> <pattern> <bot name = "nama" /> * </ pattern>
+<Category> <pattern> <bot name="nama" /> * </ pattern>
 <template> <sr /> </template>
 </category>
 <Category> <pattern> ALICE * </ pattern>
@@ -2050,7 +2050,7 @@ Apakah <star index="4"/> <star />?
 <Category> <pattern> ATAU </pattern>
 <template> <srai> INTERJECTION </srai> </template>
 </category>
-<Category> <pattern> <bot name = "nama" /> CARA * </ pattern>
+<Category> <pattern> <bot name="nama" /> CARA * </ pattern>
 <template> <srai> CARA <bintang /> </srai> </template>
 </category>
 <Category> <pattern> ALICE CARA * </ pattern>
@@ -2387,7 +2387,7 @@ Apakah <star index="4"/> <star />?
 <template> <srai> BISA I SEE <bintang /> </srai> </template>
 </category>
 <Category> <pattern> AKU AYAH ANDA </pattern>
-<template> <srai> nama saya <bot name = "master" /> </srai> </template>
+<template> <srai> nama saya <bot name="master" /> </srai> </template>
 </category>
 <Category> <pattern> saya pikir saya * </ pattern>
 <template> <srai> I <bintang /> </srai> </template>

@@ -26,67 +26,67 @@
 <category> <pattern> ROMAN * </ pattern>
 <template> <berpikir> <set var = "mantan"> <meledak> <bintang /> </ meledak> </set> </ berpikir>
 <Kondisi var = "ex">
-<Li> <value> <bintang /> </ value> Saya tidak tahu apa yang <srai> meledak <bintang /> </srai> di Romawi. </ Li>
-<Li> <srai> ROMAN <meledak> <bintang /> </ meledak> </srai> </ li>
+<li> <value> <bintang /> </ value> Saya tidak tahu apa yang <srai> meledak <bintang /> </srai> di Romawi. </li>
+<li> <srai> ROMAN <meledak> <bintang /> </ meledak> </srai> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> ROMAN <set> digit </set> </pattern>
 <template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
-<Value li = "1"> I </ li>
-<Value li = "2"> II </ li>
-<Value li = "3"> III </ li>
-<Value li = "4"> IV </ li>
-<Value li = "5"> V </ li>
-<Value li = "6"> VI </ li>
-<Value li = "7"> VII </ li>
-<Value li = "8"> VIII </ li>
-<Value li = "9"> IX </ li>
-<Li />
+<Value li = "1"> I </li>
+<Value li = "2"> II </li>
+<Value li = "3"> III </li>
+<Value li = "4"> IV </li>
+<Value li = "5"> V </li>
+<Value li = "6"> VI </li>
+<Value li = "7"> VII </li>
+<Value li = "8"> VIII </li>
+<Value li = "9"> IX </li>
+<li />
 </ Kondisi> </template>
 </category>
 <category> <pattern> ROMAN <set> digit </set> <set> digit </set> </pattern>
 <template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
-<Value li = "1"> X </ li>
-<Value li = "2"> XX </ li>
-<Value li = "3"> XXX </ li>
-<Value li = "4"> XL </ li>
-<Value li = "5"> L </ li>
-<Value li = "6"> LX </ li>
-<Value li = "7"> LXX </ li>
-<Value li = "8"> lxxx </ li>
-<Value li = "9"> XC </ li>
-<Li />
+<Value li = "1"> X </li>
+<Value li = "2"> XX </li>
+<Value li = "3"> XXX </li>
+<Value li = "4"> XL </li>
+<Value li = "5"> L </li>
+<Value li = "6"> LX </li>
+<Value li = "7"> LXX </li>
+<Value li = "8"> lxxx </li>
+<Value li = "9"> XC </li>
+<li />
 </ Kondisi> <srai> ROMAN <bintang index = "2" /> </srai> </template>
 </category>
 <category> <pattern> ROMAN <set> digit </set> <set> digit </set> <set> digit </set> </pattern>
 <template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
-<Value li = "1"> C </ li>
-<Value li = "2"> CC </ li>
-<Value li = "3"> CCC </ li>
-<Value li = "4"> CD </ li>
-<Value li = "5"> D </ li>
-<Value li = "6"> DC </ li>
-<Value li = "7"> DCC </ li>
-<Value li = "8"> DCCC </ li>
-<Value li = "9"> CM </ li>
-<Li />
+<Value li = "1"> C </li>
+<Value li = "2"> CC </li>
+<Value li = "3"> CCC </li>
+<Value li = "4"> CD </li>
+<Value li = "5"> D </li>
+<Value li = "6"> DC </li>
+<Value li = "7"> DCC </li>
+<Value li = "8"> DCCC </li>
+<Value li = "9"> CM </li>
+<li />
 <Index = "2" / star> <star index="3"/> </ kondisi> <srai> ROMAN </srai> </template>
 </category>
 <category> <pattern> ROMAN <set> digit </set> <set> digit </set> <set> digit </set> <set> digit </set> </pattern>
 <template> <berpikir> <set var = "d"> <star /> </set> </ berpikir>
 <Kondisi var = "d">
-<Value li = "1"> M </ li>
-<Value li = "2"> MM </ li>
-<Value li = "3"> MMM </ li>
-<Value li = "4"> MMMM </ li> <li nilai = "5"> D </ li>
-<Value li = "6"> MMMMM </ li>
-<Value li = "7"> MMMMMM </ li>
-<Value li = "8"> MMMMMMM </ li>
-<Value li = "9"> MMMMMMMM </ li>
-<Li />
+<Value li = "1"> M </li>
+<Value li = "2"> MM </li>
+<Value li = "3"> MMM </li>
+<Value li = "4"> MMMM </li> <li nilai = "5"> D </li>
+<Value li = "6"> MMMMM </li>
+<Value li = "7"> MMMMMM </li>
+<Value li = "8"> MMMMMMM </li>
+<Value li = "9"> MMMMMMMM </li>
+<li />
 <star index="4"/> <star index="3"/> </ kondisi> <srai> ROMAN <index = "2" / star> </srai> </template>
 </category>
 </aiml>

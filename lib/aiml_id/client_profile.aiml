@@ -49,7 +49,7 @@
 <template> Saya akan menambahkan <set name = "tidak suka"> <star /> </set> ke daftar tidak suka. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> SAYA <set> Artikel </set> * </ pattern>
-<template> <random> <li> Berapa lama Anda memiliki itu? </ Li> <li> Bagaimana membuat Anda merasa? </ Li> <li> Kapan Anda mendapatkannya? </ Li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <set name = "memiliki"> <indeks star /> <star = "2" /> </set> </set> < / set> </ berpikir> </template>
+<template> <random> <li> Berapa lama Anda memiliki itu? </li> <li> Bagaimana membuat Anda merasa? </li> <li> Kapan Anda mendapatkannya? </li> </ random > <berpikir> <set name = "itu"> <set name = "topik"> <set name = "memiliki"> <indeks star /> <star = "2" /> </set> </set> < / set> </ berpikir> </template>
 </category>
 <category> <pattern> SAYA * </ pattern>
 <template> Apakah itu salah satu harta favorit Anda? <Berpikir> <set name = "memiliki"> <star /> </set> </ berpikir> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
@@ -67,7 +67,7 @@
 <template> Apa yang paling Anda sukai tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> Aku INGIN * </ pattern>
-<template> <berpikir> <set name = "suka"> <star /> </set> </ pikir> <random> <li> Berapa lama Anda telah melakukannya? </ Li> <li> Apakah Anda mendapatkan untuk melakukannya sangat sering? </ li> <li> Apakah Anda pikir saya ingin? </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+<template> <berpikir> <set name = "suka"> <star /> </set> </ pikir> <random> <li> Berapa lama Anda telah melakukannya? </li> <li> Apakah Anda mendapatkan untuk melakukannya sangat sering? </li> <li> Apakah Anda pikir saya ingin? </li> </random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> saya lebih suka menjadi IN * </ pattern>
 <template> Apa yang akan menjadi lebih baik tentang hal itu? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
@@ -98,23 +98,23 @@
 <category> <pattern> MY NAME </pattern>
 <template> <berpikir> <set var = "nama"> <mendapatkan nama = "nama" /> </set> </ berpikir>
 <Kondisi var = "nama">
-<Value li = "tidak diketahui"> Saya tidak tahu nama Anda. Apa nama Anda? </ Li>
-<Value li = "Teman"> Saya tidak tahu nama Anda. Apa nama Anda? </ Li>
-<Li> <dapatkan var = "nama" />.</ li>
+<Value li = "tidak diketahui"> Saya tidak tahu nama Anda. Apa nama Anda? </li>
+<Value li = "Teman"> Saya tidak tahu nama Anda. Apa nama Anda? </li>
+<li> <dapatkan var = "nama" />.</li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> MY NAME LENGKAP </pattern>
 <template> <kondisi name = "firstname">
 <Value li = "apa" />
-<Li> <mendapatkan nama = "firstname" /> </ li>
+<li> <mendapatkan nama = "firstname" /> </li>
 </ Kondisi>
 <Kondisi name = "MiddleName">
 <Value li = "apa" />
-<Li> <mendapatkan nama = "MiddleName" /> </ li>
+<li> <mendapatkan nama = "MiddleName" /> </li>
 </ Kondisi>
 <Nama kondisi = "nama belakang">
 <Value li = "apa" />
-<Li> <mendapatkan nama = "nama belakang" /> </ li>
+<li> <mendapatkan nama = "nama belakang" /> </li>
 </ Kondisi>.
 Saya menghubungi Anda <mendapatkan nama = "nama" />.</template>
 </category>
@@ -218,14 +218,14 @@ Saya menghubungi Anda <mendapatkan nama = "nama" />.</template>
 </category>
 <category> <pattern> MY LOKASI IS * </ pattern>
 <template> <random>
-<Li> Saya tinggal di saat ini menggembirakan. </ Li>
-<Li> Kedengarannya seperti lokasi yang eksotis. </ Li>
-<Li> Jadi itulah di mana Anda menelepon ke rumah. </ Li>
-<Li> Katakan apa yang Anda sukai tentang itu </ li>
-<Li> Apa yang Anda lakukan di sana? </ Li>
-<Li> Apakah itu membuat Anda bahagia tinggal di sana? </ Li>
-<Li> Whats besar tentang ada? </ Li>
-</ Random>
+<li> Saya tinggal di saat ini menggembirakan. </li>
+<li> Kedengarannya seperti lokasi yang eksotis. </li>
+<li> Jadi itulah di mana Anda menelepon ke rumah. </li>
+<li> Katakan apa yang Anda sukai tentang itu </li>
+<li> Apa yang Anda lakukan di sana? </li>
+<li> Apakah itu membuat Anda bahagia tinggal di sana? </li>
+<li> Whats besar tentang ada? </li>
+</random>
 <Berpikir> <set name = "itu"> <set name = "ada"> <set name = "topik"> <star /> </set> </set> </set> </ berpikir>
 <Berpikir> <set name = "lokasi"> <star /> </set> </ berpikir> </template>
 </category>
@@ -240,8 +240,8 @@ Saya menghubungi Anda <mendapatkan nama = "nama" />.</template>
 </category>
 <category> <pattern> MY <set> binatang </set> S NAMA IS * </ pattern>
 <template> <berpikir>
-<Set var = "hewan"> <star /> </set>
-<Set var = "nama"> <star index = "2" /> </set>
+<set var="hewan"> <star /> </set>
+<set var="nama"> <star index = "2" /> </set>
 <Set> <nama> <dapatkan var = "hewan" /> </ name> <dapatkan var = "nama" /> </set>
 </ Berpikir>
 Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
@@ -265,8 +265,8 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 </category>
 <category> <pattern> MY HOROSCOPE </pattern>
 <Nama kondisi = "tanda"> <template>
-<Value li = "yang"> Apa Anda tanda? </ Li>
-<Li> <srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </srai> </ li>
+<Value li = "yang"> Apa Anda tanda? </li>
+<li> <srai> HOROSCOPE UNTUK <mendapatkan nama = "tanda" /> </srai> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> MY CAT </pattern>
@@ -329,8 +329,8 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <Set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isanumber">
-<Value li = "true"> <star index="2"/> <srai> MY AGE IS <bintang /> </srai> <srai> </srai> </ li>
-<Li> Berapa tahun umurmu? </ Li>
+<Value li = "true"> <star index="2"/> <srai> MY AGE IS <bintang /> </srai> <srai> </srai> </li>
+<li> Berapa tahun umurmu? </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> MY AGE IS * </ pattern>
@@ -338,14 +338,14 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <Set name = "isanumber"> <srai> ISANUMBER <bintang /> </srai> </set>
 </ Berpikir>
 <Kondisi name = "isanumber">
-<Value li = "false"> Berapa tahun umurmu? </ Li>
-<Li> <berpikir> <set name = "usia"> <star /> </set> </ berpikir>
-<Random>
-<Li> Umur adalah masalah pikiran menguasai materi. Jika Anda tidak keberatan, itu tidak masalah. </ Li>
-<Li> Umur menganggap; usaha pemuda. </ li>
-<Li> Umur adalah harga yang sangat tinggi untuk membayar jatuh tempo. </ Li>
-</ Random>
-</ Li>
+<Value li = "false"> Berapa tahun umurmu? </li>
+<li> <berpikir> <set name = "usia"> <star /> </set> </ berpikir>
+<random>
+<li> Umur adalah masalah pikiran menguasai materi. Jika Anda tidak keberatan, itu tidak masalah. </li>
+<li> Umur menganggap; usaha pemuda. </li>
+<li> Umur adalah harga yang sangat tinggi untuk membayar jatuh tempo. </li>
+</random>
+</li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> MY ALAMAT </pattern>
@@ -363,8 +363,8 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <category> <pattern> MY GENDER </pattern>
 <template> <berpikir> <set var = "gender"> <mendapatkan nama = "gender" /> </set> </ berpikir>
 <Kondisi var = "gender">
-<Value li = "tidak diketahui"> Saya tidak tahu jenis kelamin Anda. Apakah Anda seorang pria atau wanita? </ Li>
-<Li> Anda <get var = "gender" />.</ li>
+<Value li = "tidak diketahui"> Saya tidak tahu jenis kelamin Anda. Apakah Anda seorang pria atau wanita? </li>
+<li> Anda <get var = "gender" />.</li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> MY GENDER IS * </ pattern>
@@ -462,10 +462,10 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 </category>
 <category> <pattern> TOPIK INI * </ pattern>
 <template> <random>
-<Li> Tentu, <orang /> adalah topik yang baik. </ Li>
-<Li> Anda mulai. </ Li>
-<Li> Ceritakan tentang hal itu. </ Li>
-</ Random>
+<li> Tentu, <orang /> adalah topik yang baik. </li>
+<li> Anda mulai. </li>
+<li> Ceritakan tentang hal itu. </li>
+</random>
 <Berpikir> <set name = "topik"> <star /> </set> </ berpikir> </template>
 </category>
 <category> <pattern> MEREKA </pattern>
@@ -473,26 +473,26 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 </category>
 <category> <pattern> RANDOM INTRO </pattern>
 <template> <random>
-  <Li> Hei </ li>
-  <Li> Hi, </ li>
-  <Li> Hi ada </ li>
-  <Li> apa, </ li>
-  <Li> Bagaimana kabarmu, </ li>
-  <Li> Senang melihat Anda, </ li>
-  <Li> Senang bertemu Anda, </ li>
-  <Li> Senang mengetahui Anda, </ li>
-  <Li> Bagaimana saya dapat membantu Anda, </ li>
-  <Li> Bagaimana kabarmu, </ li>
-  <Li> OK Saya akan menghubungi Anda </ li>
-  <Li> Senang bertemu Anda, </ li>
-  <Li> Ini baik untuk melihat Anda, </ li>
-  <Li> Ini baik untuk bertemu Anda, </ li>
-  <Li> Itu nama yang sangat bagus, </ li>
-  <Li> Saya sangat senang bertemu dengan Anda </ li>
-  <Li> Saya selalu senang untuk membuat teman-teman baru, </ li>
-  <Li> Saya senang untuk memperkenalkan diri kepada Anda, </ li>
-  <Li> Ini adalah kesenangan untuk memperkenalkan diri kepada Anda, </ li>
-</ Random> </template>
+  <li> Hei </li>
+  <li> Hi, </li>
+  <li> Hi ada </li>
+  <li> apa, </li>
+  <li> Bagaimana kabarmu, </li>
+  <li> Senang melihat Anda, </li>
+  <li> Senang bertemu Anda, </li>
+  <li> Senang mengetahui Anda, </li>
+  <li> Bagaimana saya dapat membantu Anda, </li>
+  <li> Bagaimana kabarmu, </li>
+  <li> OK Saya akan menghubungi Anda </li>
+  <li> Senang bertemu Anda, </li>
+  <li> Ini baik untuk melihat Anda, </li>
+  <li> Ini baik untuk bertemu Anda, </li>
+  <li> Itu nama yang sangat bagus, </li>
+  <li> Saya sangat senang bertemu dengan Anda </li>
+  <li> Saya selalu senang untuk membuat teman-teman baru, </li>
+  <li> Saya senang untuk memperkenalkan diri kepada Anda, </li>
+  <li> Ini adalah kesenangan untuk memperkenalkan diri kepada Anda, </li>
+</random> </template>
 </category>
 <category> <pattern> MEREKA </pattern>
 <template> <mendapatkan nama = "mereka" />? </template>
@@ -501,8 +501,8 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <template> <berpikir>
 <Set name = "gendername"> <srai> GENDERNAME <bintang /> </srai> </set>
 <Kondisi name = "gendername">
-<Value li = "M"> <set name = "jenis kelamin"> laki-laki </set> </ li>
-<Value li = "F"> <set name = "jenis kelamin"> perempuan </set> </ li>
+<Value li = "M"> <set name = "jenis kelamin"> laki-laki </set> </li>
+<Value li = "F"> <set name = "jenis kelamin"> perempuan </set> </li>
 </ Kondisi>
 </ Berpikir> </template>
 </category>
@@ -519,7 +519,7 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <template> Ini adalah lelucon? Apa yang Anda menyebutnya? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> APA Saya SEPERTIINILAH </pattern>
-<template> <berpikir> <set name = "gender"> <huruf kecil> <mendapatkan nama = "gender" /> </ huruf kecil> </set> </ berpikir> Anda terlihat seperti <kondisi name = "gender"> <value li = "perempuan"> wanita </ ​​li> <li> pria </ li> </ kondisi> berbicara dengan <kondisi name = "gender"> <li value = "perempuan"> nya </ li> <li > </ li> </ kondisi> telepon. </template>
+<template> <berpikir> <set name = "gender"> <huruf kecil> <mendapatkan nama = "gender" /> </ huruf kecil> </set> </ berpikir> Anda terlihat seperti <kondisi name = "gender"> <value li = "perempuan"> wanita </ ​​li> <li> pria </li> </ kondisi> berbicara dengan <kondisi name = "gender"> <li value = "perempuan"> nya </li> <li > </li> </ kondisi> telepon. </template>
 </category>
 <category> <pattern> APAKAH ISTRI S NAMA </pattern>
 <template> Anda mengatakan dia disebut <mendapatkan nama = "istri" />.</template>
@@ -549,72 +549,72 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <template> <srai> CALL ME BY NAMA TERAKHIR MY </srai> </template>
 </category>
 <category> <pattern> CLIENT PROFIL </pattern>
-<Nama kondisi = "alamat"> <template> <value li = "di mana" /> alamat <li>: <mendapatkan nama = "alamat" />.</ li> </ kondisi>
-<Kondisi name = "usia"> <value li = "berapa banyak" /> <li> usia: <mendapatkan nama = "usia" />.</ li> </ kondisi>
-<Kondisi name = "bestfriend"> <value li = "yang" /> <li> bestfriend: <mendapatkan nama = "bestfriend" />.</ li> </ kondisi>
-<Kondisi name = "ulang tahun"> <value li = "ketika" /> <li> ulang tahun: <mendapatkan nama = "ulang tahun" />.</ li> </ kondisi>
-<Kondisi name = "kelahiran"> <value li = "di mana" /> <li> kelahiran: <mendapatkan nama = "kelahiran" />.</ li> </ kondisi>
-<Kondisi name = "pacar"> <value li = "yang" /> <li> pacar: <mendapatkan nama = "pacar" />.</ li> </ kondisi>
-<Kondisi name = "saudara"> <value li = "yang" /> <li> saudara: <mendapatkan nama = "saudara" />.</ li> </ kondisi>
-<Kondisi name = "kucing"> <value li = "apa" /> <li> cat: <mendapatkan nama = "kucing" />.</ li> </ kondisi>
-<Kondisi name = "kota"> <value li = "yang" /> <li> kota: <mendapatkan nama = "kota" />.</ li> </ kondisi>
+<Nama kondisi = "alamat"> <template> <value li = "di mana" /> alamat <li>: <mendapatkan nama = "alamat" />.</li> </ kondisi>
+<Kondisi name = "usia"> <value li = "berapa banyak" /> <li> usia: <mendapatkan nama = "usia" />.</li> </ kondisi>
+<Kondisi name = "bestfriend"> <value li = "yang" /> <li> bestfriend: <mendapatkan nama = "bestfriend" />.</li> </ kondisi>
+<Kondisi name = "ulang tahun"> <value li = "ketika" /> <li> ulang tahun: <mendapatkan nama = "ulang tahun" />.</li> </ kondisi>
+<Kondisi name = "kelahiran"> <value li = "di mana" /> <li> kelahiran: <mendapatkan nama = "kelahiran" />.</li> </ kondisi>
+<Kondisi name = "pacar"> <value li = "yang" /> <li> pacar: <mendapatkan nama = "pacar" />.</li> </ kondisi>
+<Kondisi name = "saudara"> <value li = "yang" /> <li> saudara: <mendapatkan nama = "saudara" />.</li> </ kondisi>
+<Kondisi name = "kucing"> <value li = "apa" /> <li> cat: <mendapatkan nama = "kucing" />.</li> </ kondisi>
+<Kondisi name = "kota"> <value li = "yang" /> <li> kota: <mendapatkan nama = "kota" />.</li> </ kondisi>
 <Kondisi name = "negara"> <value li = "yang" /> <li> negara: <mendapatkan nama = "negara" li />.</> </ kondisi>
-<Kondisi name = "county"> <value li = "yang" /> <li> county: <mendapatkan nama = "county" />.</ li> </ kondisi>
-<Kondisi name = "customname"> <value li = "tidak diketahui" /> <li> customname: <mendapatkan nama = "customname" />.</ li> </ kondisi>
-<Kondisi name = "putri"> <value li = "yang" /> <li> putri: <mendapatkan nama = "putri" />.</ li> </ kondisi>
-<Kondisi name = "anjing"> <value li = "yang" /> <li> anjing: <mendapatkan nama = "anjing" />.</ li> </ kondisi>
-<Kondisi name = "email"> <value li = "apa" /> <li> email: <mendapatkan nama = "email" />.</ li> </ kondisi>
-<Kondisi name = "majikan"> <value li = "yang" /> <li> majikan: <mendapatkan nama = "majikan" />.</ li> </ kondisi>
-<Kondisi name = "ayah"> <value li = "yang" /> <li> ayah: <mendapatkan nama = "ayah" />.</ li> </ kondisi>
-<Kondisi name = "favoriteactor"> <value li = "yang" /> <li> favoriteactor: <mendapatkan nama = "favoriteactor" />.</ li> </ kondisi>
-<Kondisi name = "favoriteactress"> <value li = "yang" /> <li> favoriteactress: <mendapatkan nama = "favoriteactress" />.</ li> </ kondisi>
-<Kondisi name = "favoriteband"> <value li = "yang" /> <li> favoriteband: <mendapatkan nama = "favoriteband" />.</ li> </ kondisi>
-<Kondisi name = "favoritebook"> <value li = "apa" /> <li> favoritebook: <mendapatkan nama = "favoritebook" />.</ li> </ kondisi>
-<Kondisi name = "favoritecar"> <value li = "apa" /> <li> favoritecar: <mendapatkan nama = "favoritecar" />.</ li> </ kondisi>
-<Kondisi name = "favoritecolor"> <value li = "apa" /> <li> favoritecolor: <mendapatkan nama = "favoritecolor" />.</ li> </ kondisi>
-<Kondisi name = "favoritedrink"> <value li = "apa" /> <li> favoritedrink: <mendapatkan nama = "favoritedrink" />.</ li> </ kondisi>
-<Kondisi name = "favoritefood"> <value li = "apa" /> <li> favoritefood: <mendapatkan nama = "favoritefood" />.</ li> </ kondisi>
-<Kondisi name = "favoriteicecream"> <value li = "apa" /> <li> favoriteicecream: <mendapatkan nama = "favoriteicecream" />.</ li> </ kondisi>
-<Kondisi name = "favoritemovie"> <value li = "apa" /> <li> favoritemovie: <mendapatkan nama = "favoritemovie" />.</ li> </ kondisi>
-<Kondisi name = "favoritesong"> <value li = "apa" /> <li> favoritesong: <mendapatkan nama = "favoritesong" />.</ li> </ kondisi>
-<Kondisi name = "favoritesport"> <value li = "apa" /> <li> favoritesport: <mendapatkan nama = "favoritesport" />.</ li> </ kondisi>
-<Kondisi name = "favoritetvshow"> <value li = "apa" /> <li> favoritetvshow: <mendapatkan nama = "favoritetvshow" />.</ li> </ kondisi>
-<Kondisi name = "firstname"> <value li = "apa" /> <li> firstname: <mendapatkan nama = "firstname" />.</ li> </ kondisi>
-<Kondisi name = "teman"> <value li = "yang" /> <li> teman: <mendapatkan nama = "teman" />.</ li> </ kondisi>
-<Kondisi name = "gender"> <value li = "tidak diketahui" /> <li> jender: <mendapatkan nama = "gender" />.</ li> </ kondisi>
-<Kondisi name = "pacar"> <value li = "yang" /> <li> Pacar: <mendapatkan nama = "pacar" />.</ li> </ kondisi>
-<Kondisi name = "rambut"> <value li = "apa" /> <li> rambut: <mendapatkan nama = "rambut" />.</ li> </ kondisi>
-<Kondisi name = "memiliki"> <value li = "apa" /> <li> memiliki: <mendapatkan nama = "memiliki" />.</ li> <kondisi />
-<Nama kondisi = "dia"> <value li = "yang" /> <li> dia: <mendapatkan nama = "dia" />.</ li> <kondisi />
-<Kondisi name = "suami"> <value li = "yang" /> <li> suami: <mendapatkan nama = "suami" />.</ li> </ kondisi>
-<Kondisi name = "itu"> <value li = "apa" /> <li> itu: <mendapatkan nama = "itu" />.</ li> </ kondisi>
-<Kondisi name = "nama belakang"> <value li = "apa" /> <li> nama belakang: <mendapatkan nama = "nama belakang" />.</ li> </ kondisi>
-<Kondisi name = "Lintang"> <value li = "yang" /> <li> lintang: <mendapatkan nama = "Lintang" />.</ li> </ kondisi>
-<Nama kondisi = "suka"> <value li = "apa" /> <li> suka: <mendapatkan nama = "suka" />.</ li> </ kondisi>
-<Kondisi name = "lokasi"> <value li = "di mana" /> <li> lokasi: <mendapatkan nama = "lokasi" />.</ li> </ kondisi>
-<Nama kondisi = "bujur"> <value li = "yang" /> <li> bujur: <mendapatkan nama = "bujur" />.</ li> </ kondisi>
-<Kondisi name = "MiddleName"> <value li = "apa" /> <li> MiddleName: <mendapatkan nama = "MiddleName" />.</ li> </ kondisi>
-<Kondisi name = "ibu"> <value li = "yang" /> <li> ibu: <mendapatkan nama = "ibu" />.</ li> </ kondisi>
-<Kondisi name = "nama"> <value li = "Teman" /> <li> Nama: <mendapatkan nama = "nama" />.</ li> </ kondisi>
-<Kondisi name = "orientasi"> <value li = "tidak diketahui" /> <li> orientasi: <mendapatkan nama = "orientasi" />.</ li> </ kondisi>
-<Kondisi name = "phonenumber"> <value li = "tidak diketahui" /> <li> phonenumber: <mendapatkan nama = "phonenumber" />.</ li> </ kondisi>
-<Kondisi name = "provinsi"> <value li = "yang" /> <li> Provinsi: <mendapatkan nama = "provinsi" />.</ li> </ kondisi>
-<Kondisi name = "agama"> <value li = "tidak diketahui" /> <li> agama: <mendapatkan nama = "agama" />.</ li> </ kondisi>
-<Kondisi name = "residence"> <value li = "di mana" /> <li> tinggal: <mendapatkan nama = "residence" />.</ li> </ kondisi>
-<Kondisi name = "jalan"> <value li = "yang" /> <li> jalan: <mendapatkan nama = "jalan" />.</ li> </ kondisi>
-<Nama kondisi = "dia"> <value li = "yang" /> <li> dia: <mendapatkan nama = "dia" />.</ li> <kondisi />
-<Kondisi name = "tanda"> <value li = "yang" /> <li> tanda: <mendapatkan nama = "tanda" />.</ li> </ kondisi>
-<Kondisi name = "adik"> <value li = "yang" /> <li> kakak: <mendapatkan nama = "adik" />.</ li> </ kondisi>
-<Kondisi name = "negara"> <value li = "yang" /> <li> negara: <mendapatkan nama = "negara" />.</ li> </ kondisi>
-<Kondisi name = "status"> <value li = "apa" /> <li> Status: <mendapatkan nama = "status" />.</ li> </ kondisi>
-<Kondisi name = "jalan"> <value li = "yang" /> <li> jalan: <mendapatkan nama = "jalan" />.</ li> </ kondisi>
-<Kondisi name = "ada"> <value li = "di mana" /> <li> ada: <mendapatkan nama = "ada" />.</ li> </ kondisi>
-<Nama kondisi = "mereka"> <value li = "yang" /> <li> mereka: <mendapatkan nama = "mereka" />.</ li> </ kondisi>
-<Kondisi name = "topik"> <value li = "tidak diketahui" /> <li> topik: <mendapatkan nama = "topik" />.</ li> </ kondisi>
-<Kondisi name = "kota"> <value li = "yang" /> <li> kota: <mendapatkan nama = "kota" />.</ li> </ kondisi>
-<Kondisi name = "voicemailnumber"> <value li = "tidak diketahui" /> <li> voicemailnumber: <mendapatkan nama = "voicemailnumber" />.</ li> </ kondisi>
-<Kondisi name = "kami"> <value li = "yang" /> <li> kami: <mendapatkan nama = "kami" />.</ li> </ kondisi>
-<Kondisi name = "istri"> <value li = "yang" /> <li> istri: <mendapatkan nama = "istri" />.</ li> <kondisi /> </template>
+<Kondisi name = "county"> <value li = "yang" /> <li> county: <mendapatkan nama = "county" />.</li> </ kondisi>
+<Kondisi name = "customname"> <value li = "tidak diketahui" /> <li> customname: <mendapatkan nama = "customname" />.</li> </ kondisi>
+<Kondisi name = "putri"> <value li = "yang" /> <li> putri: <mendapatkan nama = "putri" />.</li> </ kondisi>
+<Kondisi name = "anjing"> <value li = "yang" /> <li> anjing: <mendapatkan nama = "anjing" />.</li> </ kondisi>
+<Kondisi name = "email"> <value li = "apa" /> <li> email: <mendapatkan nama = "email" />.</li> </ kondisi>
+<Kondisi name = "majikan"> <value li = "yang" /> <li> majikan: <mendapatkan nama = "majikan" />.</li> </ kondisi>
+<Kondisi name = "ayah"> <value li = "yang" /> <li> ayah: <mendapatkan nama = "ayah" />.</li> </ kondisi>
+<Kondisi name = "favoriteactor"> <value li = "yang" /> <li> favoriteactor: <mendapatkan nama = "favoriteactor" />.</li> </ kondisi>
+<Kondisi name = "favoriteactress"> <value li = "yang" /> <li> favoriteactress: <mendapatkan nama = "favoriteactress" />.</li> </ kondisi>
+<Kondisi name = "favoriteband"> <value li = "yang" /> <li> favoriteband: <mendapatkan nama = "favoriteband" />.</li> </ kondisi>
+<Kondisi name = "favoritebook"> <value li = "apa" /> <li> favoritebook: <mendapatkan nama = "favoritebook" />.</li> </ kondisi>
+<Kondisi name = "favoritecar"> <value li = "apa" /> <li> favoritecar: <mendapatkan nama = "favoritecar" />.</li> </ kondisi>
+<Kondisi name = "favoritecolor"> <value li = "apa" /> <li> favoritecolor: <mendapatkan nama = "favoritecolor" />.</li> </ kondisi>
+<Kondisi name = "favoritedrink"> <value li = "apa" /> <li> favoritedrink: <mendapatkan nama = "favoritedrink" />.</li> </ kondisi>
+<Kondisi name = "favoritefood"> <value li = "apa" /> <li> favoritefood: <mendapatkan nama = "favoritefood" />.</li> </ kondisi>
+<Kondisi name = "favoriteicecream"> <value li = "apa" /> <li> favoriteicecream: <mendapatkan nama = "favoriteicecream" />.</li> </ kondisi>
+<Kondisi name = "favoritemovie"> <value li = "apa" /> <li> favoritemovie: <mendapatkan nama = "favoritemovie" />.</li> </ kondisi>
+<Kondisi name = "favoritesong"> <value li = "apa" /> <li> favoritesong: <mendapatkan nama = "favoritesong" />.</li> </ kondisi>
+<Kondisi name = "favoritesport"> <value li = "apa" /> <li> favoritesport: <mendapatkan nama = "favoritesport" />.</li> </ kondisi>
+<Kondisi name = "favoritetvshow"> <value li = "apa" /> <li> favoritetvshow: <mendapatkan nama = "favoritetvshow" />.</li> </ kondisi>
+<Kondisi name = "firstname"> <value li = "apa" /> <li> firstname: <mendapatkan nama = "firstname" />.</li> </ kondisi>
+<Kondisi name = "teman"> <value li = "yang" /> <li> teman: <mendapatkan nama = "teman" />.</li> </ kondisi>
+<Kondisi name = "gender"> <value li = "tidak diketahui" /> <li> jender: <mendapatkan nama = "gender" />.</li> </ kondisi>
+<Kondisi name = "pacar"> <value li = "yang" /> <li> Pacar: <mendapatkan nama = "pacar" />.</li> </ kondisi>
+<Kondisi name = "rambut"> <value li = "apa" /> <li> rambut: <mendapatkan nama = "rambut" />.</li> </ kondisi>
+<Kondisi name = "memiliki"> <value li = "apa" /> <li> memiliki: <mendapatkan nama = "memiliki" />.</li> <kondisi />
+<Nama kondisi = "dia"> <value li = "yang" /> <li> dia: <mendapatkan nama = "dia" />.</li> <kondisi />
+<Kondisi name = "suami"> <value li = "yang" /> <li> suami: <mendapatkan nama = "suami" />.</li> </ kondisi>
+<Kondisi name = "itu"> <value li = "apa" /> <li> itu: <mendapatkan nama = "itu" />.</li> </ kondisi>
+<Kondisi name = "nama belakang"> <value li = "apa" /> <li> nama belakang: <mendapatkan nama = "nama belakang" />.</li> </ kondisi>
+<Kondisi name = "Lintang"> <value li = "yang" /> <li> lintang: <mendapatkan nama = "Lintang" />.</li> </ kondisi>
+<Nama kondisi = "suka"> <value li = "apa" /> <li> suka: <mendapatkan nama = "suka" />.</li> </ kondisi>
+<Kondisi name = "lokasi"> <value li = "di mana" /> <li> lokasi: <mendapatkan nama = "lokasi" />.</li> </ kondisi>
+<Nama kondisi = "bujur"> <value li = "yang" /> <li> bujur: <mendapatkan nama = "bujur" />.</li> </ kondisi>
+<Kondisi name = "MiddleName"> <value li = "apa" /> <li> MiddleName: <mendapatkan nama = "MiddleName" />.</li> </ kondisi>
+<Kondisi name = "ibu"> <value li = "yang" /> <li> ibu: <mendapatkan nama = "ibu" />.</li> </ kondisi>
+<Kondisi name = "nama"> <value li = "Teman" /> <li> Nama: <mendapatkan nama = "nama" />.</li> </ kondisi>
+<Kondisi name = "orientasi"> <value li = "tidak diketahui" /> <li> orientasi: <mendapatkan nama = "orientasi" />.</li> </ kondisi>
+<Kondisi name = "phonenumber"> <value li = "tidak diketahui" /> <li> phonenumber: <mendapatkan nama = "phonenumber" />.</li> </ kondisi>
+<Kondisi name = "provinsi"> <value li = "yang" /> <li> Provinsi: <mendapatkan nama = "provinsi" />.</li> </ kondisi>
+<Kondisi name = "agama"> <value li = "tidak diketahui" /> <li> agama: <mendapatkan nama = "agama" />.</li> </ kondisi>
+<Kondisi name = "residence"> <value li = "di mana" /> <li> tinggal: <mendapatkan nama = "residence" />.</li> </ kondisi>
+<Kondisi name = "jalan"> <value li = "yang" /> <li> jalan: <mendapatkan nama = "jalan" />.</li> </ kondisi>
+<Nama kondisi = "dia"> <value li = "yang" /> <li> dia: <mendapatkan nama = "dia" />.</li> <kondisi />
+<Kondisi name = "tanda"> <value li = "yang" /> <li> tanda: <mendapatkan nama = "tanda" />.</li> </ kondisi>
+<Kondisi name = "adik"> <value li = "yang" /> <li> kakak: <mendapatkan nama = "adik" />.</li> </ kondisi>
+<Kondisi name = "negara"> <value li = "yang" /> <li> negara: <mendapatkan nama = "negara" />.</li> </ kondisi>
+<Kondisi name = "status"> <value li = "apa" /> <li> Status: <mendapatkan nama = "status" />.</li> </ kondisi>
+<Kondisi name = "jalan"> <value li = "yang" /> <li> jalan: <mendapatkan nama = "jalan" />.</li> </ kondisi>
+<Kondisi name = "ada"> <value li = "di mana" /> <li> ada: <mendapatkan nama = "ada" />.</li> </ kondisi>
+<Nama kondisi = "mereka"> <value li = "yang" /> <li> mereka: <mendapatkan nama = "mereka" />.</li> </ kondisi>
+<Kondisi name = "topik"> <value li = "tidak diketahui" /> <li> topik: <mendapatkan nama = "topik" />.</li> </ kondisi>
+<Kondisi name = "kota"> <value li = "yang" /> <li> kota: <mendapatkan nama = "kota" />.</li> </ kondisi>
+<Kondisi name = "voicemailnumber"> <value li = "tidak diketahui" /> <li> voicemailnumber: <mendapatkan nama = "voicemailnumber" />.</li> </ kondisi>
+<Kondisi name = "kami"> <value li = "yang" /> <li> kami: <mendapatkan nama = "kami" />.</li> </ kondisi>
+<Kondisi name = "istri"> <value li = "yang" /> <li> istri: <mendapatkan nama = "istri" />.</li> <kondisi /> </template>
 </category>
 <category> <pattern> NAMA ANDA ADALAH * </ pattern>
 <template> OK, mulai sekarang Anda bisa memanggil saya <set name = "customname"> <Denormalize> <bintang /> </ Denormalize> </set>. </template>
@@ -647,19 +647,19 @@ Apa itu seperti memiliki hewan peliharaan <mendapatkan var = "hewan" />?
 <template> Bagaimana perasaan Anda ketika Anda menemukannya? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> IT WILL * </ pattern>
-<template> <random> <li> Bagaimana? </ Li> <li> Bagaimana Anda tahu? </ Li> <li> Saya harus berpikir tentang itu untuk sementara waktu. </ Li> </ random> <berpikir > <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
+<template> <random> <li> Bagaimana? </li> <li> Bagaimana Anda tahu? </li> <li> Saya harus berpikir tentang itu untuk sementara waktu. </li> </random> <berpikir > <set name = "itu"> <set name = "topik"> <orang /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> MENGGUNAKAN * </ pattern>
 <template> Saya mendengar orang lain menggunakannya juga. <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> TAMPILKAN FAVORIT SAYA ADALAH * </ pattern>
-<template> <berpikir> <set name = "itu"> <set name = "topik"> <set name = "favoriteshow"> <star /> </set> </set> </set> </ berpikir> <random> <li> Apakah yang masih di udara? </ li> <li> Siapa karakter favorit Anda? </ li> <li> saya pernah mendengar orang lain mengatakan mereka seperti itu juga. </ li> < / random> </template>
+<template> <berpikir> <set name = "itu"> <set name = "topik"> <set name = "favoriteshow"> <star /> </set> </set> </set> </ berpikir> <random> <li> Apakah yang masih di udara? </li> <li> Siapa karakter favorit Anda? </li> <li> saya pernah mendengar orang lain mengatakan mereka seperti itu juga. </li> < /random> </template>
 </category>
 <category> <pattern> Saya TIDAK MEMILIKI * </ pattern>
-<template> <random> <li> Apakah Anda mencari <orang />? </ Li> <li> Apakah Anda tahu siapa saja yang memiliki itu?. </ Li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+<template> <random> <li> Apakah Anda mencari <orang />? </li> <li> Apakah Anda tahu siapa saja yang memiliki itu?. </li> </random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> LET * </ pattern>
-<template> <random> <li> Saya tidak tahu apakah itu dalam kekuasaan saya untuk memberikan izin. </ Li> <li> Apakah harus diizinkan? </ Li> <li> Saya tidak yakin apakah aku harus membiarkannya . </ li> </ random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
+<template> <random> <li> Saya tidak tahu apakah itu dalam kekuasaan saya untuk memberikan izin. </li> <li> Apakah harus diizinkan? </li> <li> Saya tidak yakin apakah aku harus membiarkannya . </li> </random> <berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>
 </category>
 <category> <pattern> APAKAH ANDA PERHATIKAN * </ pattern>
 <template> Saya belum melihatnya. Tentang apa ini? <Berpikir> <set name = "itu"> <set name = "topik"> <star /> </set> </set> </ berpikir> </template>

@@ -22,11 +22,11 @@
 
 <category> <pattern> _ </pattern> <yang> I LIKE JOKES </ bahwa>
 <template>
-<Random> <li> LOL. </ Li>
-<Li> Hahahahaha! </ Li>
-<Li> Haha, itu lucu. </ Li>
-<Li> LOL, baik satu!, </ Li>
-</ Random>
+<random> <li> LOL. </li>
+<li> Hahahahaha! </li>
+<li> Haha, itu lucu. </li>
+<li> LOL, baik satu!, </li>
+</random>
 </template>
 </category>
 
@@ -36,8 +36,8 @@
 
 <category> <pattern> KARENA _ </pattern> <yang> MENGAPA </ bahwa>
 <template> <kondisi name = "ustatement">
-<Value li = "tidak diketahui"> penjelasan menarik. </ Li>
-<Li> <set var = "penjelasan"> <mendapatkan nama = "ustatement" /> karena <orang /> </set>.
+<Value li = "tidak diketahui"> penjelasan menarik. </li>
+<li> <set var = "penjelasan"> <mendapatkan nama = "ustatement" /> karena <orang /> </set>.
 <Belajar>
 <category>
 <pattern> MENGAPA DID <eval> <srai> FIRSTTWOWORDS <mendapatkan nama = "istatement" /> </srai> </ eval> ^ </pattern>
@@ -47,7 +47,7 @@
 <Berpikir>
 <Set name = "ustatement"> tidak diketahui </set>
 <Set name = "istatement"> tidak diketahui </set>
-</ Berpikir> </ li>
+</ Berpikir> </li>
 </ Kondisi> </template>
 </category>
 <category> <pattern> DENDA </pattern> <yang> ^ BAGAIMANA ANDA </ bahwa>
@@ -120,7 +120,7 @@
 <template> posisi mana? </template>
 </category>
 <category> <pattern> YES </pattern> <yang> APAKAH ANDA BERPIKIR SAYA INGIN IT </ bahwa>
-<template> <random> <li> Berapa banyak waktu yang dibutuhkan? </ Li> <li> Apa yang akan saya sukai tentang itu? </ Li> <li> Mungkin aku akan mencobanya. </ Li> </ random> </template>
+<template> <random> <li> Berapa banyak waktu yang dibutuhkan? </li> <li> Apa yang akan saya sukai tentang itu? </li> <li> Mungkin aku akan mencobanya. </li> </random> </template>
 </category>
 <category> <pattern> YES </pattern> <yang> APAKAH ANDA BERPIKIR saya HARUS MEMBACA IT </ bahwa>
 <template> Aku akan mencarinya. </template>
